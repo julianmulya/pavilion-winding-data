@@ -1,0 +1,308 @@
+{
+  "model": {
+    "point_loads": 102, 
+    "roof_stations": 102, 
+    "cfrp_boundary_E_kN_m2": 142000000.0, 
+    "triangles": 26496, 
+    "al_section_area_m2": 7.8885391531639712e-05, 
+    "shells": 72, 
+    "equivalent_sleeve_links": 6624, 
+    "beam_and_shell_connectivity_equal_BND04": true, 
+    "point_load_resultant_kN": [
+      0.99999999999999856, 
+      0.0, 
+      0.0
+    ], 
+    "cfrp_boundary_area_m2": 7.8539816339744827e-05, 
+    "gravity_loads": 0, 
+    "unique_native_beam_guids": 10228, 
+    "support_coordinates_and_conditions_equal_BND04": true, 
+    "load_stations_equal_BND04": true, 
+    "al_gamma_kN_m3": 26.478000000000002, 
+    "coordinate_difference_from_BND04_m": 0.0, 
+    "support_count": 137, 
+    "native_mass_kg": 144.50694099806506, 
+    "boundary_beams": 3604, 
+    "nodes": 33270
+  }, 
+  "gravity": false, 
+  "solve_seconds": 4.4189682006835938, 
+  "build_seconds": 0.01201629638671875, 
+  "beam_selection": {
+    "unique_native_guids": 10228, 
+    "source_ids_preserved": true, 
+    "beams": 10228
+  }, 
+  "license": "lic_student", 
+  "load_case": "LATERAL_X_REF", 
+  "native_analyze_started": true, 
+  "pid": 66432, 
+  "memory": {
+    "available_commit_bytes": 16346746880, 
+    "private_bytes": 3473174528, 
+    "working_set_bytes": 2493501440, 
+    "available_physical_bytes": 3385356288
+  }, 
+  "error": "Traceback (most recent call last):\n  File \"C:/Users/Acer/Documents/Codex/2026-10-04/be/work/boundary_stuttgart/run_bnd09_native.py\", line 132, in run\n    t=time.time();r['stress']=ex.export(doc,tag,lc,O,{'model':r['model'],'case':cfg,'contract_sha256':sha(CP),'equilibrium':r['equilibrium']});r['stress_export_seconds']=time.time()-t\n  File \"C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\work\\boundary_stuttgart\\export_bnd09_native.py\", line 61, in export\n    write_new(os.path.join(out,tag+'_SHELL_STRESS_RAW.json'),r)\n  File \"C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\work\\boundary_stuttgart\\export_bnd09_native.py\", line 27, in write_new\n    with open(path,'w') as f:json.dump(value,f,separators=(',',':'))\n  File \"C:\\Program Files\\Rhino 7\\Plug-ins\\IronPython\\Lib\\json\\__init__.py\", line 189, in dump\n    for chunk in iterable:\n  File \"C:\\Program Files\\Rhino 7\\Plug-ins\\IronPython\\Lib\\json\\encoder.py\", line 434, in _iterencode\n    for chunk in _iterencode_dict(o, _current_indent_level):\n  File \"C:\\Program Files\\Rhino 7\\Plug-ins\\IronPython\\Lib\\json\\encoder.py\", line 408, in _iterencode_dict\n    for chunk in chunks:\n  File \"C:\\Program Files\\Rhino 7\\Plug-ins\\IronPython\\Lib\\json\\encoder.py\", line 332, in _iterencode_list\n    for chunk in chunks:\n  File \"C:\\Program Files\\Rhino 7\\Plug-ins\\IronPython\\Lib\\json\\encoder.py\", line 408, in _iterencode_dict\n    for chunk in chunks:\n  File \"C:\\Program Files\\Rhino 7\\Plug-ins\\IronPython\\Lib\\json\\encoder.py\", line 313, in _iterencode_list\n    yield buf + _encoder(value)\n  File \"C:\\Program Files\\Rhino 7\\Plug-ins\\IronPython\\Lib\\json\\encoder.py\", line 47, in py_encode_basestring_ascii\n    s = s.decode('utf-8')\nUnicodeDecodeError: 'unknown' codec can't decode byte 0xb2 in position 35: Unable to translate bytes [B2] at index 35 from specified code page to Unicode.\n", 
+  "energy_kNm": 5.2354831297063718e-05, 
+  "build_checks": {
+    "134": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Mesh to Shell (Karamba3D)", 
+      "output_counts": [
+        72, 
+        50010, 
+        72
+      ], 
+      "nickname": "Mesh to Shell"
+    }, 
+    "135": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Orientate Elem (Karamba3D)", 
+      "output_counts": [
+        72
+      ], 
+      "nickname": "Shell"
+    }, 
+    "136": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Cross-sections Beam (Karamba3D)", 
+      "output_counts": [
+        1, 
+        1
+      ], 
+      "nickname": "O-Section"
+    }, 
+    "137": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Create Linear Element (Karamba3D)", 
+      "output_counts": [
+        3604, 
+        3462, 
+        1
+      ], 
+      "nickname": "LineToBeam"
+    }, 
+    "130": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "GhPython Script", 
+      "output_counts": [
+        72, 
+        26496, 
+        72, 
+        26496, 
+        1, 
+        1, 
+        29808, 
+        33270, 
+        29808, 
+        3604, 
+        4, 
+        102, 
+        102, 
+        72, 
+        72, 
+        3462
+      ], 
+      "nickname": "BND04 | new tangent spans"
+    }, 
+    "133": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Cross-sections Shell (Karamba3D)", 
+      "output_counts": [
+        72, 
+        72
+      ], 
+      "nickname": "Shell Var"
+    }, 
+    "189": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "GhPython Script", 
+      "output_counts": [
+        137, 
+        1
+      ], 
+      "nickname": "GROUND LINE SUPPORT | mapped source boundary nodes"
+    }, 
+    "138": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Support (Karamba3D)", 
+      "output_counts": [
+        137
+      ], 
+      "nickname": "Supp"
+    }, 
+    "139": {
+      "warnings": [], 
+      "errors": [], 
+      "name": " Loads (Karamba3D)", 
+      "output_counts": [
+        102
+      ], 
+      "nickname": "PointLoad"
+    }, 
+    "140": {
+      "warnings": [], 
+      "errors": [], 
+      "name": " Assemble Model (Karamba3D)", 
+      "output_counts": [
+        1, 
+        1, 
+        1, 
+        1, 
+        1
+      ], 
+      "nickname": "Assemble"
+    }, 
+    "141": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "GhPython Script", 
+      "output_counts": [
+        1, 
+        1, 
+        1
+      ], 
+      "nickname": "BND09 | local sleeve OD12 ID6.6"
+    }
+  }, 
+  "memory_before_solve": {
+    "available_commit_bytes": 17947787264, 
+    "private_bytes": 1801957376, 
+    "working_set_bytes": 1452314624, 
+    "available_physical_bytes": 4339019776
+  }, 
+  "max_displacement": {
+    "value_mm": 0.77657998063917122, 
+    "coordinate_m": [
+      8.0164262262656951, 
+      2.5564002391690428, 
+      2.2871611950406661
+    ], 
+    "node_index": 10973, 
+    "translation_mm": [
+      0.21925232767758515, 
+      -0.71817607840354503, 
+      0.19806060574077164
+    ]
+  }, 
+  "case": "X_REF", 
+  "native_analyze_displacement_output_name": "Maximum Displacement [cm]", 
+  "native_analyze_completed": true, 
+  "direct_export_seconds": 24.760986328125, 
+  "run_id": "BND09_X_REF_20261014_03", 
+  "started_unix": 1791925272.4495392, 
+  "stage": "HOLD_OR_PARTIAL", 
+  "native_analyze_displacement_output": 0.077657998063917114, 
+  "initial_strain": false, 
+  "result_checks": {
+    "148": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Nodal Displacements (Karamba3D)", 
+      "output_counts": [
+        1, 
+        33270, 
+        33270, 
+        33270, 
+        33270
+      ], 
+      "nickname": "NodeDisp"
+    }, 
+    "149": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Reaction Forces (Karamba3D)", 
+      "output_counts": [
+        1, 
+        137, 
+        137, 
+        137, 
+        1, 
+        1, 
+        137
+      ], 
+      "nickname": "React"
+    }, 
+    "146": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Shell Forces (Karamba3D)", 
+      "output_counts": [
+        1, 
+        26496, 
+        26496, 
+        26496, 
+        26496, 
+        26496, 
+        26496, 
+        26496, 
+        26496, 
+        26496
+      ], 
+      "nickname": "Local"
+    }, 
+    "147": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Beam Forces (Karamba3D)", 
+      "output_counts": [
+        1, 
+        61268, 
+        61268, 
+        61268, 
+        61268, 
+        61268, 
+        61268, 
+        61268
+      ], 
+      "nickname": "B-Forces"
+    }, 
+    "142": {
+      "warnings": [], 
+      "errors": [], 
+      "name": " Analyse (Karamba3D)", 
+      "output_counts": [
+        1, 
+        1, 
+        1, 
+        1
+      ], 
+      "nickname": "Analyse"
+    }
+  }, 
+  "equilibrium": {
+    "force_residual_kN": 0.0, 
+    "native_resulting_force_kN": [
+      1.0000000000668958, 
+      8.3385745140371337e-12, 
+      4.2683578134646016e-11
+    ], 
+    "gravity_mass_convention_m_s2": 10.0, 
+    "modeled_self_weight_kN": 0, 
+    "force_residual_vector_kN": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "reaction_sum_kN": [
+      -1.0000000000668958, 
+      -8.3385745140371337e-12, 
+      -4.2683578134646016e-11
+    ]
+  }, 
+  "memory_before_build": {
+    "available_commit_bytes": 17944932352, 
+    "private_bytes": 1774825472, 
+    "working_set_bytes": 1401982976, 
+    "available_physical_bytes": 4331143168
+  }
+}

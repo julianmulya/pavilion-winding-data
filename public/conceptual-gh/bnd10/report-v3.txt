@@ -1,0 +1,16 @@
+BND12 — reinforcement bertahap M065 S022 + M070 S011
+Hasil seluruh pavilion dari Analyze Karamba native; InitialStrain OFF.
+Source centreline, width, original mesh, material, supports, joints and load footprint retained. Only two additional UD-equivalent passes on M070 S011; M065 reinforcement retained.
+Three new cases only: G+Y, G-Y, G-X. G and G+X of this successor are NOT RUN; no five-case envelope claim.
+Decision: LOWER_WINDING_MAXIMUM_IN_THREE_TESTED_CASES
+
+G_Y_POS: winding original 17.064881 → M065 repeat 10.055070 → M065+M070 9.859967 MPa; change vs previous -1.940%; boundary 45.678170; Al link 14.219041 MPa; displacement 6.134930 mm; hotspot SPATIAL_UD_P58_F0.
+G_Y_NEG: winding original 16.221539 → M065 repeat 10.863352 → M065+M070 9.239482 MPa; change vs previous -14.948%; boundary 48.159077; Al link 13.349143 MPa; displacement 6.140285 mm; hotspot SPATIAL_UD_P65_F0.
+G_X_NEG: winding original 3.104047 → M065 repeat 3.107516 → M065+M070 3.106893 MPa; change vs previous -0.020%; boundary 10.219223; Al link 3.266806 MPa; displacement 1.107926 mm; hotspot SPATIAL_UD_P48_F0.
+
+Native mass 144.649988031 kg; native added mass vs previous 0.071893810 kg.
+New straight span budget 2.304761133 m; total added span above BND09 4.585780601 m.
+Projected openness M070 50.970037 → 50.970019%; same 512 scanline source prism method, not eye-level enclosure.
+Winding absolute in-plane shell principal stress both surfaces; beam normal stress 17 stations, categories separate. Global bolt contact and physical strength are not assessed.
+All historical BND09/BND10/BND11 results, including increases, remain. No automatic replay or further batch.
+Raw native output, checks, logs, working GH with red K, contract, code and changes retained.

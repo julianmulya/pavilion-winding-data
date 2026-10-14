@@ -1,0 +1,78 @@
+{
+  "schema": "BND08_PARTIAL_NATIVE_COMPARISON/1",
+  "status": "PARTIAL_ANALYZE_COMPLETE_STRESS_RECOVERY_HOLD",
+  "baseline_run_id": "BND04_AL_SLEEVE_EQ_X",
+  "candidate_run_id": "BND08_AL_BOUNDARY_X_20261013_02",
+  "analyze": {
+    "native_analyze_started": true,
+    "native_analyze_completed": true,
+    "license": "lic_student",
+    "solver_seconds": 1.77972412109375,
+    "component_errors": {
+      "142": [],
+      "146": [],
+      "147": [],
+      "148": [],
+      "149": []
+    },
+    "supports": 137,
+    "loads": 102,
+    "load_resultant_kN": [
+      0.9999999999999986,
+      0,
+      0
+    ],
+    "reaction_sum_kN": [
+      -0.9999999999954039,
+      -2.2280576147080955e-11,
+      9.320640396645596e-12
+    ],
+    "force_residual_kN": 2.4585006768375123e-11,
+    "initial_strain": "OFF",
+    "gravity": "OFF"
+  },
+  "performance": {
+    "max_nodal_displacement_mm": {
+      "baseline": 0.7757505457180849,
+      "candidate": 0.7968822870635912,
+      "change": {
+        "absolute": 0.021131741345506327,
+        "percent": 2.724038218490123
+      }
+    },
+    "native_model_mass_kg": {
+      "baseline": 145.1872528728201,
+      "candidate": 176.10960237204944,
+      "change": {
+        "absolute": 30.92234949922934,
+        "percent": 21.298253729145518
+      }
+    },
+    "native_energy_kNm": {
+      "baseline": 0.00005229336300438563,
+      "candidate": 0.00005391480306947485,
+      "change": {
+        "absolute": 0.0000016214400650892241,
+        "percent": 3.1006612922432253
+      }
+    }
+  },
+  "stress": {
+    "status": "NOT_EXPORTED",
+    "proven_export_error": "Karamba BeamStresses recovery returned 7208 records while the model contains 10228 ModelBeam elements; exporter stopped at the count assertion.",
+    "shell_principal_stress": "No raw stress file was committed; do not use as a comparison value.",
+    "beam_stress": "No mapped per-beam values were committed; do not use as a comparison value."
+  },
+  "model_scope": {
+    "candidate_boundary_beams_aluminium": 3604,
+    "candidate_cfrp_shells": 72,
+    "candidate_shell_triangles": 26496,
+    "candidate_local_aluminium_links": 6624,
+    "only_changed": "Material and section assigned to all existing BOUNDARY beam elements; geometry/connectivity, supports, loads and InitialStrain retained."
+  },
+  "limits": [
+    "Single linear +X 1 kN reference load; gravity OFF.",
+    "Partial response values do not establish that aluminum boundary is structurally better.",
+    "No overall comparison status until native stress results are correctly mapped and checked."
+  ]
+}

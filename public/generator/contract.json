@@ -1,0 +1,39 @@
+{
+  "schema": "GeneratorContract.v4.5",
+  "source_sha256": "51ddcbc91baa9f859974681f01ba0422e3d411b51ef37c4633030fd8f3eeef84",
+  "UI_anchor_count": "points_per_boundary_native_Divide_Count",
+  "physical_count": "unique_visited_coordinates_at_1e-8m",
+  "user_mapping_approved": true,
+  "baseline": {
+    "divisions": 23,
+    "shift": 6
+  },
+  "domain": {
+    "divisions": [
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      23,
+      24,
+      26,
+      28
+    ],
+    "shift": "integer0..floor(divisions/2)",
+    "meaning": "research_not_physical"
+  },
+  "algorithm": "literal_native_state_cycle_shift_plus_one_alternating_layers",
+  "intermodule": "ASSEMBLY_RIGID_BOUNDARY_VERTICES_V1",
+  "continuous_edge_bond": false,
+  "FE_attachment": "requires_full_geometry_material_joint_support_load_state_evaluator_identity",
+  "candidate_FE": null,
+  "initial_strain": false,
+  "strength_assessed": false,
+  "utilization": null,
+  "reinforcement_executed": false,
+  "optimization_executed": false
+}

@@ -1,0 +1,118 @@
+{
+  "schema": "BND11_REPEAT_REMAINING_LOADSET/1",
+  "authorization": "User continued after the completed BND10 G\u00b1Y study and recommendation to evaluate unchanged REPEAT at G and \u00b1X. This is a separate three-solve batch.",
+  "parent_contract": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND09_LOCAL_SLEEVE_NEW_SYSTEM_20261014\\BND09_EXPERIMENT_FROZEN_V4.json",
+  "parent_contract_sha256": "4603120498ffe9584c4c8dc08bd7fb78a880f9aaa66bd63b4af5950c75bbcb78",
+  "source_ghx": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND04_NATIVE_REANALYSIS\\BND04_AL_SLEEVE_EQ_WORKING_V2.ghx",
+  "source_ghx_sha256": "b006d625131aa17d6db92f51d2f0304f7e658af9959f5e5bac30645dfd243be6",
+  "historical_raw": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND04_NATIVE_REANALYSIS\\BND04_AL_SLEEVE_EQ_X_STRESS_RAW.json",
+  "historical_raw_sha256": "f24f3c0b7c852ad92c7b9746ead85414e84888978ed8d6fb27ea339ec00b65d3",
+  "geometry": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND10_M065_REINFORCEMENT_20261014\\BND10_GEOMETRY_FROZEN.json",
+  "geometry_sha256": "7809e1703e4ace2002b6a51a37c5b9616b1c619366ee85888d1e71d1cc866373",
+  "baseline_package": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND09_LOCAL_SLEEVE_NEW_SYSTEM_20261014\\BND09_RESULT_PACKAGE.json",
+  "baseline_package_sha256": "5f582d850f30635987a4a27731b2b99e1210fd85b1ceb1bfb4c3c6b9d328473f",
+  "variants": {
+    "REPEAT": {
+      "ghx": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND10_M065_REINFORCEMENT_20261014\\REPEAT\\BND10_REPEAT.ghx",
+      "ghx_sha256": "72f29d938b1034ee9a902505bb2be4410cb474e4a19333bddc5ca38fae097882",
+      "generator": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND10_M065_REINFORCEMENT_20261014\\REPEAT\\BND10_REPEAT_generator.py.txt",
+      "generator_sha256": "cac976881fca8f801fc623b2fe200e5a5552da2213167ab7d597fe903db5cb45",
+      "owned_assembly": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND10_M065_REINFORCEMENT_20261014\\REPEAT\\BND10_REPEAT_owned_assembly.py.txt",
+      "owned_assembly_sha256": "41b6e24cf53364dc11dba962dbe4cc0298da0f54d4fc6c1494660517ed5ad534",
+      "expected_nodes": 33270,
+      "expected_shells": 72,
+      "expected_triangles": 26496,
+      "expected_boundary_beams": 3604,
+      "expected_al_links": 6624,
+      "extra_CFRP_span_m": 2.2810194674490996
+    }
+  },
+  "material": "Source Ding2022 T700 epoxy CFRP retained; aluminium E69GPa G26GPa gamma26.478kN/m3 retained; local link annular wall 2.7mm.",
+  "hardware_semantics": {
+    "permanent_boundary": "CFRP source edge",
+    "local_sleeve": "Al6060-T6 conceptual OD12 ID6.6 L18mm",
+    "bolt": "M6 concept through sleeve; represented by previously accepted equivalent bonded connection, no separate bolt-contact element",
+    "polygon_effector": "temporary fabrication tooling; excluded from permanent FE model",
+    "flange_and_stud_visual": "schematic fixture shape; undefined dimensions excluded from stiffness and mass",
+    "wrap": "one full turn plus source departure arc in geometric route; condensed connection in global FE, not a separately meshed tow loop"
+  },
+  "joint_semantics": "Original shared boundary nodes and owner-private contacts retained; same 6624 finite bonded-equivalent links. Unbonded crossings unchanged; actual paired bolt geometry not established.",
+  "support_semantics": "Source two bottom boundary chains discretized at the same 137 boundary stations, XYZ fixed, rotations free; no anchor-derived new supports.",
+  "initial_strain": false,
+  "resource_guards": {
+    "minimum_available_RAM_build_GiB": 2.5,
+    "minimum_available_RAM_solve_GiB": 1.0,
+    "maximum_native_private_bytes": 4500000000
+  },
+  "basic_checks": {
+    "support_count": 137,
+    "load_stations": 102,
+    "boundary_beams": 3604,
+    "equivalent_links": 6624,
+    "shells": 72,
+    "shell_triangles": 26496,
+    "geometry_tolerance_m": 1e-08,
+    "force_residual_limit_kN": 1e-07
+  },
+  "case_order": [
+    {
+      "case": "G",
+      "variant": "REPEAT",
+      "direction_kN": [
+        0,
+        0,
+        0
+      ],
+      "gravity": true,
+      "run_id": "BND11_REPEAT_G_20261014_01"
+    },
+    {
+      "case": "G_X_POS",
+      "variant": "REPEAT",
+      "direction_kN": [
+        1,
+        0,
+        0
+      ],
+      "gravity": true,
+      "run_id": "BND11_REPEAT_G_X_POS_20261014_01"
+    },
+    {
+      "case": "G_X_NEG",
+      "variant": "REPEAT",
+      "direction_kN": [
+        -1,
+        0,
+        0
+      ],
+      "gravity": true,
+      "run_id": "BND11_REPEAT_G_X_NEG_20261014_01"
+    }
+  ],
+  "maximum_new_native_case_solves": 3,
+  "automatic_retry": false,
+  "stop_on_case_failure": true,
+  "interpretation": "Complete the five conceptual gravity/lateral cases for REPEAT by combining three new native cases with its two historical BND10 Y cases. Do not promote any capacity, design wind, physical bolt contact, or whole-system stress PASS.",
+  "historical_results_modified": false,
+  "production_result_policy": "Publish recorded case/model-bound results; missing cases and pending candidates stay unavailable, never historical fields relabeled.",
+  "parent_reinforcement_contract": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND10_M065_REINFORCEMENT_20261014\\BND10_EXPERIMENT_FROZEN_V1.json",
+  "parent_reinforcement_contract_sha256": "a77648b8724f2ee0f1e986457fcea050fa0cad2d9a8d4eb57b38fe121912fbd6",
+  "new_anchor_cases": "Not in this batch; retain its two higher Y winding maxima without deleting or relabeling results.",
+  "baseline_native_controls": {
+    "G": {
+      "run_id": "BND09_G_20261014_04",
+      "summary": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND09_LOCAL_SLEEVE_NEW_SYSTEM_20261014\\BND09_G_20261014_04_SUMMARY.json",
+      "sha256": "e0371165e1e032e63c9a7b39522e54c9247f4d2df0c3cf1fce002459116f7b74"
+    },
+    "G_X_POS": {
+      "run_id": "BND09_G_X_POS_20261014_04",
+      "summary": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND09_LOCAL_SLEEVE_NEW_SYSTEM_20261014\\BND09_G_X_POS_20261014_04_SUMMARY.json",
+      "sha256": "f3816c174b6eacc0fec047d8c38bd230c8b58f550da1cce2ddd4af8b029da2fe"
+    },
+    "G_X_NEG": {
+      "run_id": "BND09_G_X_NEG_20261014_04",
+      "summary": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND09_LOCAL_SLEEVE_NEW_SYSTEM_20261014\\BND09_G_X_NEG_20261014_04_SUMMARY.json",
+      "sha256": "c2a719115bd8ef3c2768ae917ae30fa8573c01d87cb5669694a3ea7d1814622b"
+    }
+  }
+}

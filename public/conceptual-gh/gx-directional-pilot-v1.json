@@ -1,0 +1,159 @@
+{
+  "schema": "cfrp.web.gx-directional-pilot.v1",
+  "status": "PARTIAL_GX_POSITIVE_ONLY_OTHER_DIRECTIONS_NOT_SOLVED",
+  "scope": {
+    "load": "Karamba native gravity + conceptual 1.0 kN lateral resultant",
+    "gravity_vector_si": [
+      0,
+      0,
+      -1
+    ],
+    "gravity_convention_m_s2": 10,
+    "point_load_count": 102,
+    "point_load_branch": "{0}",
+    "point_load_distribution_kN": 0.00980392156862745,
+    "support_nodes": 137,
+    "initial_strain": false,
+    "strength_assessed": false,
+    "production_unchanged": true
+  },
+  "cases": {
+    "G_X_POS": {
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "load_case": "LATERAL_X_REF",
+      "status": "PAIR_COMPLETE",
+      "runs": {
+        "R04": {
+          "run_id": "GX_R04_GX_20261012_02",
+          "raw_sha256": "0c19137817a7d695a0d6f4413f0c0252d5c28a1e1491c814d4bf47e75f99a1bd",
+          "native_status": "completed",
+          "max_shell_principal_stress_MPa": 1.7612840385806183,
+          "hotspot_xyz_m": [
+            4.831608983351104,
+            5.884518670022001,
+            0.28260393169637227
+          ],
+          "hotspot_face_index": 11537,
+          "hotspot_sigma1_MPa": 0.0020954130367398962,
+          "hotspot_sigma2_MPa": -1.7612840385806183,
+          "scope": "Shell stress only; boundary beam stress is not included, so this is not the whole-model maximum stress.",
+          "max_displacement_mm": 0.5307735168025178,
+          "mass_kg": 135.30085718360658,
+          "energy_kNm": 0.000043401706076883525,
+          "reaction_residual_kN": 0
+        },
+        "R05": {
+          "run_id": "GX_R05_GX_20261012_02",
+          "raw_sha256": "b86c910d5b9348e84f2c2d896a549ef50ea811b02c605e97f453c52c6db4d2f1",
+          "native_status": "completed",
+          "max_shell_principal_stress_MPa": 1.7498085431312171,
+          "hotspot_xyz_m": [
+            4.831608983351104,
+            5.884518670022001,
+            0.28260393169637227
+          ],
+          "hotspot_face_index": 11537,
+          "scope": "Shell stress only; boundary beam stress is not included, so not whole-model maximum.",
+          "max_displacement_mm": 0.5140231732922654,
+          "mass_kg": 136.47236047864283,
+          "energy_kNm": 0.00004264225052454433,
+          "reaction_residual_kN": 4.5592071687355254e-8
+        }
+      }
+    },
+    "G_X_NEG": {
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "load_case": "LATERAL_X_NEG_REF",
+      "status": "RESOURCE_HOLD_NO_NATIVE_SOLVE",
+      "attempts": [
+        {
+          "run_id": "GX_R04_GXNEG_20261013_01",
+          "case": "R04_G_X_NEG",
+          "assembly_verified": true,
+          "solver_called": false,
+          "available_physical_GiB": 2.506,
+          "required_GiB": 2.55,
+          "reason": "Frozen pre-solve RAM gate; assembly completed but Karamba Analyze was not called."
+        }
+      ]
+    },
+    "G_Y_POS": {
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "load_case": "LATERAL_Y_POS_REF",
+      "status": "NOT_RUN_RESOURCE_HOLD"
+    },
+    "G_Y_NEG": {
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "load_case": "LATERAL_Y_NEG_REF",
+      "status": "NOT_RUN_RESOURCE_HOLD"
+    }
+  },
+  "visualization": {
+    "mode": "native nodal displacement point cloud + native shell-stress peak markers",
+    "node_count": 26644,
+    "per_node_layout": [
+      "x_m",
+      "y_m",
+      "z_m",
+      "R04_ux_m",
+      "R04_uy_m",
+      "R04_uz_m",
+      "R05_ux_m",
+      "R05_uy_m",
+      "R05_uz_m"
+    ],
+    "load_point_layout": [
+      "x_m",
+      "y_m",
+      "z_m"
+    ],
+    "f32_conversion_max_abs_error": 4.756428957364278e-7,
+    "displacement_display_scale": 1000,
+    "displacement_scale_note": "Display-only deformation magnification. Reported displacement metrics remain native unscaled millimetres.",
+    "stress_limit_note": "Historical G+X raw stores the verified native shell maximum and location but not the full face stress field; viewer shows only those native peak markers, not an interpolated stress contour.",
+    "pending_case_note": "Remaining directions show load-vector placement only; no FE values are shown until a native run completes."
+  },
+  "binary": {
+    "url": "/conceptual-gh/gx-gravity-pilot-fields-v1.bin",
+    "sha256": "ecf59fc9409a3f12a191e97b689b181f2a35430ab1b6719fab13923adbe8583a",
+    "bytes": 865562,
+    "uncompressed_bytes": 960408,
+    "encoding": "gzip",
+    "scalar": "IEEE754 Float32",
+    "byte_order": "little-endian"
+  },
+  "provenance": {
+    "directional_contract": "GX_FULL_DIRECTIONAL_LOAD_CONTRACT.json",
+    "directional_contract_sha256": "f9e404d6bd7e6a4cb873b092cef53a2c3dd8f64da7e717f0f3879089cfbb2ba3",
+    "r04_raw": "GX_R04_GX_20261012_02_EXPORT_RECOVERY_02_NATIVE_RAW.json",
+    "r05_raw": "GX_R05_GX_20261012_02_NATIVE_RAW.json",
+    "node_positions_identical_between_pair": true,
+    "load_input_source": "DIRECTION_LOAD_SOURCE_INSPECTION.json",
+    "load_vector_tree_sum_rounded_kN": [
+      1.0000080000000013,
+      0,
+      0
+    ],
+    "native_analyze_confirms_total_lateral_resultant_kN": [
+      1,
+      0,
+      0
+    ]
+  }
+}

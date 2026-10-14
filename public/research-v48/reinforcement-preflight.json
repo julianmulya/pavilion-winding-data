@@ -1,0 +1,213 @@
+{
+  "schema": "cfrp.web.reinforcement-preflight.v1",
+  "stage": "V4.8 P4-A2",
+  "original_candidate_id": "v45-a072fc300d98b2ee",
+  "parameters": {
+    "N": 25,
+    "shift": 8
+  },
+  "module": "M059",
+  "source_geometry_sha256": "b0bc45a9166dc1253450802814256e96f76ac9592d662109557cf1e967afa5b4",
+  "InitialStrain": false,
+  "scope": "Offline geometry preflight only. Separate from selected configuration, accepted R00 fields and historical S5/S6 evidence.",
+  "native_builds": 0,
+  "native_solves": 0,
+  "reinforced_FE": null,
+  "strength_assessed": false,
+  "utilization": null,
+  "P4B": "BLOCKED",
+  "original_G": {
+    "status": "FAIL_EXPLORATORY_G",
+    "failed_metrics": 242,
+    "energy_relative_difference_percent": 20.7375656,
+    "failed_by_type": {
+      "global_energy": 1,
+      "owner_peak_displacement": 2,
+      "owner_peak_rotation": 239
+    },
+    "WORLD_observations": 144,
+    "WORLD_observations_status": "PASS_HISTORICAL",
+    "interpretation": "Numerical inadequacy is not physical collapse."
+  },
+  "proposals": [
+    {
+      "id": "P4AR01",
+      "stage": "P4-A1",
+      "status": "SEQUENCE_REVISED_ATTACHMENT_HOLD",
+      "proposal_sha256": "388e792febc09b32af805bc611446ef32f70d394af22ae82d50c566700516862",
+      "revision_identity_sha256": "b56de53ae72339caf3d1cf3b2203a6852497cf7974912e8622aafd0c2174f18b",
+      "manufacturing_sequence_sha256": "ecb4eec5c0e16f770cc600c17f8dc31f0af789e1bd6de88b8c5519ce0a39bd42",
+      "sequence_sha256": "7352de6bd43d6257f0da839e036cd5ea96a9aaf9af3a68312c77ffcc5ce958d1",
+      "metrics": {
+        "schema": "cfrp.p4a1.material-openness.v1",
+        "status": "PASS_OFFLINE_EXACT_TO_P3_WITH_NEW_MANUFACTURING_IDENTITY",
+        "proposal": "P4AR01",
+        "source_geometry_sha256": "b0bc45a9166dc1253450802814256e96f76ac9592d662109557cf1e967afa5b4",
+        "proposal_revision_identity_sha256": "b56de53ae72339caf3d1cf3b2203a6852497cf7974912e8622aafd0c2174f18b",
+        "manufacturing_sequence_sha256": "ecb4eec5c0e16f770cc600c17f8dc31f0af789e1bd6de88b8c5519ce0a39bd42",
+        "source_generator_changed": false,
+        "added_mass_kg": 0.016836994153823018,
+        "added_deposited_m": 0.5293216488027552,
+        "total_mass_kg": 153.39975516671362,
+        "total_deposited_m": 4822.583567408733,
+        "openness_percent": 40.238972395573214,
+        "scanlines": 512,
+        "method": "PROJECTED_PANEL_OPENNESS_B_NEWELL_PRISM_SCANLINE_V1",
+        "split_vs_integrated_representation": {
+          "mass_difference_kg": 2.842170943040401e-14,
+          "length_difference_m": -9.094947017729282e-13,
+          "openness_difference_pp": 0
+        },
+        "gravity_added_force_N": [
+          0,
+          0,
+          -0.1651145087185885
+        ],
+        "finite_wrap_tail_drape_material_included": false,
+        "scope": "Same nominal centerline geometry; integrated fabrication sequence removes a NEW A21 splice requirement only. Finite layer placement still unknown. No manufactured/structural qualification.",
+        "native_solves": 0,
+        "elapsed_seconds": 0.6704232
+      },
+      "FE": null
+    },
+    {
+      "id": "P4AR02",
+      "stage": "P4-A1",
+      "status": "CONTINUOUS_FRAME_HOLD",
+      "proposal_sha256": "3cab2d94651dbd83618db6be07ab99c24b53cf20d863c42f2ddcb1e88ecdd362",
+      "revision_identity_sha256": "4c10daa983748026d11d9d327cb522f07e60c17da85d803d99b4d284361f62f9",
+      "manufacturing_sequence_sha256": "24a744f2c2703644d4662f25cc43995e2734ab56f602bd8e52e1a171af58fc4f",
+      "sequence_sha256": "248822d8d5bd222ba51745534d73e7204906590702908205634d0608cbdda90a",
+      "metrics": {
+        "status": "GEOMETRY_CALCULATED_NOT_FE_ACCEPTANCE",
+        "proposal": "P4AR02",
+        "added_mass_kg": 0.019586524383837334,
+        "added_deposited_m": 0.6157614171775477,
+        "total_mass_kg": 153.40250469694362,
+        "total_deposited_m": 4822.670007177108,
+        "openness_percent": 40.238972395573214,
+        "scanlines": 512,
+        "projection_method": "PROJECTED_PANEL_OPENNESS_B_NEWELL_PRISM_SCANLINE_V1",
+        "InitialStrain": false,
+        "gravity_added_force_N": [
+          0,
+          0,
+          -0.1920781893487584
+        ],
+        "original_geometry_modified": false,
+        "native_mesh": null,
+        "native_results": null,
+        "missing_material_scope": "Anchor wraps and any further drape/placement revisions not included.",
+        "sequence_double_counting": false
+      },
+      "FE": null
+    },
+    {
+      "id": "P4AR03",
+      "stage": "P4-A2",
+      "status": "REJECT_LOCAL_FULL_WIDTH_SWEEP",
+      "proposal_sha256": "b85a0158174fa97cad002fa4bb494370b32e9bb248fc215c6a58021ba25a0ec6",
+      "revision_identity_sha256": "818e0dcfb0d2df4af0008750ee15af96f9d17babb2b45b1cc13d5dce5db114aa",
+      "manufacturing_sequence_sha256": "e532bdf23dd68104270eccd0d347366f45ef90181f0ce94fa71c5acbc74e00ab",
+      "sequence_sha256": "f514c6b9bad7bd519f9901efc580dac213bc064bad3ae0a439d75c97964d729a",
+      "metrics": {
+        "status": "GEOMETRY_CALCULATED_NOT_FE_ACCEPTANCE",
+        "proposal": "P4AR03",
+        "added_mass_kg": 0.019830128228617124,
+        "added_deposited_m": 0.6234198381281929,
+        "total_mass_kg": 153.4027483007884,
+        "total_deposited_m": 4822.677665598058,
+        "openness_percent": 40.23897299232506,
+        "scanlines": 512,
+        "projection_method": "PROJECTED_PANEL_OPENNESS_B_NEWELL_PRISM_SCANLINE_V1",
+        "InitialStrain": false,
+        "gravity_added_force_N": [
+          0,
+          0,
+          -0.19446712699316812
+        ],
+        "original_geometry_modified": false,
+        "native_mesh": null,
+        "native_results": null,
+        "missing_material_scope": "Anchor wrap/tails and future placement revisions not designed or included.",
+        "sequence_double_counting": false
+      },
+      "FE": null
+    }
+  ],
+  "latest_evidence": {
+    "frame_status": "NONZERO_SOURCE_HINT_FRAME_BOUNDED",
+    "frame_lower_sine_bound": 0.0829170760682748,
+    "full_width_status": "NEGATIVE_JACOBIAN_VERIFIED",
+    "transition": "leg1_out",
+    "curve_parameter": 0.0515,
+    "Jacobian": -0.12202756074789493,
+    "point_m": [
+      0.8609366331103578,
+      3.0526659625230614,
+      3.18745647144787
+    ],
+    "foreign_unique_leg_source_pairs": 15,
+    "new_foreign_pair": [
+      1,
+      "M067:SPATIAL:S010"
+    ],
+    "foreign_FE_ties_added": 0,
+    "anchor_status": "FINITE_WRAP_UNRESOLVED",
+    "capacity_known": false,
+    "offline_test_groups": 10
+  },
+  "errata": {
+    "status": "P4A_HISTORICAL_TABLE_ERRATA_RECORDED_SEPARATELY",
+    "affected_rows": 2,
+    "corrected_self_contact_point_m": [
+      0.8840839118741854,
+      3.0068241935310454,
+      3.1881785797723374
+    ],
+    "conditional_FE_topology_was_correct": true,
+    "historical_checkpoint_modified": false,
+    "invalid_initial_P4AR02_fold_conclusion_withdrawn": true,
+    "errata_sha256": "5173b450d4d040f99dbf658e3012ef78397a75b3cd955b53044966d48df06d53"
+  },
+  "performance_contract": {
+    "stress_screen_MPa": 15,
+    "stress_screen_status": "PROVISIONAL_RESEARCH_SCREEN_NOT_STRENGTH",
+    "universal_mass_limit_kg": null,
+    "universal_fiber_length_limit_m": null
+  },
+  "provenance": [
+    {
+      "file": "P4A2_FROZEN_CONTRACT.json",
+      "sha256": "06a0861a29fa411d55128bbb1ea3e4525ee9eb6d51c82e9f32738b12614ba0c3"
+    },
+    {
+      "file": "P4A2_SCIENTIFIC_STATUS.json",
+      "sha256": "ed8f00c7c103a53be9fa16588e661171d81717026c58247439b84f1c74511f3f"
+    },
+    {
+      "file": "P4A2_INDEPENDENT_VERIFICATION.json",
+      "sha256": "6cbdbd101c6b704b0051bbd476e1217580a4e8b01add4289a9cef8d967518582"
+    },
+    {
+      "file": "P4A2_FRAME_AND_SWEEP_AUDIT.json",
+      "sha256": "8e85d608e06f5b41f946ba522c506f0dc51f69df7a05934fb0cce6257794b505"
+    },
+    {
+      "file": "P4A2_CONTACT_AUDIT.json",
+      "sha256": "730a8a119781aaf38e6bf14a91d2af8f072be08bd754b444959e1dca821ee76c"
+    },
+    {
+      "file": "P4A2_ANCHOR_AUDIT.json",
+      "sha256": "8114176457019d4ba4b9cf308b84b6465f5c2a2a5a24a6340b28457a02c85a74"
+    }
+  ],
+  "labels": [
+    "HOLD_FULL_BATCH",
+    "PARETO_NOT_FINAL",
+    "STRENGTH_NOT_ASSESSED",
+    "PRESTRESS_RELEASE_NOT_TESTED",
+    "REINFORCEMENT_FE_NOT_RUN"
+  ],
+  "structural_production_model_changed": false
+}

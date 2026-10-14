@@ -1,0 +1,399 @@
+{
+  "schema": "cfrp.v48.p0.valid_configuration_catalogue.v1",
+  "status": "VERIFIED_SEVEN_CONFIGURATION_CATALOGUE",
+  "source": {
+    "S6_master_dataset_sha256": "6888a60cec28ba562d45dabf9598d4169e24f174147adaffe2e7cdd778a97241",
+    "S4_screening_geometry_manifest_sha256": "a4daae302b56f8d33891c317e1914ef35efdcbfa7dce9e257733c55817203d30",
+    "S4_addendum_manifest_sha256": "60559aea31ed67e625c9a56a18416950bfa9e5b688bccae76f4c7ff3811c0f9a"
+  },
+  "generator_domain": {
+    "divisions": [
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      23,
+      24,
+      25,
+      26,
+      28,
+      29
+    ],
+    "shift_rule": "integer 0..floor(N/2), inclusive",
+    "available_anchor_count_per_module": "2N",
+    "step": "shift+1",
+    "cycle_length": "lcm(N/gcd(N,step),2)",
+    "coverage_note": "Only the actual A0-origin orbit is deposited; partial orbits remain explicitly marked."
+  },
+  "fe_policy": "Only exact full identities listed in VERIFIED_FE_LOOKUP.json receive native stress. Geometry aliases never transfer stress.",
+  "entries": [
+    {
+      "candidate": "C01",
+      "parameters": {
+        "N": 23,
+        "shift": 1,
+        "step": 2,
+        "normalized_step_over_N": 0.08695652173913043
+      },
+      "generator": {
+        "version": "4.5",
+        "candidate_id": "v45-e48ab46d294c1c33",
+        "parameter_hash": "e48ab46d294c1c33e78a5cff20e6d7bbe41e2eb1e68fc2bafee95a268dad1c89",
+        "manufacturing_sequence_hash": "96bc20ebfabe1c2018537dc3d10b28cf7b2934c6840233722c622b5f48ec202f",
+        "physical_geometry_identity": "9dfe484ca423d3b20ed8575ea1159eeabf81f5b1ccf2d6e3b913dc6ed1743558",
+        "directed_frame_identity": "a9a006e47a2e59188890c2403254156cf9550f6ede41c51707ae2f4de6a839fe",
+        "combinatorial_sequence_identity": "3b28a360ffabba9eb5031119fd0e0e600990360107ae50a5688b63ab3cb7e479",
+        "canonical_grid_m": 1e-09,
+        "catalogue_geometry_alias_of": null
+      },
+      "orbit": {
+        "available_anchors_per_module": 46,
+        "visited_anchors_per_module": 46,
+        "cycle_length": 46,
+        "orbit_status": "FULL_VISIT"
+      },
+      "metrics": {
+        "total_mass_kg": 69.58669631412963,
+        "total_weight_kN": 0.6824123754089593,
+        "permanent_boundary_mass_kg": 35.09648745174363,
+        "spatial_winding_mass_kg": 34.490208862386,
+        "physical_route_centerline_length_m": 1635.9855728111797,
+        "total_deposited_fiber_length_m": 2187.667495232112,
+        "boundary_physical_route_length_m": 551.681922420932,
+        "boundary_deposited_fiber_length_m": 1103.363844841864,
+        "spatial_physical_route_length_m": 1084.3036503902479,
+        "spatial_deposited_fiber_length_m": 1084.3036503902479,
+        "openness_128_percent": 86.26705556542204,
+        "openness_256_percent": 86.25343585277321,
+        "openness_512_percent": 86.25138882356626,
+        "obstruction_512_percent": 13.74861117643374
+      },
+      "geometry_file": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\V47_S4_PARAMETRIC_GEOMETRY_SCREENING\\S4_GENERATED_GEOMETRY\\C01_GEOMETRY.json",
+      "geometry_file_sha256": "344e1d5cefbf4d161e1633462d41250d44e4497ea3c78df7ad7964b68b7aec3a",
+      "geometry_file_bytes": 6265431,
+      "native_FE_status": "LOOKUP_AVAILABLE",
+      "stress_status_if_unmatched": "STRESS_NOT_EVALUATED",
+      "source_evidence": {
+        "S6_master_row": "S6_MASTER_DATASET.csv",
+        "S4_identity_map": "S4_GEOMETRY_IDENTITY_MAP.json; actual generated identity",
+        "source_sha256": "51ddcbc91baa9f859974681f01ba0422e3d411b51ef37c4633030fd8f3eeef84"
+      }
+    },
+    {
+      "candidate": "C02",
+      "parameters": {
+        "N": 23,
+        "shift": 7,
+        "step": 8,
+        "normalized_step_over_N": 0.34782608695652173
+      },
+      "generator": {
+        "version": "4.5",
+        "candidate_id": "v45-7773932b8775d8ef",
+        "parameter_hash": "7773932b8775d8ef83923d5b4bc66ca38873013a58ba91fd7ca22524755e07cf",
+        "manufacturing_sequence_hash": "99bf7f09274ee58523536d52b15b3aa2e86b96b0b28d075a03434cc9dbca23c1",
+        "physical_geometry_identity": "695c698741b08eb87f8735f6a583886b238893d4dc5800612c1deaff3a662f95",
+        "directed_frame_identity": "f6f751db7b6ef90715fae6a104d5de1a98264aaf3a05f050aad56c6b1c4d915b",
+        "combinatorial_sequence_identity": "6144eebe64f2aff4195b78adbda0705815484889ad66e511874af9e6a2509176",
+        "canonical_grid_m": 1e-09,
+        "catalogue_geometry_alias_of": null
+      },
+      "orbit": {
+        "available_anchors_per_module": 46,
+        "visited_anchors_per_module": 46,
+        "cycle_length": 46,
+        "orbit_status": "FULL_VISIT"
+      },
+      "metrics": {
+        "total_mass_kg": 141.90469797579738,
+        "total_weight_kN": 1.3916097064043533,
+        "permanent_boundary_mass_kg": 35.09648745174363,
+        "spatial_winding_mass_kg": 106.80821052405375,
+        "physical_route_centerline_length_m": 3909.5198823175247,
+        "total_deposited_fiber_length_m": 4461.201804738456,
+        "boundary_physical_route_length_m": 551.681922420932,
+        "boundary_deposited_fiber_length_m": 1103.363844841864,
+        "spatial_physical_route_length_m": 3357.8379598965926,
+        "spatial_deposited_fiber_length_m": 3357.8379598965926,
+        "openness_128_percent": 44.112798090699016,
+        "openness_256_percent": 44.100916189246384,
+        "openness_512_percent": 44.09946550951381,
+        "obstruction_512_percent": 55.90053449048619
+      },
+      "geometry_file": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\V47_S4_PARAMETRIC_GEOMETRY_SCREENING\\S4_GENERATED_GEOMETRY\\C02_GEOMETRY.json",
+      "geometry_file_sha256": "314939a07d7064f9aa1010893e67c37910a6e2d6dd66966f0fa00e50f0ff5454",
+      "geometry_file_bytes": 5869645,
+      "native_FE_status": "FE_NOT_EVALUATED",
+      "stress_status_if_unmatched": "STRESS_NOT_EVALUATED",
+      "source_evidence": {
+        "S6_master_row": "S6_MASTER_DATASET.csv",
+        "S4_identity_map": "S4_GEOMETRY_IDENTITY_MAP.json; actual generated identity",
+        "source_sha256": "51ddcbc91baa9f859974681f01ba0422e3d411b51ef37c4633030fd8f3eeef84"
+      }
+    },
+    {
+      "candidate": "C03",
+      "parameters": {
+        "N": 23,
+        "shift": 11,
+        "step": 12,
+        "normalized_step_over_N": 0.5217391304347826
+      },
+      "generator": {
+        "version": "4.5",
+        "candidate_id": "v45-a71211f600f51410",
+        "parameter_hash": "a71211f600f51410d9d1bbd2d218c0da43c60a5b558b86de5cb6f012f06cd287",
+        "manufacturing_sequence_hash": "403017fa07f2c46bd235d877a34d3ab7c20154b13f460376a7a3a728035d74e1",
+        "physical_geometry_identity": "bbc1aed15315f5e3fbe1bda60b15c7cdcddd267babd83b097d8202e8c5bc3079",
+        "directed_frame_identity": "cbd8413d0009bbd7398e98c398d75d4a6c27e6431e0168d8483b219c3a5c1221",
+        "combinatorial_sequence_identity": "0324a88eacc49045ba550be166298c8d383441cf444b902993b8a4092eb9dca6",
+        "canonical_grid_m": 1e-09,
+        "catalogue_geometry_alias_of": "v45-d11b78580fe2a372"
+      },
+      "orbit": {
+        "available_anchors_per_module": 46,
+        "visited_anchors_per_module": 46,
+        "cycle_length": 46,
+        "orbit_status": "FULL_VISIT"
+      },
+      "metrics": {
+        "total_mass_kg": 154.70486717758814,
+        "total_weight_kN": 1.5171364857070946,
+        "permanent_boundary_mass_kg": 35.09648745174363,
+        "spatial_winding_mass_kg": 119.6083797258445,
+        "physical_route_centerline_length_m": 4311.931773950073,
+        "total_deposited_fiber_length_m": 4863.613696371005,
+        "boundary_physical_route_length_m": 551.681922420932,
+        "boundary_deposited_fiber_length_m": 1103.363844841864,
+        "spatial_physical_route_length_m": 3760.249851529141,
+        "spatial_deposited_fiber_length_m": 3760.249851529141,
+        "openness_128_percent": 37.46644766376881,
+        "openness_256_percent": 37.434380278321136,
+        "openness_512_percent": 37.438134314698324,
+        "obstruction_512_percent": 62.561865685301676
+      },
+      "geometry_file": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\V47_S4_PARAMETRIC_GEOMETRY_SCREENING\\S4_GENERATED_GEOMETRY\\C03_GEOMETRY.json",
+      "geometry_file_sha256": "4a6dfcf382e5934fb963cbee7df4bbb8ae5363a15d5e5777f145eb494dbb5f65",
+      "geometry_file_bytes": 5862910,
+      "native_FE_status": "LOOKUP_AVAILABLE",
+      "stress_status_if_unmatched": "STRESS_NOT_EVALUATED",
+      "source_evidence": {
+        "S6_master_row": "S6_MASTER_DATASET.csv",
+        "S4_identity_map": "S4_GEOMETRY_IDENTITY_MAP.json; actual generated identity",
+        "source_sha256": "51ddcbc91baa9f859974681f01ba0422e3d411b51ef37c4633030fd8f3eeef84"
+      }
+    },
+    {
+      "candidate": "C04R",
+      "parameters": {
+        "N": 23,
+        "shift": 9,
+        "step": 10,
+        "normalized_step_over_N": 0.43478260869565216
+      },
+      "generator": {
+        "version": "4.5",
+        "candidate_id": "v45-64b1dfce671c8e2c",
+        "parameter_hash": "64b1dfce671c8e2c692f41affc44485019dddff679d7a2777e2369d89ba15780",
+        "manufacturing_sequence_hash": "03825af25e4726c6cde2300a9bc5eaae374ccfa9447abe016e18ca9f5b60090c",
+        "physical_geometry_identity": "a8bb394c7ea031501842e105fb4c0b7c9d855eff94024fff217d828e20145834",
+        "directed_frame_identity": "20f0be35ae00862519c0f0a0228fe23909c47f6931f114426dfdb33449975f05",
+        "combinatorial_sequence_identity": "2f95479410d519095fc6fb0aa201bc97c7f1beac84ef229831a97607d564f884",
+        "canonical_grid_m": 1e-09,
+        "catalogue_geometry_alias_of": null
+      },
+      "orbit": {
+        "available_anchors_per_module": 46,
+        "visited_anchors_per_module": 46,
+        "cycle_length": 46,
+        "orbit_status": "FULL_VISIT"
+      },
+      "metrics": {
+        "total_mass_kg": 152.53752038728913,
+        "total_weight_kN": 1.4958820743060088,
+        "permanent_boundary_mass_kg": 35.09648745174363,
+        "spatial_winding_mass_kg": 117.44103293554551,
+        "physical_route_centerline_length_m": 4243.794696388169,
+        "total_deposited_fiber_length_m": 4795.476618809101,
+        "boundary_physical_route_length_m": 551.681922420932,
+        "boundary_deposited_fiber_length_m": 1103.363844841864,
+        "spatial_physical_route_length_m": 3692.112773967237,
+        "spatial_deposited_fiber_length_m": 3692.112773967237,
+        "openness_128_percent": 36.737985522527914,
+        "openness_256_percent": 36.718998490759425,
+        "openness_512_percent": 36.719357032036235,
+        "obstruction_512_percent": 63.280642967963765
+      },
+      "geometry_file": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\V47_S4_ADDENDUM\\S4_GENERATED_GEOMETRY\\C04R_GEOMETRY.json",
+      "geometry_file_sha256": "3f90a903a832ded6d19c3389bd4dad81b7a97f90cd34de68c47b9dc90e31a7ea",
+      "geometry_file_bytes": 5863267,
+      "native_FE_status": "FE_NOT_EVALUATED",
+      "stress_status_if_unmatched": "STRESS_NOT_EVALUATED",
+      "source_evidence": {
+        "S6_master_row": "S6_MASTER_DATASET.csv",
+        "S4_identity_map": "S4_GEOMETRY_IDENTITY_MAP.json; actual generated identity",
+        "source_sha256": "51ddcbc91baa9f859974681f01ba0422e3d411b51ef37c4633030fd8f3eeef84"
+      }
+    },
+    {
+      "candidate": "C05R",
+      "parameters": {
+        "N": 25,
+        "shift": 11,
+        "step": 12,
+        "normalized_step_over_N": 0.48
+      },
+      "generator": {
+        "version": "4.5",
+        "candidate_id": "v45-58d02ae1db3c020b",
+        "parameter_hash": "58d02ae1db3c020b74585b46c7781e821a4530d340eeb9ca232fec46dbe6e71c",
+        "manufacturing_sequence_hash": "a6901a1c87809df07e28011d3c052c5b4806e961b16020d7a816ffdee2c22f48",
+        "physical_geometry_identity": "0bf3a1e095fa170f4d5853a072f8d202dd55209796dd09e99c9c973f5fa665fc",
+        "directed_frame_identity": "6d51dcdd81f3a6e218ef5b2114f45e383d3ba693b90621a45d0974d2f3704767",
+        "combinatorial_sequence_identity": "1f5b72e65de9c88beb675c6d23ae0b02e28fa3a472e82a2c3f6fddce1c823da3",
+        "canonical_grid_m": 1e-09,
+        "catalogue_geometry_alias_of": null
+      },
+      "orbit": {
+        "available_anchors_per_module": 50,
+        "visited_anchors_per_module": 50,
+        "cycle_length": 50,
+        "orbit_status": "FULL_VISIT"
+      },
+      "metrics": {
+        "total_mass_kg": 165.19917390786506,
+        "total_weight_kN": 1.6200504788035648,
+        "permanent_boundary_mass_kg": 35.09648745174363,
+        "spatial_winding_mass_kg": 130.10268645612143,
+        "physical_route_centerline_length_m": 4641.851930170521,
+        "total_deposited_fiber_length_m": 5193.533852591453,
+        "boundary_physical_route_length_m": 551.681922420932,
+        "boundary_deposited_fiber_length_m": 1103.363844841864,
+        "spatial_physical_route_length_m": 4090.170007749589,
+        "spatial_deposited_fiber_length_m": 4090.170007749589,
+        "openness_128_percent": 34.67566037591735,
+        "openness_256_percent": 34.65023479048395,
+        "openness_512_percent": 34.6480418829885,
+        "obstruction_512_percent": 65.35195811701149
+      },
+      "geometry_file": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\V47_S4_ADDENDUM\\S4_GENERATED_GEOMETRY\\C05R_GEOMETRY.json",
+      "geometry_file_sha256": "27092c9e7bd2021c11f73523d23c611eedb6592a8b684eef5712dbf915ab38b1",
+      "geometry_file_bytes": 6342254,
+      "native_FE_status": "LOOKUP_AVAILABLE",
+      "stress_status_if_unmatched": "STRESS_NOT_EVALUATED",
+      "source_evidence": {
+        "S6_master_row": "S6_MASTER_DATASET.csv",
+        "S4_identity_map": "S4_GEOMETRY_IDENTITY_MAP.json; actual generated identity",
+        "source_sha256": "51ddcbc91baa9f859974681f01ba0422e3d411b51ef37c4633030fd8f3eeef84"
+      }
+    },
+    {
+      "candidate": "C06R",
+      "parameters": {
+        "N": 29,
+        "shift": 11,
+        "step": 12,
+        "normalized_step_over_N": 0.41379310344827586
+      },
+      "generator": {
+        "version": "4.5",
+        "candidate_id": "v45-543c78936a1afa66",
+        "parameter_hash": "543c78936a1afa663abedd598536218b0a7a13bd0bbd1e423606017f61b1ff10",
+        "manufacturing_sequence_hash": "725d25f975715ae4410bd2f7532b3e8512a2109b0d10c8e8aef1cdfc0628d712",
+        "physical_geometry_identity": "e44ab5483e8e40ac15657a3f1f8bde699edf0350f2c6c79a4e0d5133d354d485",
+        "directed_frame_identity": "2c48fb0b0724cd4d2528b773b517abfb17ddb15544fa5594cefeecd9b5e5aea6",
+        "combinatorial_sequence_identity": "56bd019511695b2616528c0cc22c481dcc65a1911c8f19851042ec1e0f103dba",
+        "canonical_grid_m": 1e-09,
+        "catalogue_geometry_alias_of": null
+      },
+      "orbit": {
+        "available_anchors_per_module": 58,
+        "visited_anchors_per_module": 58,
+        "cycle_length": 58,
+        "orbit_status": "FULL_VISIT"
+      },
+      "metrics": {
+        "total_mass_kg": 180.85652819857384,
+        "total_weight_kN": 1.773596672258544,
+        "permanent_boundary_mass_kg": 35.09648745174363,
+        "spatial_winding_mass_kg": 145.7600407468302,
+        "physical_route_centerline_length_m": 5134.088045080917,
+        "total_deposited_fiber_length_m": 5685.769967501849,
+        "boundary_physical_route_length_m": 551.681922420932,
+        "boundary_deposited_fiber_length_m": 1103.363844841864,
+        "spatial_physical_route_length_m": 4582.406122659985,
+        "spatial_deposited_fiber_length_m": 4582.406122659985,
+        "openness_128_percent": 29.97536713019777,
+        "openness_256_percent": 29.94722166676165,
+        "openness_512_percent": 29.946868469678034,
+        "obstruction_512_percent": 70.05313153032196
+      },
+      "geometry_file": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\V47_S4_ADDENDUM\\S4_GENERATED_GEOMETRY\\C06R_GEOMETRY.json",
+      "geometry_file_sha256": "5ed53a3c4c36ed742f7733e2ea9b5e33c4dcb23cf5b7bd9697c0f48f7d6e1c74",
+      "geometry_file_bytes": 7300979,
+      "native_FE_status": "FE_NOT_EVALUATED",
+      "stress_status_if_unmatched": "STRESS_NOT_EVALUATED",
+      "source_evidence": {
+        "S6_master_row": "S6_MASTER_DATASET.csv",
+        "S4_identity_map": "S4_GEOMETRY_IDENTITY_MAP.json; actual generated identity",
+        "source_sha256": "51ddcbc91baa9f859974681f01ba0422e3d411b51ef37c4633030fd8f3eeef84"
+      }
+    },
+    {
+      "candidate": "C07",
+      "parameters": {
+        "N": 28,
+        "shift": 11,
+        "step": 12,
+        "normalized_step_over_N": 0.42857142857142855
+      },
+      "generator": {
+        "version": "4.5",
+        "candidate_id": "v45-ea9e9920dd4631b1",
+        "parameter_hash": "ea9e9920dd4631b15000cc000d5aebf5257b6cbc5e1da4df9a1964fa99dec4ee",
+        "manufacturing_sequence_hash": "0691a0c011fa9c3a6fc37d09430e092122e568a3134faeaf0585e7de2fcf508d",
+        "physical_geometry_identity": "ca580db479933b195fcbf6dab9fdedac54a44ad94a65f137a53fe07ac52281be",
+        "directed_frame_identity": "8f3acb7a40bf745972193cc687d30b4b99f1ea616d956ce77f316b37d6ffef50",
+        "combinatorial_sequence_identity": "2b6c2a707da8d851228e7bbc9107427e30619fb196874cb9c857d563d7f0c2ef",
+        "canonical_grid_m": 1e-09,
+        "catalogue_geometry_alias_of": "v45-8ad32285369855fd"
+      },
+      "orbit": {
+        "available_anchors_per_module": 56,
+        "visited_anchors_per_module": 14,
+        "cycle_length": 14,
+        "orbit_status": "PARTIAL_ORBIT"
+      },
+      "metrics": {
+        "total_mass_kg": 70.88844712490888,
+        "total_weight_kN": 0.6951781899974876,
+        "permanent_boundary_mass_kg": 35.09648745174363,
+        "spatial_winding_mass_kg": 35.79195967316526,
+        "physical_route_centerline_length_m": 1676.9100323196212,
+        "total_deposited_fiber_length_m": 2228.591954740553,
+        "boundary_physical_route_length_m": 551.681922420932,
+        "boundary_deposited_fiber_length_m": 1103.363844841864,
+        "spatial_physical_route_length_m": 1125.2281098986891,
+        "spatial_deposited_fiber_length_m": 1125.2281098986891,
+        "openness_128_percent": 70.94414656913794,
+        "openness_256_percent": 70.89818405769756,
+        "openness_512_percent": 70.9069940254789,
+        "obstruction_512_percent": 29.093005974521105
+      },
+      "geometry_file": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\V47_S4_PARAMETRIC_GEOMETRY_SCREENING\\S4_GENERATED_GEOMETRY\\C07_GEOMETRY.json",
+      "geometry_file_sha256": "05a9e55d4a9e582fb24ea8cf55140b02f0ea49e1e3adeb1d0915261529354af4",
+      "geometry_file_bytes": 2358859,
+      "native_FE_status": "FE_NOT_EVALUATED",
+      "stress_status_if_unmatched": "STRESS_NOT_EVALUATED",
+      "source_evidence": {
+        "S6_master_row": "S6_MASTER_DATASET.csv",
+        "S4_identity_map": "S4_GEOMETRY_IDENTITY_MAP.json; actual generated identity",
+        "source_sha256": "51ddcbc91baa9f859974681f01ba0422e3d411b51ef37c4633030fd8f3eeef84"
+      }
+    }
+  ]
+}

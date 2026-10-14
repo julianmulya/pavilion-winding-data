@@ -1,0 +1,441 @@
+{
+  "beam_selection": {
+    "unique_native_guids": 10228, 
+    "source_ids_preserved": true, 
+    "beams": 10228
+  }, 
+  "native_analyze_displacement_output": 0.61680540562476371, 
+  "solve_seconds": 2.555999755859375, 
+  "max_displacement": {
+    "value_mm": 6.1680540562476365, 
+    "coordinate_m": [
+      0.0029762871986720382, 
+      4.8699017947186878, 
+      2.2623927286092029
+    ], 
+    "node_index": 32422, 
+    "translation_mm": [
+      -0.029043176939400416, 
+      -5.256852810640499, 
+      -3.2263827829207234
+    ]
+  }, 
+  "new_physical_ground_constraints": 0, 
+  "native_analyze_displacement_output_name": "Maximum Displacement [cm]", 
+  "license": "lic_student", 
+  "all_model_nodes_used_by_native_elements": true, 
+  "section_changes": [
+    [
+      "SPATIAL_UD_P65_F0", 
+      176, 
+      3
+    ], 
+    [
+      "SPATIAL_UD_P65_F0", 
+      177, 
+      3
+    ], 
+    [
+      "SPATIAL_UD_P65_F0", 
+      178, 
+      3
+    ], 
+    [
+      "SPATIAL_UD_P65_F0", 
+      179, 
+      3
+    ], 
+    [
+      "SPATIAL_UD_P65_F0", 
+      180, 
+      3
+    ], 
+    [
+      "SPATIAL_UD_P65_F0", 
+      181, 
+      3
+    ], 
+    [
+      "SPATIAL_UD_P65_F0", 
+      182, 
+      3
+    ], 
+    [
+      "SPATIAL_UD_P65_F0", 
+      183, 
+      3
+    ]
+  ], 
+  "build_seconds": 0.0070037841796875, 
+  "stress": {
+    "shell_max_abs_principal_stress": {
+      "element_index": 3674, 
+      "shell_id": "SPATIAL_UD_P70_F0", 
+      "face_index": 89, 
+      "surface": -1, 
+      "component": "s1", 
+      "coordinate_m": [
+        0.21674620346512041, 
+        5.9589644303229337, 
+        0.9021983351293974
+      ], 
+      "value_MPa": 10.863352249747686, 
+      "signed_value_MPa": 10.863352249747686
+    }, 
+    "beam_stations": 17, 
+    "mapping_checks": [
+      {
+        "category": "cfrp_boundary", 
+        "bulk_vs_native_single_max_difference_kN_m2": 0.0, 
+        "beam_id": "BOUNDARY"
+      }, 
+      {
+        "category": "equivalent_aluminium_link", 
+        "bulk_vs_native_single_max_difference_kN_m2": 0.0, 
+        "beam_id": "BND04_AL_M000_A00_IN"
+      }
+    ], 
+    "beam_max_abs_normal_stress_by_category": {
+      "cfrp_boundary": {
+        "beam_id": "BOUNDARY", 
+        "original_id": "BOUNDARY", 
+        "element_index": 3568, 
+        "station": 1.0, 
+        "coordinate_m": [
+          0.0, 
+          6.0620993463955255, 
+          0.79226894326457886
+        ], 
+        "normal_stress_extreme_index": 1, 
+        "value_MPa": 49.443865668120921, 
+        "signed_value_MPa": 49.443865668120921
+      }, 
+      "equivalent_aluminium_link": {
+        "beam_id": "BND04_AL_M065_A23_IN", 
+        "original_id": "BND04_AL_M065_A23_IN", 
+        "element_index": 9702, 
+        "station": 0.0, 
+        "coordinate_m": [
+          0.0, 
+          0.79319593011911504, 
+          0.54702894256178092
+        ], 
+        "normal_stress_extreme_index": 0, 
+        "value_MPa": 13.384017412316084, 
+        "signed_value_MPa": -13.384017412316084
+      }
+    }, 
+    "shell_maxima_by_category": {
+      "original_winding": {
+        "value_MPa": 10.863352249747686, 
+        "coordinate_m": [
+          0.21674620346512041, 
+          5.9589644303229337, 
+          0.9021983351293974
+        ], 
+        "signed_value_MPa": 10.863352249747686, 
+        "surface": -1, 
+        "shell_id": "SPATIAL_UD_P70_F0", 
+        "face_index": 89
+      }
+    }, 
+    "beam_records": 10228, 
+    "shell_faces": 26496
+  }, 
+  "memory": {
+    "available_commit_bytes": 15928209408, 
+    "private_bytes": 4995227648, 
+    "working_set_bytes": 3669114880, 
+    "available_physical_bytes": 1897517056
+  }, 
+  "started_unix": 1791968481.4586105, 
+  "reopen_analysis_locked": true, 
+  "stage": "NATIVE_CONCEPTUAL_RESULTS_RECORDED", 
+  "working_gh_sha256": "fc09939850faa667c327d8f2336a197ceaa63f847a98520073453a2759d5dd9e", 
+  "case": "G_Y_NEG", 
+  "native_analyze_completed": true, 
+  "run_id": "BND10_REPEAT_G_Y_NEG_20261014_01", 
+  "direct_export_seconds": 26.02374267578125, 
+  "energy_kNm": 0.00096154324605956837, 
+  "initial_strain": false, 
+  "variant": "REPEAT", 
+  "model": {
+    "point_loads": 102, 
+    "roof_stations": 102, 
+    "cfrp_boundary_E_kN_m2": 142000000.0, 
+    "triangles": 26496, 
+    "al_section_area_m2": 7.8885391531639712e-05, 
+    "shells": 72, 
+    "equivalent_sleeve_links": 6624, 
+    "original_beam_and_shell_connectivity_equal_BND04": true, 
+    "point_load_resultant_kN": [
+      0.0, 
+      -0.99999999999999856, 
+      0.0
+    ], 
+    "cfrp_boundary_area_m2": 7.8539816339744827e-05, 
+    "gravity_loads": 1, 
+    "unique_native_beam_guids": 10228, 
+    "support_coordinates_and_conditions_equal_BND04": true, 
+    "load_stations_equal_BND04": true, 
+    "al_gamma_kN_m3": 26.478000000000002, 
+    "coordinate_difference_from_BND04_m": 0.0, 
+    "support_count": 137, 
+    "native_mass_kg": 144.57809422023107, 
+    "boundary_beams": 3604, 
+    "nodes": 33270
+  }, 
+  "pid": 2108, 
+  "memory_before_solve": {
+    "available_commit_bytes": 17768026112, 
+    "private_bytes": 3121434624, 
+    "working_set_bytes": 2355892224, 
+    "available_physical_bytes": 3209859072
+  }, 
+  "build_checks": {
+    "134": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Mesh to Shell (Karamba3D)", 
+      "output_counts": [
+        72, 
+        50010, 
+        72
+      ], 
+      "nickname": "Mesh to Shell"
+    }, 
+    "135": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Orientate Elem (Karamba3D)", 
+      "output_counts": [
+        72
+      ], 
+      "nickname": "Shell"
+    }, 
+    "136": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Cross-sections Beam (Karamba3D)", 
+      "output_counts": [
+        1, 
+        1
+      ], 
+      "nickname": "O-Section"
+    }, 
+    "137": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Create Linear Element (Karamba3D)", 
+      "output_counts": [
+        3604, 
+        3462, 
+        1
+      ], 
+      "nickname": "LineToBeam"
+    }, 
+    "130": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "GhPython Script", 
+      "output_counts": [
+        72, 
+        26496, 
+        72, 
+        26496, 
+        1, 
+        1, 
+        29808, 
+        33270, 
+        29808, 
+        3604, 
+        4, 
+        102, 
+        102, 
+        72, 
+        72, 
+        3462
+      ], 
+      "nickname": "BND10 REPEAT | M065 S022"
+    }, 
+    "133": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Cross-sections Shell (Karamba3D)", 
+      "output_counts": [
+        72, 
+        72
+      ], 
+      "nickname": "Shell Var"
+    }, 
+    "189": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "GhPython Script", 
+      "output_counts": [
+        137, 
+        1
+      ], 
+      "nickname": "GROUND LINE SUPPORT | mapped source boundary nodes"
+    }, 
+    "138": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Support (Karamba3D)", 
+      "output_counts": [
+        137
+      ], 
+      "nickname": "Supp"
+    }, 
+    "139": {
+      "warnings": [], 
+      "errors": [], 
+      "name": " Loads (Karamba3D)", 
+      "output_counts": [
+        102
+      ], 
+      "nickname": "PointLoad"
+    }, 
+    "140": {
+      "warnings": [], 
+      "errors": [], 
+      "name": " Assemble Model (Karamba3D)", 
+      "output_counts": [
+        1, 
+        1, 
+        1, 
+        1, 
+        1
+      ], 
+      "nickname": "Assemble"
+    }, 
+    "141": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "GhPython Script", 
+      "output_counts": [
+        1, 
+        1, 
+        1
+      ], 
+      "nickname": "BND09 | local sleeve OD12 ID6.6"
+    }, 
+    "native_gravity": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Gravity (Karamba3D)", 
+      "output_counts": [
+        1
+      ], 
+      "nickname": "Gravity"
+    }
+  }, 
+  "equilibrium": {
+    "force_residual_kN": 0.0, 
+    "native_resulting_force_kN": [
+      1.2231591278027976e-09, 
+      -0.99999999800328865, 
+      -1.4457809422684265
+    ], 
+    "gravity_mass_convention_m_s2": 10.0, 
+    "modeled_self_weight_kN": 1.4457809422023107, 
+    "force_residual_vector_kN": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "reaction_sum_kN": [
+      -1.2231591278027976e-09, 
+      0.99999999800328865, 
+      1.4457809422684265
+    ]
+  }, 
+  "native_analyze_started": true, 
+  "load_case": "G_Y_NEG", 
+  "working_gh": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND10_M065_REINFORCEMENT_20261014\\BND10_REPEAT_G_Y_NEG_20261014_01.gh", 
+  "memory_before_build": {
+    "available_commit_bytes": 18240360448, 
+    "private_bytes": 2648424448, 
+    "working_set_bytes": 1889116160, 
+    "available_physical_bytes": 3676340224
+  }, 
+  "result_checks": {
+    "148": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Nodal Displacements (Karamba3D)", 
+      "output_counts": [
+        1, 
+        33270, 
+        33270, 
+        33270, 
+        33270
+      ], 
+      "nickname": "NodeDisp"
+    }, 
+    "149": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Reaction Forces (Karamba3D)", 
+      "output_counts": [
+        1, 
+        137, 
+        137, 
+        137, 
+        1, 
+        1, 
+        137
+      ], 
+      "nickname": "React"
+    }, 
+    "146": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Shell Forces (Karamba3D)", 
+      "output_counts": [
+        1, 
+        26496, 
+        26496, 
+        26496, 
+        26496, 
+        26496, 
+        26496, 
+        26496, 
+        26496, 
+        26496
+      ], 
+      "nickname": "Local"
+    }, 
+    "147": {
+      "warnings": [], 
+      "errors": [], 
+      "name": "Beam Forces (Karamba3D)", 
+      "output_counts": [
+        1, 
+        61268, 
+        61268, 
+        61268, 
+        61268, 
+        61268, 
+        61268, 
+        61268
+      ], 
+      "nickname": "B-Forces"
+    }, 
+    "142": {
+      "warnings": [], 
+      "errors": [], 
+      "name": " Analyse (Karamba3D)", 
+      "output_counts": [
+        1, 
+        1, 
+        1, 
+        1
+      ], 
+      "nickname": "Analyse"
+    }
+  }, 
+  "gravity": true, 
+  "stress_export_seconds": 25.466659545898438, 
+  "finished_unix": 1791968551.3080444
+}

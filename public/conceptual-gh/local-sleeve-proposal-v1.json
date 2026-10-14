@@ -1,0 +1,57 @@
+{
+  "schema": "cfrp.local-sleeve.proposal.v1",
+  "id": "LOCAL_SLEEVE_12_6_6_18",
+  "status": "GEOMETRY_CONCEPT_NOT_ANALYZED",
+  "sleeve": {
+    "alloy": "EN AW-6060 T6",
+    "outer_diameter_mm": 12,
+    "bore_diameter_mm": 6.6,
+    "length_mm": 18,
+    "wall_thickness_mm": 2.7,
+    "dimension_basis": "Project conceptual choice; OD and length carried from BND04, bore revised for M6 normal clearance. Not measured Stuttgart hardware."
+  },
+  "bolt": {
+    "nominal": "M6 steel",
+    "nominal_diameter_mm": 6,
+    "length_mm": null,
+    "length_basis": "To be selected from paired sleeve grip stack; no bolt length or joint capacity asserted."
+  },
+  "anchor_fixture": {
+    "form": "broad circular flange under a cylindrical sleeve with a projecting threaded stud",
+    "role": "schematic temporary effector anchor visualization",
+    "flange_diameter_mm": null,
+    "flange_thickness_mm": null,
+    "stud_protrusion_mm": null,
+    "hardware_material_basis": "Aluminium sleeve and steel bolt are the project concept; flange material and exact hardware are not verified by the supplied photo.",
+    "geometry_basis": "User-supplied reference image; visual proportions only; not dimensioned and not used in FE"
+  },
+  "boundary_material": "Original CFRP perimeter",
+  "wrap_turns": 1,
+  "wrap_count_basis": "User-selected route convention; not a documented Stuttgart turn count",
+  "fabrication_effector": {
+    "type": "polygonal module-edge effector with reference pins",
+    "reference_principle": "Stuttgart uses custom steel frame effectors to define component edges; aluminium sleeves are placed on the winding frame before winding.",
+    "project_fixture_material": "NOT_SELECTED",
+    "permanent_in_pavilion": false,
+    "geometry_status": "SCHEMATIC_ONLY; exact tool polygon, pin coordinates and tolerances are not established"
+  },
+  "fabrication_sequence": [
+    "set the polygon effector and locate sleeve/pin stations",
+    "wind CFRP around the sleeve stations and cure the resin",
+    "remove temporary tooling; retain sleeves bonded into the CFRP edge",
+    "align sleeve pairs of adjacent modules and pass a steel bolt through them"
+  ],
+  "final_edge_semantics": "CFRP edge with discrete embedded aluminium sleeves; no continuous aluminium carrier rail is represented",
+  "existing_sleeve_positions": 3312,
+  "bolt_pair_count": null,
+  "bolt_pair_alignment": "PENDING_ACTUAL_JOINT_MAPPING",
+  "geometry_semantics": "Sleeve cylinders use existing BND04 centres/axes. Effector polygon is a thin translucent schematic outline. The flanged anchor is a visual-only hardware interpretation; paired bolt close-up is not a generated pavilion joint.",
+  "proposed_FE_semantics": "Global conceptual native Karamba with equivalent bonded sleeve/bolt joints; detailed bolt contact excluded. New FE builder not yet implemented.",
+  "initial_strain": false,
+  "native_FE_built": false,
+  "native_analyze_run": false,
+  "results": null,
+  "historical_reports_changed": false,
+  "strength_assessed": false,
+  "stuttgart_exact_replica": false
+}

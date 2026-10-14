@@ -1,0 +1,33 @@
+BND10 — keputusan perbandingan desain
+Empat Analyze native selesai; InitialStrain OFF.
+Beban: gravity native + total lateral konseptual 1 kN pada 102 station atap, dua arah Y.
+Tumpuan: 137 station pada boundary bawah yang sama; tidak ada support atau beban baru di H*.
+Material, boundary CFRP, sleeve lokal, original mesh dan joint dipertahankan sesuai input checks setiap run.
+
+HASIL NATIVE (MPa; displacement mm)
+Strategi | Kasus | Winding baseline → kandidat | Perubahan winding | Boundary | Link Al | Displacement
+REPEAT | G_Y_POS | 17.064881 → 10.055070 | -41.077% | 46.782852 | 14.254567 | 6.167356
+REPEAT | G_Y_NEG | 16.221539 → 10.863352 | -33.031% | 49.443866 | 13.384017 | 6.168054
+NEW_ANCHOR | G_Y_POS | 17.064881 → 18.569718 | +8.818% | 47.006077 | 13.415208 | 6.228018
+NEW_ANCHOR | G_Y_NEG | 16.221539 → 17.696179 | +9.091% | 49.660923 | 12.666472 | 6.226069
+
+INTERPRETASI DESAIN
+Lilitan ulang dua pass pada M065 S022 lebih efektif untuk menurunkan maksimum winding pada dua kasus Y ini.
+Hotspot maksimum setelah lilitan ulang berpindah dari M065 ke M070; maksimum seluruh winding tetap dicari dan dilaporkan.
+Lilitan ulang menambah massa native 0,071153 kg dan span CFRP 2,281019 m; openness proyeksi M065 praktis tetap 51,17%.
+Link sleeve lilitan ulang naik sekitar 5% terhadap baseline; ini tidak ditutupi oleh penurunan winding. Boundary hampir tetap.
+Jalur baru H* → A32 → A13 → H* menambah massa native 0,060429 kg dan span 1,674672 m, tetapi maksimum winding naik pada kedua kasus.
+Hotspot jalur baru tetap pada M065. Jalur ini belum efektif untuk tujuan penurunan maksimum winding pada dua kasus Y yang diuji.
+Openness proyeksi jalur baru turun dari 51,17% menjadi 50,31%; footprint hardware/wrap surface dikecualikan dari metrik ini.
+Hasil bukan perbandingan setara massa; massa native dan panjang tambahan dilaporkan terpisah.
+
+PEMERIKSAAN DAN BATAS
+Analyze/result components: error 0 dan warning 0 pada seluruh empat hasil. Semua GH tersimpan dan dapat dibuka dengan Analyze dikunci.
+Residual gaya terhadap point loads + gravity aktual maksimum 6.19e-09 kN, di bawah batas historis 1e-7 kN.
+Shell winding memakai max absolute in-plane principal stress, kedua permukaan; beam boundary/link memakai normal stress 17 station. Kategori tidak digabung menjadi angka maximum stress sistem.
+Tidak ada klaim strength PASS, keselamatan, desain tekanan angin, atau qualification seluruh loadset.
+G dan ±X kandidat BND10 belum dijalankan. Tahap yang disarankan berikutnya adalah tiga kasus tersebut untuk REPEAT; belum dimulai.
+Kesalahan lingkup GH_Path diperbaiki sebelum native build/solve. Kode V2 dan log kegagalan disimpan; kode FE V3 hanya menghapus import lokal duplikat.
+Resource HOLD sebelum build/solve tidak memakai attempt. Empat STARTED dan empat SUMMARY adalah empat solve native aktual.
+Riwayat console Rhino disimpan, termasuk diagnostic text berulang “This should not happen”; asal pesan belum diisolasi dan tidak disamarkan sebagai error komponen Analyze.
+Tidak ada audit matriks shell, solver Python, custom stress recovery, refinement, varian baru, atau native replay tambahan pada tahap ini.

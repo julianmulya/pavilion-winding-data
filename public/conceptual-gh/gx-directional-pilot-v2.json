@@ -1,0 +1,438 @@
+{
+  "schema": "cfrp.web.gx-directional-pilot.v2",
+  "status": "ALL_FOUR_DIRECTIONAL_PAIRS_RECORDED",
+  "scope": {
+    "load": "Native Karamba gravity + conceptual 1.0 kN lateral resultant",
+    "gravity_convention_m_s2": 10,
+    "point_load_count": 102,
+    "point_load_branch": "{0}",
+    "point_load_distribution_kN": 0.00980392156862745,
+    "support_nodes": 137,
+    "initial_strain": false,
+    "strength_assessed": false,
+    "production_unchanged": true,
+    "structural_scope": "Conceptual paired response comparison; not a design wind load or safety qualification."
+  },
+  "cases": {
+    "G_X_POS": {
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "load_case": "LATERAL_X_REF",
+      "label": "Gravity + X",
+      "status": "PAIR_RESULTS_RECORDED",
+      "runs": {
+        "R04": {
+          "run_id": "GX_R04_GX_20261012_02",
+          "raw_sha256": "0c19137817a7d695a0d6f4413f0c0252d5c28a1e1491c814d4bf47e75f99a1bd",
+          "native_status": "completed",
+          "max_shell_principal_stress_MPa": 1.7612840385806183,
+          "hotspot_xyz_m": [
+            4.831608983351104,
+            5.884518670022001,
+            0.28260393169637227
+          ],
+          "hotspot_sigma1_MPa": 0.0020954130367398962,
+          "hotspot_sigma2_MPa": -1.7612840385806183,
+          "hotspot_side": 1,
+          "hotspot_face_index": 11537,
+          "max_displacement_mm": 0.5307735168025178,
+          "mass_kg": 135.30085718360658,
+          "energy_kNm": 0.000043401706076883525,
+          "reaction_residual_kN": 0,
+          "native_analyze_seconds": 2.1738433837890625
+        },
+        "R05": {
+          "run_id": "GX_R05_GX_20261012_02",
+          "raw_sha256": "b86c910d5b9348e84f2c2d896a549ef50ea811b02c605e97f453c52c6db4d2f1",
+          "native_status": "completed",
+          "max_shell_principal_stress_MPa": 1.7498085431312171,
+          "hotspot_xyz_m": [
+            4.831608983351104,
+            5.884518670022001,
+            0.28260393169637227
+          ],
+          "hotspot_sigma1_MPa": 0.002078569211601361,
+          "hotspot_sigma2_MPa": -1.7498085431312171,
+          "hotspot_side": 1,
+          "hotspot_face_index": 11537,
+          "max_displacement_mm": 0.5140231732922654,
+          "mass_kg": 136.47236047864283,
+          "energy_kNm": 0.00004264225052454433,
+          "reaction_residual_kN": 4.5592071687355254e-8,
+          "native_analyze_seconds": 1.7687301635742188
+        }
+      },
+      "field_asset": {
+        "url": "/conceptual-gh/gx-directional-g-x-pos-pair-v1.bin",
+        "sha256": "ecf59fc9409a3f12a191e97b689b181f2a35430ab1b6719fab13923adbe8583a",
+        "bytes": 865562,
+        "uncompressed_bytes": 960408,
+        "encoding": "gzip",
+        "scalar": "IEEE754 Float32",
+        "byte_order": "little-endian",
+        "layout": {
+          "nodal": {
+            "count": 26644,
+            "stride_f32": 9,
+            "offset_f32": 0,
+            "position_index": 0,
+            "r04_displacement_index": 3,
+            "r05_displacement_index": 6,
+            "displacement_unit": "m"
+          },
+          "load_points": {
+            "count": 102,
+            "stride_f32": 3,
+            "offset_f32": 239796,
+            "unit": "m"
+          },
+          "stress_samples": null
+        },
+        "f32_conversion_max_abs_error": 4.756428957364278e-7
+      },
+      "stress_field_available": false,
+      "stress_field_note": "R04 Analyze completed, but its original post-Analyze stress adapter raised a TypeError (Model versus GH_Model). Peak and hotspot values were recovered; the full face-sample field is unavailable."
+    },
+    "G_X_NEG": {
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "load_case": "LATERAL_X_NEG_REF",
+      "label": "Gravity + −X",
+      "status": "PAIR_RESULTS_RECORDED",
+      "runs": {
+        "R04": {
+          "run_id": "GX_R04_GXNEG_20261013_03",
+          "raw_sha256": "f1d565a815d91bd14678a7d3c4952232e145b6f2df79c392d620fea462ab1f0f",
+          "native_status": "completed",
+          "max_shell_principal_stress_MPa": 3.6152980710807747,
+          "hotspot_xyz_m": [
+            2.5147781958440523,
+            1.0830772362869474,
+            0.24404308981318232
+          ],
+          "hotspot_sigma1_MPa": -0.004523258347328008,
+          "hotspot_sigma2_MPa": -3.6152980710807747,
+          "hotspot_side": -1,
+          "hotspot_face_index": 18005,
+          "max_displacement_mm": 1.0231830921436365,
+          "mass_kg": 135.30085718360658,
+          "energy_kNm": 0.00009022814804641359,
+          "reaction_residual_kN": 1.1058304727497385e-10,
+          "native_analyze_seconds": 1.6297760009765625
+        },
+        "R05": {
+          "run_id": "GX_R05_GXNEG_20261013_02",
+          "raw_sha256": "af6512d38a2f90715dd17350387bfc67ba74597d8b95a4425ffe16c1e873c7a9",
+          "native_status": "completed",
+          "max_shell_principal_stress_MPa": 3.4577808055571295,
+          "hotspot_xyz_m": [
+            2.5147781958440523,
+            1.0830772362869474,
+            0.24404308981318232
+          ],
+          "hotspot_sigma1_MPa": -0.0043732957165976485,
+          "hotspot_sigma2_MPa": -3.4577808055571295,
+          "hotspot_side": -1,
+          "hotspot_face_index": 18005,
+          "max_displacement_mm": 1.0121195135323668,
+          "mass_kg": 136.47236047864283,
+          "energy_kNm": 0.00008896517323921648,
+          "reaction_residual_kN": 2.894958206801367e-10,
+          "native_analyze_seconds": 1.6067886352539062
+        }
+      },
+      "field_asset": {
+        "url": "/conceptual-gh/gx-directional-g-x-neg-pair-v1.bin",
+        "sha256": "c94bc6a804ef844035663e3db279957f8981b1505f32e1ff3f3c78f655fdccd0",
+        "bytes": 1819466,
+        "uncompressed_bytes": 2020248,
+        "encoding": "gzip",
+        "scalar": "IEEE754 Float32",
+        "byte_order": "little-endian",
+        "layout": {
+          "nodal": {
+            "count": 26644,
+            "stride_f32": 9,
+            "offset_f32": 0,
+            "position_index": 0,
+            "r04_displacement_index": 3,
+            "r05_displacement_index": 6,
+            "displacement_unit": "m"
+          },
+          "load_points": {
+            "count": 102,
+            "stride_f32": 3,
+            "offset_f32": 239796,
+            "unit": "m"
+          },
+          "stress_samples": {
+            "count": 52992,
+            "stride_f32": 5,
+            "offset_f32": 240102,
+            "position_index": 0,
+            "r04_abs_principal_index": 3,
+            "r05_abs_principal_index": 4,
+            "stress_unit": "MPa",
+            "scope": "max(|sigma1|,|sigma2|) at native face samples, both shell sides"
+          }
+        },
+        "f32_conversion_max_abs_error": 4.756428957364278e-7
+      },
+      "stress_field_available": true,
+      "stress_field_note": "Native principal-stress samples are shown at face positions; no interpolation or smoothing is applied.",
+      "sampled_stress_max_check_MPa": {
+        "R04": 3.6152980710807747,
+        "R05": 3.4577808055571295,
+        "reported_R04": 3.6152980710807747,
+        "reported_R05": 3.4577808055571295
+      }
+    },
+    "G_Y_POS": {
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "load_case": "LATERAL_Y_POS_REF",
+      "label": "Gravity + +Y",
+      "status": "PAIR_RESULTS_RECORDED",
+      "runs": {
+        "R04": {
+          "run_id": "GX_R04_GYPOS_20261013_02",
+          "raw_sha256": "2bc4c99aa6c83acecb271ea0d15f4ff6e46dd67e13e2ce6e1a4bb3334278c5ea",
+          "native_status": "completed",
+          "max_shell_principal_stress_MPa": 17.003049278572703,
+          "hotspot_xyz_m": [
+            0.1377630127841212,
+            0.8750248832767215,
+            0.6493562112960398
+          ],
+          "hotspot_sigma1_MPa": 17.003049278572703,
+          "hotspot_sigma2_MPa": -0.004006292078735488,
+          "hotspot_side": -1,
+          "hotspot_face_index": 24102,
+          "max_displacement_mm": 5.87768188165847,
+          "mass_kg": 135.30085718360658,
+          "energy_kNm": 0.0009028719347970373,
+          "reaction_residual_kN": 9.4406154405702e-9,
+          "native_analyze_seconds": 1.5421066284179688
+        },
+        "R05": {
+          "run_id": "GX_R05_GYPOS_20261013_02",
+          "raw_sha256": "5985d36facc7cd7554a25f309f35ce53e6a55eca6ebb09644de9034a6fc07a43",
+          "native_status": "completed",
+          "max_shell_principal_stress_MPa": 16.97199568676024,
+          "hotspot_xyz_m": [
+            0.1377630127841212,
+            0.8750248832767215,
+            0.6493562112960398
+          ],
+          "hotspot_sigma1_MPa": 16.97199568676024,
+          "hotspot_sigma2_MPa": -0.003997755913303149,
+          "hotspot_side": -1,
+          "hotspot_face_index": 24102,
+          "max_displacement_mm": 5.863462628478518,
+          "mass_kg": 136.47236047864283,
+          "energy_kNm": 0.0009024116343772139,
+          "reaction_residual_kN": 3.7403842926069525e-9,
+          "native_analyze_seconds": 1.6276626586914062
+        }
+      },
+      "field_asset": {
+        "url": "/conceptual-gh/gx-directional-g-y-pos-pair-v1.bin",
+        "sha256": "90ae37d5d98103241cef2512f939dab168a7e23ec377c0949a8a721436360b70",
+        "bytes": 1819002,
+        "uncompressed_bytes": 2020248,
+        "encoding": "gzip",
+        "scalar": "IEEE754 Float32",
+        "byte_order": "little-endian",
+        "layout": {
+          "nodal": {
+            "count": 26644,
+            "stride_f32": 9,
+            "offset_f32": 0,
+            "position_index": 0,
+            "r04_displacement_index": 3,
+            "r05_displacement_index": 6,
+            "displacement_unit": "m"
+          },
+          "load_points": {
+            "count": 102,
+            "stride_f32": 3,
+            "offset_f32": 239796,
+            "unit": "m"
+          },
+          "stress_samples": {
+            "count": 52992,
+            "stride_f32": 5,
+            "offset_f32": 240102,
+            "position_index": 0,
+            "r04_abs_principal_index": 3,
+            "r05_abs_principal_index": 4,
+            "stress_unit": "MPa",
+            "scope": "max(|sigma1|,|sigma2|) at native face samples, both shell sides"
+          }
+        },
+        "f32_conversion_max_abs_error": 9.326039744905756e-7
+      },
+      "stress_field_available": true,
+      "stress_field_note": "Native principal-stress samples are shown at face positions; no interpolation or smoothing is applied.",
+      "sampled_stress_max_check_MPa": {
+        "R04": 17.003049278572703,
+        "R05": 16.97199568676024,
+        "reported_R04": 17.003049278572703,
+        "reported_R05": 16.97199568676024
+      }
+    },
+    "G_Y_NEG": {
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "load_case": "LATERAL_Y_NEG_REF",
+      "label": "Gravity + −Y",
+      "status": "PAIR_RESULTS_RECORDED",
+      "runs": {
+        "R04": {
+          "run_id": "GX_R04_GYNEG_20261013_03",
+          "raw_sha256": "08e3930f6229626c5487e8594583481b6d86db5c1c82b8b6ebd57d950f2940c3",
+          "native_status": "completed",
+          "max_shell_principal_stress_MPa": 16.31658776494427,
+          "hotspot_xyz_m": [
+            0.1377630127841212,
+            0.8750248832767215,
+            0.6493562112960398
+          ],
+          "hotspot_sigma1_MPa": 0.0052313883852764045,
+          "hotspot_sigma2_MPa": -16.31658776494427,
+          "hotspot_side": -1,
+          "hotspot_face_index": 24102,
+          "max_displacement_mm": 5.862410339880693,
+          "mass_kg": 135.30085718360658,
+          "energy_kNm": 0.0009091795491441937,
+          "reaction_residual_kN": 5.418424988200753e-9,
+          "native_analyze_seconds": 1.4143600463867188
+        },
+        "R05": {
+          "run_id": "GX_R05_GYNEG_20261013_02",
+          "raw_sha256": "219cc37351a08d37e83fa49c66ae50b633a37ae62061819af781833f79c6111f",
+          "native_status": "completed",
+          "max_shell_principal_stress_MPa": 16.275154949124975,
+          "hotspot_xyz_m": [
+            0.1377630127841212,
+            0.8750248832767215,
+            0.6493562112960398
+          ],
+          "hotspot_sigma1_MPa": 0.0052199120024697815,
+          "hotspot_sigma2_MPa": -16.275154949124975,
+          "hotspot_side": -1,
+          "hotspot_face_index": 24102,
+          "max_displacement_mm": 5.854095212630619,
+          "mass_kg": 136.47236047864283,
+          "energy_kNm": 0.0009076446774747206,
+          "reaction_residual_kN": 2.6050122704660793e-9,
+          "native_analyze_seconds": 6.238655090332031
+        }
+      },
+      "field_asset": {
+        "url": "/conceptual-gh/gx-directional-g-y-neg-pair-v1.bin",
+        "sha256": "87ca0805c35d1a5b00f775edfc25f4cc5fe53c8790d3f58d6a816c5c250a4605",
+        "bytes": 1818442,
+        "uncompressed_bytes": 2020248,
+        "encoding": "gzip",
+        "scalar": "IEEE754 Float32",
+        "byte_order": "little-endian",
+        "layout": {
+          "nodal": {
+            "count": 26644,
+            "stride_f32": 9,
+            "offset_f32": 0,
+            "position_index": 0,
+            "r04_displacement_index": 3,
+            "r05_displacement_index": 6,
+            "displacement_unit": "m"
+          },
+          "load_points": {
+            "count": 102,
+            "stride_f32": 3,
+            "offset_f32": 239796,
+            "unit": "m"
+          },
+          "stress_samples": {
+            "count": 52992,
+            "stride_f32": 5,
+            "offset_f32": 240102,
+            "position_index": 0,
+            "r04_abs_principal_index": 3,
+            "r05_abs_principal_index": 4,
+            "stress_unit": "MPa",
+            "scope": "max(|sigma1|,|sigma2|) at native face samples, both shell sides"
+          }
+        },
+        "f32_conversion_max_abs_error": 8.353554434847865e-7
+      },
+      "stress_field_available": true,
+      "stress_field_note": "Native principal-stress samples are shown at face positions; no interpolation or smoothing is applied.",
+      "sampled_stress_max_check_MPa": {
+        "R04": 16.31658776494427,
+        "R05": 16.275154949124975,
+        "reported_R04": 16.31658776494427,
+        "reported_R05": 16.275154949124975
+      }
+    }
+  },
+  "visualization": {
+    "node_count": 26644,
+    "load_point_count": 102,
+    "displacement_display_scale": 1000,
+    "stress_color_range": "0 to the pairwise maximum sampled absolute in-plane principal stress for the selected load direction; the same scale is used on R04 and R05.",
+    "stress_sampling": "Native Karamba PrincipalStressDirs face samples at both shell sides. Sample values are max(abs(sigma1),abs(sigma2)) in MPa; points are not interpolated into a continuous stress contour.",
+    "stress_display_limits": "Boundary beam/sleeve stresses are not part of this shell field. +X historical raw stores peak values and location only, not the face sample array.",
+    "load_vector_note": "Arrow length is schematic; each of 102 equal point loads has magnitude 1/102 kN.",
+    "pending_case_note": "No displacement or stress field is drawn for an unrun case. The model points and 102 load locations/direction arrows are shown as geometry and load contract only."
+  },
+  "provenance": {
+    "directional_contract": "GX_FULL_DIRECTIONAL_LOAD_CONTRACT.json",
+    "source_load_positions": "DIRECTION_LOAD_SOURCE_INSPECTION.json",
+    "source_load_positions_count": 102,
+    "common_node_mapping_verified": true,
+    "gx_r04_stress_extraction_recovery": {
+      "run_id": "GX_R04_GX_20261012_02",
+      "stage": "HOLD_OR_PARTIAL",
+      "native_analyze_completed": true,
+      "post_analyze_error": "TypeError: expected GH_Model, got Model",
+      "recovered_raw": "GX_R04_GX_20261012_02_EXPORT_RECOVERY_02_NATIVE_RAW.json",
+      "recovered_native_peak_available": true,
+      "full_stress_face_samples_available": false,
+      "original_log_force_residual_kN": 0.026160419966025916,
+      "recovered_balance_residual_kN": 0,
+      "native_gravity_convention_m_s2": 10,
+      "note": "The original log compared reactions against conventional 9.80665 m/s2 self-weight; recovered raw balances against Karamba native Analyze resultant under the frozen 10 m/s2 gravity convention."
+    },
+    "previous_negative_y_resource_hold": {
+      "run_id": "GX_R04_GYNEG_20261013_02",
+      "solver_called": false,
+      "measured_available_ram_GiB": 2.501789,
+      "required_ram_GiB": 2.55,
+      "readback_recovered": true,
+      "latest_duplicate_guard_solver_called": false,
+      "resolved_by_runs": [
+        "GX_R04_GYNEG_20261013_03",
+        "GX_R05_GYNEG_20261013_02"
+      ]
+    }
+  },
+  "acceptance": {
+    "native_analyze_completed_required": true,
+    "result_components_error_free_required": true,
+    "equilibrium_values_reported": true,
+    "one_direction_pair_does_not_qualify_other_directions": true
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "cfrp.v48.p0.source_hash_audit.v1",
+  "status": "PASS",
+  "source_manifest_verification": [
+    {
+      "manifest": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\V47_S4_PARAMETRIC_GEOMETRY_SCREENING\\FILES_SHA256_S4.json",
+      "manifest_sha256": "a4daae302b56f8d33891c317e1914ef35efdcbfa7dce9e257733c55817203d30",
+      "listed": 136,
+      "verified": 136,
+      "status": "PASS"
+    },
+    {
+      "manifest": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\V47_S4_ADDENDUM\\FILES_SHA256.json",
+      "manifest_sha256": "60559aea31ed67e625c9a56a18416950bfa9e5b688bccae76f4c7ff3811c0f9a",
+      "listed": 125,
+      "verified": 125,
+      "status": "PASS"
+    },
+    {
+      "manifest": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\V47_S6_MULTI_OBJECTIVE_EVALUATION\\FILES_SHA256_S6.json",
+      "manifest_sha256": "b914447a3150896cb4499978d0b679f421a5370b1de72bf3c6cfc6e7879baa28",
+      "listed": 43,
+      "verified": 43,
+      "status": "PASS"
+    }
+  ],
+  "accepted_manual_baseline": {
+    "candidate": "C01",
+    "N": 23,
+    "shift": 1,
+    "not_source_preview_shift": 6
+  },
+  "authoritative_generator": {
+    "version": "4.5",
+    "source_file": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\V47_S4_PARAMETRIC_GEOMETRY_SCREENING\\contracts\\source.json",
+    "source_file_sha256": "f800aeadd3ea08eeadfb4feec9e1c7b2cababa6fd1e60476d7894c9f0d5f8014",
+    "generator_source_sha256": "51ddcbc91baa9f859974681f01ba0422e3d411b51ef37c4633030fd8f3eeef84",
+    "units": "m",
+    "module_count": 72,
+    "tolerance_m": 1e-08,
+    "parameters_from": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\V47_S4_ADDENDUM\\code\\source_ts_approved\\generator.ts",
+    "source_modules_copied_byte_exact": true,
+    "approved_typescript_files": {
+      "generator.ts": {
+        "sha256": "8a2fe04f9eff31d045afa3fd5868a7da452962f255f509ae78e29aa22b9cac34",
+        "bytes": 5721
+      },
+      "geometry-metrics.ts": {
+        "sha256": "b25abc50a8d5c88598d767b0631f23f292b3a5e4888a1b06db3838384396a4a8",
+        "bytes": 1567
+      },
+      "source-intersections.ts": {
+        "sha256": "cfe0627025e4d278d45de3f9857506c70ef49286005554386c7130a13d97f8b5",
+        "bytes": 2147
+      },
+      "openness.ts": {
+        "sha256": "a6a82f33fa89c30c08fff41d0fc8b739c868879a3288b4a5d753f2f4a2b70442",
+        "bytes": 2251
+      },
+      "panel-projection.ts": {
+        "sha256": "1617184e352ad46f85fc73e3d3722761bd41234ad0eaec4345da38f229c8bb42",
+        "bytes": 2544
+      }
+    }
+  },
+  "S6_bundle_sha256": "b914447a3150896cb4499978d0b679f421a5370b1de72bf3c6cfc6e7879baa28",
+  "catalogue_count": 7,
+  "native_FE_record_count": 12,
+  "production_modified": false,
+  "historical_packets_modified": false
+}

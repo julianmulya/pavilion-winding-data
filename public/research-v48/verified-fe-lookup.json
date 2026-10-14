@@ -1,0 +1,450 @@
+{
+  "schema": "cfrp.v48.p0.verified_fe_lookup.v1",
+  "scope": "EXACT VERIFIED S5 CONFIGURATION AND CASE RECORDS ONLY",
+  "lookup_rule": [
+    "candidate_id",
+    "parameter_hash",
+    "manufacturing_sequence_hash",
+    "physical_geometry_identity",
+    "directed_frame_identity",
+    "combinatorial_sequence_identity",
+    "N",
+    "shift",
+    "case",
+    "refinement"
+  ],
+  "no_alias_reuse": true,
+  "stress_definition": "Maximum absolute longitudinal beam-section corner stress at the established native stress stations; demand indicator only, not laminate strength or utilization.",
+  "shared_native_model_scope": {
+    "modules": 72,
+    "world_observations_per_record": 144,
+    "ground_support": "frozen discrete support stations",
+    "joint": "discrete intermodule boundary-vertex joints; not continuous edge bond",
+    "same_fiber_and_intended_true_3d_contacts": "idealized perfect connections as frozen in S5",
+    "boundary": "permanent CFRP boundaries retained",
+    "InitialStrain": false,
+    "analysis": "linear conceptual Karamba beam analysis with literature material properties"
+  },
+  "records": [
+    {
+      "candidate": "C01",
+      "parameters": {
+        "N": 23,
+        "shift": 1
+      },
+      "generator_identity": {
+        "candidate_id": "v45-e48ab46d294c1c33",
+        "parameter_hash": "e48ab46d294c1c33e78a5cff20e6d7bbe41e2eb1e68fc2bafee95a268dad1c89",
+        "manufacturing_sequence_hash": "96bc20ebfabe1c2018537dc3d10b28cf7b2934c6840233722c622b5f48ec202f",
+        "physical_geometry_identity": "9dfe484ca423d3b20ed8575ea1159eeabf81f5b1ccf2d6e3b913dc6ed1743558",
+        "directed_frame_identity": "a9a006e47a2e59188890c2403254156cf9550f6ede41c51707ae2f4de6a839fe",
+        "combinatorial_sequence_identity": "3b28a360ffabba9eb5031119fd0e0e600990360107ae50a5688b63ab3cb7e479"
+      },
+      "case": "G",
+      "refinement": "R1",
+      "RunID": "V47S5_C01_G_R1_1791573397012",
+      "native_status": "NATIVE_CHECKS_PASS",
+      "native_checks": {
+        "passed": 20,
+        "total": 20
+      },
+      "mesh_adequacy": "G_X_NOT_PAIRED",
+      "evidence_level": "LEVEL_B_PRIMARY_NATIVE_CHECKED",
+      "stress_abs_MPa": 11.028320354130987,
+      "stress_status": "VERIFIED_NATIVE_DEMAND",
+      "strength_assessed": false,
+      "InitialStrain": false,
+      "raw_sha256": "1e836a002a1ebad987a6a3887e88f2285b3ff7c642722e32a32a6151484893fe",
+      "check_json_sha256": "1cef3c290045d9af6e4f2cd2881cd92c7f4e9b97f078e88dc04e372b4e7e69f7",
+      "mapping_sha256": "6a1b31cc0f06587aefe21c4684882e0a62d5eb4814fa356d2dce8c3d5b4f264f",
+      "material_sha256": "ca1477d9b296bf5c6fc63dca09a71359f5fbde1a963ce385dcddbbde93aa673c",
+      "load_definition": "Candidate-specific selfweight from each configuration's material mass; load magnitude differs across candidates.",
+      "source_provenance": "S6_MASTER_DATASET.csv + S6_GLOBAL_LOCAL_RESPONSE.json + S6_SOURCE_IDENTITY_AUDIT.json"
+    },
+    {
+      "candidate": "C01",
+      "parameters": {
+        "N": 23,
+        "shift": 1
+      },
+      "generator_identity": {
+        "candidate_id": "v45-e48ab46d294c1c33",
+        "parameter_hash": "e48ab46d294c1c33e78a5cff20e6d7bbe41e2eb1e68fc2bafee95a268dad1c89",
+        "manufacturing_sequence_hash": "96bc20ebfabe1c2018537dc3d10b28cf7b2934c6840233722c622b5f48ec202f",
+        "physical_geometry_identity": "9dfe484ca423d3b20ed8575ea1159eeabf81f5b1ccf2d6e3b913dc6ed1743558",
+        "directed_frame_identity": "a9a006e47a2e59188890c2403254156cf9550f6ede41c51707ae2f4de6a839fe",
+        "combinatorial_sequence_identity": "3b28a360ffabba9eb5031119fd0e0e600990360107ae50a5688b63ab3cb7e479"
+      },
+      "case": "X_UNIT",
+      "refinement": "R1",
+      "RunID": "V47S5_C01_X_UNIT_R1_1791573625345",
+      "native_status": "NATIVE_CHECKS_PASS",
+      "native_checks": {
+        "passed": 20,
+        "total": 20
+      },
+      "mesh_adequacy": "G_X_NOT_PAIRED",
+      "evidence_level": "LEVEL_B_PRIMARY_NATIVE_CHECKED",
+      "stress_abs_MPa": 0.05971526916535909,
+      "stress_status": "VERIFIED_NATIVE_DEMAND",
+      "strength_assessed": false,
+      "InitialStrain": false,
+      "raw_sha256": "52ffd7950d4e23c518ade879d775f85c8637aba08414b6dadd19f1eeddce569b",
+      "check_json_sha256": "9715384ffcf57af927d118c36b0fe9c3adb2d67fd2ca7d938d60e921f8057008",
+      "mapping_sha256": "6a1b31cc0f06587aefe21c4684882e0a62d5eb4814fa356d2dce8c3d5b4f264f",
+      "material_sha256": "ca1477d9b296bf5c6fc63dca09a71359f5fbde1a963ce385dcddbbde93aa673c",
+      "load_definition": "Common 1 N diagnostic footprint; stiffness indicator = F_total^2/(2*elastic_energy), F_total=1 N. Not a design wind load.",
+      "source_provenance": "S6_MASTER_DATASET.csv + S6_GLOBAL_LOCAL_RESPONSE.json + S6_SOURCE_IDENTITY_AUDIT.json"
+    },
+    {
+      "candidate": "C01",
+      "parameters": {
+        "N": 23,
+        "shift": 1
+      },
+      "generator_identity": {
+        "candidate_id": "v45-e48ab46d294c1c33",
+        "parameter_hash": "e48ab46d294c1c33e78a5cff20e6d7bbe41e2eb1e68fc2bafee95a268dad1c89",
+        "manufacturing_sequence_hash": "96bc20ebfabe1c2018537dc3d10b28cf7b2934c6840233722c622b5f48ec202f",
+        "physical_geometry_identity": "9dfe484ca423d3b20ed8575ea1159eeabf81f5b1ccf2d6e3b913dc6ed1743558",
+        "directed_frame_identity": "a9a006e47a2e59188890c2403254156cf9550f6ede41c51707ae2f4de6a839fe",
+        "combinatorial_sequence_identity": "3b28a360ffabba9eb5031119fd0e0e600990360107ae50a5688b63ab3cb7e479"
+      },
+      "case": "Y_UNIT",
+      "refinement": "R1",
+      "RunID": "V47S5_C01_Y_UNIT_R1_1791573753139",
+      "native_status": "NATIVE_CHECKS_PASS",
+      "native_checks": {
+        "passed": 20,
+        "total": 20
+      },
+      "mesh_adequacy": "PASS_EXPLORATORY_Y_ONLY",
+      "evidence_level": "LEVEL_B_PRIMARY_NATIVE_CHECKED",
+      "stress_abs_MPa": 0.22652729856937628,
+      "stress_status": "VERIFIED_NATIVE_DEMAND",
+      "strength_assessed": false,
+      "InitialStrain": false,
+      "raw_sha256": "4d2e2d8d8ba1820d3b0dc5780b1b21a10c4a019214cd6e27c1dff345f5904886",
+      "check_json_sha256": "75c4ddfd6c433e060e97996542503859aeba4f567bc14956cec42511be803bdd",
+      "mapping_sha256": "6a1b31cc0f06587aefe21c4684882e0a62d5eb4814fa356d2dce8c3d5b4f264f",
+      "material_sha256": "ca1477d9b296bf5c6fc63dca09a71359f5fbde1a963ce385dcddbbde93aa673c",
+      "load_definition": "Common 1 N diagnostic footprint; stiffness indicator = F_total^2/(2*elastic_energy), F_total=1 N. Not a design wind load.",
+      "source_provenance": "S6_MASTER_DATASET.csv + S6_GLOBAL_LOCAL_RESPONSE.json + S6_SOURCE_IDENTITY_AUDIT.json"
+    },
+    {
+      "candidate": "C01",
+      "parameters": {
+        "N": 23,
+        "shift": 1
+      },
+      "generator_identity": {
+        "candidate_id": "v45-e48ab46d294c1c33",
+        "parameter_hash": "e48ab46d294c1c33e78a5cff20e6d7bbe41e2eb1e68fc2bafee95a268dad1c89",
+        "manufacturing_sequence_hash": "96bc20ebfabe1c2018537dc3d10b28cf7b2934c6840233722c622b5f48ec202f",
+        "physical_geometry_identity": "9dfe484ca423d3b20ed8575ea1159eeabf81f5b1ccf2d6e3b913dc6ed1743558",
+        "directed_frame_identity": "a9a006e47a2e59188890c2403254156cf9550f6ede41c51707ae2f4de6a839fe",
+        "combinatorial_sequence_identity": "3b28a360ffabba9eb5031119fd0e0e600990360107ae50a5688b63ab3cb7e479"
+      },
+      "case": "Y_UNIT",
+      "refinement": "R2",
+      "RunID": "V47S5_C01_Y_UNIT_R2_1791575069955",
+      "native_status": "NATIVE_CHECKS_PASS",
+      "native_checks": {
+        "passed": 20,
+        "total": 20
+      },
+      "mesh_adequacy": "PASS_EXPLORATORY_Y_ONLY",
+      "evidence_level": "LEVEL_C_EXPLORATORY_Y_MESH_PAIRED",
+      "stress_abs_MPa": 0.2265272983996658,
+      "stress_status": "VERIFIED_NATIVE_DEMAND",
+      "strength_assessed": false,
+      "InitialStrain": false,
+      "raw_sha256": "e529581dae1ecc9b699f1abb22646c884d81f11ed068e55728a224cda5293b68",
+      "check_json_sha256": "710df18ec14d3539d7a2c4126ea0a7a379a68dffa7f52f35e72520131566a398",
+      "mapping_sha256": "215d1a352b1b1db8b3b65a5a5229bcf10c640edf8e980b9296bc4ba25d6e4335",
+      "material_sha256": "ca1477d9b296bf5c6fc63dca09a71359f5fbde1a963ce385dcddbbde93aa673c",
+      "load_definition": "Common 1 N diagnostic footprint; stiffness indicator = F_total^2/(2*elastic_energy), F_total=1 N. Not a design wind load.",
+      "source_provenance": "S6_MASTER_DATASET.csv + S6_GLOBAL_LOCAL_RESPONSE.json + S6_SOURCE_IDENTITY_AUDIT.json"
+    },
+    {
+      "candidate": "C03",
+      "parameters": {
+        "N": 23,
+        "shift": 11
+      },
+      "generator_identity": {
+        "candidate_id": "v45-a71211f600f51410",
+        "parameter_hash": "a71211f600f51410d9d1bbd2d218c0da43c60a5b558b86de5cb6f012f06cd287",
+        "manufacturing_sequence_hash": "403017fa07f2c46bd235d877a34d3ab7c20154b13f460376a7a3a728035d74e1",
+        "physical_geometry_identity": "bbc1aed15315f5e3fbe1bda60b15c7cdcddd267babd83b097d8202e8c5bc3079",
+        "directed_frame_identity": "cbd8413d0009bbd7398e98c398d75d4a6c27e6431e0168d8483b219c3a5c1221",
+        "combinatorial_sequence_identity": "0324a88eacc49045ba550be166298c8d383441cf444b902993b8a4092eb9dca6"
+      },
+      "case": "G",
+      "refinement": "R1",
+      "RunID": "V47S5_C03_G_R1_1791574195886",
+      "native_status": "NATIVE_CHECKS_PASS",
+      "native_checks": {
+        "passed": 20,
+        "total": 20
+      },
+      "mesh_adequacy": "G_X_NOT_PAIRED",
+      "evidence_level": "LEVEL_B_PRIMARY_NATIVE_CHECKED",
+      "stress_abs_MPa": 15.092468507143057,
+      "stress_status": "VERIFIED_NATIVE_DEMAND",
+      "strength_assessed": false,
+      "InitialStrain": false,
+      "raw_sha256": "d45c8b547cbe942751a72336de261c76f36bf1864f2a26716a81ce642496ba30",
+      "check_json_sha256": "a77cbfb2234c2c9b5a179f2ec3c53422647e422f6837a67b4403a572a212b5d7",
+      "mapping_sha256": "5d1c0db426c5b5accfdf9e255e264ad369b5b625b0a2c1ba71875de3f0a117ab",
+      "material_sha256": "ca1477d9b296bf5c6fc63dca09a71359f5fbde1a963ce385dcddbbde93aa673c",
+      "load_definition": "Candidate-specific selfweight from each configuration's material mass; load magnitude differs across candidates.",
+      "source_provenance": "S6_MASTER_DATASET.csv + S6_GLOBAL_LOCAL_RESPONSE.json + S6_SOURCE_IDENTITY_AUDIT.json"
+    },
+    {
+      "candidate": "C03",
+      "parameters": {
+        "N": 23,
+        "shift": 11
+      },
+      "generator_identity": {
+        "candidate_id": "v45-a71211f600f51410",
+        "parameter_hash": "a71211f600f51410d9d1bbd2d218c0da43c60a5b558b86de5cb6f012f06cd287",
+        "manufacturing_sequence_hash": "403017fa07f2c46bd235d877a34d3ab7c20154b13f460376a7a3a728035d74e1",
+        "physical_geometry_identity": "bbc1aed15315f5e3fbe1bda60b15c7cdcddd267babd83b097d8202e8c5bc3079",
+        "directed_frame_identity": "cbd8413d0009bbd7398e98c398d75d4a6c27e6431e0168d8483b219c3a5c1221",
+        "combinatorial_sequence_identity": "0324a88eacc49045ba550be166298c8d383441cf444b902993b8a4092eb9dca6"
+      },
+      "case": "X_UNIT",
+      "refinement": "R1",
+      "RunID": "V47S5_C03_X_UNIT_R1_1791574373003",
+      "native_status": "NATIVE_CHECKS_PASS",
+      "native_checks": {
+        "passed": 20,
+        "total": 20
+      },
+      "mesh_adequacy": "G_X_NOT_PAIRED",
+      "evidence_level": "LEVEL_B_PRIMARY_NATIVE_CHECKED",
+      "stress_abs_MPa": 0.02980347227343324,
+      "stress_status": "VERIFIED_NATIVE_DEMAND",
+      "strength_assessed": false,
+      "InitialStrain": false,
+      "raw_sha256": "56dd29736a89d1bffa52e31bf67197e284da34232b17ff9b26ddd8388dcb2b80",
+      "check_json_sha256": "086f9773bdfc3ce8035b833963bde88cad7c7aed4e8b084e4b6aa75f25cf6653",
+      "mapping_sha256": "5d1c0db426c5b5accfdf9e255e264ad369b5b625b0a2c1ba71875de3f0a117ab",
+      "material_sha256": "ca1477d9b296bf5c6fc63dca09a71359f5fbde1a963ce385dcddbbde93aa673c",
+      "load_definition": "Common 1 N diagnostic footprint; stiffness indicator = F_total^2/(2*elastic_energy), F_total=1 N. Not a design wind load.",
+      "source_provenance": "S6_MASTER_DATASET.csv + S6_GLOBAL_LOCAL_RESPONSE.json + S6_SOURCE_IDENTITY_AUDIT.json"
+    },
+    {
+      "candidate": "C03",
+      "parameters": {
+        "N": 23,
+        "shift": 11
+      },
+      "generator_identity": {
+        "candidate_id": "v45-a71211f600f51410",
+        "parameter_hash": "a71211f600f51410d9d1bbd2d218c0da43c60a5b558b86de5cb6f012f06cd287",
+        "manufacturing_sequence_hash": "403017fa07f2c46bd235d877a34d3ab7c20154b13f460376a7a3a728035d74e1",
+        "physical_geometry_identity": "bbc1aed15315f5e3fbe1bda60b15c7cdcddd267babd83b097d8202e8c5bc3079",
+        "directed_frame_identity": "cbd8413d0009bbd7398e98c398d75d4a6c27e6431e0168d8483b219c3a5c1221",
+        "combinatorial_sequence_identity": "0324a88eacc49045ba550be166298c8d383441cf444b902993b8a4092eb9dca6"
+      },
+      "case": "Y_UNIT",
+      "refinement": "R1",
+      "RunID": "V47S5_C03_Y_UNIT_R1_1791574504469",
+      "native_status": "NATIVE_CHECKS_PASS",
+      "native_checks": {
+        "passed": 20,
+        "total": 20
+      },
+      "mesh_adequacy": "PASS_EXPLORATORY_Y_ONLY",
+      "evidence_level": "LEVEL_B_PRIMARY_NATIVE_CHECKED",
+      "stress_abs_MPa": 0.12067376719717979,
+      "stress_status": "VERIFIED_NATIVE_DEMAND",
+      "strength_assessed": false,
+      "InitialStrain": false,
+      "raw_sha256": "6443dbec7fd0d87a1367570baaf2e759ce528be5e24479d5e6f774f6aec3fa09",
+      "check_json_sha256": "69a3847b037c145a63e5f4893da23b25b5f3cf76bb82e19d8ee236c0ff6cf1f6",
+      "mapping_sha256": "5d1c0db426c5b5accfdf9e255e264ad369b5b625b0a2c1ba71875de3f0a117ab",
+      "material_sha256": "ca1477d9b296bf5c6fc63dca09a71359f5fbde1a963ce385dcddbbde93aa673c",
+      "load_definition": "Common 1 N diagnostic footprint; stiffness indicator = F_total^2/(2*elastic_energy), F_total=1 N. Not a design wind load.",
+      "source_provenance": "S6_MASTER_DATASET.csv + S6_GLOBAL_LOCAL_RESPONSE.json + S6_SOURCE_IDENTITY_AUDIT.json"
+    },
+    {
+      "candidate": "C03",
+      "parameters": {
+        "N": 23,
+        "shift": 11
+      },
+      "generator_identity": {
+        "candidate_id": "v45-a71211f600f51410",
+        "parameter_hash": "a71211f600f51410d9d1bbd2d218c0da43c60a5b558b86de5cb6f012f06cd287",
+        "manufacturing_sequence_hash": "403017fa07f2c46bd235d877a34d3ab7c20154b13f460376a7a3a728035d74e1",
+        "physical_geometry_identity": "bbc1aed15315f5e3fbe1bda60b15c7cdcddd267babd83b097d8202e8c5bc3079",
+        "directed_frame_identity": "cbd8413d0009bbd7398e98c398d75d4a6c27e6431e0168d8483b219c3a5c1221",
+        "combinatorial_sequence_identity": "0324a88eacc49045ba550be166298c8d383441cf444b902993b8a4092eb9dca6"
+      },
+      "case": "Y_UNIT",
+      "refinement": "R2",
+      "RunID": "V47S5_C03_Y_UNIT_R2_1791575233606",
+      "native_status": "NATIVE_CHECKS_PASS",
+      "native_checks": {
+        "passed": 20,
+        "total": 20
+      },
+      "mesh_adequacy": "PASS_EXPLORATORY_Y_ONLY",
+      "evidence_level": "LEVEL_C_EXPLORATORY_Y_MESH_PAIRED",
+      "stress_abs_MPa": 0.12067376709593902,
+      "stress_status": "VERIFIED_NATIVE_DEMAND",
+      "strength_assessed": false,
+      "InitialStrain": false,
+      "raw_sha256": "fec31f8a5ac412d076fc4a5b12d2aaf8246ae208df6e15cfe39da5245a928ec7",
+      "check_json_sha256": "d99d0e2e4a619f7ceb29b66e335ef00fde861a02984cd07e9ff93318435ce6f2",
+      "mapping_sha256": "e21c87b04f3e8be7084b366a445b9b8c7e131c83213c1edc3f413da95c46e34a",
+      "material_sha256": "ca1477d9b296bf5c6fc63dca09a71359f5fbde1a963ce385dcddbbde93aa673c",
+      "load_definition": "Common 1 N diagnostic footprint; stiffness indicator = F_total^2/(2*elastic_energy), F_total=1 N. Not a design wind load.",
+      "source_provenance": "S6_MASTER_DATASET.csv + S6_GLOBAL_LOCAL_RESPONSE.json + S6_SOURCE_IDENTITY_AUDIT.json"
+    },
+    {
+      "candidate": "C05R",
+      "parameters": {
+        "N": 25,
+        "shift": 11
+      },
+      "generator_identity": {
+        "candidate_id": "v45-58d02ae1db3c020b",
+        "parameter_hash": "58d02ae1db3c020b74585b46c7781e821a4530d340eeb9ca232fec46dbe6e71c",
+        "manufacturing_sequence_hash": "a6901a1c87809df07e28011d3c052c5b4806e961b16020d7a816ffdee2c22f48",
+        "physical_geometry_identity": "0bf3a1e095fa170f4d5853a072f8d202dd55209796dd09e99c9c973f5fa665fc",
+        "directed_frame_identity": "6d51dcdd81f3a6e218ef5b2114f45e383d3ba693b90621a45d0974d2f3704767",
+        "combinatorial_sequence_identity": "1f5b72e65de9c88beb675c6d23ae0b02e28fa3a472e82a2c3f6fddce1c823da3"
+      },
+      "case": "G",
+      "refinement": "R1",
+      "RunID": "V47S5_C05R_G_R1_1791574636989",
+      "native_status": "NATIVE_CHECKS_PASS",
+      "native_checks": {
+        "passed": 20,
+        "total": 20
+      },
+      "mesh_adequacy": "G_X_NOT_PAIRED",
+      "evidence_level": "LEVEL_B_PRIMARY_NATIVE_CHECKED",
+      "stress_abs_MPa": 15.50137512537911,
+      "stress_status": "VERIFIED_NATIVE_DEMAND",
+      "strength_assessed": false,
+      "InitialStrain": false,
+      "raw_sha256": "606e2e733463b33eb0bf66a62e3f2811dac29501b5f0ee036502e1353e3305a6",
+      "check_json_sha256": "b53b99ef636ed61d39738d21fb0d9cbb87af614aed16054a049a53783c536aa9",
+      "mapping_sha256": "cda698eab710f00ca6d3afbdb176d8cbfa38b9a5e006d6661d5296e60da802fb",
+      "material_sha256": "ca1477d9b296bf5c6fc63dca09a71359f5fbde1a963ce385dcddbbde93aa673c",
+      "load_definition": "Candidate-specific selfweight from each configuration's material mass; load magnitude differs across candidates.",
+      "source_provenance": "S6_MASTER_DATASET.csv + S6_GLOBAL_LOCAL_RESPONSE.json + S6_SOURCE_IDENTITY_AUDIT.json"
+    },
+    {
+      "candidate": "C05R",
+      "parameters": {
+        "N": 25,
+        "shift": 11
+      },
+      "generator_identity": {
+        "candidate_id": "v45-58d02ae1db3c020b",
+        "parameter_hash": "58d02ae1db3c020b74585b46c7781e821a4530d340eeb9ca232fec46dbe6e71c",
+        "manufacturing_sequence_hash": "a6901a1c87809df07e28011d3c052c5b4806e961b16020d7a816ffdee2c22f48",
+        "physical_geometry_identity": "0bf3a1e095fa170f4d5853a072f8d202dd55209796dd09e99c9c973f5fa665fc",
+        "directed_frame_identity": "6d51dcdd81f3a6e218ef5b2114f45e383d3ba693b90621a45d0974d2f3704767",
+        "combinatorial_sequence_identity": "1f5b72e65de9c88beb675c6d23ae0b02e28fa3a472e82a2c3f6fddce1c823da3"
+      },
+      "case": "X_UNIT",
+      "refinement": "R1",
+      "RunID": "V47S5_C05R_X_UNIT_R1_1791574826054",
+      "native_status": "NATIVE_CHECKS_PASS",
+      "native_checks": {
+        "passed": 20,
+        "total": 20
+      },
+      "mesh_adequacy": "G_X_NOT_PAIRED",
+      "evidence_level": "LEVEL_B_PRIMARY_NATIVE_CHECKED",
+      "stress_abs_MPa": 0.02721159731668967,
+      "stress_status": "VERIFIED_NATIVE_DEMAND",
+      "strength_assessed": false,
+      "InitialStrain": false,
+      "raw_sha256": "602e4c4c09f6dfede816fdb9df806daefb68177c036cca22cfd317a080050335",
+      "check_json_sha256": "5adf74289dcaab34a95040898f1f380f93115d687256abca67b400f569dbd133",
+      "mapping_sha256": "cda698eab710f00ca6d3afbdb176d8cbfa38b9a5e006d6661d5296e60da802fb",
+      "material_sha256": "ca1477d9b296bf5c6fc63dca09a71359f5fbde1a963ce385dcddbbde93aa673c",
+      "load_definition": "Common 1 N diagnostic footprint; stiffness indicator = F_total^2/(2*elastic_energy), F_total=1 N. Not a design wind load.",
+      "source_provenance": "S6_MASTER_DATASET.csv + S6_GLOBAL_LOCAL_RESPONSE.json + S6_SOURCE_IDENTITY_AUDIT.json"
+    },
+    {
+      "candidate": "C05R",
+      "parameters": {
+        "N": 25,
+        "shift": 11
+      },
+      "generator_identity": {
+        "candidate_id": "v45-58d02ae1db3c020b",
+        "parameter_hash": "58d02ae1db3c020b74585b46c7781e821a4530d340eeb9ca232fec46dbe6e71c",
+        "manufacturing_sequence_hash": "a6901a1c87809df07e28011d3c052c5b4806e961b16020d7a816ffdee2c22f48",
+        "physical_geometry_identity": "0bf3a1e095fa170f4d5853a072f8d202dd55209796dd09e99c9c973f5fa665fc",
+        "directed_frame_identity": "6d51dcdd81f3a6e218ef5b2114f45e383d3ba693b90621a45d0974d2f3704767",
+        "combinatorial_sequence_identity": "1f5b72e65de9c88beb675c6d23ae0b02e28fa3a472e82a2c3f6fddce1c823da3"
+      },
+      "case": "Y_UNIT",
+      "refinement": "R1",
+      "RunID": "V47S5_C05R_Y_UNIT_R1_1791574930928",
+      "native_status": "NATIVE_CHECKS_PASS",
+      "native_checks": {
+        "passed": 20,
+        "total": 20
+      },
+      "mesh_adequacy": "PASS_EXPLORATORY_Y_ONLY",
+      "evidence_level": "LEVEL_B_PRIMARY_NATIVE_CHECKED",
+      "stress_abs_MPa": 0.12367608155236201,
+      "stress_status": "VERIFIED_NATIVE_DEMAND",
+      "strength_assessed": false,
+      "InitialStrain": false,
+      "raw_sha256": "15bd3a1384b70ad5942585a2d38a865790ff8d9a1e33137534e34b4fdc770895",
+      "check_json_sha256": "2c160a76de37369efd9fd512ef804c0fdb7b756266f951fae3637878f7e6d7d2",
+      "mapping_sha256": "cda698eab710f00ca6d3afbdb176d8cbfa38b9a5e006d6661d5296e60da802fb",
+      "material_sha256": "ca1477d9b296bf5c6fc63dca09a71359f5fbde1a963ce385dcddbbde93aa673c",
+      "load_definition": "Common 1 N diagnostic footprint; stiffness indicator = F_total^2/(2*elastic_energy), F_total=1 N. Not a design wind load.",
+      "source_provenance": "S6_MASTER_DATASET.csv + S6_GLOBAL_LOCAL_RESPONSE.json + S6_SOURCE_IDENTITY_AUDIT.json"
+    },
+    {
+      "candidate": "C05R",
+      "parameters": {
+        "N": 25,
+        "shift": 11
+      },
+      "generator_identity": {
+        "candidate_id": "v45-58d02ae1db3c020b",
+        "parameter_hash": "58d02ae1db3c020b74585b46c7781e821a4530d340eeb9ca232fec46dbe6e71c",
+        "manufacturing_sequence_hash": "a6901a1c87809df07e28011d3c052c5b4806e961b16020d7a816ffdee2c22f48",
+        "physical_geometry_identity": "0bf3a1e095fa170f4d5853a072f8d202dd55209796dd09e99c9c973f5fa665fc",
+        "directed_frame_identity": "6d51dcdd81f3a6e218ef5b2114f45e383d3ba693b90621a45d0974d2f3704767",
+        "combinatorial_sequence_identity": "1f5b72e65de9c88beb675c6d23ae0b02e28fa3a472e82a2c3f6fddce1c823da3"
+      },
+      "case": "Y_UNIT",
+      "refinement": "R2",
+      "RunID": "S5_C05R_Y_UNIT_R2_CORRECTED_1791578637445_28816",
+      "native_status": "NATIVE_CHECKS_PASS",
+      "native_checks": {
+        "passed": 20,
+        "total": 20
+      },
+      "mesh_adequacy": "PASS_EXPLORATORY_Y_ONLY",
+      "evidence_level": "LEVEL_C_EXPLORATORY_Y_MESH_PAIRED",
+      "stress_abs_MPa": 0.12367608155341926,
+      "stress_status": "VERIFIED_NATIVE_DEMAND",
+      "strength_assessed": false,
+      "InitialStrain": false,
+      "raw_sha256": "374110fb59e63b455cc6ae54e24be9b10f353cad7e9aac6a7ac38df428e78c96",
+      "check_json_sha256": "c1a222d815789e53521d64d2c281eca9543d03625a79ce17624fe3067fc6c618",
+      "mapping_sha256": "c461ec191ab26e60f4bd81b68d380094b65bc08c65ad1cf24e81edfdde61efa5",
+      "material_sha256": "ca1477d9b296bf5c6fc63dca09a71359f5fbde1a963ce385dcddbbde93aa673c",
+      "load_definition": "Common 1 N diagnostic footprint; stiffness indicator = F_total^2/(2*elastic_energy), F_total=1 N. Not a design wind load.",
+      "source_provenance": "S6_MASTER_DATASET.csv + S6_GLOBAL_LOCAL_RESPONSE.json + S6_SOURCE_IDENTITY_AUDIT.json"
+    }
+  ]
+}

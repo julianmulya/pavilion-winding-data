@@ -1,0 +1,65 @@
+{
+  "schema": "cfrp.v48.p0.target_40_percent_demo.v1",
+  "status": "TARGET_SATISFIED_WITHIN_TOLERANCE",
+  "query": {
+    "desired_openness_percent": 40,
+    "acceptable_deviation_pp": 3,
+    "search_stage": "verified seven-configuration catalogue"
+  },
+  "selected": {
+    "candidate": "C03",
+    "parameters": {
+      "N": 23,
+      "shift": 11,
+      "step": 12,
+      "normalized_step_over_N": 0.5217391304347826
+    },
+    "identity": {
+      "version": "4.5",
+      "candidate_id": "v45-a71211f600f51410",
+      "parameter_hash": "a71211f600f51410d9d1bbd2d218c0da43c60a5b558b86de5cb6f012f06cd287",
+      "manufacturing_sequence_hash": "403017fa07f2c46bd235d877a34d3ab7c20154b13f460376a7a3a728035d74e1",
+      "physical_geometry_identity": "bbc1aed15315f5e3fbe1bda60b15c7cdcddd267babd83b097d8202e8c5bc3079",
+      "directed_frame_identity": "cbd8413d0009bbd7398e98c398d75d4a6c27e6431e0168d8483b219c3a5c1221",
+      "combinatorial_sequence_identity": "0324a88eacc49045ba550be166298c8d383441cf444b902993b8a4092eb9dca6",
+      "canonical_grid_m": 1e-9,
+      "catalogue_geometry_alias_of": "v45-d11b78580fe2a372"
+    },
+    "metrics": {
+      "total_mass_kg": 154.70486717758814,
+      "total_deposited_fiber_length_m": 4863.613696371005,
+      "openness_512_percent": 37.438134314698324
+    },
+    "validity": {
+      "geometry_valid": true,
+      "search_eligible": true,
+      "status": "FULL_VISIT"
+    }
+  },
+  "achieved_openness_percent": 37.438134314698324,
+  "signed_error_pp": -2.561865685301676,
+  "absolute_error_pp": 2.561865685301676,
+  "within_user_tolerance": true,
+  "native_stress_G": {
+    "status": "VERIFIED_NATIVE_DEMAND",
+    "load_case": "G",
+    "refinement": "R1",
+    "stress_abs_MPa": 15.092468507143057,
+    "RunID": "V47S5_C03_G_R1_1791574195886",
+    "native_checks": {
+      "passed": 20,
+      "total": 20
+    },
+    "mesh_adequacy": "G_X_NOT_PAIRED",
+    "evidence_level": "LEVEL_B_PRIMARY_NATIVE_CHECKED",
+    "strength_assessed": false,
+    "InitialStrain": false
+  },
+  "scope_note": "C03 is the closest value in the existing seven-candidate catalogue. This does not prove that no valid configuration outside that catalogue is closer. User-requested bounded geometry exploration remains available; no native FE solve is run.",
+  "source": {
+    "source_sha256": "51ddcbc91baa9f859974681f01ba0422e3d411b51ef37c4633030fd8f3eeef84",
+    "source_file_sha256": "f800aeadd3ea08eeadfb4feec9e1c7b2cababa6fd1e60476d7894c9f0d5f8014",
+    "catalogue_sha256": "beae1fb90db8be354fb01c4e0e6aa62ca83c4468601ef5e576d608231afa7654",
+    "verified_fe_lookup_sha256": "a7a4a7582c40438801e11813961aba34975f31ef195ceb3e1908806a7a081d8a"
+  }
+}

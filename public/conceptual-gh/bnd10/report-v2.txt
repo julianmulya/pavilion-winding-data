@@ -1,0 +1,23 @@
+BND11 — Lilitan ulang: lima kasus konseptual
+Status: REPEAT_FIVE_CONCEPTUAL_CASES_RECORDED
+Hasil baru hanya dari Analyze Karamba native. G dan ±X baru digabung dengan dua hasil Y BND10 yang tetap dipertahankan.
+InitialStrain OFF; same REPEAT GHX, material, section, original mesh, support region, joints dan load footprint. Gravity mencakup tambahan massa native.
+
+Kasus | Winding baseline → lilitan ulang MPa | Perubahan | Boundary MPa | Sleeve MPa | Displacement mm | Hotspot
+G | 1.188856 → 1.186019 | -0.239% | 4.474169 | 1.469363 | 0.494868 | SPATIAL_UD_P48_F0
+G_X_POS | 1.715033 → 1.717801 | +0.161% | 6.820846 | 1.638243 | 0.582997 | SPATIAL_UD_P24_F0
+G_X_NEG | 3.104047 → 3.107516 | +0.112% | 10.206726 | 3.267384 | 1.108545 | SPATIAL_UD_P48_F0
+G_Y_POS | 17.064881 → 10.055070 | -41.077% | 46.782852 | 14.254567 | 6.167356 | SPATIAL_UD_P70_F0
+G_Y_NEG | 16.221539 → 10.863352 | -33.031% | 49.443866 | 13.384017 | 6.168054 | SPATIAL_UD_P70_F0
+
+Envelope maksimum winding pada lima kasus: 17.064881 → 10.863352 MPa (-36.341%).
+
+Setiap kenaikan per kasus tetap dilaporkan; penurunan envelope tidak berarti semua kasus atau semua kategori menurun.
+NEW_ANCHOR mempertahankan dua hasil Y yang meningkat, 18,569718 dan 17,696179 MPa; G/±X strategi tersebut tidak dijalankan.
+Shell: max absolute native in-plane principal stress pada kedua permukaan. Boundary/link: normal stress native 17 station, dilaporkan terpisah.
+Beban lateral konseptual 1 kN total pada 102 station. Gravity native dengan konvensi massa/g historis; bukan tekanan angin desain.
+137 station tumpuan pada dua boundary bawah tetap; tidak ada support baru pada H*. Tidak ada penambahan varian reinforcement.
+Massa REPEAT native 144,578094 kg; tambahan terhadap baseline 0,071153 kg. Openness proyeksi M065 praktis tetap 51,17%.
+Tidak menilai kapasitas, keamanan, local bolt contact atau physical CFRP calibration; tidak ada system PASS.
+Native logs, output asli, GH setiap run dan console diagnostic text disimpan. Batas tiga solve baru; resource HOLD sebelum Analyze tidak dihitung sebagai solve.
+Hasil BND09/BND10, raw historis dan manifest study-v1 tidak ditimpa. Web study-v2 mengikat setiap field pada model, case, RunID dan SHA256.
