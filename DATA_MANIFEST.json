@@ -1,6 +1,6 @@
 {
-  "schema": "CFRP_PUBLIC_FE_GITHUB_SNAPSHOT/1",
-  "created_utc": "2026-10-14T16:57:15.532023+00:00",
+  "schema": "CFRP_PUBLIC_FE_GITHUB_SNAPSHOT/2",
+  "created_utc": "2026-10-14T17:50:59.440949+00:00",
   "source": "Public dataset paths served by the existing Vercel website; source files retained locally.",
   "target_repository": "julianmulya/pavilion-winding-data",
   "application_repository_visibility": "PRIVATE; unchanged",
@@ -1529,6 +1529,56 @@
       "sha256": "9402f32a4edf3978060a759cfc50ba25a45be84f21feb7e1bb599964dd3c5e95"
     },
     {
+      "path": "public/conceptual-gh/bnd10/BND13_EXPERIMENT_FROZEN_V1.json",
+      "bytes": 8261,
+      "sha256": "1620b60404f3bba2e09033eb986ba7a49afc929c1e27cf89bc2f7bb787d9ac53"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/BND13_EXPERIMENT_FROZEN_V1_UTF8.json",
+      "bytes": 8263,
+      "sha256": "429d255d1161bd1182686e2ac13d9efa034c3bf63bc5c2ac50b895510c2447e9"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/BND13_REPEAT_G_20261015_01.bin",
+      "bytes": 4001314,
+      "sha256": "ec81911112fe00aea052b2964b155d27b20cb329bc897bd881108f050dc20b51"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/BND13_REPEAT_G_20261015_01_INPUT_CHECKS.json",
+      "bytes": 3719,
+      "sha256": "20e6b3a4ecc17b7f7eb3b1bcc048e24cdb747a928651d544ac998fda34846ad9"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/BND13_REPEAT_G_20261015_01_RUN_LOG.json",
+      "bytes": 11298,
+      "sha256": "5ca51c3636da1e1009596cd529f1a22a428e0132b0159a55e9d800f4d5cb9f68"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/BND13_REPEAT_G_20261015_01_SUMMARY.json",
+      "bytes": 7076,
+      "sha256": "f07830d4d004ea5d121f27433dbf352fbc2e5ed8d207dfc12a284362a7734f08"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/BND13_REPEAT_G_X_POS_20261015_01.bin",
+      "bytes": 3992628,
+      "sha256": "3be2983121ae8ae54b028b3ba827668a53a4cc007cb1812bfe6002103f3aa063"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/BND13_REPEAT_G_X_POS_20261015_01_INPUT_CHECKS.json",
+      "bytes": 3752,
+      "sha256": "c8a7ed1db5f8858aebccc6294d59111b85717bae620eed8d919a73b0c78a2c11"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/BND13_REPEAT_G_X_POS_20261015_01_RUN_LOG.json",
+      "bytes": 11357,
+      "sha256": "ea133ee0992ed1472ffdcf244f326ad08bcb2ca797c7e91d5344f81cd7fe4f55"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/BND13_REPEAT_G_X_POS_20261015_01_SUMMARY.json",
+      "bytes": 7135,
+      "sha256": "7678f6095de978a4ff590de4bfb58c2f52a26e913316a57277b06ed970e5c347"
+    },
+    {
       "path": "public/conceptual-gh/bnd10/comparison-v2.csv",
       "bytes": 1599,
       "sha256": "01e94edc2908d6b5fe5b401eb61df06c108dda247caf533d7a35a8dc3ed9ebff"
@@ -1537,6 +1587,11 @@
       "path": "public/conceptual-gh/bnd10/comparison-v3.csv",
       "bytes": 1544,
       "sha256": "eb895eeffa168d77c31eee90e77e7140c7bbcf8b3211ae70111bb4c5f2aab753"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/comparison-v4.csv",
+      "bytes": 2785,
+      "sha256": "382021ca4f90161a3e2fcd00408319c55869232395a4b63dd46e1636ae90c233"
     },
     {
       "path": "public/conceptual-gh/bnd10/comparison.csv",
@@ -1559,6 +1614,11 @@
       "sha256": "464bbe123c7bf05d84162dfd4999d2341d08b909ab0b4856bfecd51414ea637a"
     },
     {
+      "path": "public/conceptual-gh/bnd10/report-v4.txt",
+      "bytes": 2831,
+      "sha256": "754256be356d17b247fb6908549733d35e9cf4f8e5367adfd284e4e8edeace0e"
+    },
+    {
       "path": "public/conceptual-gh/bnd10/report.txt",
       "bytes": 3180,
       "sha256": "852c9c697e1e762d791dddfe62a30a4a126821a1f14117a052ccdc6c135ec64d"
@@ -1577,6 +1637,11 @@
       "path": "public/conceptual-gh/bnd10/study-v3.json",
       "bytes": 198053,
       "sha256": "5b48fa6e0d224737bab1cfa22e1c009b2db68fe8df8db620c7044f69dd78a7b5"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/study-v4.json",
+      "bytes": 212098,
+      "sha256": "8500a01662e9891e2cd2b20020ba68e4e8117381a15eb22e0b46b5ae85058249"
     },
     {
       "path": "public/conceptual-gh/boundary-systems-geometry-v1.bin",
@@ -2014,17 +2079,48 @@
       "sha256": "a7a4a7582c40438801e11813961aba34975f31ef195ceb3e1908806a7a081d8a"
     }
   ],
-  "file_count": 400,
-  "total_bytes": 500003456,
+  "file_count": 413,
+  "total_bytes": 508275973,
   "raw_and_historical_status_policy": "Byte-identical snapshots; historical results remain unchanged. No new PASS labels.",
   "browser_contract": "Only selected model/load fields are loaded. Each native field still verifies model, case, RunID, size and SHA256.",
   "native_BND12_case_cap": 3,
   "BND12_completed": 3,
-  "BND12_untested_cases": [
+  "secrets_or_authentication_files_included": false,
+  "private_application_source_included": false,
+  "parent_commit": "ded77196094f88ea94263ca44a0641e98ce0d682",
+  "native_BND12_complete_loadset": [
+    "G",
+    "G_X_POS",
+    "G_X_NEG",
+    "G_Y_POS",
+    "G_Y_NEG"
+  ],
+  "native_BND13_new_cases": [
+    "G_X_POS",
+    "G"
+  ],
+  "native_BND13_case_cap": 2,
+  "previous_checkpoint_note": "Previous BND12 checkpoint had only three cases. Its files and original statuses remain byte-identical; BND13 supplements the same model with two new native cases.",
+  "added_files": [
+    "public/conceptual-gh/bnd10/BND13_EXPERIMENT_FROZEN_V1.json",
+    "public/conceptual-gh/bnd10/BND13_EXPERIMENT_FROZEN_V1_UTF8.json",
+    "public/conceptual-gh/bnd10/BND13_REPEAT_G_20261015_01.bin",
+    "public/conceptual-gh/bnd10/BND13_REPEAT_G_20261015_01_INPUT_CHECKS.json",
+    "public/conceptual-gh/bnd10/BND13_REPEAT_G_20261015_01_RUN_LOG.json",
+    "public/conceptual-gh/bnd10/BND13_REPEAT_G_20261015_01_SUMMARY.json",
+    "public/conceptual-gh/bnd10/BND13_REPEAT_G_X_POS_20261015_01.bin",
+    "public/conceptual-gh/bnd10/BND13_REPEAT_G_X_POS_20261015_01_INPUT_CHECKS.json",
+    "public/conceptual-gh/bnd10/BND13_REPEAT_G_X_POS_20261015_01_RUN_LOG.json",
+    "public/conceptual-gh/bnd10/BND13_REPEAT_G_X_POS_20261015_01_SUMMARY.json",
+    "public/conceptual-gh/bnd10/comparison-v4.csv",
+    "public/conceptual-gh/bnd10/report-v4.txt",
+    "public/conceptual-gh/bnd10/study-v4.json"
+  ],
+  "native_cases_in_current_viewer": 18,
+  "BND12_prior_stage_untested_cases": [
     "G",
     "G_X_POS",
     "X_REF"
   ],
-  "secrets_or_authentication_files_included": false,
-  "private_application_source_included": false
+  "current_untested_case": "X_REF without gravity, outside the five-case conceptual gravity/lateral loadset"
 }

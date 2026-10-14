@@ -1,11 +1,11 @@
 # Pavilion winding data
 
-Versioned datasets for the public Pavilion Winding Lab website. The application source repository remains private.
+Versioned public geometry and native conceptual Karamba datasets for Pavilion Winding Lab. The application source repository remains private; no credentials, environment files, private GH sources or desktop command history are included.
 
-This snapshot contains the web-exported geometry, native Karamba results, result contracts and checks. It preserves the existing bytes and historical statuses. It does not include credentials, environment files, private GH sources, or desktop command history.
+Pin a Git commit when serving these files. `DATA_MANIFEST.json` lists every file, size and SHA256. Git newline normalization is disabled so the exact exported bytes are retained. Each native field is tied to its own model, loadcase and RunID; missing results never substitute another field.
 
-Use a pinned Git commit when serving these files. `DATA_MANIFEST.json` lists every file, byte size and SHA256. Native records remain bound to their own model, loadcase and RunID; missing cases have no result substitute.
+BND13 completes G+X and G on the same BND12 M065+M070 candidate. Together with its three preserved BND12 cases, the conceptual gravity/lateral loadset is G, G+X, G-X, G+Y and G-Y. InitialStrain remains OFF. No new reinforcement variant was added. BND12's original three-case snapshot remains unchanged in study-v3; the completed loadset is in study-v4. Historical increases and failed cases remain available.
 
-BND12 has three actual native conceptual cases (G+Y, G-Y, G-X), with InitialStrain OFF. Its G and G+X cases have not been run. Conceptual stress results do not establish physical strength, bolt contact capacity, design wind loads or structural safety. Historical non-improving and failed cases remain available.
+Native shell principal stresses and beam normal stresses are reported separately. These conceptual results do not establish physical material strength, local bolt-contact capacity, design wind loads or structural safety.
 
-The Vercel frontend may proxy the public dataset paths to this immutable commit. Moving file storage does not eliminate the RAM needed to decode and render the selected fields in the browser.
+Vercel hosts the frontend and proxies dataset URLs to a pinned public GitHub commit. Moving file storage does not eliminate decode/render RAM for selected fields or proxy traffic. The native comparison viewer releases the prior pair when model/load selection changes.

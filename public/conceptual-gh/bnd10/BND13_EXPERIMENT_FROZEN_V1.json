@@ -1,0 +1,123 @@
+{
+  "schema": "BND13_BND12_REMAINING_TWO_CONCEPTUAL_CASES/1",
+  "authorization": "User explicitly requested continuing G+X and the rest according to the agreed workflow on 2026-10-15. Two new native cases only; G+X first, then G.",
+  "parent_contract": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND09_LOCAL_SLEEVE_NEW_SYSTEM_20261014\\BND09_EXPERIMENT_FROZEN_V4.json",
+  "parent_contract_sha256": "4603120498ffe9584c4c8dc08bd7fb78a880f9aaa66bd63b4af5950c75bbcb78",
+  "source_ghx": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND04_NATIVE_REANALYSIS\\BND04_AL_SLEEVE_EQ_WORKING_V2.ghx",
+  "source_ghx_sha256": "b006d625131aa17d6db92f51d2f0304f7e658af9959f5e5bac30645dfd243be6",
+  "historical_raw": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND04_NATIVE_REANALYSIS\\BND04_AL_SLEEVE_EQ_X_STRESS_RAW.json",
+  "historical_raw_sha256": "f24f3c0b7c852ad92c7b9746ead85414e84888978ed8d6fb27ea339ec00b65d3",
+  "geometry": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND12_M070_SEQUENTIAL_REPEAT_20261014\\BND12_GEOMETRY_FROZEN.json",
+  "geometry_sha256": "4d80c29eb3fe1201761d2681940e0de7fdc248adfb33315033899d594d66dbd9",
+  "baseline_package": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND12_M070_SEQUENTIAL_REPEAT_20261014\\BND12_RESULT_PACKAGE.json",
+  "baseline_package_sha256": "5b48fa6e0d224737bab1cfa22e1c009b2db68fe8df8db620c7044f69dd78a7b5",
+  "variants": {
+    "REPEAT": {
+      "ghx": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND12_M070_SEQUENTIAL_REPEAT_20261014\\REPEAT\\BND12_REPEAT.ghx",
+      "ghx_sha256": "82b501f30dc7c48c9d550db2b920eb5daf9ef9104041086dc1068bb956b7ca59",
+      "generator": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND12_M070_SEQUENTIAL_REPEAT_20261014\\REPEAT\\BND12_REPEAT_generator.py.txt",
+      "generator_sha256": "727f827d530d668e7c7d46c413d2c2a33433e5404f4af905209df07a5d841927",
+      "owned_assembly": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND12_M070_SEQUENTIAL_REPEAT_20261014\\REPEAT\\BND12_REPEAT_owned_assembly.py.txt",
+      "owned_assembly_sha256": "41b6e24cf53364dc11dba962dbe4cc0298da0f54d4fc6c1494660517ed5ad534",
+      "expected_nodes": 33270,
+      "expected_shells": 72,
+      "expected_triangles": 26496,
+      "expected_boundary_beams": 3604,
+      "expected_al_links": 6624,
+      "extra_CFRP_span_m": 4.5857806008879685
+    }
+  },
+  "material": "Source Ding2022 T700 epoxy CFRP retained; aluminium E69GPa G26GPa gamma26.478kN/m3 retained; local link annular wall 2.7mm.",
+  "hardware_semantics": {
+    "permanent_boundary": "CFRP source edge",
+    "local_sleeve": "Al6060-T6 conceptual OD12 ID6.6 L18mm",
+    "bolt": "M6 concept through sleeve; represented by previously accepted equivalent bonded connection, no separate bolt-contact element",
+    "polygon_effector": "temporary fabrication tooling; excluded from permanent FE model",
+    "flange_and_stud_visual": "schematic fixture shape; undefined dimensions excluded from stiffness and mass",
+    "wrap": "one full turn plus source departure arc in geometric route; condensed connection in global FE, not a separately meshed tow loop"
+  },
+  "joint_semantics": "Original shared boundary nodes and owner-private contacts retained; same 6624 finite bonded-equivalent links. Unbonded crossings unchanged; actual paired bolt geometry not established.",
+  "support_semantics": "Source two bottom boundary chains discretized at the same 137 boundary stations, XYZ fixed, rotations free; no anchor-derived new supports.",
+  "initial_strain": false,
+  "resource_guards": {
+    "minimum_available_RAM_build_GiB": 2.5,
+    "minimum_available_RAM_solve_GiB": 1.0,
+    "maximum_native_private_bytes": 4500000000
+  },
+  "basic_checks": {
+    "support_count": 137,
+    "load_stations": 102,
+    "boundary_beams": 3604,
+    "equivalent_links": 6624,
+    "shells": 72,
+    "shell_triangles": 26496,
+    "geometry_tolerance_m": 1e-08,
+    "force_residual_limit_kN": 1e-07
+  },
+  "case_order": [
+    {
+      "case": "G_X_POS",
+      "variant": "REPEAT",
+      "direction_kN": [
+        1,
+        0,
+        0
+      ],
+      "gravity": true,
+      "run_id": "BND13_REPEAT_G_X_POS_20261015_01"
+    },
+    {
+      "case": "G",
+      "variant": "REPEAT",
+      "direction_kN": [
+        0,
+        0,
+        0
+      ],
+      "gravity": true,
+      "run_id": "BND13_REPEAT_G_20261015_01"
+    }
+  ],
+  "maximum_new_native_case_solves": 2,
+  "automatic_retry": false,
+  "stop_on_case_failure": true,
+  "interpretation": "Complete the five conceptual G/G±X/G±Y cases of the same BND12 M065+M070 model. Preserve and combine its three historical native cases; compare with original BND09 and preceding M065-only reinforcement. No strength, whole-system stress or design-wind PASS.",
+  "historical_results_modified": false,
+  "production_result_policy": "Versioned data-only update through the existing GitHub dataset repository and lightweight Vercel frontend. Historical records and old snapshots remain unchanged.",
+  "parent_reinforcement_contract": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND12_M070_SEQUENTIAL_REPEAT_20261014\\BND12_EXPERIMENT_FROZEN_V1.json",
+  "parent_reinforcement_contract_sha256": "f187c7ed9fc238b343a83e2fe13fd36a448627641fb6b044abeca29828228333",
+  "new_anchor_cases": "Not in this batch; original worse Y cases preserved.",
+  "baseline_native_controls": {
+    "G_X_POS": {
+      "run_id": "BND11_REPEAT_G_X_POS_20261014_01",
+      "summary": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND11_REPEAT_REMAINING_LOADSET_20261014\\BND11_REPEAT_G_X_POS_20261014_01_SUMMARY.json",
+      "sha256": "e23480d1093c4fce270fd110c8eba1c6b10055e99a905359682665677011e5cf",
+      "meaning": "Preceding M065-only reinforcement"
+    },
+    "G": {
+      "run_id": "BND11_REPEAT_G_20261014_01",
+      "summary": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND11_REPEAT_REMAINING_LOADSET_20261014\\BND11_REPEAT_G_20261014_01_SUMMARY.json",
+      "sha256": "aa46a15c4966bbf166acaa18c087a500090d6b88f1200e9b9bddf0bd71756763",
+      "meaning": "Preceding M065-only reinforcement"
+    }
+  },
+  "physical_variable": "No new physical variable in this continuation: exact same BND12 GHX, material, section, geometry, winding, joint, support, mesh and tolerances. Only loadcase changes.",
+  "K_Settings": "Insert the installed red Settings component without inputs/settings overrides; keep it locked during native execution. Activate license outside Python with Karamba3DGetLicense and verify native license before solve.",
+  "completed_BND12_cases": {
+    "G_Y_POS": {
+      "run_id": "BND12_REPEAT_G_Y_POS_20261014_01",
+      "summary": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND12_M070_SEQUENTIAL_REPEAT_20261014\\BND12_REPEAT_G_Y_POS_20261014_01_SUMMARY.json",
+      "sha256": "9402f32a4edf3978060a759cfc50ba25a45be84f21feb7e1bb599964dd3c5e95"
+    },
+    "G_Y_NEG": {
+      "run_id": "BND12_REPEAT_G_Y_NEG_20261014_01",
+      "summary": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND12_M070_SEQUENTIAL_REPEAT_20261014\\BND12_REPEAT_G_Y_NEG_20261014_01_SUMMARY.json",
+      "sha256": "d35b8c2c2054a3e7fc2e71426d0c803c311d395ce961042a3f35e080ebfb036d"
+    },
+    "G_X_NEG": {
+      "run_id": "BND12_REPEAT_G_X_NEG_20261014_01",
+      "summary": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND12_M070_SEQUENTIAL_REPEAT_20261014\\BND12_REPEAT_G_X_NEG_20261014_01_SUMMARY.json",
+      "sha256": "629cde97f19fe4f52a92ba82d0a43c0cf1a6910fdef9641923a853a465c290bd"
+    }
+  }
+}

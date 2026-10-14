@@ -1,0 +1,22 @@
+BND13 — pelengkapan lima kasus pada kandidat BND12 yang sama
+G+X lalu G adalah dua Analyze native baru. G-X/G±Y memakai tiga hasil BND12 asli dengan hash terverifikasi. Tidak ada varian reinforcement baru.
+Geometri, material/section, winding, mesh, 137 station support boundary bawah, joint, footprint102 station, toleransi dan InitialStrain OFF tetap.
+
+Kasus | Winding original → M065 saja → M065+M070 MPa | Δ vs original | Δ vs M065 saja | Displacement M065+M070 mm | Hotspot
+G | 1.188856 → 1.186019 → 1.186531 | -0.196% | +0.043% | 0.493949 | SPATIAL_UD_P48_F0
+G_X_POS | 1.715033 → 1.717801 → 1.716110 | +0.063% | -0.098% | 0.582503 | SPATIAL_UD_P24_F0
+G_X_NEG | 3.104047 → 3.107516 → 3.106893 | +0.092% | -0.020% | 1.107926 | SPATIAL_UD_P48_F0
+G_Y_POS | 17.064881 → 10.055070 → 9.859967 | -42.221% | -1.940% | 6.134930 | SPATIAL_UD_P58_F0
+G_Y_NEG | 16.221539 → 10.863352 → 9.239482 | -43.042% | -14.948% | 6.140285 | SPATIAL_UD_P65_F0
+
+Envelope winding lima kasus: 17.064881 → 10.863352 → 9.859967 MPa.
+Perubahan envelope terhadap original -42.220710%; terhadap M065 saja -9.236424%.
+Semua kenaikan per kasus serta perpindahan hotspot tetap dilaporkan. Envelope turun tidak berarti seluruh kategori menurun.
+Shell: max absolute in-plane principal stress kedua sisi pada native face centres. Boundary/link: normal stress native17 stations, bukan satu ukuran tegangan sistem yang digabung.
+Category envelopes: {"BASELINE": {"winding_MPa": 17.06488062758107, "boundary_MPa": 49.7049598954149, "sleeve_link_MPa": 13.500458312841026, "displacement_mm": 6.238154869194653}, "REPEAT": {"winding_MPa": 10.863352249747686, "boundary_MPa": 49.44386566812092, "sleeve_link_MPa": 14.254567224465175, "displacement_mm": 6.1680540562476365}, "REPEAT_M070": {"winding_MPa": 9.859966943264288, "boundary_MPa": 48.15907724253947, "sleeve_link_MPa": 14.219041042093927, "displacement_mm": 6.14028465286079}}
+Massa native 144.649988031 kg; tambahan terhadap original 0.143047033 kg; terhadap M065 saja 0.071893810 kg.
+Tambahan span total di atas BND09 4.585780601 m. Footprint/openness M065/M070 tetap seperti snapshot BND12; tidak dihitung ulang atau diwariskan sebagai validasi solver.
+Same five actual conceptual G/G±X/G±Y cases, lateral1kN on same102 stations; native winding principal stress only. Boundary and aluminium-link normal stress reported separately. No capacity, physical bolt-contact or design-wind PASS.
+Status: LOWER_FIVE_CASE_WINDING_ENVELOPE
+Raw native outputs, checks, GH dengan K, logs dan code disimpan terpisah. Console diagnostic This should not happen dipertahankan; asalnya belum terisolasi, tidak membuka debug matriks baru.
+Semua snapshot, FAIL dan kenaikan historis BND09–BND12 tetap. Tidak menjalankan optimasi, strength, prestress, atau varian berikutnya.
