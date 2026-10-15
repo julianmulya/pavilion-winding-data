@@ -1,0 +1,14 @@
+BND14 — satu hasil native tersedia; FE berikutnya dijeda oleh pengguna
+BND14 baru G+Y: satu hasil Analyze native, empat kasus dijeda sebelum Analyze. Bandingkan dengan BND12 pada kasus yang sama. Belum ada envelope lima kasus, strength, kontak baut atau keselamatan struktur PASS.
+
+G+Y: winding BND12 9.859966943 → BND14 9.232904897MPa (-6.359677%); original BND09 17.064880628MPa.
+Hotspot baru seluruh pavilion: {"shell_id": "SPATIAL_UD_P65_F0", "coordinate_m": [0.358495653835895, 1.4915696693592093, 1.5804286549408146], "component": "s2", "signed_value_MPa": -9.2329048973926, "element_index": 3669, "face_index": 274, "value_MPa": 9.2329048973926, "surface": -1}
+M058 maksimum native saat ini 6.518736250MPa; jalur S039 5.593658069MPa. Ini hasil native yang diekspor, bukan recovery FE Python.
+Boundary 45.678170253 → 45.815992918MPa; sleeve Al 14.219041042 → 14.173053104MPa; displacement 6.134929613 → 6.038546717mm.
+Massa native 144.649988031 → 144.720468604kg; tambahan 0.070480574kg. Tambahan span M058 2.259455798m; total tambahan terhadap original 6.845236399m.
+Model:33270nodes,72shells,26496triangles,3604boundarybeams,6624finiteAl-links,137supportstations,102loadstations; geometri/material/mesh/joint/support/load-footprint/toleransi tetap. Delapan face tambahan M058 hanya berubah ketebalan UD ekuivalen.
+Native Analyze errors0; basic force residual 3.07651030713e-09kN, historical limit1e-7kN. InitialStrain OFF.
+G-Y sempat HOLD sebelum Analyze karena private memory di atas4,5e9byte. Tidak ada solve G-Y yang terpakai. G-X/G+X/G juga belum Analyze; semua dijeda sesuai permintaan pengguna.
+Tidak menghitung envelope lima kasus BND14. BND12 tetap checkpoint lima kasus lengkap. Tidak ada strength, bolt-contact atau system-safety PASS.
+Peringatan console This should not happen tetap belum terisolasi, seperti tahap sebelumnya; tidak membuka debug matriks.
+Semua data historis dan raw native disimpan; field baru hanya G+Y terikat model/case/RunID. Viewer tidak menjalankan FE.

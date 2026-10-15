@@ -1,6 +1,6 @@
 {
-  "schema": "CFRP_PUBLIC_FE_GITHUB_SNAPSHOT/2",
-  "created_utc": "2026-10-14T17:50:59.440949+00:00",
+  "schema": "CFRP_PUBLIC_FE_GITHUB_SNAPSHOT/3",
+  "created_utc": "2026-10-15T05:54:27.050416+00:00",
   "source": "Public dataset paths served by the existing Vercel website; source files retained locally.",
   "target_repository": "julianmulya/pavilion-winding-data",
   "application_repository_visibility": "PRIVATE; unchanged",
@@ -1579,6 +1579,46 @@
       "sha256": "7678f6095de978a4ff590de4bfb58c2f52a26e913316a57277b06ed970e5c347"
     },
     {
+      "path": "public/conceptual-gh/bnd10/BND14_EXPERIMENT_FROZEN_V1.json",
+      "bytes": 9906,
+      "sha256": "d62ed8e7b51a892759d5c4923645193c5dfd1c3a5027f4377922b6ba0f8853a7"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/BND14_GEOMETRY_PROPOSAL_HISTORICAL.png",
+      "bytes": 143675,
+      "sha256": "50280b1f15705765b4a75613bf3f86f2337a4699a2b02a9f2813f93067f53442"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/BND14_REPEAT_G_Y_NEG_20261015_01_RUN_LOG.json",
+      "bytes": 7127,
+      "sha256": "f006e29d9c41b1458c60b91c02841525bdc601895994e527433896dd9cb9ccf9"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/BND14_REPEAT_G_Y_POS_20261015_01.bin",
+      "bytes": 3970882,
+      "sha256": "dbf68d1a35445db289fe4386a9202cce960ec5e1d1fdadf58a71beffda4d14bf"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/BND14_REPEAT_G_Y_POS_20261015_01_INPUT_CHECKS.json",
+      "bytes": 3989,
+      "sha256": "9d9b9a408cea28b6e1a3faaae3fb2d50f0c98cdaa783900d72d0639e18312e15"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/BND14_REPEAT_G_Y_POS_20261015_01_RUN_LOG.json",
+      "bytes": 11889,
+      "sha256": "65ec47dd0312f1696f9e1a1b3188b15d88c96ad84b5b086305f7cb61be48186d"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/BND14_REPEAT_G_Y_POS_20261015_01_SUMMARY.json",
+      "bytes": 7355,
+      "sha256": "9cf30a46826ed903874fa3677fce03c14f746a185726bb74f0c374167a380ba9"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/BND14_USER_PAUSE_CHECKPOINT.json",
+      "bytes": 568,
+      "sha256": "224489fa3ad7e81f014c046b38447c48311554a137b6dd5313971da24b55e21c"
+    },
+    {
       "path": "public/conceptual-gh/bnd10/comparison-v2.csv",
       "bytes": 1599,
       "sha256": "01e94edc2908d6b5fe5b401eb61df06c108dda247caf533d7a35a8dc3ed9ebff"
@@ -1594,6 +1634,11 @@
       "sha256": "382021ca4f90161a3e2fcd00408319c55869232395a4b63dd46e1636ae90c233"
     },
     {
+      "path": "public/conceptual-gh/bnd10/comparison-v5.csv",
+      "bytes": 890,
+      "sha256": "42615390d2f9e0ff28ed8138d89ef0ae3d43720033ee890eb9dfcd16d3732c0c"
+    },
+    {
       "path": "public/conceptual-gh/bnd10/comparison.csv",
       "bytes": 1420,
       "sha256": "f9ddaa7a8ad7f50f7d04c4ff6e1d8e61a8f1b58f26cc134f56d68c0ac1ae5dba"
@@ -1602,6 +1647,11 @@
       "path": "public/conceptual-gh/bnd10/decision.json",
       "bytes": 4076,
       "sha256": "78262f5bb3518269d306490063c2c07bb0026fa62cd2c5907f67ae450086ee0e"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/panduan-ui-v5.txt",
+      "bytes": 3699,
+      "sha256": "d47c043fc8cebb328f6ca762d7a82847b80a35c49a7661214718ef399db7d439"
     },
     {
       "path": "public/conceptual-gh/bnd10/report-v2.txt",
@@ -1617,6 +1667,11 @@
       "path": "public/conceptual-gh/bnd10/report-v4.txt",
       "bytes": 2831,
       "sha256": "754256be356d17b247fb6908549733d35e9cf4f8e5367adfd284e4e8edeace0e"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/report-v5.txt",
+      "bytes": 2020,
+      "sha256": "0d04e988326d9ba9c79dc42362e763fc4860acfe93e8ee569282b2c78457ffe1"
     },
     {
       "path": "public/conceptual-gh/bnd10/report.txt",
@@ -1642,6 +1697,11 @@
       "path": "public/conceptual-gh/bnd10/study-v4.json",
       "bytes": 212098,
       "sha256": "8500a01662e9891e2cd2b20020ba68e4e8117381a15eb22e0b46b5ae85058249"
+    },
+    {
+      "path": "public/conceptual-gh/bnd10/study-v5.json",
+      "bytes": 235831,
+      "sha256": "8ada616f351827550c6a25ec43a0a602fbd5c8f4bc52d25c088c39f190c3ad89"
     },
     {
       "path": "public/conceptual-gh/boundary-systems-geometry-v1.bin",
@@ -2079,15 +2139,15 @@
       "sha256": "a7a4a7582c40438801e11813961aba34975f31ef195ceb3e1908806a7a081d8a"
     }
   ],
-  "file_count": 413,
-  "total_bytes": 508275973,
+  "file_count": 425,
+  "total_bytes": 512673804,
   "raw_and_historical_status_policy": "Byte-identical snapshots; historical results remain unchanged. No new PASS labels.",
   "browser_contract": "Only selected model/load fields are loaded. Each native field still verifies model, case, RunID, size and SHA256.",
   "native_BND12_case_cap": 3,
   "BND12_completed": 3,
   "secrets_or_authentication_files_included": false,
   "private_application_source_included": false,
-  "parent_commit": "ded77196094f88ea94263ca44a0641e98ce0d682",
+  "parent_commit": "04eaa15bc5b9d94d8e41ebcbef71392cb8dfd822",
   "native_BND12_complete_loadset": [
     "G",
     "G_X_POS",
@@ -2100,27 +2160,36 @@
     "G"
   ],
   "native_BND13_case_cap": 2,
-  "previous_checkpoint_note": "Previous BND12 checkpoint had only three cases. Its files and original statuses remain byte-identical; BND13 supplements the same model with two new native cases.",
+  "previous_checkpoint_note": "All 413 prior public files are byte-identical. BND14 adds one native G+Y field and four explicitly unavailable cases in study-v5; no five-case BND14 envelope is claimed.",
   "added_files": [
-    "public/conceptual-gh/bnd10/BND13_EXPERIMENT_FROZEN_V1.json",
-    "public/conceptual-gh/bnd10/BND13_EXPERIMENT_FROZEN_V1_UTF8.json",
-    "public/conceptual-gh/bnd10/BND13_REPEAT_G_20261015_01.bin",
-    "public/conceptual-gh/bnd10/BND13_REPEAT_G_20261015_01_INPUT_CHECKS.json",
-    "public/conceptual-gh/bnd10/BND13_REPEAT_G_20261015_01_RUN_LOG.json",
-    "public/conceptual-gh/bnd10/BND13_REPEAT_G_20261015_01_SUMMARY.json",
-    "public/conceptual-gh/bnd10/BND13_REPEAT_G_X_POS_20261015_01.bin",
-    "public/conceptual-gh/bnd10/BND13_REPEAT_G_X_POS_20261015_01_INPUT_CHECKS.json",
-    "public/conceptual-gh/bnd10/BND13_REPEAT_G_X_POS_20261015_01_RUN_LOG.json",
-    "public/conceptual-gh/bnd10/BND13_REPEAT_G_X_POS_20261015_01_SUMMARY.json",
-    "public/conceptual-gh/bnd10/comparison-v4.csv",
-    "public/conceptual-gh/bnd10/report-v4.txt",
-    "public/conceptual-gh/bnd10/study-v4.json"
+    "public/conceptual-gh/bnd10/BND14_EXPERIMENT_FROZEN_V1.json",
+    "public/conceptual-gh/bnd10/BND14_GEOMETRY_PROPOSAL_HISTORICAL.png",
+    "public/conceptual-gh/bnd10/BND14_REPEAT_G_Y_NEG_20261015_01_RUN_LOG.json",
+    "public/conceptual-gh/bnd10/BND14_REPEAT_G_Y_POS_20261015_01.bin",
+    "public/conceptual-gh/bnd10/BND14_REPEAT_G_Y_POS_20261015_01_INPUT_CHECKS.json",
+    "public/conceptual-gh/bnd10/BND14_REPEAT_G_Y_POS_20261015_01_RUN_LOG.json",
+    "public/conceptual-gh/bnd10/BND14_REPEAT_G_Y_POS_20261015_01_SUMMARY.json",
+    "public/conceptual-gh/bnd10/BND14_USER_PAUSE_CHECKPOINT.json",
+    "public/conceptual-gh/bnd10/comparison-v5.csv",
+    "public/conceptual-gh/bnd10/panduan-ui-v5.txt",
+    "public/conceptual-gh/bnd10/report-v5.txt",
+    "public/conceptual-gh/bnd10/study-v5.json"
   ],
-  "native_cases_in_current_viewer": 18,
+  "native_cases_in_current_viewer": 19,
   "BND12_prior_stage_untested_cases": [
     "G",
     "G_X_POS",
     "X_REF"
   ],
-  "current_untested_case": "X_REF without gravity, outside the five-case conceptual gravity/lateral loadset"
+  "current_untested_case": "X_REF without gravity, outside the five-case conceptual gravity/lateral loadset",
+  "native_BND14_completed_cases": [
+    "G_Y_POS"
+  ],
+  "BND14_paused_before_Analyze": [
+    "G_Y_NEG",
+    "G_X_NEG",
+    "G_X_POS",
+    "G"
+  ],
+  "BND14_FE_execution": "PAUSED_BY_USER_NO_AUTOMATIC_RESUME"
 }

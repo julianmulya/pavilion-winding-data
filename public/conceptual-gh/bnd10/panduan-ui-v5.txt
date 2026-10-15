@@ -1,0 +1,30 @@
+PANDUAN UI PAVILION WINDING LAB
+
+1. Bagian atas: eksplorasi pola geometris.
+N = jumlah titik per boundary, bukan total anchor modul. Dua boundary N23 menyediakan46 titik. Visited anchors A menunjukkan jumlah yang benar-benar dikunjungi sequence.
+IDX = winding shift sumber; mengubah urutan jalur. HS0,10m tetap mengikuti geometri sumber.
+Perubahan slider menghitung geometri/openness/material; tidak menjalankan Karamba live. Hasil FE hanya tersedia untuk konfigurasi dan RunID yang benar-benar dihitung. Kartu accepted R00 di bagian atas adalah model historisnya sendiri.
+
+2. Bagian "Sleeve lokal · hasil native terbaru": penelitian BND09-BND14.
+Bagian ini memakai geometri GH sumber yang dibekukan, terpisah dari slider atas. Pilih strategi, beban, lingkup dan tampilan.
+Strategi: original BND09 adalah pembanding kiri; opsi kanan adalah jalur baru H*, lilitan ulang M065, M065+M070, atau BND14 M065+M070+M058.
+Beban G berarti berat sendiri. G+X/G-X/G+Y/G-Y = berat sendiri plus lateral konseptual total1kN pada102 station yang sama. Ini bukan tekanan angin desain. X tanpa G adalah kasus historis terpisah.
+BND12 mempunyai lima kasus lengkap. BND14 baru G+Y; empat kasus lainnya dijeda. Tanda em dash dan geometri abu-abu berarti belum ada hasil, bukan nilai nol.
+
+3. Lingkup dan tampilan.
+Lingkup M058/M065/M070 menampilkan satu modul; Seluruh pavilion menampilkan72 modul. Angka maximum winding dan tabel tetap merupakan maksimum seluruh pavilion untuk kasus terpilih, bukan hanya modul yang diperbesar.
+Winding asli+tambahan: abu-abu = asli, oranye = tambahan saja. Untuk BND14, jalur baru pada M058 adalah S039 yang sama, ditambah dua pass; anchor/sumbu sumber tidak dipindahkan. Oranye pada mode ini bukan warna tegangan.
+Tegangan winding: warna berdasarkan maksimum absolut principal stress shell native di kedua sisi, dalam MPa. Warna biru ke merah menunjukkan besar respons pada skala bersama untuk kasus itu. Ini bukan utilization atau indikator keselamatan material.
+Tegangan boundary: normal stress beam CFRP. Tegangan sleeve Al: normal stress link Al ekuivalen. Kedua kategori dipisahkan dari tegangan principal shell; tidak digabung sebagai satu maksimum sistem.
+Displacement: warna menunjukkan besar perpindahan native dalam mm pada geometri sumber; bentuknya tidak digambar sebagai deformasi yang diperbesar.
+Titik magenta pada mode tegangan adalah anotasi hotspot native, bukan anchor, beban atau tumpuan baru. Hotspot global mungkin berada di modul lain; gunakan Seluruh pavilion untuk melihatnya.
+
+4. Perbandingan kiri-kanan dan tabel.
+Kiri selalu original BND09 pada beban yang sama. Kanan adalah strategi yang dipilih. Kamera kedua sisi sinkron.
+Untuk mengisolasi efek tambahan M058, bandingkan baris BND12 dengan BND14 pada G+Y. Penurunan terhadap BND09 mencakup semua tahap reinforcement sebelumnya.
+Tabel memisahkan windingMPa, boundaryMPa, linkAlMPa, displacementmm, massakg dan modul hotspot. Berkurangnya winding tidak berarti semua kategori turun.
+Openness adalah proyeksi panel bidangB dengan512 scanline. Ini bukan pengukuran keseluruhan kualitas ruang atau keterbukaan setinggi mata. Massa adalah massa model native; panjang tambahan adalah budget span CFRP ekuivalen.
+
+5. Data dan batas klaim.
+Download data, laporan, perbandinganCSV, log dan ringkasan native untuk melihat RunID/units/hash. Data berada di GitHub pada commit yang dipin; Vercel menyajikan frontend. Browser hanya memuat pasangan field yang dipilih.
+InitialStrain OFF. Simulasi struktural konseptual Karamba; kapasitas fisik CFRP, kontak baut, tekanan angin desain dan keselamatan struktur belum dinilai. Tidak ada hasil yang dibuat untuk kasus yang belum dijalankan.

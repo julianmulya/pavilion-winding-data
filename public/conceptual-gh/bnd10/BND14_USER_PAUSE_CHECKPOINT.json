@@ -1,0 +1,18 @@
+{
+  "status": "FE_PAUSED_BY_USER",
+  "received_utc": "2026-10-15T05:47:43.582950+00:00",
+  "user_request": "pause dulu, semua data baru masukan ke vercel dan buat visualisasi fe nya",
+  "native_started": 1,
+  "native_completed": 1,
+  "completed_cases": [
+    "G_Y_POS"
+  ],
+  "unrun_cases": [
+    "G_Y_NEG",
+    "G_X_NEG",
+    "G_X_POS",
+    "G"
+  ],
+  "automatic_resume": false,
+  "publication_scope": "Publish all available new geometry, one actual native field, comparison, logs and UI guide. Missing cases never acquire copied values or fields."
+}

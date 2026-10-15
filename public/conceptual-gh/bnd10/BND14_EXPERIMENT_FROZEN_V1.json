@@ -1,0 +1,162 @@
+{
+  "schema": "BND14_M058_ONE_CANDIDATE_FIVE_CASES/1",
+  "authorization": "User requested continuing after the completed BND13 review and recommendation to target M058 S039. One next bounded candidate; five conceptual cases, no optimization or unbounded batch.",
+  "parent_contract": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND09_LOCAL_SLEEVE_NEW_SYSTEM_20261014\\BND09_EXPERIMENT_FROZEN_V4.json",
+  "parent_contract_sha256": "4603120498ffe9584c4c8dc08bd7fb78a880f9aaa66bd63b4af5950c75bbcb78",
+  "source_ghx": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND04_NATIVE_REANALYSIS\\BND04_AL_SLEEVE_EQ_WORKING_V2.ghx",
+  "source_ghx_sha256": "b006d625131aa17d6db92f51d2f0304f7e658af9959f5e5bac30645dfd243be6",
+  "historical_raw": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND04_NATIVE_REANALYSIS\\BND04_AL_SLEEVE_EQ_X_STRESS_RAW.json",
+  "historical_raw_sha256": "f24f3c0b7c852ad92c7b9746ead85414e84888978ed8d6fb27ea339ec00b65d3",
+  "geometry": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND14_M058_HOTSPOT_REPEAT_20261015\\BND14_GEOMETRY_FROZEN.json",
+  "geometry_sha256": "5f5d90835a8190f3e641e6fc5cecc50e2a8d43922013e4d4b978b704e81a2430",
+  "baseline_package": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND13_COMPLETE_LOADSET_20261015\\BND13_FIVE_CASE_RESULT_PACKAGE.json",
+  "baseline_package_sha256": "8500a01662e9891e2cd2b20020ba68e4e8117381a15eb22e0b46b5ae85058249",
+  "variants": {
+    "REPEAT": {
+      "ghx": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND14_M058_HOTSPOT_REPEAT_20261015\\REPEAT\\BND14_REPEAT.ghx",
+      "ghx_sha256": "abc6a25ca7210becf09f5d004671b1beb387158ce3e440ad15f5bc5c4cdc992a",
+      "generator": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND14_M058_HOTSPOT_REPEAT_20261015\\REPEAT\\BND14_REPEAT_generator.py.txt",
+      "generator_sha256": "5c1303981fbcdf4a71a74870cbaa99c444700bdd137c7d9cbab980ccf7ac02fa",
+      "owned_assembly": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND14_M058_HOTSPOT_REPEAT_20261015\\REPEAT\\BND14_REPEAT_owned_assembly.py.txt",
+      "owned_assembly_sha256": "41b6e24cf53364dc11dba962dbe4cc0298da0f54d4fc6c1494660517ed5ad534",
+      "expected_nodes": 33270,
+      "expected_shells": 72,
+      "expected_triangles": 26496,
+      "expected_boundary_beams": 3604,
+      "expected_al_links": 6624,
+      "extra_CFRP_span_m": 6.845236398775725
+    }
+  },
+  "material": "Source Ding2022 T700 epoxy CFRP retained; aluminium E69GPa G26GPa gamma26.478kN/m3 retained; local link annular wall 2.7mm.",
+  "hardware_semantics": {
+    "permanent_boundary": "CFRP source edge",
+    "local_sleeve": "Al6060-T6 conceptual OD12 ID6.6 L18mm",
+    "bolt": "M6 concept through sleeve; represented by previously accepted equivalent bonded connection, no separate bolt-contact element",
+    "polygon_effector": "temporary fabrication tooling; excluded from permanent FE model",
+    "flange_and_stud_visual": "schematic fixture shape; undefined dimensions excluded from stiffness and mass",
+    "wrap": "one full turn plus source departure arc in geometric route; condensed connection in global FE, not a separately meshed tow loop"
+  },
+  "joint_semantics": "Original shared boundary nodes and owner-private contacts retained; same 6624 finite bonded-equivalent links. Unbonded crossings unchanged; actual paired bolt geometry not established.",
+  "support_semantics": "Source two bottom boundary chains discretized at the same 137 boundary stations, XYZ fixed, rotations free; no anchor-derived new supports.",
+  "initial_strain": false,
+  "resource_guards": {
+    "minimum_available_RAM_build_GiB": 2.5,
+    "minimum_available_RAM_solve_GiB": 1.0,
+    "maximum_native_private_bytes": 4500000000
+  },
+  "basic_checks": {
+    "support_count": 137,
+    "load_stations": 102,
+    "boundary_beams": 3604,
+    "equivalent_links": 6624,
+    "shells": 72,
+    "shell_triangles": 26496,
+    "geometry_tolerance_m": 1e-08,
+    "force_residual_limit_kN": 1e-07
+  },
+  "case_order": [
+    {
+      "case": "G_Y_POS",
+      "variant": "REPEAT",
+      "direction_kN": [
+        0,
+        1,
+        0
+      ],
+      "gravity": true,
+      "run_id": "BND14_REPEAT_G_Y_POS_20261015_01"
+    },
+    {
+      "case": "G_Y_NEG",
+      "variant": "REPEAT",
+      "direction_kN": [
+        0,
+        -1,
+        0
+      ],
+      "gravity": true,
+      "run_id": "BND14_REPEAT_G_Y_NEG_20261015_01"
+    },
+    {
+      "case": "G_X_NEG",
+      "variant": "REPEAT",
+      "direction_kN": [
+        -1,
+        0,
+        0
+      ],
+      "gravity": true,
+      "run_id": "BND14_REPEAT_G_X_NEG_20261015_01"
+    },
+    {
+      "case": "G_X_POS",
+      "variant": "REPEAT",
+      "direction_kN": [
+        1,
+        0,
+        0
+      ],
+      "gravity": true,
+      "run_id": "BND14_REPEAT_G_X_POS_20261015_01"
+    },
+    {
+      "case": "G",
+      "variant": "REPEAT",
+      "direction_kN": [
+        0,
+        0,
+        0
+      ],
+      "gravity": true,
+      "run_id": "BND14_REPEAT_G_20261015_01"
+    }
+  ],
+  "maximum_new_native_case_solves": 5,
+  "automatic_retry": false,
+  "stop_on_case_failure": true,
+  "interpretation": "Report all five actual G/G+-X/G+-Y results and migrated hotspots. Primary: five-case maximum native winding principal stress versus BND12 and original. Also report boundary/sleeve normal stress, displacement and material cost separately. No whole-system safety or physical strength PASS.",
+  "historical_results_modified": false,
+  "production_result_policy": "Only completed native fields may be added under a new version/RunID; append to GitHub data and preserve historical snapshots. Missing cases remain unavailable.",
+  "parent_reinforcement_contract": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND13_COMPLETE_LOADSET_20261015\\BND13_EXPERIMENT_FROZEN_V1.json",
+  "parent_reinforcement_contract_sha256": "1620b60404f3bba2e09033eb986ba7a49afc929c1e27cf89bc2f7bb787d9ac53",
+  "new_anchor_cases": "Not in this batch; original worse Y cases preserved.",
+  "baseline_native_controls": {
+    "G_Y_POS": {
+      "run_id": "BND12_REPEAT_G_Y_POS_20261014_01",
+      "summary": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND12_M070_SEQUENTIAL_REPEAT_20261014\\BND12_REPEAT_G_Y_POS_20261014_01_SUMMARY.json",
+      "sha256": "9402f32a4edf3978060a759cfc50ba25a45be84f21feb7e1bb599964dd3c5e95",
+      "meaning": "Preceding BND12 M065+M070 candidate, already complete; never re-solved for this comparison."
+    },
+    "G_Y_NEG": {
+      "run_id": "BND12_REPEAT_G_Y_NEG_20261014_01",
+      "summary": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND12_M070_SEQUENTIAL_REPEAT_20261014\\BND12_REPEAT_G_Y_NEG_20261014_01_SUMMARY.json",
+      "sha256": "d35b8c2c2054a3e7fc2e71426d0c803c311d395ce961042a3f35e080ebfb036d",
+      "meaning": "Preceding BND12 M065+M070 candidate, already complete; never re-solved for this comparison."
+    },
+    "G_X_NEG": {
+      "run_id": "BND12_REPEAT_G_X_NEG_20261014_01",
+      "summary": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND12_M070_SEQUENTIAL_REPEAT_20261014\\BND12_REPEAT_G_X_NEG_20261014_01_SUMMARY.json",
+      "sha256": "629cde97f19fe4f52a92ba82d0a43c0cf1a6910fdef9641923a853a465c290bd",
+      "meaning": "Preceding BND12 M065+M070 candidate, already complete; never re-solved for this comparison."
+    },
+    "G_X_POS": {
+      "run_id": "BND13_REPEAT_G_X_POS_20261015_01",
+      "summary": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND13_COMPLETE_LOADSET_20261015\\BND13_REPEAT_G_X_POS_20261015_01_SUMMARY.json",
+      "sha256": "7678f6095de978a4ff590de4bfb58c2f52a26e913316a57277b06ed970e5c347",
+      "meaning": "Preceding BND12 M065+M070 candidate, already complete; never re-solved for this comparison."
+    },
+    "G": {
+      "run_id": "BND13_REPEAT_G_20261015_01",
+      "summary": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND13_COMPLETE_LOADSET_20261015\\BND13_REPEAT_G_20261015_01_SUMMARY.json",
+      "sha256": "f07830d4d004ea5d121f27433dbf352fbc2e5ed8d207dfc12a284362a7734f08",
+      "meaning": "Preceding BND12 M065+M070 candidate, already complete; never re-solved for this comparison."
+    }
+  },
+  "physical_variable": "Retain M065 S022 and M070 S011 extra two passes; add two equivalent bonded passes on the actual M058 S039 hotspot route. No other physical/mesh/tolerance change.",
+  "K_Settings": "Insert the installed red Settings component without inputs/settings overrides; keep it locked during native execution. Activate license outside Python with Karamba3DGetLicense and verify native license before solve.",
+  "allowed_owned_host_prefixes": [
+    "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND13_COMPLETE_LOADSET_20261015",
+    "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\ARCHITECTURE_FIRST_WINDING_RESEARCH\\BND14_M058_HOTSPOT_REPEAT_20261015"
+  ],
+  "completion_rule": "Run all five cases regardless of improvement, stopping only for invalid actual inputs, native failure, unknown prior attempt, or the unchanged resource guards. No candidate repair/replay after viewing outcomes."
+}
