@@ -1,0 +1,28 @@
+{
+  "schema": "CFRP_NEW_GEOMETRY_PUBLIC_SNAPSHOT/1",
+  "created_utc": "2026-10-16T18:34:47.288834+00:00",
+  "repository": "julianmulya/pavilion-winding-data",
+  "historical_data_parent_commit": "8f86c2a6540b0258e878a18f6dbf3a871f8ebd23",
+  "roots": [
+    "new-geometry"
+  ],
+  "scope": "Geometry only. No historical FE assigned. No source GH, credentials, local paths or user account data published.",
+  "files": [
+    {
+      "path": "public/new-geometry/source-v1.json",
+      "bytes": 251606,
+      "sha256": "b71661a85aaed3c87de3a5cb8312fc64e31b02a328a42e4ce19786dc35ae06b7"
+    },
+    {
+      "path": "public/new-geometry/native-references-v1.json",
+      "bytes": 7413939,
+      "sha256": "df9e3b8a250ae9a0c3c0bdde711982d6860ffe8f8bd523c9e134b71c43de0004"
+    },
+    {
+      "path": "public/new-geometry/native-comparison-v1.json",
+      "bytes": 3130,
+      "sha256": "4e921ac104a45c1a4f9d7ff1da74cbf075070bb1dc3ef140a0f5f85cacd33bf8"
+    }
+  ],
+  "total_bytes": 7668675
+}
