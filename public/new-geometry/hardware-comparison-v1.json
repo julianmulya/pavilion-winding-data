@@ -1,0 +1,475 @@
+{
+  "schema": "GH_CSHARP_TS_HARDWARE_COMPARISON/1",
+  "tolerance_m": 1e-8,
+  "comparisons": [
+    {
+      "parameters": {
+        "panels": 55,
+        "shift": 14,
+        "anchors": 29,
+        "gap": 0.4
+      },
+      "counts": {
+        "winding_sleeves": 3190,
+        "shared_edges": 274,
+        "module_bolts": 541,
+        "owner_flanges": 606
+      },
+      "max_coordinate_or_axis_error": 1.1102230246251565e-14,
+      "unplaced_connections": [],
+      "outer_edges_without_module_bolts": 58
+    },
+    {
+      "parameters": {
+        "panels": 36,
+        "shift": 0,
+        "anchors": 29,
+        "gap": 0.4
+      },
+      "counts": {
+        "winding_sleeves": 2088,
+        "shared_edges": 170,
+        "module_bolts": 340,
+        "owner_flanges": 388
+      },
+      "max_coordinate_or_axis_error": 6.217248937900877e-15,
+      "unplaced_connections": [],
+      "outer_edges_without_module_bolts": 48
+    },
+    {
+      "parameters": {
+        "panels": 100,
+        "shift": 25,
+        "anchors": 50,
+        "gap": 1
+      },
+      "counts": {
+        "winding_sleeves": 10000,
+        "shared_edges": 538,
+        "module_bolts": 735,
+        "owner_flanges": 1140
+      },
+      "max_coordinate_or_axis_error": 1.1657341758564144e-14,
+      "unplaced_connections": [
+        {
+          "edge": "J0001",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0004",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0012",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0013",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0017",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0024",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0027",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0031",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0037",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0046",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0047",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0048",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0050",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0051",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0053",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0061",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0062",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0065",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0067",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0068",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0069",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0088",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0089",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0091",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0094",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0095",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0097",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0102",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0106",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0108",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0109",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0112",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0113",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0116",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0120",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0121",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0122",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0123",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0127",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0136",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0141",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0155",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0158",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0186",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0195",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0197",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0202",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0203",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0207",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0210",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0212",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0213",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0216",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0227",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0231",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0232",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0245",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0249",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0250",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0251",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0273",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0286",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0295",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0301",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0302",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0303",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0314",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0316",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0317",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0320",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0333",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0335",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0348",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0351",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0354",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0355",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0359",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0363",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0374",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0375",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0382",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0384",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0386",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0398",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0401",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0405",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0408",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0418",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0420",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0421",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0424",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0429",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0448",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0456",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0458",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0459",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0460",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0463",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0468",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0475",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0494",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0512",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0535",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        },
+        {
+          "edge": "J0537",
+          "reason": "No station satisfies the frozen endpoint, anchor and bolt spacing clearances."
+        }
+      ],
+      "outer_edges_without_module_bolts": 64
+    }
+  ],
+  "FE_run": false
+}

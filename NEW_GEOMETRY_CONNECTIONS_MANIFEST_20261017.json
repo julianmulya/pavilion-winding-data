@@ -1,0 +1,29 @@
+{
+  "schema": "CFRP_NEW_GEOMETRY_DUAL_HARDWARE/1",
+  "created_utc": "2026-10-16T20:21:40.651Z",
+  "repository": "julianmulya/pavilion-winding-data",
+  "historical_data_parent_commit": "8f86c2a6540b0258e878a18f6dbf3a871f8ebd23",
+  "previous_geometry_commit": "946437fe3d0577fb21b6f23675a266d4cde441ed",
+  "roots": [
+    "new-geometry"
+  ],
+  "scope": "Native GH C# geometry readback for separate winding sleeves and boundary module bolts. Conceptual dimensions. No FE, source surface or winding change. No GH source or private paths published.",
+  "files": [
+    {
+      "path": "public/new-geometry/native-hardware-v2.json",
+      "bytes": 4386681,
+      "sha256": "abf754e71a451495ee2ce8d3ed9e0e27a5801d216a28336e79b1287c292aee84"
+    },
+    {
+      "path": "public/new-geometry/hardware-contract-v1.json",
+      "bytes": 1448,
+      "sha256": "03abb1e2b76d01595db61cc544d151698c9b0092a2dacbae589d207ea34f3770"
+    },
+    {
+      "path": "public/new-geometry/hardware-comparison-v1.json",
+      "bytes": 16765,
+      "sha256": "d5cbb136df299f2dc2fff4c44fae9808697199d7f394b2d92a17cdc65169517f"
+    }
+  ],
+  "total_bytes": 4404894
+}
