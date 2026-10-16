@@ -1,0 +1,24 @@
+{
+  "schema": "CFRP_NEW_GEOMETRY_OPENNESS/1",
+  "created_utc": "2026-10-16T20:45:37.119Z",
+  "repository": "julianmulya/pavilion-winding-data",
+  "historical_data_parent_commit": "8f86c2a6540b0258e878a18f6dbf3a871f8ebd23",
+  "previous_geometry_commit": "bde447da810f2458e377c30f761ab3d65b54f0bd",
+  "roots": [
+    "new-geometry"
+  ],
+  "scope": "Architectural projected openness only. Same historical B-plane prism-union method, 128/256/512 scanlines. Hardware detail UI deferred; hardware data preserved. Iterations calculated interactively and cached locally; CSV/JSON export. No FE or new GH geometry generation.",
+  "files": [
+    {
+      "path": "public/new-geometry/openness-contract-v1.json",
+      "bytes": 999,
+      "sha256": "7d7041815fb62ef3bd9a28a2e47decf3c57fa4954ae2611d807978dcad373c6f"
+    },
+    {
+      "path": "public/new-geometry/openness-reference-v1.json",
+      "bytes": 232051,
+      "sha256": "abdcbc7a90b69681e2dceb29c7a85109a60bec0278437255e0effdf962ecf19f"
+    }
+  ],
+  "total_bytes": 233050
+}

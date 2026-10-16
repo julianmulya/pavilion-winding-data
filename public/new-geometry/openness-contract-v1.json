@@ -1,0 +1,28 @@
+{
+  "id": "GH_NEW_PROJECTED_OPENNESS_V1",
+  "method": "PROJECTED_PANEL_OPENNESS_B_NEWELL_PRISM_SCANLINE_V1",
+  "units": "m",
+  "scanlines": [
+    128,
+    256,
+    512
+  ],
+  "reported_scanlines": 512,
+  "pavilion_aggregation": "100 * (1 - sum(covered_panel_area) / sum(projected_panel_area)); not a mean of panel percentages or silhouette of assembled pavilion",
+  "spatial_footprint": "Existing source ribbon width and equivalent thickness; all ordered spans projected to each owner B-plane; overlaps counted once for coverage.",
+  "boundary_footprint": {
+    "width_m": 0.02,
+    "thickness_m": 0.001963495408,
+    "basis": "Historical RIBBON_EDGE_2PASS footprint convention, used only to keep the architectural comparison basis. Does not assign a material, FE section or mass to the new boundary."
+  },
+  "excluded": [
+    "sleeves",
+    "bolts",
+    "washers",
+    "local tow wraps not in source",
+    "foundation"
+  ],
+  "camera_independent": true,
+  "geometry_only": true,
+  "FE_run": false
+}
