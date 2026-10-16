@@ -1,0 +1,77 @@
+{
+  "schema": "native-gh-panel-metrics-comparison/1",
+  "units": "m",
+  "mass_units": "kg",
+  "force_units": "N",
+  "material_basis": {
+    "id": "CFRP_WINDING_MASS_GH_20261017_V1",
+    "units": "m",
+    "metres_per_source_unit": 1,
+    "units_evidence": "User confirmed metre coordinates; native Rhino ModelUnitSystem=Meters on 2026-10-17. Geometry is not rescaled.",
+    "width_mm": 20,
+    "thickness_mm": 0.981747704,
+    "density_kg_m3": 1620,
+    "passes_already_in_equivalent_section": 1,
+    "gravity_m_s2": 9.80665,
+    "source_component_ids": {
+      "width": "c3819e54-0491-49d2-b440-178ebcc6b531",
+      "thickness": "05d4cb64-3910-4eb2-86db-6ef7beb5eb27",
+      "density": "92728b03-3f0b-4bb2-a4d8-70d7770fc6cc"
+    },
+    "formula": "mass_kg = sum(actual ordered winding segment lengths_m) * width_mm * thickness_mm * 1e-6 * density_kg_m3; weight_N = mass_kg * 9.80665",
+    "scope": "Estimated spatial CFRP winding only; each deposited segment counted, including repeated traversal. Excludes boundary members, sleeves, bolts, adhesive extras, waste, knots and contact wraps not present in the source. Not native FE mass or a material test.",
+    "section_basis": "Existing GH 20 mm assumed ribbon width and 0.981747704 mm equivalent thickness; existing cured-composite density 1620 kg/m3. No extra density for resin is added."
+  },
+  "absolute_comparison_tolerance": 1e-8,
+  "comparisons": [
+    {
+      "parameters": {
+        "panels": 55,
+        "shift": 14,
+        "anchors": 29,
+        "gap": 0.4
+      },
+      "panels": 55,
+      "max_panel_length_error_m": 8.526512829121202e-14,
+      "max_panel_mass_error_kg": 3.1086244689504383e-15,
+      "max_panel_weight_error_N": 3.197442310920451e-14,
+      "total_length_m": 4977.9753780232595,
+      "total_mass_kg": 158.3425550933489,
+      "total_weight_N": 1552.8100179061898,
+      "native_FE_run": false
+    },
+    {
+      "parameters": {
+        "panels": 36,
+        "shift": 0,
+        "anchors": 29,
+        "gap": 0.4
+      },
+      "panels": 36,
+      "max_panel_length_error_m": 7.815970093361102e-14,
+      "max_panel_mass_error_kg": 2.4424906541753444e-15,
+      "max_panel_weight_error_N": 2.4868995751603507e-14,
+      "total_length_m": 946.7270606837229,
+      "total_mass_kg": 30.114086627765605,
+      "total_weight_N": 295.31830762817754,
+      "native_FE_run": false
+    },
+    {
+      "parameters": {
+        "gap": 0.5,
+        "panels": 56,
+        "anchors": 30,
+        "shift": 15
+      },
+      "panels": 56,
+      "max_panel_length_error_m": 4.973799150320701e-14,
+      "max_panel_mass_error_kg": 1.5543122344752192e-15,
+      "max_panel_weight_error_N": 1.4210854715202004e-14,
+      "total_length_m": 2652.9398525859624,
+      "total_mass_kg": 84.3863705356943,
+      "total_weight_N": 827.5476006138664,
+      "native_FE_run": false
+    }
+  ],
+  "FE_run": false
+}

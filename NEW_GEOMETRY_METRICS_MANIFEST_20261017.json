@@ -1,0 +1,29 @@
+{
+  "schema": "CFRP_NEW_GEOMETRY_PANEL_METRICS/1",
+  "created_utc": "2026-10-16T19:23:05.218Z",
+  "repository": "julianmulya/pavilion-winding-data",
+  "historical_data_parent_commit": "8f86c2a6540b0258e878a18f6dbf3a871f8ebd23",
+  "previous_geometry_commit": "31e65bfbac8cea87993fd6ac6e124bcec6e1ce40",
+  "roots": [
+    "new-geometry"
+  ],
+  "scope": "Confirmed metres; estimated spatial CFRP winding mass only; native GH length comparison. No FE runs, no historical status changes, no source GH or private local paths published.",
+  "files": [
+    {
+      "path": "public/new-geometry/source-v2.json",
+      "bytes": 252756,
+      "sha256": "41a3aabbd66f2f73d4c786ca73bcb50872164c20319832eb70b68477f4404f43"
+    },
+    {
+      "path": "public/new-geometry/native-panel-metrics-v1.json",
+      "bytes": 46717,
+      "sha256": "4d79ddad646ed78e3bfcd2466f21e10118dc9e3f48aa44db106aad62249e4256"
+    },
+    {
+      "path": "public/new-geometry/native-panel-metrics-comparison-v1.json",
+      "bytes": 2866,
+      "sha256": "2ea4f0c44683c448a5353f2a97e9e29cf2678ab75f470952eaea437356a719cb"
+    }
+  ],
+  "total_bytes": 302339
+}
