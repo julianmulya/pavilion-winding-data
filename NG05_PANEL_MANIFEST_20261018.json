@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "path": "public/new-geometry/native-fe-ng05/panels-v1/panel-comparison.json",
+      "bytes": 669826,
+      "sha256": "b38d2f33d948ec56c3e98a1c16a3835367cea2fe53e46342638c4e216a104358"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/panels-v1/PERBANDINGAN_PANEL.md",
+      "bytes": 4652,
+      "sha256": "466ca19ea0bd86e42499e6318aa35bf553ec842f7bb23c56d7c92ea63e655a80"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/panels-v1/compare_panels_ng05.py",
+      "bytes": 6123,
+      "sha256": "b382b0c3d530e720c45afd83188ef034776a43c05ff46aa182663d7f27995033"
+    }
+  ],
+  "source_data_commit": "edfd5f915fca63700322ca0440196161fea7aed5",
+  "native_new_solves": 0,
+  "panels": 36,
+  "models": 3,
+  "cases_per_model": 9,
+  "derived_only": true
+}
