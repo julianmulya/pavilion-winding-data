@@ -1,0 +1,105 @@
+{
+  "files": [
+    {
+      "path": "public/new-geometry/native-fe-ng06/AB_SHIFT6/G.json",
+      "bytes": 1682572,
+      "sha256": "61fdd0a858ee446d7f1ce624ab4891ff07de35e1af46837a43aeb69819744dde"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng06/AB_SHIFT6/geometry.json",
+      "bytes": 2427943,
+      "sha256": "a29524d3942ed0e7ec176ad4b6fadb5f1b00d29f067b043e3090d54e730b956d"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng06/AB_SHIFT6/G_X_NEG.json",
+      "bytes": 1660856,
+      "sha256": "e059ebeeb792f39137b9207711db623e9f9dde07df9c6db1a25b3be202032eaa"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng06/AB_SHIFT6/G_X_POS.json",
+      "bytes": 1645033,
+      "sha256": "537def81468d94d91ed6602ae516a1ed9ea2f3d1b0ddd68fa1eee9b8317ae77d"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng06/AB_SHIFT6/G_Y_NEG.json",
+      "bytes": 1654255,
+      "sha256": "af8565fe7740315651dc47d4dfffbdda057859e2b9155b7298e0e59180f59c8d"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng06/AB_SHIFT6/G_Y_POS.json",
+      "bytes": 1637155,
+      "sha256": "95562680655278d111bc5f30984b5a5c2835ed148c1fa5bd0651c43d7a8202d1"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng06/AB_SHIFT6/L_X_NEG.json",
+      "bytes": 1671493,
+      "sha256": "e7bece6acbaf89f1ab55b77aa683fca14988d5f15a0096c0a3b18d13b0a9f4a5"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng06/AB_SHIFT6/L_X_POS.json",
+      "bytes": 1648961,
+      "sha256": "2fe3417a854609eeb11cdc73348babce5fe89b93034cbf963840fd60f3799952"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng06/AB_SHIFT6/L_Y_NEG.json",
+      "bytes": 1661243,
+      "sha256": "a8b22b94582461a2d1a3461d246ef801bb9f3cbbe971168a6f121925a8ce6cec"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng06/AB_SHIFT6/L_Y_POS.json",
+      "bytes": 1635879,
+      "sha256": "fe31f9d4bc2f9005ffd209c6845e0633639b9aded208b7a491ebe833b9a0e2f9"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng06/AB_SHIFT6/summary.json",
+      "bytes": 31662,
+      "sha256": "eff4dfddc77ef1a0c273d745c3e6b7b5b5d4079cc7b23eda84e199c3c0ddafbe"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng06/panel-comparison.json",
+      "bytes": 901239,
+      "sha256": "f3554f1c9da446a2486385e41fc320f1673ffe4d88116daa07165a9b917a74a7"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng06/comparison.json",
+      "bytes": 2088,
+      "sha256": "53e8ab20b140b80503c4f18ea9ba27115937baedc0dfa3a9ea23f78b3785bd0a"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng06/HASIL_AB_SHIFT6.md",
+      "bytes": 1745,
+      "sha256": "74594d740397421928aa10a553ac50550a1e415332767851901eb8926a9bde40"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng06/PERBANDINGAN_PANEL.md",
+      "bytes": 1869,
+      "sha256": "e99cbb646be6eb8232248443892b1b1f6c61c204103b5b50c17550d4da02713e"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng06/PLANARITY_AUDIT.json",
+      "bytes": 9519,
+      "sha256": "9bcfc6514e4677292a2382a0c7710ea9e3cf0051745f29dfda0948a917b52df8"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng06/AB_SHIFT6/native-results.gh",
+      "bytes": 311479,
+      "sha256": "7a4af94b5a076a81b021b925b97c4b13036006cac5821af1ba089cadb2a0b09a"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng06/source/NativeFE_AB_SHIFT6.cs",
+      "bytes": 13380,
+      "sha256": "d2bc5439d623d878e5c5c00d5f4ff8b4870af1986bd7a3907f5d15b86514fa7e"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng06/source/prepare_ab_shift6.py",
+      "bytes": 4326,
+      "sha256": "4d4e7ade621e42bbcea130b0229370179a5307f7ab4dd422f15a2519275d722a"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng06/source/run_ab_shift6_once.py",
+      "bytes": 6621,
+      "sha256": "eac64fbc1fbd86ce9b74b60723cb3ea8883c576bfc537b3a19fb8304bffce294"
+    }
+  ],
+  "new_native_cases": 9
+}

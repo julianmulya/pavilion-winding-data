@@ -1,0 +1,58 @@
+{
+  "candidates": [
+    {
+      "id": "BASELINE",
+      "label": "Baseline",
+      "added_length_m": 0,
+      "added_mass_kg": 0,
+      "shell_max_MPa": 7.096297931585102,
+      "boundary_max_MPa": 23.802074932599417,
+      "link_max_MPa": 5.728052038624397,
+      "displacement_max_mm": 5.200252372476537,
+      "shell_reduction_pct": 0.0,
+      "shell_reduction_MPa_per_kg": null,
+      "status": "BASELINE"
+    },
+    {
+      "id": "REPEAT",
+      "label": "Winding ulang",
+      "added_length_m": 9.463300597354714,
+      "added_mass_kg": 0.3010145857323601,
+      "shell_max_MPa": 6.715412143064878,
+      "boundary_max_MPa": 23.742994143480594,
+      "link_max_MPa": 7.916699743682334,
+      "displacement_max_mm": 5.231960456091379,
+      "shell_reduction_pct": 5.367387223483522,
+      "shell_reduction_MPa_per_kg": 1.265339975448498,
+      "status": "SHELL_ENVELOPE_LOWER_WITH_MIXED_RESPONSE"
+    },
+    {
+      "id": "NEW_ANCHOR",
+      "label": "Anchor baru",
+      "added_length_m": 15.881932654439144,
+      "added_mass_kg": 0.5051824497619355,
+      "shell_max_MPa": 7.036561862301513,
+      "boundary_max_MPa": 23.78820778003905,
+      "link_max_MPa": 5.414321175331029,
+      "displacement_max_mm": 5.086561714791261,
+      "shell_reduction_pct": 0.8417920140825652,
+      "shell_reduction_MPa_per_kg": 0.11824652521428614,
+      "status": "SHELL_ENVELOPE_LOWER_WITH_MIXED_RESPONSE"
+    },
+    {
+      "id": "AB_SHIFT6",
+      "label": "Winding A/B shift 6",
+      "added_length_m": 214.93716280099653,
+      "added_mass_kg": 6.836855741126543,
+      "shell_max_MPa": 6.322226874797461,
+      "boundary_max_MPa": 23.142674531122974,
+      "link_max_MPa": 5.325168352552235,
+      "displacement_max_mm": 5.51231799160365,
+      "shell_reduction_pct": 10.908096929559674,
+      "shell_reduction_MPa_per_kg": 0.11322032906607649
+    }
+  ],
+  "native_new_cases": 9,
+  "geometry": "Original nonplanar anchor positions retained, separate shift-6 cycles on A and B of P024 P033 P034",
+  "capacity_status": "NOT_ASSESSED"
+}
