@@ -1,0 +1,17 @@
+{
+  "schema": "CFRP_NEW_GEOMETRY_BOUNDARY_DISPLAY_FIX/1",
+  "repository": "julianmulya/pavilion-winding-data",
+  "historical_data_parent_commit": "8f86c2a6540b0258e878a18f6dbf3a871f8ebd23",
+  "previous_geometry_commit": "6e3140142bb1313e2e61c780a448b6bd4aee0fb0",
+  "roots": [
+    "new-geometry"
+  ],
+  "files": [
+    {
+      "path": "public/new-geometry/boundary-fit-report-v1.json",
+      "bytes": 4204,
+      "sha256": "2f0878798704e9bfe804b4d8d7c9f2da086416466d40999058a616592c3d348a"
+    }
+  ],
+  "total_bytes": 4204
+}

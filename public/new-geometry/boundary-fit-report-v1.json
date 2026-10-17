@@ -1,0 +1,111 @@
+{
+  "schema": "GH_NEW_BOUNDARY_DISPLAY_FRAME_FIX/1",
+  "scope": "Display-only correction. Align each transparent boundary flange to its actual 3D edge instead of a panel-plane projection. Original winding endpoints, anchor indexing, source geometry, hardware data, material quantities and openness calculation remain unchanged.",
+  "cases": [
+    {
+      "before": {
+        "parameters": {
+          "anchors": 50,
+          "shift": 25,
+          "gap": 1,
+          "panels": 100
+        },
+        "source_sha256": "10832174223719e6aba2a62e4216238df9727300700a8ee8d94a1b86549885bb",
+        "segments": 5000,
+        "flanges": 1140,
+        "max_winding_endpoint_boundary_error_m": 1.7763568394002505e-15,
+        "max_rendered_flange_base_error_m": 0.23489185309049787,
+        "worst_flange": "P047:A:E1",
+        "note": "Flange base is checked after removal of the existing 4 mm owner inset. Float32 instance matrices are used.",
+        "FE_run": false
+      },
+      "after": {
+        "parameters": {
+          "anchors": 50,
+          "shift": 25,
+          "gap": 1,
+          "panels": 100
+        },
+        "source_sha256": "10832174223719e6aba2a62e4216238df9727300700a8ee8d94a1b86549885bb",
+        "segments": 5000,
+        "flanges": 1140,
+        "max_winding_endpoint_boundary_error_m": 1.7763568394002505e-15,
+        "max_rendered_flange_base_error_m": 4.794483741045177e-07,
+        "worst_flange": "P092:B:E2",
+        "note": "Flange base is checked after removal of the existing 4 mm owner inset. Float32 instance matrices are used.",
+        "FE_run": false
+      }
+    },
+    {
+      "before": {
+        "parameters": {
+          "anchors": 10,
+          "shift": 5,
+          "gap": 0.1,
+          "panels": 36
+        },
+        "source_sha256": "10832174223719e6aba2a62e4216238df9727300700a8ee8d94a1b86549885bb",
+        "segments": 360,
+        "flanges": 388,
+        "max_winding_endpoint_boundary_error_m": 8.881784197001252e-16,
+        "max_rendered_flange_base_error_m": 0.5539831776420816,
+        "worst_flange": "P019:A:E3",
+        "note": "Flange base is checked after removal of the existing 4 mm owner inset. Float32 instance matrices are used.",
+        "FE_run": false
+      },
+      "after": {
+        "parameters": {
+          "anchors": 10,
+          "shift": 5,
+          "gap": 0.1,
+          "panels": 36
+        },
+        "source_sha256": "10832174223719e6aba2a62e4216238df9727300700a8ee8d94a1b86549885bb",
+        "segments": 360,
+        "flanges": 388,
+        "max_winding_endpoint_boundary_error_m": 8.881784197001252e-16,
+        "max_rendered_flange_base_error_m": 5.138251481273164e-07,
+        "worst_flange": "P025:B:E2",
+        "note": "Flange base is checked after removal of the existing 4 mm owner inset. Float32 instance matrices are used.",
+        "FE_run": false
+      }
+    },
+    {
+      "before": {
+        "parameters": {
+          "panels": 55,
+          "shift": 14,
+          "anchors": 29,
+          "gap": 0.4
+        },
+        "source_sha256": "10832174223719e6aba2a62e4216238df9727300700a8ee8d94a1b86549885bb",
+        "segments": 3190,
+        "flanges": 606,
+        "max_winding_endpoint_boundary_error_m": 9.930136612989092e-16,
+        "max_rendered_flange_base_error_m": 0.3443431645962378,
+        "worst_flange": "P029:A:E4",
+        "note": "Flange base is checked after removal of the existing 4 mm owner inset. Float32 instance matrices are used.",
+        "FE_run": false
+      },
+      "after": {
+        "parameters": {
+          "panels": 55,
+          "shift": 14,
+          "anchors": 29,
+          "gap": 0.4
+        },
+        "source_sha256": "10832174223719e6aba2a62e4216238df9727300700a8ee8d94a1b86549885bb",
+        "segments": 3190,
+        "flanges": 606,
+        "max_winding_endpoint_boundary_error_m": 9.930136612989092e-16,
+        "max_rendered_flange_base_error_m": 5.436423977710075e-07,
+        "worst_flange": "P036:B:E2",
+        "note": "Flange base is checked after removal of the existing 4 mm owner inset. Float32 instance matrices are used.",
+        "FE_run": false
+      }
+    }
+  ],
+  "geometry_regression_tests": 23,
+  "native_FE_runs": 0,
+  "original_GH_changed": false
+}
