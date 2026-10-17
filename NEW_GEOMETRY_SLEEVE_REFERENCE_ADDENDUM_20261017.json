@@ -1,0 +1,21 @@
+{
+  "schema": "NEW_GEOMETRY_SLEEVE_REFERENCE_ADDENDUM/1",
+  "repository": "https://github.com/julianmulya/pavilion-winding-data",
+  "parent_data_commit": "b05bdce8b1cb12781bce2038d0a5c921abe2fa6a",
+  "files": [
+    {
+      "path": "public/new-geometry/hardware-contract-v3.json",
+      "bytes": 1720,
+      "sha256": "30bec2e6f462f9c99740c67630fe0bcd0faa8d2cd29d14c60e65daa5ab5f966e"
+    },
+    {
+      "path": "public/new-geometry/sleeved-winding-reference-v2.json",
+      "bytes": 7205,
+      "sha256": "a1e05214deb177317eee0139bd14598eccd714b7819a8c7a1a470be42e590022"
+    }
+  ],
+  "total_bytes": 8925,
+  "geometry_changed": false,
+  "native_FE_runs": 0,
+  "historical_data_changed": false
+}

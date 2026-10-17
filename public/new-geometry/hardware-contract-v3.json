@@ -1,0 +1,43 @@
+{
+  "id": "GH_NEW_DUAL_HARDWARE_V3",
+  "units": "m",
+  "scope": "GEOMETRY_ONLY_NOT_FE",
+  "dimensions_are": "CONCEPTUAL_ASSUMPTIONS_NOT_MEASURED_FROM_REFERENCE",
+  "edge_match_tolerance_m": 1e-8,
+  "sleeve": {
+    "outer_diameter_m": 0.012,
+    "bore_m": 0.0066,
+    "length_m": 0.018,
+    "stud_diameter_m": 0.006,
+    "stud_length_m": 0.036,
+    "washer_diameter_m": 0.018
+  },
+  "connection": {
+    "bolt_diameter_m": 0.006,
+    "shaft_length_m": 0.03,
+    "washer_diameter_m": 0.018,
+    "flange_height_m": 0.03,
+    "flange_thickness_m": 0.003,
+    "owner_inset_m": 0.004,
+    "anchor_clearance_m": 0.019,
+    "bolt_spacing_min_m": 0.05,
+    "edge_end_clearance_m": 0.025,
+    "station_priority": [
+      0.25,
+      0.75,
+      0.35,
+      0.65,
+      0.15,
+      0.85,
+      0.5
+    ],
+    "max_bolts_per_shared_edge": 2
+  },
+  "semantics": {
+    "sleeve": "One winding anchor sleeve per owner/layer/anchor; coincident owners are retained.",
+    "bolt": "Project adaptation: separate module bolt stations through two schematic reinforced edges. Reference systems can reuse embedded winding sleeves for assembly bolts after pin removal; this placement is not a reproduction of the precedent.",
+    "boundary": "Stuttgart 2013/14 uses reinforced fibre-composite edges with integrated local aluminium sleeves; fabrication frames are temporary. Transparent project strips are interface zones; permanent boundary section and stiffness remain unassigned.",
+    "winding": "Source spans retained as provenance; sleeve loops and transfer contact lines are separately defined by GH_NEW_SLEEVED_WINDING_V1. Hardware mass excluded.",
+    "FE": "No native solve, connector stiffness, support or historic result change."
+  }
+}
