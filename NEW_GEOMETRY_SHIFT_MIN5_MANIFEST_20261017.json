@@ -1,0 +1,24 @@
+{
+  "schema": "CFRP_NEW_GEOMETRY_SHIFT_MIN5/1",
+  "created_utc": "2026-10-17T10:42:50.879Z",
+  "repository": "julianmulya/pavilion-winding-data",
+  "historical_data_parent_commit": "8f86c2a6540b0258e878a18f6dbf3a871f8ebd23",
+  "previous_geometry_commit": "8cf7d08ca3c6275c8aa13c2f58364f3532594868",
+  "roots": [
+    "new-geometry"
+  ],
+  "scope": "Output-driven architectural search for visual openness and spatial CFRP winding mass. Active shifts restricted to 5..floor(N/2). Bounded deterministic search over all four parameters, 64-row screening and 128/256/512 final calculation. Source shape and hardware evidence preserved. No FE. Full pavilion mass is not available.",
+  "files": [
+    {
+      "path": "public/new-geometry/target-search-contract-v2.json",
+      "bytes": 925,
+      "sha256": "4bb68dd3dd9dc9176a6e402c801f487a515f10b288aa2f145e1dcedb09ab66a1"
+    },
+    {
+      "path": "public/new-geometry/target-search-reference-v2.json",
+      "bytes": 3775,
+      "sha256": "eeddf1e7fd1866fd5d219b9525ea74e5dfad8b138d922b2ff09b4b409ce6b0f0"
+    }
+  ],
+  "total_bytes": 4700
+}

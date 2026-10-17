@@ -1,0 +1,32 @@
+{
+  "id": "GH_NEW_TARGET_OPENNESS_MASS_V2",
+  "method": "Deterministic bounded sampling, exact source winding mass screening, 64-row openness screening, local neighbours, and 128/256/512-row final evaluation.",
+  "mass_scope": "SPATIAL_CFRP_WINDING_ONLY",
+  "openness_contract": "GH_NEW_PROJECTED_OPENNESS_V1",
+  "domain": {
+    "anchors": [
+      10,
+      50,
+      1
+    ],
+    "shift": "5..floor(N/2)",
+    "gap": [
+      0.1,
+      1,
+      0.1
+    ],
+    "panels": [
+      36,
+      100,
+      1
+    ]
+  },
+  "broad_samples": 256,
+  "mass_shortlist": 48,
+  "diversity_samples": 16,
+  "local_seeds": 3,
+  "finalists": 8,
+  "rank": "Within both tolerances first; then (openness error / openness tolerance)^2 + (mass error / mass tolerance)^2; deterministic parameter tie-break.",
+  "claim": "Nearest among evaluated configurations; no claim of exhaustive search, global optimum or structural safety.",
+  "FE_run": false
+}
