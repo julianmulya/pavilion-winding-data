@@ -1,0 +1,200 @@
+{
+  "schema": "NEW_GEOMETRY_FULL_BASE_Z0/1",
+  "previous_data_commit": "96b273d536032a0b1cd9339f0d09da2af342286d",
+  "created_utc": "2026-10-17T16:29:19.337Z",
+  "contract": {
+    "id": "GH_FULL_BASE_Z0_V1",
+    "scope": "GEOMETRY_ONLY_NO_FE",
+    "source_gh_sha256": "a8b13eedd25250b65003b98b213d92a3de8699e2c1f5de8a31a33ee3b8e4ca56",
+    "main_loft_crc": 2859397175,
+    "method": "Set Z=0 at all UV-ground-perimeter vertices on both A and B; retain X/Y and all interior vertices. Recompute anchors, sleeve contacts and ordered winding from corrected boundaries.",
+    "domain": {
+      "panels": [
+        36,
+        100
+      ],
+      "boundary_gap_m": [
+        0.1,
+        1
+      ],
+      "anchors": [
+        10,
+        50
+      ],
+      "shift": "5..floor(anchors/2)"
+    },
+    "default_ground": {
+      "ground_edges_both_layers": 26,
+      "ground_length_owner_sum_m": 34.533551178352646,
+      "moved_vertex_occurrences": 38,
+      "minimum_Z_before_m": -0.056367569063027714,
+      "contract": "GH_FULL_BASE_Z0_V1",
+      "ground_panels": 13,
+      "max_abs_ground_Z_m": 0,
+      "panels": 55,
+      "ground_panel_details": [
+        {
+          "ground_vertices_both_layers": 4,
+          "ground_edge_indices": [
+            1
+          ],
+          "panel": "P001"
+        },
+        {
+          "ground_vertices_both_layers": 4,
+          "ground_edge_indices": [
+            2
+          ],
+          "panel": "P002"
+        },
+        {
+          "ground_vertices_both_layers": 4,
+          "ground_edge_indices": [
+            2
+          ],
+          "panel": "P003"
+        },
+        {
+          "ground_vertices_both_layers": 4,
+          "ground_edge_indices": [
+            2
+          ],
+          "panel": "P004"
+        },
+        {
+          "ground_vertices_both_layers": 4,
+          "ground_edge_indices": [
+            2
+          ],
+          "panel": "P005"
+        },
+        {
+          "ground_vertices_both_layers": 4,
+          "ground_edge_indices": [
+            2
+          ],
+          "panel": "P006"
+        },
+        {
+          "ground_vertices_both_layers": 4,
+          "ground_edge_indices": [
+            2
+          ],
+          "panel": "P007"
+        },
+        {
+          "ground_vertices_both_layers": 4,
+          "ground_edge_indices": [
+            3
+          ],
+          "panel": "P050"
+        },
+        {
+          "ground_vertices_both_layers": 4,
+          "ground_edge_indices": [
+            3
+          ],
+          "panel": "P051"
+        },
+        {
+          "ground_vertices_both_layers": 4,
+          "ground_edge_indices": [
+            4
+          ],
+          "panel": "P052"
+        },
+        {
+          "ground_vertices_both_layers": 4,
+          "ground_edge_indices": [
+            3
+          ],
+          "panel": "P053"
+        },
+        {
+          "ground_vertices_both_layers": 4,
+          "ground_edge_indices": [
+            3
+          ],
+          "panel": "P054"
+        },
+        {
+          "ground_vertices_both_layers": 4,
+          "ground_edge_indices": [
+            2
+          ],
+          "panel": "P055"
+        }
+      ],
+      "max_XY_change_m": 0,
+      "minimum_Z_after_m": 0
+    },
+    "native_boundary_checks": 95,
+    "web_panel_gap_combinations_checked": 650,
+    "native_web_route_comparisons": 3,
+    "historical_results_unchanged": true,
+    "FE_results_available": false,
+    "ground_highlight": "Presentation only; no foundation section or FE element added."
+  },
+  "files": [
+    {
+      "path": "public/new-geometry/full-base-z0-v1/native-cases.json",
+      "bytes": 4631477,
+      "sha256": "931b946bda5cf16c17fca67a72ed32efa7db613c95f53caa172170fc1c76bcc2"
+    },
+    {
+      "path": "public/new-geometry/full-base-z0-v1/native-ground-checks.json",
+      "bytes": 142670,
+      "sha256": "9b46859fe046b248f8f5c2bcd4d5e4c96b19c06e14da6fb1c6e4dec091e94f31"
+    },
+    {
+      "path": "public/new-geometry/full-base-z0-v1/web-ground-verification.json",
+      "bytes": 75656,
+      "sha256": "eddafe47da1c6f23d2dd5cb1b358fc490d08f0b698fecef9619ca9062d646fcb"
+    },
+    {
+      "path": "public/new-geometry/full-base-z0-v1/full-base-z0.gh",
+      "bytes": 147939,
+      "sha256": "7ba76f78cce1a54116f90fb4aba5b992b7dab31737f4e98e3855e2130ca89a1d"
+    },
+    {
+      "path": "public/new-geometry/full-base-z0-v1/overview.png",
+      "bytes": 253396,
+      "sha256": "436ba2cf807fed19b075bf0981ae1db18deebb256ae1950c5c64f013767b5fc0"
+    },
+    {
+      "path": "public/new-geometry/full-base-z0-v1/panel-P001.png",
+      "bytes": 91583,
+      "sha256": "fba1ef58edd657f97d1df2d8afe67ddc18ce6e6934333c56e86b6eeb64cb2fa2"
+    },
+    {
+      "path": "public/new-geometry/full-base-z0-v1/native-FullBaseZ0.cs",
+      "bytes": 3991,
+      "sha256": "727c23d21b015e968577dadf95c22a88df6918a633aa26d2275fbaadb82c9eb4"
+    },
+    {
+      "path": "public/new-geometry/full-base-z0-v1/web-source/src/lib/new-geometry.ts",
+      "bytes": 11096,
+      "sha256": "099606fff4792aa3830d30bc4a57ead91af01f8234cb1254600da41322f4fedc"
+    },
+    {
+      "path": "public/new-geometry/full-base-z0-v1/web-source/src/lib/new-geometry-openness.ts",
+      "bytes": 5580,
+      "sha256": "ff510b468dcb3bf7827dacfb439e9d59676219b7d944b9ddf676b041ef30eb73"
+    },
+    {
+      "path": "public/new-geometry/full-base-z0-v1/web-source/src/components/NewGeometryLab.tsx",
+      "bytes": 21567,
+      "sha256": "31323efd2416ae8f8def873c8472500b8333600ee57fdf53685ca802c814bf22"
+    },
+    {
+      "path": "public/new-geometry/full-base-z0-v1/web-source/tests/new-geometry-full-base.test.ts",
+      "bytes": 3917,
+      "sha256": "4e0753f55a7d8a69d5b44531cf9c8d57f9ab49c35032970e9ff3d84d42edd7a2"
+    },
+    {
+      "path": "public/new-geometry/full-base-z0-v1/contract.json",
+      "bytes": 3054,
+      "sha256": "e4633e5b84c8451fd20f289d0139e827fc6ac1baab3ccdcaa111db58273b29dd"
+    }
+  ]
+}

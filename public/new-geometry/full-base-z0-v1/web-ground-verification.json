@@ -1,0 +1,3944 @@
+{
+  "contract": "GH_FULL_BASE_Z0_V1",
+  "combinations": [
+    {
+      "panels": 36,
+      "gap": 0.1,
+      "ground_panels": 12,
+      "ground_edges_both_layers": 24
+    },
+    {
+      "panels": 36,
+      "gap": 0.2,
+      "ground_panels": 12,
+      "ground_edges_both_layers": 24
+    },
+    {
+      "panels": 36,
+      "gap": 0.3,
+      "ground_panels": 12,
+      "ground_edges_both_layers": 24
+    },
+    {
+      "panels": 36,
+      "gap": 0.4,
+      "ground_panels": 12,
+      "ground_edges_both_layers": 24
+    },
+    {
+      "panels": 36,
+      "gap": 0.5,
+      "ground_panels": 12,
+      "ground_edges_both_layers": 24
+    },
+    {
+      "panels": 36,
+      "gap": 0.6,
+      "ground_panels": 12,
+      "ground_edges_both_layers": 24
+    },
+    {
+      "panels": 36,
+      "gap": 0.7,
+      "ground_panels": 12,
+      "ground_edges_both_layers": 24
+    },
+    {
+      "panels": 36,
+      "gap": 0.8,
+      "ground_panels": 12,
+      "ground_edges_both_layers": 24
+    },
+    {
+      "panels": 36,
+      "gap": 0.9,
+      "ground_panels": 12,
+      "ground_edges_both_layers": 24
+    },
+    {
+      "panels": 36,
+      "gap": 1,
+      "ground_panels": 12,
+      "ground_edges_both_layers": 24
+    },
+    {
+      "panels": 37,
+      "gap": 0.1,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 37,
+      "gap": 0.2,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 37,
+      "gap": 0.3,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 37,
+      "gap": 0.4,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 37,
+      "gap": 0.5,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 37,
+      "gap": 0.6,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 37,
+      "gap": 0.7,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 37,
+      "gap": 0.8,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 37,
+      "gap": 0.9,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 37,
+      "gap": 1,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 38,
+      "gap": 0.1,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 38,
+      "gap": 0.2,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 38,
+      "gap": 0.3,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 38,
+      "gap": 0.4,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 38,
+      "gap": 0.5,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 38,
+      "gap": 0.6,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 38,
+      "gap": 0.7,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 38,
+      "gap": 0.8,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 38,
+      "gap": 0.9,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 38,
+      "gap": 1,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 39,
+      "gap": 0.1,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 39,
+      "gap": 0.2,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 39,
+      "gap": 0.3,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 39,
+      "gap": 0.4,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 39,
+      "gap": 0.5,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 39,
+      "gap": 0.6,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 39,
+      "gap": 0.7,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 39,
+      "gap": 0.8,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 39,
+      "gap": 0.9,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 39,
+      "gap": 1,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 40,
+      "gap": 0.1,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 40,
+      "gap": 0.2,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 40,
+      "gap": 0.3,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 40,
+      "gap": 0.4,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 40,
+      "gap": 0.5,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 40,
+      "gap": 0.6,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 40,
+      "gap": 0.7,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 40,
+      "gap": 0.8,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 40,
+      "gap": 0.9,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 40,
+      "gap": 1,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 41,
+      "gap": 0.1,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 41,
+      "gap": 0.2,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 41,
+      "gap": 0.3,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 41,
+      "gap": 0.4,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 41,
+      "gap": 0.5,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 41,
+      "gap": 0.6,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 41,
+      "gap": 0.7,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 41,
+      "gap": 0.8,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 41,
+      "gap": 0.9,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 41,
+      "gap": 1,
+      "ground_panels": 11,
+      "ground_edges_both_layers": 22
+    },
+    {
+      "panels": 42,
+      "gap": 0.1,
+      "ground_panels": 12,
+      "ground_edges_both_layers": 24
+    },
+    {
+      "panels": 42,
+      "gap": 0.2,
+      "ground_panels": 12,
+      "ground_edges_both_layers": 24
+    },
+    {
+      "panels": 42,
+      "gap": 0.3,
+      "ground_panels": 12,
+      "ground_edges_both_layers": 24
+    },
+    {
+      "panels": 42,
+      "gap": 0.4,
+      "ground_panels": 12,
+      "ground_edges_both_layers": 24
+    },
+    {
+      "panels": 42,
+      "gap": 0.5,
+      "ground_panels": 12,
+      "ground_edges_both_layers": 24
+    },
+    {
+      "panels": 42,
+      "gap": 0.6,
+      "ground_panels": 12,
+      "ground_edges_both_layers": 24
+    },
+    {
+      "panels": 42,
+      "gap": 0.7,
+      "ground_panels": 12,
+      "ground_edges_both_layers": 24
+    },
+    {
+      "panels": 42,
+      "gap": 0.8,
+      "ground_panels": 12,
+      "ground_edges_both_layers": 24
+    },
+    {
+      "panels": 42,
+      "gap": 0.9,
+      "ground_panels": 12,
+      "ground_edges_both_layers": 24
+    },
+    {
+      "panels": 42,
+      "gap": 1,
+      "ground_panels": 12,
+      "ground_edges_both_layers": 24
+    },
+    {
+      "panels": 43,
+      "gap": 0.1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 43,
+      "gap": 0.2,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 43,
+      "gap": 0.3,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 43,
+      "gap": 0.4,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 43,
+      "gap": 0.5,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 43,
+      "gap": 0.6,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 43,
+      "gap": 0.7,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 43,
+      "gap": 0.8,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 43,
+      "gap": 0.9,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 43,
+      "gap": 1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 44,
+      "gap": 0.1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 44,
+      "gap": 0.2,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 44,
+      "gap": 0.3,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 44,
+      "gap": 0.4,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 44,
+      "gap": 0.5,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 44,
+      "gap": 0.6,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 44,
+      "gap": 0.7,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 44,
+      "gap": 0.8,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 44,
+      "gap": 0.9,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 44,
+      "gap": 1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 45,
+      "gap": 0.1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 45,
+      "gap": 0.2,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 45,
+      "gap": 0.3,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 45,
+      "gap": 0.4,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 45,
+      "gap": 0.5,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 45,
+      "gap": 0.6,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 45,
+      "gap": 0.7,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 45,
+      "gap": 0.8,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 45,
+      "gap": 0.9,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 45,
+      "gap": 1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 46,
+      "gap": 0.1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 46,
+      "gap": 0.2,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 46,
+      "gap": 0.3,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 46,
+      "gap": 0.4,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 46,
+      "gap": 0.5,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 46,
+      "gap": 0.6,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 46,
+      "gap": 0.7,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 46,
+      "gap": 0.8,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 46,
+      "gap": 0.9,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 46,
+      "gap": 1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 47,
+      "gap": 0.1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 47,
+      "gap": 0.2,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 47,
+      "gap": 0.3,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 47,
+      "gap": 0.4,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 47,
+      "gap": 0.5,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 47,
+      "gap": 0.6,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 47,
+      "gap": 0.7,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 47,
+      "gap": 0.8,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 47,
+      "gap": 0.9,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 47,
+      "gap": 1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 48,
+      "gap": 0.1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 48,
+      "gap": 0.2,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 48,
+      "gap": 0.3,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 48,
+      "gap": 0.4,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 48,
+      "gap": 0.5,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 48,
+      "gap": 0.6,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 48,
+      "gap": 0.7,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 48,
+      "gap": 0.8,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 48,
+      "gap": 0.9,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 48,
+      "gap": 1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 49,
+      "gap": 0.1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 49,
+      "gap": 0.2,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 49,
+      "gap": 0.3,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 49,
+      "gap": 0.4,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 49,
+      "gap": 0.5,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 49,
+      "gap": 0.6,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 49,
+      "gap": 0.7,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 49,
+      "gap": 0.8,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 49,
+      "gap": 0.9,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 49,
+      "gap": 1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 50,
+      "gap": 0.1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 50,
+      "gap": 0.2,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 50,
+      "gap": 0.3,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 50,
+      "gap": 0.4,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 50,
+      "gap": 0.5,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 50,
+      "gap": 0.6,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 50,
+      "gap": 0.7,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 50,
+      "gap": 0.8,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 50,
+      "gap": 0.9,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 50,
+      "gap": 1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 51,
+      "gap": 0.1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 51,
+      "gap": 0.2,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 51,
+      "gap": 0.3,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 51,
+      "gap": 0.4,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 51,
+      "gap": 0.5,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 51,
+      "gap": 0.6,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 51,
+      "gap": 0.7,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 51,
+      "gap": 0.8,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 51,
+      "gap": 0.9,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 51,
+      "gap": 1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 52,
+      "gap": 0.1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 52,
+      "gap": 0.2,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 52,
+      "gap": 0.3,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 52,
+      "gap": 0.4,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 52,
+      "gap": 0.5,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 52,
+      "gap": 0.6,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 52,
+      "gap": 0.7,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 52,
+      "gap": 0.8,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 52,
+      "gap": 0.9,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 52,
+      "gap": 1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 53,
+      "gap": 0.1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 53,
+      "gap": 0.2,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 53,
+      "gap": 0.3,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 53,
+      "gap": 0.4,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 53,
+      "gap": 0.5,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 53,
+      "gap": 0.6,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 53,
+      "gap": 0.7,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 53,
+      "gap": 0.8,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 53,
+      "gap": 0.9,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 53,
+      "gap": 1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 54,
+      "gap": 0.1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 54,
+      "gap": 0.2,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 54,
+      "gap": 0.3,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 54,
+      "gap": 0.4,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 54,
+      "gap": 0.5,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 54,
+      "gap": 0.6,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 54,
+      "gap": 0.7,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 54,
+      "gap": 0.8,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 54,
+      "gap": 0.9,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 54,
+      "gap": 1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 55,
+      "gap": 0.1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 55,
+      "gap": 0.2,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 55,
+      "gap": 0.3,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 55,
+      "gap": 0.4,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 55,
+      "gap": 0.5,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 55,
+      "gap": 0.6,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 55,
+      "gap": 0.7,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 55,
+      "gap": 0.8,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 55,
+      "gap": 0.9,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 55,
+      "gap": 1,
+      "ground_panels": 13,
+      "ground_edges_both_layers": 26
+    },
+    {
+      "panels": 56,
+      "gap": 0.1,
+      "ground_panels": 14,
+      "ground_edges_both_layers": 28
+    },
+    {
+      "panels": 56,
+      "gap": 0.2,
+      "ground_panels": 14,
+      "ground_edges_both_layers": 28
+    },
+    {
+      "panels": 56,
+      "gap": 0.3,
+      "ground_panels": 14,
+      "ground_edges_both_layers": 28
+    },
+    {
+      "panels": 56,
+      "gap": 0.4,
+      "ground_panels": 14,
+      "ground_edges_both_layers": 28
+    },
+    {
+      "panels": 56,
+      "gap": 0.5,
+      "ground_panels": 14,
+      "ground_edges_both_layers": 28
+    },
+    {
+      "panels": 56,
+      "gap": 0.6,
+      "ground_panels": 14,
+      "ground_edges_both_layers": 28
+    },
+    {
+      "panels": 56,
+      "gap": 0.7,
+      "ground_panels": 14,
+      "ground_edges_both_layers": 28
+    },
+    {
+      "panels": 56,
+      "gap": 0.8,
+      "ground_panels": 14,
+      "ground_edges_both_layers": 28
+    },
+    {
+      "panels": 56,
+      "gap": 0.9,
+      "ground_panels": 14,
+      "ground_edges_both_layers": 28
+    },
+    {
+      "panels": 56,
+      "gap": 1,
+      "ground_panels": 14,
+      "ground_edges_both_layers": 28
+    },
+    {
+      "panels": 57,
+      "gap": 0.1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 57,
+      "gap": 0.2,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 57,
+      "gap": 0.3,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 57,
+      "gap": 0.4,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 57,
+      "gap": 0.5,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 57,
+      "gap": 0.6,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 57,
+      "gap": 0.7,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 57,
+      "gap": 0.8,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 57,
+      "gap": 0.9,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 57,
+      "gap": 1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 58,
+      "gap": 0.1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 58,
+      "gap": 0.2,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 58,
+      "gap": 0.3,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 58,
+      "gap": 0.4,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 58,
+      "gap": 0.5,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 58,
+      "gap": 0.6,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 58,
+      "gap": 0.7,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 58,
+      "gap": 0.8,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 58,
+      "gap": 0.9,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 58,
+      "gap": 1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 59,
+      "gap": 0.1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 59,
+      "gap": 0.2,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 59,
+      "gap": 0.3,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 59,
+      "gap": 0.4,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 59,
+      "gap": 0.5,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 59,
+      "gap": 0.6,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 59,
+      "gap": 0.7,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 59,
+      "gap": 0.8,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 59,
+      "gap": 0.9,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 59,
+      "gap": 1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 60,
+      "gap": 0.1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 60,
+      "gap": 0.2,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 60,
+      "gap": 0.3,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 60,
+      "gap": 0.4,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 60,
+      "gap": 0.5,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 60,
+      "gap": 0.6,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 60,
+      "gap": 0.7,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 60,
+      "gap": 0.8,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 60,
+      "gap": 0.9,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 60,
+      "gap": 1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 61,
+      "gap": 0.1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 61,
+      "gap": 0.2,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 61,
+      "gap": 0.3,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 61,
+      "gap": 0.4,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 61,
+      "gap": 0.5,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 61,
+      "gap": 0.6,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 61,
+      "gap": 0.7,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 61,
+      "gap": 0.8,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 61,
+      "gap": 0.9,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 61,
+      "gap": 1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 62,
+      "gap": 0.1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 62,
+      "gap": 0.2,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 62,
+      "gap": 0.3,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 62,
+      "gap": 0.4,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 62,
+      "gap": 0.5,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 62,
+      "gap": 0.6,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 62,
+      "gap": 0.7,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 62,
+      "gap": 0.8,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 62,
+      "gap": 0.9,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 62,
+      "gap": 1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 63,
+      "gap": 0.1,
+      "ground_panels": 14,
+      "ground_edges_both_layers": 28
+    },
+    {
+      "panels": 63,
+      "gap": 0.2,
+      "ground_panels": 14,
+      "ground_edges_both_layers": 28
+    },
+    {
+      "panels": 63,
+      "gap": 0.3,
+      "ground_panels": 14,
+      "ground_edges_both_layers": 28
+    },
+    {
+      "panels": 63,
+      "gap": 0.4,
+      "ground_panels": 14,
+      "ground_edges_both_layers": 28
+    },
+    {
+      "panels": 63,
+      "gap": 0.5,
+      "ground_panels": 14,
+      "ground_edges_both_layers": 28
+    },
+    {
+      "panels": 63,
+      "gap": 0.6,
+      "ground_panels": 14,
+      "ground_edges_both_layers": 28
+    },
+    {
+      "panels": 63,
+      "gap": 0.7,
+      "ground_panels": 14,
+      "ground_edges_both_layers": 28
+    },
+    {
+      "panels": 63,
+      "gap": 0.8,
+      "ground_panels": 14,
+      "ground_edges_both_layers": 28
+    },
+    {
+      "panels": 63,
+      "gap": 0.9,
+      "ground_panels": 14,
+      "ground_edges_both_layers": 28
+    },
+    {
+      "panels": 63,
+      "gap": 1,
+      "ground_panels": 14,
+      "ground_edges_both_layers": 28
+    },
+    {
+      "panels": 64,
+      "gap": 0.1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 64,
+      "gap": 0.2,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 64,
+      "gap": 0.3,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 64,
+      "gap": 0.4,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 64,
+      "gap": 0.5,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 64,
+      "gap": 0.6,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 64,
+      "gap": 0.7,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 64,
+      "gap": 0.8,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 64,
+      "gap": 0.9,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 64,
+      "gap": 1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 65,
+      "gap": 0.1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 65,
+      "gap": 0.2,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 65,
+      "gap": 0.3,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 65,
+      "gap": 0.4,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 65,
+      "gap": 0.5,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 65,
+      "gap": 0.6,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 65,
+      "gap": 0.7,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 65,
+      "gap": 0.8,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 65,
+      "gap": 0.9,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 65,
+      "gap": 1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 66,
+      "gap": 0.1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 66,
+      "gap": 0.2,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 66,
+      "gap": 0.3,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 66,
+      "gap": 0.4,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 66,
+      "gap": 0.5,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 66,
+      "gap": 0.6,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 66,
+      "gap": 0.7,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 66,
+      "gap": 0.8,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 66,
+      "gap": 0.9,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 66,
+      "gap": 1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 67,
+      "gap": 0.1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 67,
+      "gap": 0.2,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 67,
+      "gap": 0.3,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 67,
+      "gap": 0.4,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 67,
+      "gap": 0.5,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 67,
+      "gap": 0.6,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 67,
+      "gap": 0.7,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 67,
+      "gap": 0.8,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 67,
+      "gap": 0.9,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 67,
+      "gap": 1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 68,
+      "gap": 0.1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 68,
+      "gap": 0.2,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 68,
+      "gap": 0.3,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 68,
+      "gap": 0.4,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 68,
+      "gap": 0.5,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 68,
+      "gap": 0.6,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 68,
+      "gap": 0.7,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 68,
+      "gap": 0.8,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 68,
+      "gap": 0.9,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 68,
+      "gap": 1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 69,
+      "gap": 0.1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 69,
+      "gap": 0.2,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 69,
+      "gap": 0.3,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 69,
+      "gap": 0.4,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 69,
+      "gap": 0.5,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 69,
+      "gap": 0.6,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 69,
+      "gap": 0.7,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 69,
+      "gap": 0.8,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 69,
+      "gap": 0.9,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 69,
+      "gap": 1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 70,
+      "gap": 0.1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 70,
+      "gap": 0.2,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 70,
+      "gap": 0.3,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 70,
+      "gap": 0.4,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 70,
+      "gap": 0.5,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 70,
+      "gap": 0.6,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 70,
+      "gap": 0.7,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 70,
+      "gap": 0.8,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 70,
+      "gap": 0.9,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 70,
+      "gap": 1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 71,
+      "gap": 0.1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 71,
+      "gap": 0.2,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 71,
+      "gap": 0.3,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 71,
+      "gap": 0.4,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 71,
+      "gap": 0.5,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 71,
+      "gap": 0.6,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 71,
+      "gap": 0.7,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 71,
+      "gap": 0.8,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 71,
+      "gap": 0.9,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 71,
+      "gap": 1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 72,
+      "gap": 0.1,
+      "ground_panels": 16,
+      "ground_edges_both_layers": 32
+    },
+    {
+      "panels": 72,
+      "gap": 0.2,
+      "ground_panels": 16,
+      "ground_edges_both_layers": 32
+    },
+    {
+      "panels": 72,
+      "gap": 0.3,
+      "ground_panels": 16,
+      "ground_edges_both_layers": 32
+    },
+    {
+      "panels": 72,
+      "gap": 0.4,
+      "ground_panels": 16,
+      "ground_edges_both_layers": 32
+    },
+    {
+      "panels": 72,
+      "gap": 0.5,
+      "ground_panels": 16,
+      "ground_edges_both_layers": 32
+    },
+    {
+      "panels": 72,
+      "gap": 0.6,
+      "ground_panels": 16,
+      "ground_edges_both_layers": 32
+    },
+    {
+      "panels": 72,
+      "gap": 0.7,
+      "ground_panels": 16,
+      "ground_edges_both_layers": 32
+    },
+    {
+      "panels": 72,
+      "gap": 0.8,
+      "ground_panels": 16,
+      "ground_edges_both_layers": 32
+    },
+    {
+      "panels": 72,
+      "gap": 0.9,
+      "ground_panels": 16,
+      "ground_edges_both_layers": 32
+    },
+    {
+      "panels": 72,
+      "gap": 1,
+      "ground_panels": 16,
+      "ground_edges_both_layers": 32
+    },
+    {
+      "panels": 73,
+      "gap": 0.1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 73,
+      "gap": 0.2,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 73,
+      "gap": 0.3,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 73,
+      "gap": 0.4,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 73,
+      "gap": 0.5,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 73,
+      "gap": 0.6,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 73,
+      "gap": 0.7,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 73,
+      "gap": 0.8,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 73,
+      "gap": 0.9,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 73,
+      "gap": 1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 74,
+      "gap": 0.1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 74,
+      "gap": 0.2,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 74,
+      "gap": 0.3,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 74,
+      "gap": 0.4,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 74,
+      "gap": 0.5,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 74,
+      "gap": 0.6,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 74,
+      "gap": 0.7,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 74,
+      "gap": 0.8,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 74,
+      "gap": 0.9,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 74,
+      "gap": 1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 75,
+      "gap": 0.1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 75,
+      "gap": 0.2,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 75,
+      "gap": 0.3,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 75,
+      "gap": 0.4,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 75,
+      "gap": 0.5,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 75,
+      "gap": 0.6,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 75,
+      "gap": 0.7,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 75,
+      "gap": 0.8,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 75,
+      "gap": 0.9,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 75,
+      "gap": 1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 76,
+      "gap": 0.1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 76,
+      "gap": 0.2,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 76,
+      "gap": 0.3,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 76,
+      "gap": 0.4,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 76,
+      "gap": 0.5,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 76,
+      "gap": 0.6,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 76,
+      "gap": 0.7,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 76,
+      "gap": 0.8,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 76,
+      "gap": 0.9,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 76,
+      "gap": 1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 77,
+      "gap": 0.1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 77,
+      "gap": 0.2,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 77,
+      "gap": 0.3,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 77,
+      "gap": 0.4,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 77,
+      "gap": 0.5,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 77,
+      "gap": 0.6,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 77,
+      "gap": 0.7,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 77,
+      "gap": 0.8,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 77,
+      "gap": 0.9,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 77,
+      "gap": 1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 78,
+      "gap": 0.1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 78,
+      "gap": 0.2,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 78,
+      "gap": 0.3,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 78,
+      "gap": 0.4,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 78,
+      "gap": 0.5,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 78,
+      "gap": 0.6,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 78,
+      "gap": 0.7,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 78,
+      "gap": 0.8,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 78,
+      "gap": 0.9,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 78,
+      "gap": 1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 79,
+      "gap": 0.1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 79,
+      "gap": 0.2,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 79,
+      "gap": 0.3,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 79,
+      "gap": 0.4,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 79,
+      "gap": 0.5,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 79,
+      "gap": 0.6,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 79,
+      "gap": 0.7,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 79,
+      "gap": 0.8,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 79,
+      "gap": 0.9,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 79,
+      "gap": 1,
+      "ground_panels": 15,
+      "ground_edges_both_layers": 30
+    },
+    {
+      "panels": 80,
+      "gap": 0.1,
+      "ground_panels": 16,
+      "ground_edges_both_layers": 32
+    },
+    {
+      "panels": 80,
+      "gap": 0.2,
+      "ground_panels": 16,
+      "ground_edges_both_layers": 32
+    },
+    {
+      "panels": 80,
+      "gap": 0.3,
+      "ground_panels": 16,
+      "ground_edges_both_layers": 32
+    },
+    {
+      "panels": 80,
+      "gap": 0.4,
+      "ground_panels": 16,
+      "ground_edges_both_layers": 32
+    },
+    {
+      "panels": 80,
+      "gap": 0.5,
+      "ground_panels": 16,
+      "ground_edges_both_layers": 32
+    },
+    {
+      "panels": 80,
+      "gap": 0.6,
+      "ground_panels": 16,
+      "ground_edges_both_layers": 32
+    },
+    {
+      "panels": 80,
+      "gap": 0.7,
+      "ground_panels": 16,
+      "ground_edges_both_layers": 32
+    },
+    {
+      "panels": 80,
+      "gap": 0.8,
+      "ground_panels": 16,
+      "ground_edges_both_layers": 32
+    },
+    {
+      "panels": 80,
+      "gap": 0.9,
+      "ground_panels": 16,
+      "ground_edges_both_layers": 32
+    },
+    {
+      "panels": 80,
+      "gap": 1,
+      "ground_panels": 16,
+      "ground_edges_both_layers": 32
+    },
+    {
+      "panels": 81,
+      "gap": 0.1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 81,
+      "gap": 0.2,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 81,
+      "gap": 0.3,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 81,
+      "gap": 0.4,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 81,
+      "gap": 0.5,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 81,
+      "gap": 0.6,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 81,
+      "gap": 0.7,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 81,
+      "gap": 0.8,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 81,
+      "gap": 0.9,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 81,
+      "gap": 1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 82,
+      "gap": 0.1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 82,
+      "gap": 0.2,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 82,
+      "gap": 0.3,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 82,
+      "gap": 0.4,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 82,
+      "gap": 0.5,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 82,
+      "gap": 0.6,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 82,
+      "gap": 0.7,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 82,
+      "gap": 0.8,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 82,
+      "gap": 0.9,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 82,
+      "gap": 1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 83,
+      "gap": 0.1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 83,
+      "gap": 0.2,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 83,
+      "gap": 0.3,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 83,
+      "gap": 0.4,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 83,
+      "gap": 0.5,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 83,
+      "gap": 0.6,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 83,
+      "gap": 0.7,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 83,
+      "gap": 0.8,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 83,
+      "gap": 0.9,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 83,
+      "gap": 1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 84,
+      "gap": 0.1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 84,
+      "gap": 0.2,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 84,
+      "gap": 0.3,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 84,
+      "gap": 0.4,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 84,
+      "gap": 0.5,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 84,
+      "gap": 0.6,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 84,
+      "gap": 0.7,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 84,
+      "gap": 0.8,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 84,
+      "gap": 0.9,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 84,
+      "gap": 1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 85,
+      "gap": 0.1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 85,
+      "gap": 0.2,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 85,
+      "gap": 0.3,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 85,
+      "gap": 0.4,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 85,
+      "gap": 0.5,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 85,
+      "gap": 0.6,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 85,
+      "gap": 0.7,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 85,
+      "gap": 0.8,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 85,
+      "gap": 0.9,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 85,
+      "gap": 1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 86,
+      "gap": 0.1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 86,
+      "gap": 0.2,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 86,
+      "gap": 0.3,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 86,
+      "gap": 0.4,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 86,
+      "gap": 0.5,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 86,
+      "gap": 0.6,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 86,
+      "gap": 0.7,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 86,
+      "gap": 0.8,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 86,
+      "gap": 0.9,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 86,
+      "gap": 1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 87,
+      "gap": 0.1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 87,
+      "gap": 0.2,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 87,
+      "gap": 0.3,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 87,
+      "gap": 0.4,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 87,
+      "gap": 0.5,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 87,
+      "gap": 0.6,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 87,
+      "gap": 0.7,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 87,
+      "gap": 0.8,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 87,
+      "gap": 0.9,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 87,
+      "gap": 1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 88,
+      "gap": 0.1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 88,
+      "gap": 0.2,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 88,
+      "gap": 0.3,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 88,
+      "gap": 0.4,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 88,
+      "gap": 0.5,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 88,
+      "gap": 0.6,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 88,
+      "gap": 0.7,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 88,
+      "gap": 0.8,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 88,
+      "gap": 0.9,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 88,
+      "gap": 1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 89,
+      "gap": 0.1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 89,
+      "gap": 0.2,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 89,
+      "gap": 0.3,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 89,
+      "gap": 0.4,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 89,
+      "gap": 0.5,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 89,
+      "gap": 0.6,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 89,
+      "gap": 0.7,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 89,
+      "gap": 0.8,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 89,
+      "gap": 0.9,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 89,
+      "gap": 1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 90,
+      "gap": 0.1,
+      "ground_panels": 18,
+      "ground_edges_both_layers": 36
+    },
+    {
+      "panels": 90,
+      "gap": 0.2,
+      "ground_panels": 18,
+      "ground_edges_both_layers": 36
+    },
+    {
+      "panels": 90,
+      "gap": 0.3,
+      "ground_panels": 18,
+      "ground_edges_both_layers": 36
+    },
+    {
+      "panels": 90,
+      "gap": 0.4,
+      "ground_panels": 18,
+      "ground_edges_both_layers": 36
+    },
+    {
+      "panels": 90,
+      "gap": 0.5,
+      "ground_panels": 18,
+      "ground_edges_both_layers": 36
+    },
+    {
+      "panels": 90,
+      "gap": 0.6,
+      "ground_panels": 18,
+      "ground_edges_both_layers": 36
+    },
+    {
+      "panels": 90,
+      "gap": 0.7,
+      "ground_panels": 18,
+      "ground_edges_both_layers": 36
+    },
+    {
+      "panels": 90,
+      "gap": 0.8,
+      "ground_panels": 18,
+      "ground_edges_both_layers": 36
+    },
+    {
+      "panels": 90,
+      "gap": 0.9,
+      "ground_panels": 18,
+      "ground_edges_both_layers": 36
+    },
+    {
+      "panels": 90,
+      "gap": 1,
+      "ground_panels": 18,
+      "ground_edges_both_layers": 36
+    },
+    {
+      "panels": 91,
+      "gap": 0.1,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 91,
+      "gap": 0.2,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 91,
+      "gap": 0.3,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 91,
+      "gap": 0.4,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 91,
+      "gap": 0.5,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 91,
+      "gap": 0.6,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 91,
+      "gap": 0.7,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 91,
+      "gap": 0.8,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 91,
+      "gap": 0.9,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 91,
+      "gap": 1,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 92,
+      "gap": 0.1,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 92,
+      "gap": 0.2,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 92,
+      "gap": 0.3,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 92,
+      "gap": 0.4,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 92,
+      "gap": 0.5,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 92,
+      "gap": 0.6,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 92,
+      "gap": 0.7,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 92,
+      "gap": 0.8,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 92,
+      "gap": 0.9,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 92,
+      "gap": 1,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 93,
+      "gap": 0.1,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 93,
+      "gap": 0.2,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 93,
+      "gap": 0.3,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 93,
+      "gap": 0.4,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 93,
+      "gap": 0.5,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 93,
+      "gap": 0.6,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 93,
+      "gap": 0.7,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 93,
+      "gap": 0.8,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 93,
+      "gap": 0.9,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 93,
+      "gap": 1,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 94,
+      "gap": 0.1,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 94,
+      "gap": 0.2,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 94,
+      "gap": 0.3,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 94,
+      "gap": 0.4,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 94,
+      "gap": 0.5,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 94,
+      "gap": 0.6,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 94,
+      "gap": 0.7,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 94,
+      "gap": 0.8,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 94,
+      "gap": 0.9,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 94,
+      "gap": 1,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 95,
+      "gap": 0.1,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 95,
+      "gap": 0.2,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 95,
+      "gap": 0.3,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 95,
+      "gap": 0.4,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 95,
+      "gap": 0.5,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 95,
+      "gap": 0.6,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 95,
+      "gap": 0.7,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 95,
+      "gap": 0.8,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 95,
+      "gap": 0.9,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 95,
+      "gap": 1,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 96,
+      "gap": 0.1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 96,
+      "gap": 0.2,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 96,
+      "gap": 0.3,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 96,
+      "gap": 0.4,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 96,
+      "gap": 0.5,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 96,
+      "gap": 0.6,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 96,
+      "gap": 0.7,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 96,
+      "gap": 0.8,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 96,
+      "gap": 0.9,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 96,
+      "gap": 1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 97,
+      "gap": 0.1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 97,
+      "gap": 0.2,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 97,
+      "gap": 0.3,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 97,
+      "gap": 0.4,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 97,
+      "gap": 0.5,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 97,
+      "gap": 0.6,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 97,
+      "gap": 0.7,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 97,
+      "gap": 0.8,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 97,
+      "gap": 0.9,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 97,
+      "gap": 1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 98,
+      "gap": 0.1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 98,
+      "gap": 0.2,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 98,
+      "gap": 0.3,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 98,
+      "gap": 0.4,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 98,
+      "gap": 0.5,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 98,
+      "gap": 0.6,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 98,
+      "gap": 0.7,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 98,
+      "gap": 0.8,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 98,
+      "gap": 0.9,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 98,
+      "gap": 1,
+      "ground_panels": 17,
+      "ground_edges_both_layers": 34
+    },
+    {
+      "panels": 99,
+      "gap": 0.1,
+      "ground_panels": 18,
+      "ground_edges_both_layers": 36
+    },
+    {
+      "panels": 99,
+      "gap": 0.2,
+      "ground_panels": 18,
+      "ground_edges_both_layers": 36
+    },
+    {
+      "panels": 99,
+      "gap": 0.3,
+      "ground_panels": 18,
+      "ground_edges_both_layers": 36
+    },
+    {
+      "panels": 99,
+      "gap": 0.4,
+      "ground_panels": 18,
+      "ground_edges_both_layers": 36
+    },
+    {
+      "panels": 99,
+      "gap": 0.5,
+      "ground_panels": 18,
+      "ground_edges_both_layers": 36
+    },
+    {
+      "panels": 99,
+      "gap": 0.6,
+      "ground_panels": 18,
+      "ground_edges_both_layers": 36
+    },
+    {
+      "panels": 99,
+      "gap": 0.7,
+      "ground_panels": 18,
+      "ground_edges_both_layers": 36
+    },
+    {
+      "panels": 99,
+      "gap": 0.8,
+      "ground_panels": 18,
+      "ground_edges_both_layers": 36
+    },
+    {
+      "panels": 99,
+      "gap": 0.9,
+      "ground_panels": 18,
+      "ground_edges_both_layers": 36
+    },
+    {
+      "panels": 99,
+      "gap": 1,
+      "ground_panels": 18,
+      "ground_edges_both_layers": 36
+    },
+    {
+      "panels": 100,
+      "gap": 0.1,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 100,
+      "gap": 0.2,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 100,
+      "gap": 0.3,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 100,
+      "gap": 0.4,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 100,
+      "gap": 0.5,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 100,
+      "gap": 0.6,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 100,
+      "gap": 0.7,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 100,
+      "gap": 0.8,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 100,
+      "gap": 0.9,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    },
+    {
+      "panels": 100,
+      "gap": 1,
+      "ground_panels": 19,
+      "ground_edges_both_layers": 38
+    }
+  ],
+  "native_comparisons": [
+    {
+      "parameters": {
+        "gap": 0.4,
+        "panels": 55,
+        "anchors": 29,
+        "shift": 14
+      },
+      "boundaryError": 5.475099487534309e-15,
+      "windingError": 7.444291678311382e-15,
+      "contactError": 7.444291678311382e-15,
+      "lengthError": 5.446963768918067e-9
+    },
+    {
+      "parameters": {
+        "gap": 0.1,
+        "panels": 36,
+        "anchors": 10,
+        "shift": 5
+      },
+      "boundaryError": 5.475099487534309e-15,
+      "windingError": 4.636427468134552e-15,
+      "contactError": 4.636427468134552e-15,
+      "lengthError": 9.39131439281482e-10
+    },
+    {
+      "parameters": {
+        "gap": 1,
+        "panels": 100,
+        "anchors": 50,
+        "shift": 25
+      },
+      "boundaryError": 6.936895214610187e-15,
+      "windingError": 9.5891396519617e-15,
+      "contactError": 9.5891396519617e-15,
+      "lengthError": 4.695678512689483e-9
+    }
+  ],
+  "FE_run": false
+}

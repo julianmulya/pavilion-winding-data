@@ -1,0 +1,133 @@
+{
+  "id": "GH_FULL_BASE_Z0_V1",
+  "scope": "GEOMETRY_ONLY_NO_FE",
+  "source_gh_sha256": "a8b13eedd25250b65003b98b213d92a3de8699e2c1f5de8a31a33ee3b8e4ca56",
+  "main_loft_crc": 2859397175,
+  "method": "Set Z=0 at all UV-ground-perimeter vertices on both A and B; retain X/Y and all interior vertices. Recompute anchors, sleeve contacts and ordered winding from corrected boundaries.",
+  "domain": {
+    "panels": [
+      36,
+      100
+    ],
+    "boundary_gap_m": [
+      0.1,
+      1
+    ],
+    "anchors": [
+      10,
+      50
+    ],
+    "shift": "5..floor(anchors/2)"
+  },
+  "default_ground": {
+    "ground_edges_both_layers": 26,
+    "ground_length_owner_sum_m": 34.533551178352646,
+    "moved_vertex_occurrences": 38,
+    "minimum_Z_before_m": -0.056367569063027714,
+    "contract": "GH_FULL_BASE_Z0_V1",
+    "ground_panels": 13,
+    "max_abs_ground_Z_m": 0,
+    "panels": 55,
+    "ground_panel_details": [
+      {
+        "ground_vertices_both_layers": 4,
+        "ground_edge_indices": [
+          1
+        ],
+        "panel": "P001"
+      },
+      {
+        "ground_vertices_both_layers": 4,
+        "ground_edge_indices": [
+          2
+        ],
+        "panel": "P002"
+      },
+      {
+        "ground_vertices_both_layers": 4,
+        "ground_edge_indices": [
+          2
+        ],
+        "panel": "P003"
+      },
+      {
+        "ground_vertices_both_layers": 4,
+        "ground_edge_indices": [
+          2
+        ],
+        "panel": "P004"
+      },
+      {
+        "ground_vertices_both_layers": 4,
+        "ground_edge_indices": [
+          2
+        ],
+        "panel": "P005"
+      },
+      {
+        "ground_vertices_both_layers": 4,
+        "ground_edge_indices": [
+          2
+        ],
+        "panel": "P006"
+      },
+      {
+        "ground_vertices_both_layers": 4,
+        "ground_edge_indices": [
+          2
+        ],
+        "panel": "P007"
+      },
+      {
+        "ground_vertices_both_layers": 4,
+        "ground_edge_indices": [
+          3
+        ],
+        "panel": "P050"
+      },
+      {
+        "ground_vertices_both_layers": 4,
+        "ground_edge_indices": [
+          3
+        ],
+        "panel": "P051"
+      },
+      {
+        "ground_vertices_both_layers": 4,
+        "ground_edge_indices": [
+          4
+        ],
+        "panel": "P052"
+      },
+      {
+        "ground_vertices_both_layers": 4,
+        "ground_edge_indices": [
+          3
+        ],
+        "panel": "P053"
+      },
+      {
+        "ground_vertices_both_layers": 4,
+        "ground_edge_indices": [
+          3
+        ],
+        "panel": "P054"
+      },
+      {
+        "ground_vertices_both_layers": 4,
+        "ground_edge_indices": [
+          2
+        ],
+        "panel": "P055"
+      }
+    ],
+    "max_XY_change_m": 0,
+    "minimum_Z_after_m": 0
+  },
+  "native_boundary_checks": 95,
+  "web_panel_gap_combinations_checked": 650,
+  "native_web_route_comparisons": 3,
+  "historical_results_unchanged": true,
+  "FE_results_available": false,
+  "ground_highlight": "Presentation only; no foundation section or FE element added."
+}
