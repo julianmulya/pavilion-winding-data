@@ -1,0 +1,1341 @@
+{
+  "schema": "NG03_NATIVE_FE_REVIEW/1",
+  "status": "NATIVE_RESULTS_RECORDED",
+  "id": "NG07_H020",
+  "configuration": {
+    "panels": 55,
+    "anchors": 29,
+    "gap_m": 0.2,
+    "shift": 14
+  },
+  "geometry_contract": "GH_LOCAL_SUPPORT_BASE_Z0_V1",
+  "license": "lic_student",
+  "initial_strain": false,
+  "model": {
+    "distinct_frame_segments": 3412,
+    "transfer_length_m": 4761.1684938842,
+    "frame_seed_nodes": 6494,
+    "wrap_count": 3190,
+    "triangles": 25520,
+    "thickness_m": 0.000981747704,
+    "load_nodes": 91,
+    "panels": 55,
+    "added_turn_weight_kN": 0,
+    "width_m": 0.02,
+    "boundary_length_m": 570.9241741767622,
+    "equivalent_sleeve_links": 3190,
+    "schema": "GH_NEW_NATIVE_FE_GEOMETRY/1",
+    "zmax_m": 4.148427947946292,
+    "support_count": 141,
+    "native_mass_equivalent_kg": 224.08571681994763,
+    "explicit_master_nodes": 28824,
+    "zmin_m": 0,
+    "frame_segments": 6397,
+    "local_wrap_length_m": 130.2818473443687,
+    "ground_edges": 16,
+    "strands": 3190
+  },
+  "assumptions": {
+    "boundary": "Inherited equivalent CFRP reinforced D10 edge, local aluminium sleeve links OD12/ID6.6mm; no continuous aluminium frame added",
+    "initial_strain": false,
+    "mesh": "Inherited 2 by 2 ribbon grid, 8 shell triangles per transfer",
+    "loads": "G, lateral only +/-X +/-Y 1kN, and G plus each lateral direction. Identical lateral application and structure to NG03.",
+    "study": "Boundary A/B offset only; N29 S14 P55 fixed. Main loft and A polygon same; B offset, winding lengths/mass and ground support coordinates follow original native Z0 rule. Total lateral 1kN per direction, original A upper vertices. No reinforcement.",
+    "joints": "Perfect bonded shared DOFs of co-located owner edges; no bolt contact or slip",
+    "tolerance_m": 1e-8,
+    "supports": "All XYZ translations fixed at native nodes along complete Z=0 boundary edges; rotations free"
+  },
+  "native_materials": {
+    "NG01 CFRP | Ding2022 inherited": {
+      "gamma_kN_m3": 15.886773,
+      "G12_kN_m2": 4600000,
+      "E1_kN_m2": 142000000,
+      "E2_kN_m2": 9000000
+    },
+    "NG01 aluminium | local equivalent sleeve": {
+      "gamma_kN_m3": 26.477955,
+      "G12_kN_m2": 26000000,
+      "E1_kN_m2": 69000000,
+      "E2_kN_m2": 69000000
+    }
+  },
+  "beam_sections": {
+    "NG_LINK": {
+      "area_m2": 0.00007888539153163971,
+      "count": 3190,
+      "E1_kN_m2": 69000000
+    },
+    "NG_EDGE": {
+      "area_m2": 0.00007853981633974483,
+      "count": 6397,
+      "E1_kN_m2": 142000000
+    }
+  },
+  "ground": {
+    "selected_open_panel": "P052",
+    "open_ground_panels": 1,
+    "open_elevated_edges": 5
+  },
+  "analyze": {
+    "seconds": 6.16827392578125,
+    "errors": [],
+    "warnings": [],
+    "component": "native Karamba Analyze",
+    "invocations": 1,
+    "cases_solved": 9
+  },
+  "cases": [
+    {
+      "equilibrium": {
+        "residual_kN": 1.0184738439803452e-11,
+        "residual_vector_kN": [
+          -7.807057084141533e-12,
+          -4.050986976422699e-12,
+          5.135003533496274e-12
+        ],
+        "applied_force_kN_from_native_element_weight_and_native_point_loads": [
+          0,
+          0,
+          -2.358121608464643
+        ],
+        "native_reaction_sum_kN": [
+          -7.807057084141533e-12,
+          -4.050986976422699e-12,
+          2.358121608469778
+        ]
+      },
+      "case": "G",
+      "stress": {
+        "shell_maxima_by_category": {
+          "original_winding": {
+            "shell_id": "NG_P053_F0",
+            "coordinate_m": [
+              2.9948175294989263,
+              6.676095295873548,
+              0.5852064339044222
+            ],
+            "signed_value_MPa": -4.629426348362716,
+            "face_index": 135,
+            "value_MPa": 4.629426348362716,
+            "surface": -1
+          }
+        },
+        "beam_records": 9587,
+        "shell_faces": 25520,
+        "beam_stations": 17,
+        "beam_max_abs_normal_stress_by_category": {
+          "cfrp_boundary": {
+            "coordinate_m": [
+              9.956699311478175,
+              2.691642216826023,
+              3.4913738959636142
+            ],
+            "original_id": "NG_EDGE_P022_A_S020",
+            "normal_stress_extreme_index": 0,
+            "signed_value_MPa": -18.638993092783355,
+            "beam_id": "NG_EDGE_P022_A_S020",
+            "element_index": 2443,
+            "value_MPa": 18.638993092783355,
+            "station": 0
+          },
+          "equivalent_aluminium_link": {
+            "coordinate_m": [
+              3.459397574111842,
+              7.007848983901629,
+              0.030121365073569297
+            ],
+            "original_id": "NG_LINK_P053_V018",
+            "normal_stress_extreme_index": 0,
+            "signed_value_MPa": -3.0151205417381526,
+            "beam_id": "NG_LINK_P053_V018",
+            "element_index": 9430,
+            "value_MPa": 3.0151205417381526,
+            "station": 0
+          }
+        },
+        "mapping_checks": [
+          {
+            "bulk_vs_native_single_max_difference_kN_m2": 0,
+            "beam_id": "NG_EDGE_P001_A_S001",
+            "category": "cfrp_boundary"
+          },
+          {
+            "bulk_vs_native_single_max_difference_kN_m2": 0,
+            "beam_id": "NG_LINK_P001_V001",
+            "category": "equivalent_aluminium_link"
+          }
+        ],
+        "shell_max_abs_principal_stress": {
+          "shell_id": "NG_P053_F0",
+          "coordinate_m": [
+            2.9948175294989263,
+            6.676095295873548,
+            0.5852064339044222
+          ],
+          "component": "s2",
+          "signed_value_MPa": -4.629426348362716,
+          "element_index": 9639,
+          "face_index": 135,
+          "value_MPa": 4.629426348362716,
+          "surface": -1
+        }
+      },
+      "status": "NATIVE_CONCEPTUAL_RESULTS_RECORDED",
+      "run_id": "NG07_H020_NATIVE_NINE_V2_G",
+      "maximum_displacement": {
+        "translation_mm": [
+          0.08919337851483057,
+          2.454283349952345,
+          -8.01549523712474
+        ],
+        "coordinate_m": [
+          8.945710728930088,
+          3.211200743716626,
+          3.852331924348544
+        ],
+        "node_index": 17915,
+        "value_mm": 8.383294466794876
+      },
+      "file": "G.json",
+      "raw": [
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_G_SHELL_STRESS_RAW.json",
+          "sha256": "a5b7561f0a4e8dd1d7e4e9618496060c0a3340d9db6fc9ef1ed0a5da0da2be28",
+          "bytes": 14535190
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_G_BEAM_STRESS_RAW.json",
+          "sha256": "f7bbe2ef922a7c5fb669abd95071ebd50639eb699acac106226e78c399f1dc7a",
+          "bytes": 9819537
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_G_DIRECT_NATIVE_RAW.json",
+          "sha256": "291339e728c70b7fec4f146dc291423c52adeb0c9771de9b90d7ef33b81e14e3",
+          "bytes": 8673598
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_G_SUMMARY.json",
+          "sha256": "eb33128d2e60e13eedcf3cb7f67d89e408e11a1a95c0071faa2a6916ed6370ba",
+          "bytes": 2143
+        }
+      ]
+    },
+    {
+      "equilibrium": {
+        "residual_kN": 4.72358714029392e-11,
+        "residual_vector_kN": [
+          -2.5372370870968552e-11,
+          -3.974637112491575e-11,
+          2.774225293933341e-12
+        ],
+        "applied_force_kN_from_native_element_weight_and_native_point_loads": [
+          1,
+          0,
+          -2.358121608464643
+        ],
+        "native_reaction_sum_kN": [
+          -1.0000000000253724,
+          -3.974637112491575e-11,
+          2.358121608467417
+        ]
+      },
+      "case": "G_X_POS",
+      "stress": {
+        "shell_maxima_by_category": {
+          "original_winding": {
+            "shell_id": "NG_P045_F0",
+            "coordinate_m": [
+              6.239698638704439,
+              5.294280223715223,
+              2.7887829724161564
+            ],
+            "signed_value_MPa": -7.055586085043071,
+            "face_index": 227,
+            "value_MPa": 7.055586085043071,
+            "surface": 1
+          }
+        },
+        "beam_records": 9587,
+        "shell_faces": 25520,
+        "beam_stations": 17,
+        "beam_max_abs_normal_stress_by_category": {
+          "cfrp_boundary": {
+            "coordinate_m": [
+              -1.2539824939095467,
+              1.939565940153049,
+              1.8292266328006215
+            ],
+            "original_id": "NG_EDGE_P021_B_S048",
+            "normal_stress_extreme_index": 0,
+            "signed_value_MPa": -22.35235587052234,
+            "beam_id": "NG_EDGE_P021_B_S048",
+            "element_index": 2405,
+            "value_MPa": 22.35235587052234,
+            "station": 0
+          },
+          "equivalent_aluminium_link": {
+            "coordinate_m": [
+              5.513774300106828,
+              6.335441772663735,
+              1.2356850060382554
+            ],
+            "original_id": "NG_LINK_P052_V001",
+            "normal_stress_extreme_index": 1,
+            "signed_value_MPa": 3.470733801186857,
+            "beam_id": "NG_LINK_P052_V001",
+            "element_index": 9355,
+            "value_MPa": 3.470733801186857,
+            "station": 0
+          }
+        },
+        "mapping_checks": [
+          {
+            "bulk_vs_native_single_max_difference_kN_m2": 0,
+            "beam_id": "NG_EDGE_P001_A_S001",
+            "category": "cfrp_boundary"
+          },
+          {
+            "bulk_vs_native_single_max_difference_kN_m2": 0,
+            "beam_id": "NG_LINK_P001_V001",
+            "category": "equivalent_aluminium_link"
+          }
+        ],
+        "shell_max_abs_principal_stress": {
+          "shell_id": "NG_P045_F0",
+          "coordinate_m": [
+            6.239698638704439,
+            5.294280223715223,
+            2.7887829724161564
+          ],
+          "component": "s2",
+          "signed_value_MPa": -7.055586085043071,
+          "element_index": 9631,
+          "face_index": 227,
+          "value_MPa": 7.055586085043071,
+          "surface": 1
+        }
+      },
+      "status": "NATIVE_CONCEPTUAL_RESULTS_RECORDED",
+      "run_id": "NG07_H020_NATIVE_NINE_V2_G_X_POS",
+      "maximum_displacement": {
+        "translation_mm": [
+          0.6098193514326816,
+          1.9744709627189938,
+          -8.585062053261696
+        ],
+        "coordinate_m": [
+          8.94514866806464,
+          3.230176885651211,
+          3.8586239927574235
+        ],
+        "node_index": 17913,
+        "value_mm": 8.830272118250727
+      },
+      "file": "G_X_POS.json",
+      "raw": [
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_G_X_POS_SHELL_STRESS_RAW.json",
+          "sha256": "6189c7a3322c4def1029089f8a61139a8011b77e4400f445cc1e05ec8d06509e",
+          "bytes": 14513420
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_G_X_POS_BEAM_STRESS_RAW.json",
+          "sha256": "b561059d05c387e5719834f557f018731c23265317773fe42a90202eac1ed64a",
+          "bytes": 9781535
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_G_X_POS_DIRECT_NATIVE_RAW.json",
+          "sha256": "3cec93cd614312e1a7ca7be2c852f3450affa9218b57ca37eb7b93bc66377ca3",
+          "bytes": 8651148
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_G_X_POS_SUMMARY.json",
+          "sha256": "fa4f24f36a8e74af110a7c24f64517834f95d474a338673383853fe5e2aef3a6",
+          "bytes": 2148
+        }
+      ]
+    },
+    {
+      "equilibrium": {
+        "residual_kN": 4.167626481254236e-11,
+        "residual_vector_kN": [
+          -1.9998447342572945e-11,
+          -3.2793042586964916e-11,
+          -1.617372902273928e-11
+        ],
+        "applied_force_kN_from_native_element_weight_and_native_point_loads": [
+          -1,
+          0,
+          -2.358121608464643
+        ],
+        "native_reaction_sum_kN": [
+          0.9999999999800016,
+          -3.2793042586964916e-11,
+          2.358121608448469
+        ]
+      },
+      "case": "G_X_NEG",
+      "stress": {
+        "shell_maxima_by_category": {
+          "original_winding": {
+            "shell_id": "NG_P052_F0",
+            "coordinate_m": [
+              4.210674839326605,
+              6.781939549010208,
+              0.41628903551847457
+            ],
+            "signed_value_MPa": -7.562072154365421,
+            "face_index": 5,
+            "value_MPa": 7.562072154365421,
+            "surface": -1
+          }
+        },
+        "beam_records": 9587,
+        "shell_faces": 25520,
+        "beam_stations": 17,
+        "beam_max_abs_normal_stress_by_category": {
+          "cfrp_boundary": {
+            "coordinate_m": [
+              3.4872981649169046,
+              6.557824374274821,
+              1.2390268483421578
+            ],
+            "original_id": "NG_EDGE_P047_B_S002",
+            "normal_stress_extreme_index": 0,
+            "signed_value_MPa": -28.496242454907296,
+            "beam_id": "NG_EDGE_P047_B_S002",
+            "element_index": 5490,
+            "value_MPa": 28.496242454907296,
+            "station": 1
+          },
+          "equivalent_aluminium_link": {
+            "coordinate_m": [
+              3.5604323873331896,
+              7.008348222403267,
+              0
+            ],
+            "original_id": "NG_LINK_P052_V002",
+            "normal_stress_extreme_index": 0,
+            "signed_value_MPa": -4.1784250529696045,
+            "beam_id": "NG_LINK_P052_V002",
+            "element_index": 9356,
+            "value_MPa": 4.1784250529696045,
+            "station": 0
+          }
+        },
+        "mapping_checks": [
+          {
+            "bulk_vs_native_single_max_difference_kN_m2": 0,
+            "beam_id": "NG_EDGE_P001_A_S001",
+            "category": "cfrp_boundary"
+          },
+          {
+            "bulk_vs_native_single_max_difference_kN_m2": 0,
+            "beam_id": "NG_LINK_P001_V001",
+            "category": "equivalent_aluminium_link"
+          }
+        ],
+        "shell_max_abs_principal_stress": {
+          "shell_id": "NG_P052_F0",
+          "coordinate_m": [
+            4.210674839326605,
+            6.781939549010208,
+            0.41628903551847457
+          ],
+          "component": "s2",
+          "signed_value_MPa": -7.562072154365421,
+          "element_index": 9638,
+          "face_index": 5,
+          "value_MPa": 7.562072154365421,
+          "surface": -1
+        }
+      },
+      "status": "NATIVE_CONCEPTUAL_RESULTS_RECORDED",
+      "run_id": "NG07_H020_NATIVE_NINE_V2_G_X_NEG",
+      "maximum_displacement": {
+        "translation_mm": [
+          -2.6040828459810164,
+          -0.4668389756711071,
+          -8.031950158548874
+        ],
+        "coordinate_m": [
+          -0.08509088781616793,
+          5.880298193059753,
+          3.1256261186856467
+        ],
+        "node_index": 3247,
+        "value_mm": 8.456441890496944
+      },
+      "file": "G_X_NEG.json",
+      "raw": [
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_G_X_NEG_SHELL_STRESS_RAW.json",
+          "sha256": "12dd611f8880be31ed172f9f0b6d4b6665eed838fe0967c5c613e34404f600f9",
+          "bytes": 14518797
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_G_X_NEG_BEAM_STRESS_RAW.json",
+          "sha256": "0213da6bcf9f065c1cf4d9c1b1bbafcaeb798fa2483caf9517ba1754b7134df1",
+          "bytes": 9784679
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_G_X_NEG_DIRECT_NATIVE_RAW.json",
+          "sha256": "900c89d0bdc67a7e9f302edac220452ff5d5ab7169e5a03097f3084f52c92cfb",
+          "bytes": 8683538
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_G_X_NEG_SUMMARY.json",
+          "sha256": "025633cc075d124684254bd10d86a56e4af1dcc700f4128f381d334c95cb3bf0",
+          "bytes": 2139
+        }
+      ]
+    },
+    {
+      "equilibrium": {
+        "residual_kN": 1.4034706078103466e-10,
+        "residual_vector_kN": [
+          1.0362350560955136e-10,
+          3.3508751329236475e-11,
+          8.852474309151148e-11
+        ],
+        "applied_force_kN_from_native_element_weight_and_native_point_loads": [
+          0,
+          1,
+          -2.358121608464643
+        ],
+        "native_reaction_sum_kN": [
+          1.0362350560955136e-10,
+          -0.9999999999664912,
+          2.3581216085531675
+        ]
+      },
+      "case": "G_Y_POS",
+      "stress": {
+        "shell_maxima_by_category": {
+          "original_winding": {
+            "shell_id": "NG_P007_F0",
+            "coordinate_m": [
+              0.476369920806035,
+              1.007814738020973,
+              0.2846795063628457
+            ],
+            "signed_value_MPa": -11.304579710909028,
+            "face_index": 237,
+            "value_MPa": 11.304579710909028,
+            "surface": 1
+          }
+        },
+        "beam_records": 9587,
+        "shell_faces": 25520,
+        "beam_stations": 17,
+        "beam_max_abs_normal_stress_by_category": {
+          "cfrp_boundary": {
+            "coordinate_m": [
+              3.407754313200652,
+              7.19879296175319,
+              0
+            ],
+            "original_id": "NG_EDGE_P053_B_S038",
+            "normal_stress_extreme_index": 0,
+            "signed_value_MPa": -53.06506206907492,
+            "beam_id": "NG_EDGE_P053_B_S038",
+            "element_index": 6189,
+            "value_MPa": 53.06506206907492,
+            "station": 1
+          },
+          "equivalent_aluminium_link": {
+            "coordinate_m": [
+              3.4190613264160694,
+              6.577457879755648,
+              1.179461581842313
+            ],
+            "original_id": "NG_LINK_P052_V019",
+            "normal_stress_extreme_index": 1,
+            "signed_value_MPa": 6.337199520191476,
+            "beam_id": "NG_LINK_P052_V019",
+            "element_index": 9373,
+            "value_MPa": 6.337199520191476,
+            "station": 0
+          }
+        },
+        "mapping_checks": [
+          {
+            "bulk_vs_native_single_max_difference_kN_m2": 0,
+            "beam_id": "NG_EDGE_P001_A_S001",
+            "category": "cfrp_boundary"
+          },
+          {
+            "bulk_vs_native_single_max_difference_kN_m2": 0,
+            "beam_id": "NG_LINK_P001_V001",
+            "category": "equivalent_aluminium_link"
+          }
+        ],
+        "shell_max_abs_principal_stress": {
+          "shell_id": "NG_P007_F0",
+          "coordinate_m": [
+            0.476369920806035,
+            1.007814738020973,
+            0.2846795063628457
+          ],
+          "component": "s2",
+          "signed_value_MPa": -11.304579710909028,
+          "element_index": 9593,
+          "face_index": 237,
+          "value_MPa": 11.304579710909028,
+          "surface": 1
+        }
+      },
+      "status": "NATIVE_CONCEPTUAL_RESULTS_RECORDED",
+      "run_id": "NG07_H020_NATIVE_NINE_V2_G_Y_POS",
+      "maximum_displacement": {
+        "translation_mm": [
+          0.26000092055886387,
+          3.7938103302866106,
+          -8.750862046414772
+        ],
+        "coordinate_m": [
+          8.945710728930088,
+          3.211200743716626,
+          3.852331924348544
+        ],
+        "node_index": 17915,
+        "value_mm": 9.541393182143969
+      },
+      "file": "G_Y_POS.json",
+      "raw": [
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_G_Y_POS_SHELL_STRESS_RAW.json",
+          "sha256": "7b929e31e9ef6f9660ce92aafcf7867a6ecf482a2339570982f53bea725a98d9",
+          "bytes": 14494759
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_G_Y_POS_BEAM_STRESS_RAW.json",
+          "sha256": "464fa2262be2f3da90565d024549d263df65a3f084c0118df4a546fba1904a55",
+          "bytes": 9761300
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_G_Y_POS_DIRECT_NATIVE_RAW.json",
+          "sha256": "9b0c707228ea3723677c7fb3ef2e70529ee2b9178db3837177ab0384c4b9effb",
+          "bytes": 8617492
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_G_Y_POS_SUMMARY.json",
+          "sha256": "6e8265483bf7bffc3fb702466150021b56e6f1ff4261d0c7fb786406223d766c",
+          "bytes": 2135
+        }
+      ]
+    },
+    {
+      "equilibrium": {
+        "residual_kN": 3.3235841278236994e-11,
+        "residual_vector_kN": [
+          -8.737212342513345e-12,
+          -2.8083646519405647e-11,
+          -1.5478729409323932e-11
+        ],
+        "applied_force_kN_from_native_element_weight_and_native_point_loads": [
+          0,
+          -1,
+          -2.358121608464643
+        ],
+        "native_reaction_sum_kN": [
+          -8.737212342513345e-12,
+          0.9999999999719164,
+          2.358121608449164
+        ]
+      },
+      "case": "G_Y_NEG",
+      "stress": {
+        "shell_maxima_by_category": {
+          "original_winding": {
+            "shell_id": "NG_P053_F0",
+            "coordinate_m": [
+              2.9334413897472746,
+              6.739005985538365,
+              0.5373658110611131
+            ],
+            "signed_value_MPa": 9.8856514924775,
+            "face_index": 352,
+            "value_MPa": 9.8856514924775,
+            "surface": 1
+          }
+        },
+        "beam_records": 9587,
+        "shell_faces": 25520,
+        "beam_stations": 17,
+        "beam_max_abs_normal_stress_by_category": {
+          "cfrp_boundary": {
+            "coordinate_m": [
+              3.407754313200652,
+              7.19879296175319,
+              0
+            ],
+            "original_id": "NG_EDGE_P053_B_S038",
+            "normal_stress_extreme_index": 1,
+            "signed_value_MPa": 53.67524029067663,
+            "beam_id": "NG_EDGE_P053_B_S038",
+            "element_index": 6189,
+            "value_MPa": 53.67524029067663,
+            "station": 1
+          },
+          "equivalent_aluminium_link": {
+            "coordinate_m": [
+              3.370882601278691,
+              7.183018797796183,
+              0.024913166031118445
+            ],
+            "original_id": "NG_LINK_P053_V045",
+            "normal_stress_extreme_index": 1,
+            "signed_value_MPa": 6.362149607845111,
+            "beam_id": "NG_LINK_P053_V045",
+            "element_index": 9457,
+            "value_MPa": 6.362149607845111,
+            "station": 0
+          }
+        },
+        "mapping_checks": [
+          {
+            "bulk_vs_native_single_max_difference_kN_m2": 0,
+            "beam_id": "NG_EDGE_P001_A_S001",
+            "category": "cfrp_boundary"
+          },
+          {
+            "bulk_vs_native_single_max_difference_kN_m2": 0,
+            "beam_id": "NG_LINK_P001_V001",
+            "category": "equivalent_aluminium_link"
+          }
+        ],
+        "shell_max_abs_principal_stress": {
+          "shell_id": "NG_P053_F0",
+          "coordinate_m": [
+            2.9334413897472746,
+            6.739005985538365,
+            0.5373658110611131
+          ],
+          "component": "s1",
+          "signed_value_MPa": 9.8856514924775,
+          "element_index": 9639,
+          "face_index": 352,
+          "value_MPa": 9.8856514924775,
+          "surface": 1
+        }
+      },
+      "status": "NATIVE_CONCEPTUAL_RESULTS_RECORDED",
+      "run_id": "NG07_H020_NATIVE_NINE_V2_G_Y_NEG",
+      "maximum_displacement": {
+        "translation_mm": [
+          -2.1490817900238093,
+          -1.425610762165038,
+          -9.38817487532224
+        ],
+        "coordinate_m": [
+          -0.08509088781616793,
+          5.880298193059753,
+          3.1256261186856467
+        ],
+        "node_index": 3247,
+        "value_mm": 9.735951215728461
+      },
+      "file": "G_Y_NEG.json",
+      "raw": [
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_G_Y_NEG_SHELL_STRESS_RAW.json",
+          "sha256": "9ddcd4b24a7b8a36f526c5cb92243b5c2909fd2fb9cdbffc479a90b1c1f09904",
+          "bytes": 14492651
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_G_Y_NEG_BEAM_STRESS_RAW.json",
+          "sha256": "2c033f6bc5683b1202e4ef86cfc2eaf5f41ff1848111d60ccb8d1b1f6b730dad",
+          "bytes": 9750071
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_G_Y_NEG_DIRECT_NATIVE_RAW.json",
+          "sha256": "df8b9efc3871b6a945f35037aadb758381bb88d3776055cf32787f3e95d09d4c",
+          "bytes": 8657488
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_G_Y_NEG_SUMMARY.json",
+          "sha256": "3fa4d63093937b886103070ce1b113abff4c7973be9ffacbdd4a92b2095b1c54",
+          "bytes": 2140
+        }
+      ]
+    },
+    {
+      "equilibrium": {
+        "residual_kN": 5.1022763159343667e-11,
+        "residual_vector_kN": [
+          -4.740718928530896e-11,
+          4.6601715542049504e-12,
+          1.8280141289572782e-11
+        ],
+        "applied_force_kN_from_native_element_weight_and_native_point_loads": [
+          1,
+          0,
+          0
+        ],
+        "native_reaction_sum_kN": [
+          -1.0000000000474072,
+          4.6601715542049504e-12,
+          1.8280141289572782e-11
+        ]
+      },
+      "case": "L_X_POS",
+      "stress": {
+        "shell_maxima_by_category": {
+          "original_winding": {
+            "shell_id": "NG_P052_F0",
+            "coordinate_m": [
+              3.890725334561804,
+              6.895372121730922,
+              0.20631703804427504
+            ],
+            "signed_value_MPa": 6.636153171699972,
+            "face_index": 6,
+            "value_MPa": 6.636153171699972,
+            "surface": -1
+          }
+        },
+        "beam_records": 9587,
+        "shell_faces": 25520,
+        "beam_stations": 17,
+        "beam_max_abs_normal_stress_by_category": {
+          "cfrp_boundary": {
+            "coordinate_m": [
+              3.5278661984196296,
+              6.391959984831006,
+              1.1347296654587558
+            ],
+            "original_id": "NG_EDGE_P046_A_S046",
+            "normal_stress_extreme_index": 1,
+            "signed_value_MPa": 18.2182324636462,
+            "beam_id": "NG_EDGE_P046_A_S046",
+            "element_index": 5345,
+            "value_MPa": 18.2182324636462,
+            "station": 1
+          },
+          "equivalent_aluminium_link": {
+            "coordinate_m": [
+              5.513774300106828,
+              6.335441772663735,
+              1.2356850060382554
+            ],
+            "original_id": "NG_LINK_P052_V001",
+            "normal_stress_extreme_index": 1,
+            "signed_value_MPa": 3.4342164568571194,
+            "beam_id": "NG_LINK_P052_V001",
+            "element_index": 9355,
+            "value_MPa": 3.4342164568571194,
+            "station": 0
+          }
+        },
+        "mapping_checks": [
+          {
+            "bulk_vs_native_single_max_difference_kN_m2": 0,
+            "beam_id": "NG_EDGE_P001_A_S001",
+            "category": "cfrp_boundary"
+          },
+          {
+            "bulk_vs_native_single_max_difference_kN_m2": 0,
+            "beam_id": "NG_LINK_P001_V001",
+            "category": "equivalent_aluminium_link"
+          }
+        ],
+        "shell_max_abs_principal_stress": {
+          "shell_id": "NG_P052_F0",
+          "coordinate_m": [
+            3.890725334561804,
+            6.895372121730922,
+            0.20631703804427504
+          ],
+          "component": "s1",
+          "signed_value_MPa": 6.636153171699972,
+          "element_index": 9638,
+          "face_index": 6,
+          "value_MPa": 6.636153171699972,
+          "surface": -1
+        }
+      },
+      "status": "NATIVE_CONCEPTUAL_RESULTS_RECORDED",
+      "run_id": "NG07_H020_NATIVE_NINE_V2_L_X_POS",
+      "maximum_displacement": {
+        "translation_mm": [
+          0.47031747055569106,
+          -1.9593299541494635,
+          0.8400803453637932
+        ],
+        "coordinate_m": [
+          8.896562002553399,
+          2.363067547603804,
+          3.1397502036238927
+        ],
+        "node_index": 1295,
+        "value_mm": 2.1830958245124727
+      },
+      "file": "L_X_POS.json",
+      "raw": [
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_L_X_POS_SHELL_STRESS_RAW.json",
+          "sha256": "b7ea613f5201ec1215046fa5ee823eb47b137c7909eccd57a036c021a4e5cb9c",
+          "bytes": 14627551
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_L_X_POS_BEAM_STRESS_RAW.json",
+          "sha256": "9cc558ab4fd5489ec6dbb92f8eaa90390659f750ca10c7b0488c597dea3399f1",
+          "bytes": 9945892
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_L_X_POS_DIRECT_NATIVE_RAW.json",
+          "sha256": "a37df83f3afb32e51fcc82fd6128b86942320d923932510ac273e3eb034ccdaa",
+          "bytes": 8665193
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_L_X_POS_SUMMARY.json",
+          "sha256": "9872f6959e7149ba490261d0e1d7e69d52fbecf0ab64b2bc5018ea94bf529935",
+          "bytes": 2131
+        }
+      ]
+    },
+    {
+      "equilibrium": {
+        "residual_kN": 5.1022763159343667e-11,
+        "residual_vector_kN": [
+          4.740718928530896e-11,
+          -4.6601715542049504e-12,
+          -1.8280141289572782e-11
+        ],
+        "applied_force_kN_from_native_element_weight_and_native_point_loads": [
+          -1,
+          0,
+          0
+        ],
+        "native_reaction_sum_kN": [
+          1.0000000000474072,
+          -4.6601715542049504e-12,
+          -1.8280141289572782e-11
+        ]
+      },
+      "case": "L_X_NEG",
+      "stress": {
+        "shell_maxima_by_category": {
+          "original_winding": {
+            "shell_id": "NG_P052_F0",
+            "coordinate_m": [
+              3.890725334561804,
+              6.895372121730922,
+              0.20631703804427504
+            ],
+            "signed_value_MPa": -6.636153171699972,
+            "face_index": 6,
+            "value_MPa": 6.636153171699972,
+            "surface": -1
+          }
+        },
+        "beam_records": 9587,
+        "shell_faces": 25520,
+        "beam_stations": 17,
+        "beam_max_abs_normal_stress_by_category": {
+          "cfrp_boundary": {
+            "coordinate_m": [
+              3.5278661984196296,
+              6.391959984831006,
+              1.1347296654587558
+            ],
+            "original_id": "NG_EDGE_P046_A_S046",
+            "normal_stress_extreme_index": 0,
+            "signed_value_MPa": -18.2182324636462,
+            "beam_id": "NG_EDGE_P046_A_S046",
+            "element_index": 5345,
+            "value_MPa": 18.2182324636462,
+            "station": 1
+          },
+          "equivalent_aluminium_link": {
+            "coordinate_m": [
+              5.513774300106828,
+              6.335441772663735,
+              1.2356850060382554
+            ],
+            "original_id": "NG_LINK_P052_V001",
+            "normal_stress_extreme_index": 0,
+            "signed_value_MPa": -3.4342164568571194,
+            "beam_id": "NG_LINK_P052_V001",
+            "element_index": 9355,
+            "value_MPa": 3.4342164568571194,
+            "station": 0
+          }
+        },
+        "mapping_checks": [
+          {
+            "bulk_vs_native_single_max_difference_kN_m2": 0,
+            "beam_id": "NG_EDGE_P001_A_S001",
+            "category": "cfrp_boundary"
+          },
+          {
+            "bulk_vs_native_single_max_difference_kN_m2": 0,
+            "beam_id": "NG_LINK_P001_V001",
+            "category": "equivalent_aluminium_link"
+          }
+        ],
+        "shell_max_abs_principal_stress": {
+          "shell_id": "NG_P052_F0",
+          "coordinate_m": [
+            3.890725334561804,
+            6.895372121730922,
+            0.20631703804427504
+          ],
+          "component": "s2",
+          "signed_value_MPa": -6.636153171699972,
+          "element_index": 9638,
+          "face_index": 6,
+          "value_MPa": 6.636153171699972,
+          "surface": -1
+        }
+      },
+      "status": "NATIVE_CONCEPTUAL_RESULTS_RECORDED",
+      "run_id": "NG07_H020_NATIVE_NINE_V2_L_X_NEG",
+      "maximum_displacement": {
+        "translation_mm": [
+          -0.47031747055569106,
+          1.9593299541494635,
+          -0.8400803453637932
+        ],
+        "coordinate_m": [
+          8.896562002553399,
+          2.363067547603804,
+          3.1397502036238927
+        ],
+        "node_index": 1295,
+        "value_mm": 2.1830958245124727
+      },
+      "file": "L_X_NEG.json",
+      "raw": [
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_L_X_NEG_SHELL_STRESS_RAW.json",
+          "sha256": "38e0b3ee1d0eaa2c92382088afbaa46a771f107230c30ee9f4d6563179f47f7d",
+          "bytes": 14628557
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_L_X_NEG_BEAM_STRESS_RAW.json",
+          "sha256": "0f3f515e00e6da92a0c378e4da281d32d0c2ae94173c5fa18f7e4c980fdb3491",
+          "bytes": 9946210
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_L_X_NEG_DIRECT_NATIVE_RAW.json",
+          "sha256": "89712fc4870fba113cbaad5bf854a3e5ab3b1f2f523a3f0fe898cc16ea7ce6c4",
+          "bytes": 8704772
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_L_X_NEG_SUMMARY.json",
+          "sha256": "32a2f2f636b76ea31c2b0856cde2f8328e4e66c3dc7b9abb5d38f3f711426b5b",
+          "bytes": 2139
+        }
+      ]
+    },
+    {
+      "equilibrium": {
+        "residual_kN": 7.254100724345813e-11,
+        "residual_vector_kN": [
+          6.294361559744388e-11,
+          -3.571209994390756e-11,
+          -4.994487462495201e-12
+        ],
+        "applied_force_kN_from_native_element_weight_and_native_point_loads": [
+          0,
+          1,
+          0
+        ],
+        "native_reaction_sum_kN": [
+          6.294361559744388e-11,
+          -1.000000000035712,
+          -4.994487462495201e-12
+        ]
+      },
+      "case": "L_Y_POS",
+      "stress": {
+        "shell_maxima_by_category": {
+          "original_winding": {
+            "shell_id": "NG_P053_F0",
+            "coordinate_m": [
+              2.925107801134312,
+              6.74203860017969,
+              0.5327447127861215
+            ],
+            "signed_value_MPa": -10.296447494201239,
+            "face_index": 354,
+            "value_MPa": 10.296447494201239,
+            "surface": 1
+          }
+        },
+        "beam_records": 9587,
+        "shell_faces": 25520,
+        "beam_stations": 17,
+        "beam_max_abs_normal_stress_by_category": {
+          "cfrp_boundary": {
+            "coordinate_m": [
+              3.407754313200652,
+              7.19879296175319,
+              0
+            ],
+            "original_id": "NG_EDGE_P053_B_S038",
+            "normal_stress_extreme_index": 0,
+            "signed_value_MPa": -53.04930492999412,
+            "beam_id": "NG_EDGE_P053_B_S038",
+            "element_index": 6189,
+            "value_MPa": 53.04930492999412,
+            "station": 1
+          },
+          "equivalent_aluminium_link": {
+            "coordinate_m": [
+              3.370882601278691,
+              7.183018797796183,
+              0.024913166031118445
+            ],
+            "original_id": "NG_LINK_P053_V045",
+            "normal_stress_extreme_index": 0,
+            "signed_value_MPa": -5.70729527466419,
+            "beam_id": "NG_LINK_P053_V045",
+            "element_index": 9457,
+            "value_MPa": 5.70729527466419,
+            "station": 0
+          }
+        },
+        "mapping_checks": [
+          {
+            "bulk_vs_native_single_max_difference_kN_m2": 0,
+            "beam_id": "NG_EDGE_P001_A_S001",
+            "category": "cfrp_boundary"
+          },
+          {
+            "bulk_vs_native_single_max_difference_kN_m2": 0,
+            "beam_id": "NG_LINK_P001_V001",
+            "category": "equivalent_aluminium_link"
+          }
+        ],
+        "shell_max_abs_principal_stress": {
+          "shell_id": "NG_P053_F0",
+          "coordinate_m": [
+            2.925107801134312,
+            6.74203860017969,
+            0.5327447127861215
+          ],
+          "component": "s2",
+          "signed_value_MPa": -10.296447494201239,
+          "element_index": 9639,
+          "face_index": 354,
+          "value_MPa": 10.296447494201239,
+          "surface": 1
+        }
+      },
+      "status": "NATIVE_CONCEPTUAL_RESULTS_RECORDED",
+      "run_id": "NG07_H020_NATIVE_NINE_V2_L_Y_POS",
+      "maximum_displacement": {
+        "translation_mm": [
+          0.22552687971684685,
+          3.1777098487363586,
+          2.324296161642134
+        ],
+        "coordinate_m": [
+          2.006093929484487,
+          6.599145710451776,
+          0.9470620168834348
+        ],
+        "node_index": 3131,
+        "value_mm": 3.943482585641177
+      },
+      "file": "L_Y_POS.json",
+      "raw": [
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_L_Y_POS_SHELL_STRESS_RAW.json",
+          "sha256": "e44838f5c3cd4f36460792130dd2366acf76e094285035458563b47bae637af1",
+          "bytes": 14567946
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_L_Y_POS_BEAM_STRESS_RAW.json",
+          "sha256": "00704897f0cc7e8c9a738f9fe76f42e450b4ce8d1e6bc2008c063bfd0506b6c2",
+          "bytes": 9853174
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_L_Y_POS_DIRECT_NATIVE_RAW.json",
+          "sha256": "9699128162b646202e4e6f0c998a5bb23e2b5824ddd5625ed95ca2f22adbbb4b",
+          "bytes": 8626069
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_L_Y_POS_SUMMARY.json",
+          "sha256": "405893266fc561131aec343d71bf64a36a0764155e2a67bae7bbdd52b6d35497",
+          "bytes": 2124
+        }
+      ]
+    },
+    {
+      "equilibrium": {
+        "residual_kN": 7.254100724345813e-11,
+        "residual_vector_kN": [
+          -6.294361559744388e-11,
+          3.571209994390756e-11,
+          4.994487462495201e-12
+        ],
+        "applied_force_kN_from_native_element_weight_and_native_point_loads": [
+          0,
+          -1,
+          0
+        ],
+        "native_reaction_sum_kN": [
+          -6.294361559744388e-11,
+          1.000000000035712,
+          4.994487462495201e-12
+        ]
+      },
+      "case": "L_Y_NEG",
+      "stress": {
+        "shell_maxima_by_category": {
+          "original_winding": {
+            "shell_id": "NG_P053_F0",
+            "coordinate_m": [
+              2.925107801134312,
+              6.74203860017969,
+              0.5327447127861215
+            ],
+            "signed_value_MPa": 10.296447494201239,
+            "face_index": 354,
+            "value_MPa": 10.296447494201239,
+            "surface": 1
+          }
+        },
+        "beam_records": 9587,
+        "shell_faces": 25520,
+        "beam_stations": 17,
+        "beam_max_abs_normal_stress_by_category": {
+          "cfrp_boundary": {
+            "coordinate_m": [
+              3.407754313200652,
+              7.19879296175319,
+              0
+            ],
+            "original_id": "NG_EDGE_P053_B_S038",
+            "normal_stress_extreme_index": 1,
+            "signed_value_MPa": 53.04930492999412,
+            "beam_id": "NG_EDGE_P053_B_S038",
+            "element_index": 6189,
+            "value_MPa": 53.04930492999412,
+            "station": 1
+          },
+          "equivalent_aluminium_link": {
+            "coordinate_m": [
+              3.370882601278691,
+              7.183018797796183,
+              0.024913166031118445
+            ],
+            "original_id": "NG_LINK_P053_V045",
+            "normal_stress_extreme_index": 1,
+            "signed_value_MPa": 5.70729527466419,
+            "beam_id": "NG_LINK_P053_V045",
+            "element_index": 9457,
+            "value_MPa": 5.70729527466419,
+            "station": 0
+          }
+        },
+        "mapping_checks": [
+          {
+            "bulk_vs_native_single_max_difference_kN_m2": 0,
+            "beam_id": "NG_EDGE_P001_A_S001",
+            "category": "cfrp_boundary"
+          },
+          {
+            "bulk_vs_native_single_max_difference_kN_m2": 0,
+            "beam_id": "NG_LINK_P001_V001",
+            "category": "equivalent_aluminium_link"
+          }
+        ],
+        "shell_max_abs_principal_stress": {
+          "shell_id": "NG_P053_F0",
+          "coordinate_m": [
+            2.925107801134312,
+            6.74203860017969,
+            0.5327447127861215
+          ],
+          "component": "s1",
+          "signed_value_MPa": 10.296447494201239,
+          "element_index": 9639,
+          "face_index": 354,
+          "value_MPa": 10.296447494201239,
+          "surface": 1
+        }
+      },
+      "status": "NATIVE_CONCEPTUAL_RESULTS_RECORDED",
+      "run_id": "NG07_H020_NATIVE_NINE_V2_L_Y_NEG",
+      "maximum_displacement": {
+        "translation_mm": [
+          -0.22552687971684685,
+          -3.1777098487363586,
+          -2.324296161642134
+        ],
+        "coordinate_m": [
+          2.006093929484487,
+          6.599145710451776,
+          0.9470620168834348
+        ],
+        "node_index": 3131,
+        "value_mm": 3.943482585641177
+      },
+      "file": "L_Y_NEG.json",
+      "raw": [
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_L_Y_NEG_SHELL_STRESS_RAW.json",
+          "sha256": "1ded4e2b34603547bd6a034de2233914f89e222811d8992d85f1e5ad688fbe9a",
+          "bytes": 14570750
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_L_Y_NEG_BEAM_STRESS_RAW.json",
+          "sha256": "f529b4f0dcd3c2ce1ea4ebd4397e527b09db72cd1547e047ec11065ee2c8a3df",
+          "bytes": 9853476
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_L_Y_NEG_DIRECT_NATIVE_RAW.json",
+          "sha256": "7db0d1619df3c4b6780a20b10e423175fbcf8d53408794b795ae98ceb682435e",
+          "bytes": 8674914
+        },
+        {
+          "name": "NG07_H020_NATIVE_NINE_V2_L_Y_NEG_SUMMARY.json",
+          "sha256": "074e2491232e56322b4e202f35aa7bf64b49299cac88e66f76e90d99381a5e5c",
+          "bytes": 2122
+        }
+      ]
+    }
+  ],
+  "envelope": {
+    "shell": "G_Y_POS",
+    "boundary": "G_Y_NEG",
+    "aluminium_link": "G_Y_NEG",
+    "displacement": "G_Y_NEG"
+  },
+  "scales": {
+    "shell_MPa": 11.304579710909028,
+    "boundary_MPa": 53.67524029067663,
+    "aluminium_link_MPa": 6.362149607845111,
+    "displacement_mm": 9.735951215728461
+  },
+  "max_force_residual_kN": 1.4034706078103466e-10,
+  "source_gh": {
+    "name": "NG07_H020_NATIVE_NINE_V2_ANALYZE_LOCKED.gh",
+    "sha256": "55da2183c03aacc88445c3b38683bbb86e1cdad3943fd83235c89b1a075cc904"
+  },
+  "capacity_status": "NOT_ASSESSED",
+  "reinforcement_comparison": "NG07 boundary gap study N29 S14 P55. Same original loft, materials, sections, mesh rule, lateral force and support rule; B offsets, winding lengths and self-weight depend on gap.",
+  "metric_notes": [
+    "Shell values are maximum absolute native principal stress over both faces.",
+    "Boundary and aluminium link values are native extreme normal stresses at 17 stations per beam.",
+    "These different stress definitions are reported separately.",
+    "The viewer transfers native results and takes absolute envelopes for color; it does not solve or recover stress.",
+    "Mass output follows Karamba gamma convention; native gravity and reactions are checked directly."
+  ],
+  "review_checks": {
+    "all_nine_cases": true,
+    "raw_finite": true,
+    "same_geometry_across_cases": true,
+    "shell_face_mapping": true,
+    "beam_selection_bulk_vs_single": true,
+    "force_equilibrium": true,
+    "displacement_matches_analyze": true,
+    "local_ground_foot_preserved": true,
+    "source_loft_unchanged": true
+  }
+}

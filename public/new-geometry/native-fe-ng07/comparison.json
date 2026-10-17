@@ -1,0 +1,185 @@
+{
+  "status": "THREE_NATIVE_GAPS_REVIEWED",
+  "configuration": {
+    "anchors": 29,
+    "shift": 14,
+    "panels": 55
+  },
+  "rows": [
+    {
+      "id": "H020",
+      "gap_m": 0.2,
+      "values": {
+        "shell": 11.304579710909028,
+        "boundary": 53.67524029067663,
+        "link": 6.362149607845111,
+        "displacement": 9.735951215728461
+      },
+      "governing": {
+        "shell": "G_Y_POS",
+        "boundary": "G_Y_NEG",
+        "link": "G_Y_NEG",
+        "displacement": "G_Y_NEG"
+      },
+      "reduction_pct": {
+        "shell": -13.979842887711968,
+        "boundary": -67.43017863797114,
+        "link": -13.113590230559446,
+        "displacement": 9.518833618670985
+      },
+      "length_m": 4891.4503412285685,
+      "winding_mass_kg": 155.5903125920897,
+      "gravity_force_kN": 2.358121608464643,
+      "boundary_segments": 6397,
+      "aluminium_links": 3190,
+      "support_nodes": 141,
+      "native_nodes": 28824,
+      "gravity_only": {
+        "shell": 4.629426348362716,
+        "boundary": 18.638993092783355,
+        "link": 3.0151205417381526,
+        "displacement": 8.383294466794876
+      },
+      "lateral_only": {
+        "shell": 10.296447494201239,
+        "boundary": 53.04930492999412,
+        "link": 5.70729527466419,
+        "displacement": 3.943482585641177
+      }
+    },
+    {
+      "id": "H040",
+      "gap_m": 0.4,
+      "values": {
+        "shell": 9.918051669930632,
+        "boundary": 32.058282877865686,
+        "link": 5.624566946268031,
+        "displacement": 10.760196408937425
+      },
+      "governing": {
+        "shell": "G_Y_POS",
+        "boundary": "G_Y_POS",
+        "link": "G_Y_NEG",
+        "displacement": "G_Y_POS"
+      },
+      "reduction_pct": {
+        "shell": 0.0,
+        "boundary": 0.0,
+        "link": 0.0,
+        "displacement": 0.0
+      },
+      "length_m": 5084.633688425396,
+      "winding_mass_kg": 161.73520935708297,
+      "gravity_force_kN": 2.4294023737804102,
+      "boundary_segments": 6394,
+      "aluminium_links": 3190,
+      "support_nodes": 141,
+      "native_nodes": 28824,
+      "gravity_only": {
+        "shell": 4.3000689189317,
+        "boundary": 19.42479672215674,
+        "link": 2.9997246120804455,
+        "displacement": 10.24097732350398
+      },
+      "lateral_only": {
+        "shell": 7.802265442069256,
+        "boundary": 24.827206351685952,
+        "link": 3.8229676721902908,
+        "displacement": 2.1912982791412956
+      }
+    },
+    {
+      "id": "H060",
+      "gap_m": 0.6,
+      "values": {
+        "shell": 7.875342813312346,
+        "boundary": 26.371712297710697,
+        "link": 5.405813748930623,
+        "displacement": 11.173470824059534
+      },
+      "governing": {
+        "shell": "G_Y_POS",
+        "boundary": "G_Y_POS",
+        "link": "G_Y_POS",
+        "displacement": "G_X_POS"
+      },
+      "reduction_pct": {
+        "shell": 20.59586826726597,
+        "boundary": 17.738225724127055,
+        "link": 3.8892451530433525,
+        "displacement": -3.8407701812844586
+      },
+      "length_m": 5347.976283968579,
+      "winding_mass_kg": 170.11177538577638,
+      "gravity_force_kN": 2.52296481712999,
+      "boundary_segments": 6395,
+      "aluminium_links": 3190,
+      "support_nodes": 140,
+      "native_nodes": 28824,
+      "gravity_only": {
+        "shell": 4.713763315517499,
+        "boundary": 15.78406690272372,
+        "link": 2.580198362266504,
+        "displacement": 10.863480557212034
+      },
+      "lateral_only": {
+        "shell": 6.117994292129274,
+        "boundary": 19.02494802345406,
+        "link": 3.2275986551952616,
+        "displacement": 1.7198572834414638
+      }
+    }
+  ],
+  "scales": {
+    "shell_MPa": 11.304579710909028,
+    "boundary_MPa": 53.67524029067663,
+    "aluminium_link_MPa": 6.362149607845111,
+    "displacement_mm": 11.173470824059534
+  },
+  "input_checks": {
+    "configuration_except_gap": true,
+    "main_loft_unchanged": true,
+    "boundary_A_identical": true,
+    "lateral_locations_identical": true,
+    "lateral_total_1kN": true,
+    "materials_and_sections_fixed": true,
+    "same_shell_mesh_rule_and_counts": true,
+    "same_ground_support_rule": true,
+    "initial_strain_OFF": true,
+    "native_displacement_superposition": true,
+    "native_analysis_and_reactions": true
+  },
+  "conclusions": [
+    "Pada tiga jarak yang diuji, maksimum shell terendah ada pada gap 0.6 m (7.875 MPa), sedangkan tertinggi pada 0.2 m (11.305 MPa).",
+    "Pada lateral saja dengan gaya total yang sama, maksimum perpindahan turun 3.943 -> 2.191 -> 1.720 mm untuk gap 0,2 -> 0,4 -> 0,6 m; maksimum shell lateral juga turun 10.296 -> 7.802 -> 6.118 MPa. Respons lateral membaik pada rentang uji ini.",
+    "Pada gravitasi saja, perpindahan maksimum justru naik 8.383 -> 10.241 -> 10.863 mm. Karena geometri dan berat sendiri berubah bersama gap, tren gravitasi dan lateral perlu dibaca terpisah.",
+    "Perpindahan maksimum terendah ada pada gap 0.2 m (9.736 mm). Penilaian tegangan dan kekakuan harus dibaca bersama, bukan hanya satu angka shell.",
+    "Gap mengubah kedalaman geometri A/B, panjang dan arah winding, serta berat sendiri. Koordinat tumpuan B mengikuti offset dengan aturan Z=0 yang sama. Ini menilai usulan aktual; massa tidak disamakan antar gap.",
+    "Kesimpulan hanya berlaku untuk N29, shift 14, 55 panel dan beban konseptual yang diuji. Tiga titik uji belum membuktikan gap optimum atau kapasitas aman. Shell dan beam tetap memiliki definisi tegangan berbeda.",
+    "Jumlah node tumpuan adalah 141 / 141 / 140 untuk gap 0,2 / 0,4 / 0,6 m. Semua memakai aturan dukungan garis Z=0 yang sama; jumlah node serta posisi pada boundary B mengikuti offset. Ini bukan uji dengan koordinat tumpuan B atau jumlah beam yang dipaksakan identik."
+  ],
+  "valid_native_cases": 27,
+  "native_superposition_max_error_m": {
+    "H020": 1.936760797098144e-11,
+    "H040": 1.9204977622809528e-11,
+    "H060": 2.01387730553383e-11
+  },
+  "excluded_history": "Initial H040 V1 retained but excluded because lateral total was 91/62 kN. V2 native pre-Analyze load audit and reaction check require 1kN.",
+  "source_evidence": {
+    "H020": {
+      "gh_sha256": "7efdce56dd697fa21cd5eab4024a11c1e2d06f35b807fa62259cfe8aef4a0a83",
+      "review_sha256": "a02cdf14c217158013122b6e3f28776997b7681360ff7ed49f896331c995ef5a",
+      "max_force_residual_kN": 1.4034706078103466e-10
+    },
+    "H040": {
+      "gh_sha256": "519ca4031e284f5767a975f9eb5a3331c0b8e153a4cda9f358f259947e86b150",
+      "review_sha256": "b1c142d1a950124d9aa39786d75d4227457db6c6219a4f993518e7a6cf06b3fe",
+      "max_force_residual_kN": 6.1060969857612e-11
+    },
+    "H060": {
+      "gh_sha256": "e2d5c7d28b55cad4f608eab62c4e2d20c3f59f26d91b68a079b64bc855913c25",
+      "review_sha256": "ae6989c175cf94359a8ddd7febac91fde5be6cbf7a222a7cd387c8aa16636a1a",
+      "max_force_residual_kN": 1.9586951825216452e-10
+    }
+  }
+}

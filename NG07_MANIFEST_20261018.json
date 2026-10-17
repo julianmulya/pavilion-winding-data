@@ -1,0 +1,298 @@
+{
+  "schema": "NG07_NATIVE_DATA_MANIFEST/1",
+  "previous_commit": "ae0d9806631779795ea4e09c1e43561dcaec3779",
+  "files": [
+    {
+      "path": "public/new-geometry/native-fe-ng07/H020/G.json",
+      "bytes": 2759101,
+      "sha256": "1c51a28895f0106c475cfabf7a7e4633a208a3619c11bbd444d82046b119b072"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H020/geometry.json",
+      "bytes": 4139495,
+      "sha256": "c4a4666c59d376d7d5000fdc593a429c8877148c0c451abae34438b03f55ae9f"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H020/G_X_NEG.json",
+      "bytes": 2720569,
+      "sha256": "4b12c709047e269973ccf7f50c97fba753079ce1c00873a86bede140ccd9e684"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H020/G_X_POS.json",
+      "bytes": 2687589,
+      "sha256": "1b115a18dd00a174b47612d2bcf17972fc4a90f58efbec91a7b6573f7ba3873a"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H020/G_Y_NEG.json",
+      "bytes": 2707433,
+      "sha256": "9093b89ceaae92aa3101d0c55b85f659e9d8c1cacd57e57f8f8206da80c4f5ff"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H020/G_Y_POS.json",
+      "bytes": 2666946,
+      "sha256": "7d40b6165a284a79695ec7712b6727b078a5acdcc639690dba6f1a7a11446024"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H020/L_X_NEG.json",
+      "bytes": 2735010,
+      "sha256": "d7d46c040b41cc2c0fba1ac212ee5f63018f33d4f5f5068c155147d136c318d1"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H020/L_X_POS.json",
+      "bytes": 2697107,
+      "sha256": "ddd055a1bfc995ea9b24a4c1e3e9d744ec51919503177d2b021b2f90e217f31e"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H020/L_Y_NEG.json",
+      "bytes": 2717170,
+      "sha256": "28cf9b9cd6d5b4e4b963597539472d5bc62081dccff5bd4c8ffefd90aedcb239"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H020/L_Y_POS.json",
+      "bytes": 2672492,
+      "sha256": "235251ed19616a2f3da285e6f686605b5e5e3a428042d1b1569061ef4151205e"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H020/summary.json",
+      "bytes": 28502,
+      "sha256": "28afc8c9f37596cb758bb26e2e62303539dedfd3e7a13ac1707d36fe9dff4575"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H020/native-results.gh",
+      "bytes": 384160,
+      "sha256": "55da2183c03aacc88445c3b38683bbb86e1cdad3943fd83235c89b1a075cc904"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H020/INPUT_COMPLETE.json",
+      "bytes": 21667,
+      "sha256": "2d1c86f735160dfccb6c2f3c7f1984bb3fa5ffd1a2695ac68ad8bfc20d0b5e33"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H020/MESH_META.json",
+      "bytes": 667875,
+      "sha256": "7c0dcdace8d9c1c4d4af39255d5141763e4abf439ef6db87fe495f97f228a1cb"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H020/REVIEW_COMPLETE.json",
+      "bytes": 43034,
+      "sha256": "a02cdf14c217158013122b6e3f28776997b7681360ff7ed49f896331c995ef5a"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H020/NATIVE_COMPLETE.json",
+      "bytes": 22232,
+      "sha256": "9984a4dd52eb45590b303b8b1d856e68c1a9380b428b0bf3a2fe6bd8d3680a7f"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H040/G.json",
+      "bytes": 2757585,
+      "sha256": "dec291aa81a049b485a5ef9135a5d776be0dd4e21f740f6533dcb94a80ef2e5e"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H040/geometry.json",
+      "bytes": 4139047,
+      "sha256": "679828f85dce587f96f551d5f8948ab17e4a10e4bda500298ce9a7de5797b3d4"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H040/G_X_NEG.json",
+      "bytes": 2744974,
+      "sha256": "2eca4baaf7729926b7e011106e7898970f83445c6a26976bf58f9e646946856a"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H040/G_X_POS.json",
+      "bytes": 2711581,
+      "sha256": "96a964e266e31b23a19a5f0b284360cd91cae73a8bb60f9492f2e19d53b7e0c2"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H040/G_Y_NEG.json",
+      "bytes": 2727870,
+      "sha256": "38f0a6787cd35fd326397472b6ca56b20d025472714f7584f0a18a67c9916bdd"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H040/G_Y_POS.json",
+      "bytes": 2699119,
+      "sha256": "075e763b8fe1f6c9af0d6ef7ca17ed42ae97768b18810526a00f41f05437ffe7"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H040/L_X_NEG.json",
+      "bytes": 2767286,
+      "sha256": "e877ef15ae8c237a40844bb0d22fd0a90db8c5a2183d6f6eac7eb339961860e1"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H040/L_X_POS.json",
+      "bytes": 2733154,
+      "sha256": "ee0cb4dd084ec8da7eeb87033c5c1dcf441a3168e2ad7e88db1406d4e01216ac"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H040/L_Y_NEG.json",
+      "bytes": 2744678,
+      "sha256": "9bbfa43626b75b8b77a54dce4c19dc8406c03eb1a02dfe61e4080f39ad79e59b"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H040/L_Y_POS.json",
+      "bytes": 2708255,
+      "sha256": "2ecfb55ef04b91cb0273873305bf385749a667e2079662c12b25df9d527d8c4b"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H040/summary.json",
+      "bytes": 28453,
+      "sha256": "d48edebe7a65055867b1a9a37f58457049a0a6075ca755bf4ffbefffdb03f076"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H040/native-results.gh",
+      "bytes": 384301,
+      "sha256": "8272764583263ec9715081a7de935d01c9d13090cfc1233c3a943bbd68420b22"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H040/INPUT_COMPLETE.json",
+      "bytes": 21678,
+      "sha256": "e87248f66fdf4ae9423133ed0898796c04ebc6df84569ed0054703a80e245609"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H040/MESH_META.json",
+      "bytes": 667878,
+      "sha256": "5383b47d963b1b0db349ebca0a64fa83e8705a5e494e1de0cacd0a049ca5d5cd"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H040/REVIEW_COMPLETE.json",
+      "bytes": 42985,
+      "sha256": "b1c142d1a950124d9aa39786d75d4227457db6c6219a4f993518e7a6cf06b3fe"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H040/NATIVE_COMPLETE.json",
+      "bytes": 22154,
+      "sha256": "0c76ae9a826b66e61b379e6207b1e5d3368c13678a6bfa73d2c49ea038c44480"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H060/G.json",
+      "bytes": 2758216,
+      "sha256": "879ba801e743fc050e722b6a7102751c4881ce8b34ae9550ca0e3f68ccfd3c43"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H060/geometry.json",
+      "bytes": 4139404,
+      "sha256": "749fa494b062c0d3c005576c8d44fd7984eb7e063e4e0663696f9ade4add7f22"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H060/G_X_NEG.json",
+      "bytes": 2746900,
+      "sha256": "9b37bbd6d4c679568c6851ec1370f36db1e6baca0c8e8deb4d22c410725963eb"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H060/G_X_POS.json",
+      "bytes": 2718331,
+      "sha256": "64f90db13d306cec31f8f0e2fa35c172e402db2dbeedcc3904f54e10703bb56e"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H060/G_Y_NEG.json",
+      "bytes": 2741296,
+      "sha256": "0d19df0bb6915dd7b628c7e40ac8fd36e0d7e38c0b8c88949d269ad8c1a42f0a"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H060/G_Y_POS.json",
+      "bytes": 2715525,
+      "sha256": "543fbcba98340876183b5da336f7c5ae022839744ce6e731d5447397661d2652"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H060/L_X_NEG.json",
+      "bytes": 2777524,
+      "sha256": "79423f53e25872b9ad777feea4a48de3cf6a77884e27cf74d30d11db2fd8fc99"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H060/L_X_POS.json",
+      "bytes": 2745095,
+      "sha256": "c6f31bd2bce88e12540197ed82851c72eb17b8a805c1c1a2b3acb48c897a2297"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H060/L_Y_NEG.json",
+      "bytes": 2758715,
+      "sha256": "e17d7d4bbd1b150eca08afb945d0117240d1ed31bbe6ae2d4c9ff1428e79539b"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H060/L_Y_POS.json",
+      "bytes": 2733582,
+      "sha256": "314f2d488775221934de85eb9b565a13cd7d031282e38e015b6d6b4a857ad909"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H060/summary.json",
+      "bytes": 28537,
+      "sha256": "60f806e8f206f75763d776dcfdb0927d4ee44321d3622e522c4daf8988262078"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H060/native-results.gh",
+      "bytes": 384322,
+      "sha256": "d0f1113c6a285b08042eeed7bb0a7dfbe120a58499f684a35fc62d959b0f948a"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H060/INPUT_COMPLETE.json",
+      "bytes": 21647,
+      "sha256": "6621a60ce3281204819681585d22d9cbbb0fd6445d5ae56a28176c325e99fe0b"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H060/MESH_META.json",
+      "bytes": 667813,
+      "sha256": "fab24684380df54e345c191b2aa0a601bc220501b5a150ef699b770b51d48f9f"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H060/REVIEW_COMPLETE.json",
+      "bytes": 43069,
+      "sha256": "ae6989c175cf94359a8ddd7febac91fde5be6cbf7a222a7cd387c8aa16636a1a"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/H060/NATIVE_COMPLETE.json",
+      "bytes": 22177,
+      "sha256": "00cbbc34121e894bacc888d25b16a590f54aca56ff186aefae661adb55a0030d"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/comparison.json",
+      "bytes": 7060,
+      "sha256": "8b1ba1484a5050f89ff7f2837e036f31b7bf63bdfa1a3f69f843b172cea0773f"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/HASIL_GAP.md",
+      "bytes": 7918,
+      "sha256": "de7826cf70f3bccb84329fd3cfe0ad5e7b4810febb12d409686f0449f0ee2f75"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/NATIVE_JSON_WRITER_AUDIT.json",
+      "bytes": 276,
+      "sha256": "d54d480038ae9fd8320c4a242ef6a00dde45d852800a2571e1b61782eac550f0"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/source/prepare_gap_study_v2.py",
+      "bytes": 8385,
+      "sha256": "12ff7ebf7176cf309807d84b1784a24852453c0037289bda8c2651e825945517"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/source/run_gap_once_v2.py",
+      "bytes": 6708,
+      "sha256": "3a0c91d24ce3d4375399bef1ba1ea4a8d73fe003e3577c3deaa1b658b276d856"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/source/review_gap_study_v2.mjs",
+      "bytes": 6400,
+      "sha256": "f78eeb7f31dbe20349851297a539e7e3c81f5ccd34de1ccea1aa97eb5935400d"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/source/compare_gap_study.py",
+      "bytes": 9144,
+      "sha256": "50e104af649fd797debbbeed3fa39078785254578c78d7c1d52a7b31fcc982ed"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/source/export_gap_fast_native.py",
+      "bytes": 10366,
+      "sha256": "30ce5407a7d289f3d011d7d133077f092a8726aaba0fd5bc96997e73867cd8d6"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/source/run_gap_once_fast_v2.py",
+      "bytes": 6703,
+      "sha256": "e17f9d9ec6040659e70b2042d311551d2e47ad89dd88401dc5260626ab8b1dd1"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng07/source/test_gap_json_writer.py",
+      "bytes": 1017,
+      "sha256": "f7eb224ea0572958ba0c83529bfc2436126cf61fd2b7dd9fe7767baa2eb29a8f"
+    }
+  ],
+  "valid_native_cases": 27,
+  "excluded_trial": "H040 V1 wrong lateral total retained locally and excluded"
+}
