@@ -1,0 +1,259 @@
+{
+  "schema": "NG05_NATIVE_DATA_MANIFEST/1",
+  "previous_data_commit": "ab5c85e249d0dbd703df26ca7a0b45de31edff2a",
+  "files": [
+    {
+      "path": "public/new-geometry/native-fe-ng05/BASELINE/G.json",
+      "bytes": 1578696,
+      "sha256": "2d1d32308d6f3761e2712bfd2215e670f557d29c4746319d2f5fc7dd272ee7d4"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/BASELINE/geometry.json",
+      "bytes": 2325755,
+      "sha256": "03005a3d6c032eca17e58d46611324f297c2ac1128e08c47b5e7f95a6c37cec4"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/BASELINE/G_X_NEG.json",
+      "bytes": 1556791,
+      "sha256": "23913ff90df0226fdb75ecd3883d6298a0c37054fd56f01167065d53ece9c2a3"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/BASELINE/G_X_POS.json",
+      "bytes": 1542526,
+      "sha256": "c577c4ca2fef5405c3b61da332abc37bb437cae1f95c6f62d0fb3c124f790716"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/BASELINE/G_Y_NEG.json",
+      "bytes": 1550691,
+      "sha256": "7601d2848c62dd43bed0fe0bca78358d997d919373c9e2425e1c87a6caf15451"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/BASELINE/G_Y_POS.json",
+      "bytes": 1532895,
+      "sha256": "635f04a236b927b99f9293c0cbd3cccda7d4b68eb22e378b3c56406b759adc05"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/BASELINE/L_X_NEG.json",
+      "bytes": 1565080,
+      "sha256": "35d90d3664689c9be03ae3c42a4c8f54b677f5a172cfe1e6116a73f21c914d75"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/BASELINE/L_X_POS.json",
+      "bytes": 1546639,
+      "sha256": "1a377ad499bcdc80373ec0a1730472ec81003ff11c2d7e7d2f4df2e6128b003a"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/BASELINE/L_Y_NEG.json",
+      "bytes": 1555411,
+      "sha256": "9b46c061c4c8e6633366c4628296c8853cb04e901503b80d18fae724299558a4"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/BASELINE/L_Y_POS.json",
+      "bytes": 1532304,
+      "sha256": "8c8931475e549e67e61203231e67d3b0184c5357e2cc578d7e226f303ea56ae6"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/BASELINE/summary.json",
+      "bytes": 28485,
+      "sha256": "8608d4be85951e870c6a52539d778d175894ed36317ec88d21c3d760cef86f14"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/BASELINE/native-results.gh",
+      "bytes": 320315,
+      "sha256": "4bd2825d4c4888f647d6ae784fd41f32666f60e4c3682d3713453b5f1c806731"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/BASELINE/native-evidence.zip",
+      "bytes": 68207265,
+      "sha256": "21fafbb7aa9e0df9861a069b4982227a80a8740d130062eb0700add5b20d087a"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/REPEAT/G.json",
+      "bytes": 1579020,
+      "sha256": "a509c7901694812328cf0cbac917a2cb1449c2644f40addc5a21b26107148f4e"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/REPEAT/geometry.json",
+      "bytes": 2329840,
+      "sha256": "d1825d91f7f38faad6db3c84b54882bd6e173c4f630f0c736bd233ed67dc9571"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/REPEAT/G_X_NEG.json",
+      "bytes": 1557732,
+      "sha256": "c3cea42ca03e620c0bad8d538c955586d0aa5dbef84cd1b507fcceb1c932c417"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/REPEAT/G_X_POS.json",
+      "bytes": 1543987,
+      "sha256": "f70a92bebfff0e8e5f00a53c176f6f753ec4376978164c036a8d7b877b4b4ee4"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/REPEAT/G_Y_NEG.json",
+      "bytes": 1551828,
+      "sha256": "f2f85459cf632bc142f06880a6503ea52980d9799af1d7347435d071d1ed8bc3"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/REPEAT/G_Y_POS.json",
+      "bytes": 1535408,
+      "sha256": "d1608bdeebb6596ff30c5e9ab7ef5c63d0e12a1abba4bba9ba16579fd8ffb850"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/REPEAT/L_X_NEG.json",
+      "bytes": 1566526,
+      "sha256": "575ec1d3b1a0a79bb0da8d81f6cabd3452ea5fb4ad5e53f869d11633b4ceefc5"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/REPEAT/L_X_POS.json",
+      "bytes": 1548091,
+      "sha256": "5a3f965fbe390af8d76651a19226cee678f6cd42c29e2f54d4171213b96eb76b"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/REPEAT/L_Y_NEG.json",
+      "bytes": 1557290,
+      "sha256": "55b3a2ce4087cc367e3ac5c017808303940605cd40c84e906836b5229314a064"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/REPEAT/L_Y_POS.json",
+      "bytes": 1534417,
+      "sha256": "34318752460da4a40ed2a805aed7516e9fe28d14269b5cb16b64293010f51005"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/REPEAT/summary.json",
+      "bytes": 30967,
+      "sha256": "dda578f0b8f1bfb5536fb66fdd9e4677ba747545fdb2f0afe37902fd5191ba4e"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/REPEAT/native-results.gh",
+      "bytes": 311516,
+      "sha256": "518b0a64a7f7bd07f14382d406ff221bc5763cfa5172ae5c4cce6990c597c40b"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/REPEAT/native-evidence.zip",
+      "bytes": 68388663,
+      "sha256": "32d6af60ceed83f3629741c387902bdf82f24363363ea2a22043a3cafe1651ac"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/NEW_ANCHOR/G.json",
+      "bytes": 1584529,
+      "sha256": "8fd2958e1de1a287bd8634370d2374df81005c7d8695ad2a3e77d236de9eccbc"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/NEW_ANCHOR/geometry.json",
+      "bytes": 2331818,
+      "sha256": "3598925c05f27c8c36da0fbf4df500866d762f7817b92f07cfc968f82eb3c7a8"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/NEW_ANCHOR/G_X_NEG.json",
+      "bytes": 1563180,
+      "sha256": "ff0d2e1d23f7405e521d32dde421281458de382476ce3085edc7e95e36e7f2e5"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/NEW_ANCHOR/G_X_POS.json",
+      "bytes": 1548787,
+      "sha256": "0b0c74fec0ee2af4f5502848564b8763f40ee1de104254268abce39d97bfe0f4"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/NEW_ANCHOR/G_Y_NEG.json",
+      "bytes": 1556761,
+      "sha256": "fdf6c874fa40ababbaddc0fb42c728a2db04e8bf27ddc0a8de90e9b48798cd01"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/NEW_ANCHOR/G_Y_POS.json",
+      "bytes": 1539480,
+      "sha256": "5257ea251efd13fee136e832d0585f6e5937db56cbc8453cec540e9676942a46"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/NEW_ANCHOR/L_X_NEG.json",
+      "bytes": 1571016,
+      "sha256": "320ce296b71c49b6e21876a71f0cbbe37c6dd94a86ca080f939bbaead03590ce"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/NEW_ANCHOR/L_X_POS.json",
+      "bytes": 1552456,
+      "sha256": "3950ee421a1ea998d95b25ed69017b361b4b8b21b37a285a724d2044675f36c1"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/NEW_ANCHOR/L_Y_NEG.json",
+      "bytes": 1562168,
+      "sha256": "0688a7ff0051f39657f4262f7ba5d49ebc3952c48a7288890db27e93d8ab3e6b"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/NEW_ANCHOR/L_Y_POS.json",
+      "bytes": 1539146,
+      "sha256": "b4136d7c1a168936e7b9cef13e54ac9587104a37b66fb6e1adef25ef9d470b99"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/NEW_ANCHOR/summary.json",
+      "bytes": 31095,
+      "sha256": "407cc8b604acec233a11deb95e48d56edde9ce1ebff6468263af8a7d68a6d216"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/NEW_ANCHOR/native-results.gh",
+      "bytes": 311529,
+      "sha256": "7e6c8cfb3e9ccc1379a9639cb4fc49414025e466115b413c88b77b78129e71b8"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/NEW_ANCHOR/native-evidence.zip",
+      "bytes": 68509800,
+      "sha256": "0f0b2522659d8fb3f7193199f16d38ce6422182755bbc0e817936fc7d47bb456"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/comparison.json",
+      "bytes": 58893,
+      "sha256": "9a8a1221dc3a2a46029d032c2a43bca224fea920f19c89062bc80533d6090657"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/HASIL_PERBANDINGAN.md",
+      "bytes": 5431,
+      "sha256": "0757764b5eb7c3d155be3d4013027cebc4e6eb0c6ab89f3828bc3d90ada7efa6"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/TARGETS.json",
+      "bytes": 1656,
+      "sha256": "a8f0f4517bc29cd1eaf161601ba2f53643f32404cd30d23c0777d98dcf323691"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/COMPARISON_COMPLETE.json",
+      "bytes": 104457,
+      "sha256": "52550d1c7a71d988a4210cd5cd47a676ef03dfd4150228fcbbd7f3ff24be9ba0"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/source/NativeFE_REPEAT.cs",
+      "bytes": 13571,
+      "sha256": "e6c027407260a9c339f3b98ffb903ef5224dbac832a74c8244a9603c1d3da1da"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/source/NativeFE_NEW_ANCHOR.cs",
+      "bytes": 13579,
+      "sha256": "68e3170bfc67c0de18ec8524d4139d61b886bae9070d190612c54d5c27a78443"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/source/owned_reinforcement.txt",
+      "bytes": 5195,
+      "sha256": "0568adde458b88ba82c40f1fd2c050dabe447d797253b0f706115466b2b727b3"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/source/prepare_reinforcement_pair.py",
+      "bytes": 4382,
+      "sha256": "03eeed933cf1822491f2a59d5254a0ab31ef222b7e56dd14ed4c7431912ff240"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/source/run_reinforcement_once.py",
+      "bytes": 6673,
+      "sha256": "dc96eee79af39300aa2fb179c3f21e1756ddcbcc812f049388707a807b56a6e2"
+    },
+    {
+      "path": "public/new-geometry/native-fe-ng05/source/export_reinforcement_native.py",
+      "bytes": 10098,
+      "sha256": "59ba52ae8c4485a9a71f685d472491e380aed719ccc4165e3fd68e0bd6babe2d"
+    }
+  ],
+  "native_new_cases": 18,
+  "existing_baseline_cases": 9,
+  "common_scales": {
+    "shell_MPa": 7.096297931585102,
+    "boundary_MPa": 23.802074932599417,
+    "aluminium_link_MPa": 7.916699743682334,
+    "displacement_mm": 5.231960456091379
+  }
+}

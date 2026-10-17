@@ -1,0 +1,79 @@
+import clr,System,json,math
+clr.AddReference('KarambaCommon')
+from System.Collections.Generic import List
+from Karamba.Geometry import Mesh3,Point3
+from Karamba.Elements import ModelShell,BuilderShell
+from Karamba.Nodes import Node
+from Grasshopper import DataTree
+from Grasshopper.Kernel.Data import GH_Path
+def val(v):return v.Value if hasattr(v,'Value') else v
+meta=json.loads(str(val(Meta)))
+expected=int(meta['explicit_master_nodes']);frame_count=int(meta['frame_seed_nodes'])
+m=val(Model).Clone();m.cloneElements();m.cloneNodes();m.cloneMaterialList();m.cloneCrossSectionList()
+points=[val(v) for v in AllPoints.AllData()]
+if len(points)!=expected or len(m.nodes)<frame_count:raise ValueError('Explicit master/frame node counts differ.')
+original_shells={e.id:e for e in m.elems if e.GetType().Name=='ModelShell'}
+if len(original_shells)!=len(meta['records']):raise ValueError('Native shell ID registration is incomplete.')
+m.nodes.RemoveRange(frame_count,len(m.nodes)-frame_count)
+coordinate_error=0.
+for i,p in enumerate(points):
+ if i<frame_count:
+  q=m.nodes[i].pos;error=math.sqrt((p.X-q.X)**2+(p.Y-q.Y)**2+(p.Z-q.Z)**2)
+  coordinate_error=max(coordinate_error,error)
+  if error>1e-10:raise ValueError('Native frame assembly changed original master ordering.')
+ else:
+  added=m.add(Node(i,Point3(p.X,p.Y,p.Z)))
+  if added!=i or m.nodes[i].ind!=i:raise ValueError('Private ribbon node index changed.')
+original_beams=[(e.ind,list(e.node_inds)) for e in m.elems if e.GetType().Name=='ModelBeam']
+if any(i>=frame_count for _,indices in original_beams for i in indices):raise ValueError('Boundary beam attached to a private ribbon node.')
+builders={val(v).id:val(v) for v in RibbonBuilders.AllData()};count=0
+for rec in meta['records']:
+ original=builders.get(rec['name'])
+ if original is None:raise ValueError('Missing native oriented ribbon builder.')
+ path=next(p for p in Meshes.Paths if list(p.Indices)==[rec['panel'],rec['family']])
+ patch=val(list(Meshes.Branch(path))[0]);indices=List[System.Int32]([int(val(v)) for v in IndexMap.Branch(path)])
+ if len(indices)!=patch.Vertices.Count:raise ValueError('Owned index tree differs from exact ribbon mesh.')
+ km=Mesh3()
+ for vi,index in enumerate(indices):
+  p=patch.Vertices.Point3dAt(vi);q=m.nodes[index].pos
+  error=math.sqrt((p.X-q.X)**2+(p.Y-q.Y)**2+(p.Z-q.Z)**2);coordinate_error=max(coordinate_error,error)
+  if error>1e-10:raise ValueError('Private node moved from original ribbon geometry.')
+  km.AddVertex(Point3(p.X,p.Y,p.Z))
+ for face in patch.Faces:
+  if not face.IsTriangle:raise ValueError('Only triangular ribbon faces supported.')
+  km.AddFace(face.A,face.B,face.C)
+ km.ComputeNormals();builder=BuilderShell(original.guid,km)
+ for prop in original.GetType().GetProperties():
+  if prop.CanRead and prop.CanWrite and prop.Name not in ['Pos','guid']:prop.SetValue(builder,prop.GetValue(original,None),None)
+ builder.id=rec['name'];builder.crosec=original.crosec
+ old=original_shells[rec['name']]
+ m.elems[old.ind]=ModelShell(old.ind,builder,old.crosec,indices,m.nodes);count+=1
+if count!=len(meta['records']):raise ValueError('Missing panel/family shell.')
+
+# Additional full-turn dead loads at native bonded nodes; no new support.
+from Karamba.Loads import PointLoad
+from Karamba.Geometry import Vector3
+m.ploads=List[PointLoad](m.ploads)
+turn_force=2*math.pi*.0065*.02*.000981747704*15.886773
+for case in ['G','G_X_POS','G_X_NEG','G_Y_POS','G_Y_NEG']:
+ for index in meta.get('reinforcement_turn_nodes',[]):m.ploads.Add(PointLoad(int(index),Vector3(0,0,-turn_force),Vector3(0,0,0),case,False))
+
+m.initMaterialCroSecLists();m.initShellMeshes();m.CreateNodeKdTree();m.buildFEModel()
+triangles=0
+for e in m.elems:
+ if e.GetType().Name!='ModelShell':continue
+ for fi,face in enumerate(e.mesh.Faces):
+  actual=m.febmodel.element(e.fe_ind_begin+fi)
+  wanted=[e.node_inds[k] for k in [face.A,face.B,face.C]]
+  if [actual.node(j).ind() for j in range(actual.nNodes())]!=wanted:raise ValueError('Actual FE connectivity differs from owned indices.')
+  triangles+=1
+if triangles!=meta['triangles']:raise ValueError('Actual FE triangle count changed.')
+if [(e.ind,list(e.node_inds)) for e in m.elems if e.GetType().Name=='ModelBeam']!=original_beams:raise ValueError('Boundary beam connectivity changed.')
+types=[]
+for a in System.AppDomain.CurrentDomain.GetAssemblies():
+ if 'karamba' in a.GetName().Name.lower():types.extend(t for t in a.GetTypes() if t.Name=='GH_Model')
+if len(types)!=1:raise ValueError('Native GH model type not unique.')
+OwnedModel=DataTree[object]()
+OwnedModel.Add(System.Activator.CreateInstance(types[0],System.Array[System.Object]([m])),GH_Path(0))
+NativeMass=m.mass()*1000
+Report='16b | EXPLICIT OWNED SHELL ASSEMBLY\nNative seed model retains shell IDs, materials and orientations.\nAll private ribbon nodes rebuilt before analysis; seed coordinate bonds discarded.\n%d nodes; %d actual FE triangles verified; coordinate error %.3g m.\nOnly center/frame endpoints share IDs. Coincident crossings remain independent.\nLDist1e-6m and boundary connectivity unchanged; no geometry jitter.'%(expected,triangles,coordinate_error)

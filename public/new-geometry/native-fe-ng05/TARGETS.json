@@ -1,0 +1,77 @@
+[
+  {
+    "case": "G",
+    "panel": 23,
+    "shell": "NG_P024_F0",
+    "hotspot": {
+      "shell_id": "NG_P024_F0",
+      "coordinate_m": [
+        -1.0903324295507677,
+        3.1063281295812275,
+        2.82812411497159
+      ],
+      "component": "s2",
+      "signed_value_MPa": -2.0805598056437584,
+      "element_index": 5404,
+      "face_index": 215,
+      "value_MPa": 2.0805598056437584,
+      "surface": -1
+    },
+    "repeat_strands": [
+      26,
+      1
+    ],
+    "pivot_node": 11911,
+    "pivot_vertex": 238
+  },
+  {
+    "case": "G_X_NEG",
+    "panel": 32,
+    "shell": "NG_P033_F0",
+    "hotspot": {
+      "shell_id": "NG_P033_F0",
+      "coordinate_m": [
+        4.828590695399384,
+        6.7547728538961,
+        0.3770416427466783
+      ],
+      "component": "s2",
+      "signed_value_MPa": -4.502893000644345,
+      "element_index": 5413,
+      "face_index": 106,
+      "value_MPa": 4.502893000644345,
+      "surface": -1
+    },
+    "repeat_strands": [
+      13,
+      19
+    ],
+    "pivot_node": 14970,
+    "pivot_vertex": 121
+  },
+  {
+    "case": "G_Y_NEG",
+    "panel": 33,
+    "shell": "NG_P034_F0",
+    "hotspot": {
+      "shell_id": "NG_P034_F0",
+      "coordinate_m": [
+        2.6749715568003167,
+        6.865243194899532,
+        0.6272116236139045
+      ],
+      "component": "s2",
+      "signed_value_MPa": -7.096297931585102,
+      "element_index": 5414,
+      "face_index": 130,
+      "value_MPa": 7.096297931585102,
+      "surface": 1
+    },
+    "repeat_strands": [
+      16,
+      24
+    ],
+    "pivot_node": 15341,
+    "pivot_vertex": 148
+  }
+]
