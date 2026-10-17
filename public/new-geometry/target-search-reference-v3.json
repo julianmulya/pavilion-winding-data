@@ -1,0 +1,139 @@
+{
+  "schema": "GH_NEW_TARGET_SEARCH/1",
+  "source_sha256": "10832174223719e6aba2a62e4216238df9727300700a8ee8d94a1b86549885bb",
+  "contract": {
+    "id": "GH_NEW_TARGET_OPENNESS_MASS_V3",
+    "method": "Deterministic bounded sampling, analytic sleeve-wrap winding mass screening, 64-row openness screening, local neighbours, and 128/256/512-row final evaluation.",
+    "mass_scope": "SPATIAL_CFRP_WITH_SLEEVE_LOOPS",
+    "quantity_contract": "GH_NEW_SLEEVED_WINDING_V1",
+    "openness_contract": "GH_NEW_PROJECTED_OPENNESS_V1",
+    "domain": {
+      "anchors": [
+        10,
+        50,
+        1
+      ],
+      "shift": "5..floor(N/2)",
+      "gap": [
+        0.1,
+        1,
+        0.1
+      ],
+      "panels": [
+        36,
+        100,
+        1
+      ]
+    },
+    "broad_samples": 256,
+    "mass_shortlist": 48,
+    "diversity_samples": 16,
+    "local_seeds": 3,
+    "finalists": 8,
+    "rank": "Within both tolerances first; then (openness error / openness tolerance)^2 + (mass error / mass tolerance)^2; deterministic parameter tie-break.",
+    "claim": "Nearest among evaluated configurations; no claim of exhaustive search, global optimum or structural safety.",
+    "FE_run": false
+  },
+  "target": {
+    "openness_percent": 60,
+    "mass_kg": 100,
+    "openness_tolerance_pp": 2,
+    "mass_tolerance_kg": 5
+  },
+  "seed": {
+    "panels": 55,
+    "shift": 14,
+    "anchors": 29,
+    "gap": 0.4
+  },
+  "counts": {
+    "mass": 446,
+    "screen": 63,
+    "refine": 23,
+    "verified": 8
+  },
+  "elapsed_ms": 10195.602200000001,
+  "candidates": [
+    {
+      "parameters": {
+        "panels": 56,
+        "shift": 5,
+        "anchors": 23,
+        "gap": 0.4
+      },
+      "openness_percent": 60.177558026740385,
+      "mass_kg": 99.17610127358705,
+      "length_m": 3117.8996065663146,
+      "openness_error_pp": 0.17755802674038534,
+      "mass_error_kg": -0.8238987264129491,
+      "within_target": true,
+      "score": 0.03503407767038003,
+      "resolution_delta_pp": 0.005169890118004616
+    },
+    {
+      "parameters": {
+        "anchors": 11,
+        "shift": 5,
+        "gap": 0.8,
+        "panels": 99
+      },
+      "openness_percent": 59.58420273767426,
+      "mass_kg": 99.23735696818332,
+      "length_m": 3119.825363917421,
+      "openness_error_pp": -0.4157972623257393,
+      "mass_error_kg": -0.7626430318166797,
+      "within_target": true,
+      "score": 0.0664868165985364,
+      "resolution_delta_pp": 0.0019661075336045997
+    },
+    {
+      "parameters": {
+        "anchors": 11,
+        "shift": 5,
+        "gap": 0.8,
+        "panels": 100
+      },
+      "openness_percent": 59.46558210619557,
+      "mass_kg": 99.92385939385015,
+      "length_m": 3141.4076364145903,
+      "openness_error_pp": -0.5344178938044308,
+      "mass_error_kg": -0.07614060614984908,
+      "within_target": true,
+      "score": 0.07163251698078563,
+      "resolution_delta_pp": 0.005541028664794112
+    },
+    {
+      "parameters": {
+        "anchors": 11,
+        "shift": 5,
+        "gap": 0.8,
+        "panels": 98
+      },
+      "openness_percent": 59.65268524748779,
+      "mass_kg": 98.71554932063344,
+      "length_m": 3103.4207680711797,
+      "openness_error_pp": -0.34731475251221156,
+      "mass_error_kg": -1.2844506793665573,
+      "within_target": true,
+      "score": 0.0961494262371631,
+      "resolution_delta_pp": 0.012385888160409309
+    },
+    {
+      "parameters": {
+        "panels": 55,
+        "shift": 5,
+        "anchors": 23,
+        "gap": 0.4
+      },
+      "openness_percent": 60.541960980610874,
+      "mass_kg": 98.3761845542393,
+      "length_m": 3092.7518139780573,
+      "openness_error_pp": 0.5419609806108738,
+      "mass_error_kg": -1.6238154457606981,
+      "within_target": true,
+      "score": 0.1789014902018156,
+      "resolution_delta_pp": 0.010276629323143993
+    }
+  ],
+  "status": "MATCH_FOUND"
+}

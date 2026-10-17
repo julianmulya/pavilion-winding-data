@@ -1,0 +1,113 @@
+{
+  "schema": "GH_NEW_SLEEVE_REFERENCE/1",
+  "reference": {
+    "title": "Core-Less Filament Winding",
+    "authors": "Prado, Dörstelmann, Schwinn, Menges, Knippers",
+    "year": 2014,
+    "doi": "10.1007/978-3-319-04663-1_19",
+    "sections": [
+      "3.4",
+      "Fig.6",
+      "Fig.7",
+      "Fig.8"
+    ],
+    "supported_principles": [
+      "Loops at control points guide the fibre source around the hooking area.",
+      "Winding syntax, physical rovings and robotic winding paths are distinct.",
+      "Component edges receive additional carbon fibre reinforcement; Fig.6 shows a bolted reinforced-edge interface."
+    ],
+    "project_adaptations": [
+      "Exactly one full circle per source anchor visit.",
+      "12 mm sleeve OD and 6.5 mm route radius.",
+      "Straight transfers connect common arrival/departure contacts.",
+      "Module bolts remain separate from winding anchor bolts."
+    ],
+    "not_established": [
+      "Permanent full aluminium polygon frame material or section.",
+      "Joint rotational stiffness or bolt capacity.",
+      "Robot collision-free or tangent-continuous path."
+    ]
+  },
+  "geometry_contract": "GH_NEW_SLEEVED_WINDING_V1",
+  "hardware_contract": "GH_NEW_DUAL_HARDWARE_V2",
+  "native_gh": {
+    "file_name": "yang baru sesuai geometri - SATU PUTARAN SLEEVE V1.gh",
+    "sha256": "a8b13eedd25250b65003b98b213d92a3de8699e2c1f5de8a31a33ee3b8e4ca56",
+    "geometry_language": "C# / RhinoCommon",
+    "shape_crc": [
+      2859397175
+    ],
+    "source_spans_preserved": true,
+    "saved_reopened_verified": false
+  },
+  "configurations": [
+    {
+      "parameters": {
+        "gap": 0.4,
+        "panels": 55,
+        "anchors": 29,
+        "shift": 14
+      },
+      "panels": 55,
+      "wraps": 3190,
+      "source_span_length_m": 4977.9753780232595,
+      "transfer_length_m": 4938.544002466785,
+      "local_wrap_length_m": 130.28184734436866,
+      "total_length_m": 5068.8258498111545,
+      "mass_kg": 161.23238373690558,
+      "max_coordinate_error_m": 1.0313810936086902e-14,
+      "max_panel_length_error_m": 5.446963768918067e-9,
+      "max_panel_mass_error_kg": 1.7326051704458223e-10
+    },
+    {
+      "parameters": {
+        "gap": 0.1,
+        "panels": 36,
+        "anchors": 10,
+        "shift": 5
+      },
+      "panels": 36,
+      "wraps": 360,
+      "source_span_length_m": 631.7646659021467,
+      "transfer_length_m": 627.3772925008566,
+      "local_wrap_length_m": 14.702653618800227,
+      "total_length_m": 642.0799461196568,
+      "mass_kg": 20.423680617552307,
+      "max_coordinate_error_m": 5.53833284177548e-15,
+      "max_panel_length_error_m": 9.39131439281482e-10,
+      "max_panel_mass_error_kg": 2.987254887898416e-11
+    },
+    {
+      "parameters": {
+        "gap": 1,
+        "panels": 100,
+        "anchors": 50,
+        "shift": 25
+      },
+      "panels": 100,
+      "wraps": 5000,
+      "source_span_length_m": 7674.073842010751,
+      "transfer_length_m": 7626.652992496675,
+      "local_wrap_length_m": 204.20352248333677,
+      "total_length_m": 7830.856514980014,
+      "mass_kg": 249.0887830874963,
+      "max_coordinate_error_m": 5.80247949794805e-14,
+      "max_panel_length_error_m": 4.695678512689483e-9,
+      "max_panel_mass_error_kg": 1.493627443949208e-10
+    }
+  ],
+  "scope": "GEOMETRY_AND_MATERIAL_ESTIMATE_ONLY",
+  "native_FE_runs": 0,
+  "next_native_FE": {
+    "stage": "DEFINE_AND_BUILD_CONCEPTUAL_NATIVE_KARAMBA",
+    "required_inputs": [
+      "Structural section/material for the permanent polygon boundary and reinforced edge.",
+      "Equivalent connection degrees of freedom between adjacent panel edges.",
+      "CFRP stiffness and applicable stress outputs.",
+      "Supports on actual ground-contact boundary segments and documented loads."
+    ],
+    "local_bolt_contact_analysis": false,
+    "InitialStrain": false,
+    "old_FE_results_attached": false
+  }
+}

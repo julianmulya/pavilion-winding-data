@@ -1,0 +1,15 @@
+{
+  "id": "GH_NEW_SLEEVED_WINDING_V1",
+  "units": "m",
+  "turns_per_visit": 1,
+  "sleeve_outer_diameter_m": 0.012,
+  "radial_centerline_clearance_m": 0.0005,
+  "route_radius_m": 0.0065,
+  "circle_segments": 48,
+  "route": "One full circle at each visited source anchor, then a straight transfer between sleeve contact points; closed source orbit has no duplicated terminal wrap.",
+  "scope": "CONCEPTUAL_CENTERLINE_NOT_ROBOT_TOOLPATH",
+  "reference": "https://doi.org/10.1007/978-3-319-04663-1_19",
+  "assumptions": "Sleeve dimensions, 0.5 mm centerline clearance and exactly one full turn are project assumptions. Full circles share one arrival/departure point; tangent transitions, fibre stacking, fibre-fibre interaction and robot collision are not resolved.",
+  "quantity_scope": "Transfer centerlines plus analytic circle lengths; no waste, start/end tails, boundary reinforcement or hardware mass.",
+  "openness_scope": "Original span-and-edge projection retained; local wraps and hardware excluded."
+}

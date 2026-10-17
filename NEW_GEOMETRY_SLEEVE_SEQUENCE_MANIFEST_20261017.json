@@ -1,0 +1,45 @@
+{
+  "schema": "NEW_GEOMETRY_SLEEVE_SEQUENCE_DATA/1",
+  "repository": "https://github.com/julianmulya/pavilion-winding-data",
+  "parent_data_commit": "99d1bc58acd76a70b15650b39972c5f95ea0bc77",
+  "historical_data_parent_commit": "8f86c2a6540b0258e878a18f6dbf3a871f8ebd23",
+  "files": [
+    {
+      "path": "public/new-geometry/native-sleeve-route-v1.json",
+      "bytes": 3712639,
+      "sha256": "706f332613cbd1ff6b257ee33d6d320665a6ec92bd4be7627b16c46d5d9266b6"
+    },
+    {
+      "path": "public/new-geometry/sleeved-winding-contract-v1.json",
+      "bytes": 1008,
+      "sha256": "99830ef8fbf35eab00469bbc592a05293d954be2bd1120a048061b66145379d2"
+    },
+    {
+      "path": "public/new-geometry/sleeved-winding-comparison-v1.json",
+      "bytes": 1805,
+      "sha256": "82877670bce6124d46cecafaa99906161eaeefa4eee1b1d164640e4d1fa1c5bd"
+    },
+    {
+      "path": "public/new-geometry/sleeved-winding-reference-v1.json",
+      "bytes": 3879,
+      "sha256": "6f81922c3c2e1fd784a7be918189799d2b5002aa264da743ff6bf70483e6f526"
+    },
+    {
+      "path": "public/new-geometry/hardware-contract-v2.json",
+      "bytes": 1524,
+      "sha256": "fa79ac574855d32942a5a11659fe759417bb7d09e5a61c676528310e3f293947"
+    },
+    {
+      "path": "public/new-geometry/target-search-contract-v3.json",
+      "bytes": 990,
+      "sha256": "5777cf6ad5245d85539a3627393c3b8e2f66b19449ce70b661f645f3bc2b914e"
+    },
+    {
+      "path": "public/new-geometry/target-search-reference-v3.json",
+      "bytes": 3854,
+      "sha256": "b7ef789362dfe3467c6b7707a060b4024fe8ee7fa9c6426fc0d323f313eda0bd"
+    }
+  ],
+  "total_bytes": 3725699,
+  "native_FE_runs": 0
+}

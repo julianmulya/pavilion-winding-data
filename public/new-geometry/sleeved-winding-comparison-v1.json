@@ -1,0 +1,61 @@
+{
+  "schema": "NATIVE_CSHARP_WEB_SLEEVE_ROUTE_COMPARISON/1",
+  "tolerance_m": 1e-8,
+  "comparisons": [
+    {
+      "parameters": {
+        "gap": 0.4,
+        "panels": 55,
+        "anchors": 29,
+        "shift": 14
+      },
+      "panels": 55,
+      "wraps": 3190,
+      "source_span_length_m": 4977.9753780232595,
+      "transfer_length_m": 4938.544002466785,
+      "local_wrap_length_m": 130.28184734436866,
+      "total_length_m": 5068.8258498111545,
+      "mass_kg": 161.23238373690558,
+      "max_coordinate_error_m": 1.0313810936086902e-14,
+      "max_panel_length_error_m": 5.446963768918067e-9,
+      "max_panel_mass_error_kg": 1.7326051704458223e-10
+    },
+    {
+      "parameters": {
+        "gap": 0.1,
+        "panels": 36,
+        "anchors": 10,
+        "shift": 5
+      },
+      "panels": 36,
+      "wraps": 360,
+      "source_span_length_m": 631.7646659021467,
+      "transfer_length_m": 627.3772925008566,
+      "local_wrap_length_m": 14.702653618800227,
+      "total_length_m": 642.0799461196568,
+      "mass_kg": 20.423680617552307,
+      "max_coordinate_error_m": 5.53833284177548e-15,
+      "max_panel_length_error_m": 9.39131439281482e-10,
+      "max_panel_mass_error_kg": 2.987254887898416e-11
+    },
+    {
+      "parameters": {
+        "gap": 1,
+        "panels": 100,
+        "anchors": 50,
+        "shift": 25
+      },
+      "panels": 100,
+      "wraps": 5000,
+      "source_span_length_m": 7674.073842010751,
+      "transfer_length_m": 7626.652992496675,
+      "local_wrap_length_m": 204.20352248333677,
+      "total_length_m": 7830.856514980014,
+      "mass_kg": 249.0887830874963,
+      "max_coordinate_error_m": 5.80247949794805e-14,
+      "max_panel_length_error_m": 4.695678512689483e-9,
+      "max_panel_mass_error_kg": 1.493627443949208e-10
+    }
+  ],
+  "FE_run": false
+}
