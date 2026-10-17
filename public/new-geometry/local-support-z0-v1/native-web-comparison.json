@@ -1,0 +1,45 @@
+{
+  "contract": "GH_LOCAL_SUPPORT_BASE_Z0_V1",
+  "comparisons": [
+    {
+      "parameters": {
+        "gap": 0.4,
+        "panels": 55,
+        "anchors": 29,
+        "shift": 14
+      },
+      "selected_panel": "P052",
+      "boundaryError": 5.475099487534309e-15,
+      "windingError": 7.444291678311382e-15,
+      "contactError": 7.444291678311382e-15,
+      "lengthError": 5.446963768918067e-9
+    },
+    {
+      "parameters": {
+        "gap": 0.1,
+        "panels": 36,
+        "anchors": 10,
+        "shift": 5
+      },
+      "selected_panel": "P033",
+      "boundaryError": 5.475099487534309e-15,
+      "windingError": 4.636427468134552e-15,
+      "contactError": 4.636427468134552e-15,
+      "lengthError": 9.39131439281482e-10
+    },
+    {
+      "parameters": {
+        "gap": 1,
+        "panels": 100,
+        "anchors": 50,
+        "shift": 25
+      },
+      "selected_panel": "P096",
+      "boundaryError": 6.936895214610187e-15,
+      "windingError": 7.53644380168212e-15,
+      "contactError": 7.53644380168212e-15,
+      "lengthError": 4.695678512689483e-9
+    }
+  ],
+  "FE_run": false
+}

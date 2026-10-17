@@ -1,0 +1,549 @@
+{
+  "schema": "NEW_GEOMETRY_LOCAL_SUPPORT_Z0/1",
+  "previous_data_commit": "3c500e9a9f48837fec45164df5b2388e028202aa",
+  "created_utc": "2026-10-17T16:48:54.729Z",
+  "contract": {
+    "id": "GH_LOCAL_SUPPORT_BASE_Z0_V1",
+    "supersedes_geometry_contract": "GH_FULL_BASE_Z0_V1",
+    "scope": "GEOMETRY_ONLY_NO_FE",
+    "source_gh_sha256": "a8b13eedd25250b65003b98b213d92a3de8699e2c1f5de8a31a33ee3b8e4ca56",
+    "main_loft_crc": 2859397175,
+    "method": "Keep the native rising open-side profile; select its lowest complete panel edge as a local Z=0 support on both A and B. Apply shared UV corner edits to adjacent owners. Extend only across below-floor source vertices. Retain the originally horizontal opposite boundary and keep all non-foot vertices and the main loft unchanged. Recompute anchors, sleeve contacts and winding.",
+    "domain": {
+      "panels": [
+        36,
+        100
+      ],
+      "boundary_gap_m": [
+        0.1,
+        1
+      ],
+      "anchors": [
+        10,
+        50
+      ],
+      "shift": "5..floor(anchors/2)"
+    },
+    "default_ground": {
+      "support_u_interval": [
+        0.3846153846153844,
+        0.538461538461539
+      ],
+      "ground_edges_both_layers": 16,
+      "moved_vertex_occurrences": 22,
+      "open_elevated_edges": 5,
+      "ground_length_owner_sum_m": 21.51307863224094,
+      "minimum_Z_before_m": -0.056367569063027714,
+      "contract": "GH_LOCAL_SUPPORT_BASE_Z0_V1",
+      "ground_panels": 8,
+      "max_abs_ground_Z_m": 0,
+      "selected_open_panel": "P052",
+      "panels": 55,
+      "open_edge_count": 6,
+      "max_open_elevation_m": 3.251252237371292,
+      "ground_panel_details": [
+        {
+          "ground_edge_indices": [
+            1
+          ],
+          "panel": "P001"
+        },
+        {
+          "ground_edge_indices": [
+            2
+          ],
+          "panel": "P002"
+        },
+        {
+          "ground_edge_indices": [
+            2
+          ],
+          "panel": "P003"
+        },
+        {
+          "ground_edge_indices": [
+            2
+          ],
+          "panel": "P004"
+        },
+        {
+          "ground_edge_indices": [
+            2
+          ],
+          "panel": "P005"
+        },
+        {
+          "ground_edge_indices": [
+            2
+          ],
+          "panel": "P006"
+        },
+        {
+          "ground_edge_indices": [
+            2
+          ],
+          "panel": "P007"
+        },
+        {
+          "ground_edge_indices": [
+            4
+          ],
+          "panel": "P052"
+        }
+      ],
+      "open_profile_edges": [
+        {
+          "a": [
+            6.794609056073185,
+            6.257267842067581,
+            1.6760538079641243
+          ],
+          "source_a": [
+            6.794609056073185,
+            6.257267842067581,
+            1.6760538079641243
+          ],
+          "panel": "P050",
+          "b": [
+            8,
+            5.75,
+            2.5
+          ],
+          "u": [
+            0.23076923076923087,
+            0
+          ],
+          "ground": false,
+          "source_b": [
+            8,
+            5.75,
+            2.5
+          ],
+          "layer": "A",
+          "edge": 3
+        },
+        {
+          "a": [
+            6.617411882550223,
+            6.548027739588602,
+            1.8863681659778508
+          ],
+          "source_a": [
+            6.617411882550223,
+            6.548027739588602,
+            1.8863681659778508
+          ],
+          "panel": "P050",
+          "b": [
+            8.199839335142212,
+            6.090776803142363,
+            2.5627328508039473
+          ],
+          "u": [
+            0.23076923076923087,
+            0
+          ],
+          "ground": false,
+          "source_b": [
+            8.199839335142212,
+            6.090776803142363,
+            2.5627328508039473
+          ],
+          "layer": "B",
+          "edge": 3
+        },
+        {
+          "a": [
+            5.496752628394511,
+            6.687960395081754,
+            0
+          ],
+          "source_a": [
+            5.496752628394511,
+            6.687960395081754,
+            0.0729891999192981
+          ],
+          "panel": "P051",
+          "b": [
+            6.794609056073185,
+            6.257267842067581,
+            1.6760538079641245
+          ],
+          "u": [
+            0.38461538461538436,
+            0.23076923076923084
+          ],
+          "ground": false,
+          "source_b": [
+            6.794609056073185,
+            6.257267842067581,
+            1.6760538079641245
+          ],
+          "layer": "A",
+          "edge": 3
+        },
+        {
+          "a": [
+            5.5384019780961875,
+            7.05351849864066,
+            0
+          ],
+          "source_a": [
+            5.5384019780961875,
+            7.05351849864066,
+            0.23553764187714352
+          ],
+          "panel": "P051",
+          "b": [
+            6.617411882550222,
+            6.548027739588602,
+            1.886368165977851
+          ],
+          "u": [
+            0.38461538461538436,
+            0.23076923076923084
+          ],
+          "ground": false,
+          "source_b": [
+            6.617411882550222,
+            6.548027739588602,
+            1.886368165977851
+          ],
+          "layer": "B",
+          "edge": 3
+        },
+        {
+          "a": [
+            3.459483142577633,
+            7.025051507588807,
+            0
+          ],
+          "source_a": [
+            3.459483142577633,
+            7.025051507588807,
+            -0.03655264161040021
+          ],
+          "panel": "P052",
+          "b": [
+            5.4967526283945105,
+            6.687960395081755,
+            0
+          ],
+          "u": [
+            0.538461538461539,
+            0.3846153846153844
+          ],
+          "ground": true,
+          "source_b": [
+            5.4967526283945105,
+            6.687960395081755,
+            0.07298919991929775
+          ],
+          "layer": "A",
+          "edge": 4
+        },
+        {
+          "a": [
+            3.356206357946728,
+            7.372677568358478,
+            0
+          ],
+          "source_a": [
+            3.356206357946728,
+            7.372677568358478,
+            0.1334637584414962
+          ],
+          "panel": "P052",
+          "b": [
+            5.538401978096186,
+            7.05351849864066,
+            0
+          ],
+          "u": [
+            0.538461538461539,
+            0.3846153846153844
+          ],
+          "ground": true,
+          "source_b": [
+            5.538401978096186,
+            7.05351849864066,
+            0.23553764187714318
+          ],
+          "layer": "B",
+          "edge": 4
+        },
+        {
+          "a": [
+            1.879175865785834,
+            6.4714156411959145,
+            0.8594120648582007
+          ],
+          "source_a": [
+            1.879175865785834,
+            6.4714156411959145,
+            0.8594120648582007
+          ],
+          "panel": "P053",
+          "b": [
+            3.4594831425776364,
+            7.025051507588806,
+            0
+          ],
+          "u": [
+            0.6923076923076915,
+            0.5384615384615387
+          ],
+          "ground": false,
+          "source_b": [
+            3.4594831425776364,
+            7.025051507588806,
+            -0.03655264161039978
+          ],
+          "layer": "A",
+          "edge": 3
+        },
+        {
+          "a": [
+            2.133006869935986,
+            6.7268788736504295,
+            1.0347239426117911
+          ],
+          "source_a": [
+            2.133006869935986,
+            6.7268788736504295,
+            1.0347239426117911
+          ],
+          "panel": "P053",
+          "b": [
+            3.356206357946734,
+            7.372677568358479,
+            0
+          ],
+          "u": [
+            0.6923076923076915,
+            0.5384615384615387
+          ],
+          "ground": false,
+          "source_b": [
+            3.356206357946734,
+            7.372677568358479,
+            0.13346375844149677
+          ],
+          "layer": "B",
+          "edge": 3
+        },
+        {
+          "a": [
+            0.9038848746571866,
+            6.143897741201693,
+            2.593862218834235
+          ],
+          "source_a": [
+            0.9038848746571866,
+            6.143897741201693,
+            2.593862218834235
+          ],
+          "panel": "P054",
+          "b": [
+            1.8791758657858317,
+            6.471415641195913,
+            0.8594120648582051
+          ],
+          "u": [
+            0.846153846153846,
+            0.6923076923076918
+          ],
+          "ground": false,
+          "source_b": [
+            1.8791758657858317,
+            6.471415641195913,
+            0.8594120648582051
+          ],
+          "layer": "A",
+          "edge": 3
+        },
+        {
+          "a": [
+            1.1567742222105641,
+            6.253179408135029,
+            2.884039810295817
+          ],
+          "source_a": [
+            1.1567742222105641,
+            6.253179408135029,
+            2.884039810295817
+          ],
+          "panel": "P054",
+          "b": [
+            2.133006869935984,
+            6.726878873650428,
+            1.0347239426117953
+          ],
+          "u": [
+            0.846153846153846,
+            0.6923076923076918
+          ],
+          "ground": false,
+          "source_b": [
+            2.133006869935984,
+            6.726878873650428,
+            1.0347239426117953
+          ],
+          "layer": "B",
+          "edge": 3
+        },
+        {
+          "a": [
+            0,
+            5.75,
+            3
+          ],
+          "source_a": [
+            0,
+            5.75,
+            3
+          ],
+          "panel": "P055",
+          "b": [
+            0.9038848746571815,
+            6.143897741201691,
+            2.59386221883424
+          ],
+          "u": [
+            1,
+            0.8461538461538468
+          ],
+          "ground": false,
+          "source_b": [
+            0.9038848746571815,
+            6.143897741201691,
+            2.59386221883424
+          ],
+          "layer": "A",
+          "edge": 2
+        },
+        {
+          "a": [
+            -0.17018177563233583,
+            6.010596386119503,
+            3.251252237371292
+          ],
+          "source_a": [
+            -0.17018177563233583,
+            6.010596386119503,
+            3.251252237371292
+          ],
+          "panel": "P055",
+          "b": [
+            1.156774222210558,
+            6.253179408135025,
+            2.884039810295823
+          ],
+          "u": [
+            1,
+            0.8461538461538468
+          ],
+          "ground": false,
+          "source_b": [
+            1.156774222210558,
+            6.253179408135025,
+            2.884039810295823
+          ],
+          "layer": "B",
+          "edge": 2
+        }
+      ],
+      "max_XY_change_m": 0,
+      "open_ground_panels": 1,
+      "minimum_Z_after_m": 0
+    },
+    "native_boundary_checks": 95,
+    "web_panel_gap_combinations_checked": 650,
+    "native_web_route_comparisons": 3,
+    "historical_results_unchanged": true,
+    "FE_results_available": false,
+    "ground_highlight": "Presentation only; no foundation section or FE element added."
+  },
+  "files": [
+    {
+      "path": "public/new-geometry/local-support-z0-v1/native-cases.json",
+      "bytes": 4648333,
+      "sha256": "436a4af5d53f8f49c5f15715ebca43a27c0b8008e0616f85a24c4485129a61ea"
+    },
+    {
+      "path": "public/new-geometry/local-support-z0-v1/native-ground-checks.json",
+      "bytes": 543094,
+      "sha256": "917344875f2188a88a80533f25ee6694f2bf79d585e3c2f1c9bb18d7e78aa042"
+    },
+    {
+      "path": "public/new-geometry/local-support-z0-v1/web-ground-verification.json",
+      "bytes": 203230,
+      "sha256": "b2f0dad7fdffa60855cde3ab333f06b518b92888b4a7ae7e492b27580b1cce30"
+    },
+    {
+      "path": "public/new-geometry/local-support-z0-v1/local-support-z0.gh",
+      "bytes": 149156,
+      "sha256": "3cd66fbbd48c1d0aecb4673b4232c80443ce244f14903c1e7020c65d566b256d"
+    },
+    {
+      "path": "public/new-geometry/local-support-z0-v1/overview.png",
+      "bytes": 208491,
+      "sha256": "7009f72f8ed1f0cb9edf8927762d9646fb4955c0f22077cc6cbd307aefece980"
+    },
+    {
+      "path": "public/new-geometry/local-support-z0-v1/open-side-profile.png",
+      "bytes": 64795,
+      "sha256": "06d2ca86df7076902b624964d3db78a23ac395596da47ed4ccae0ac883926070"
+    },
+    {
+      "path": "public/new-geometry/local-support-z0-v1/native-LocalSupportBaseZ0.cs",
+      "bytes": 6696,
+      "sha256": "1b99e4377bbaecd32d31a3d6d41070785d88c66248dcb8e780bd65259c6438d0"
+    },
+    {
+      "path": "public/new-geometry/local-support-z0-v1/web-source/src/lib/new-geometry.ts",
+      "bytes": 11441,
+      "sha256": "677c98f125a45ec8c28e0caf55429b28d2f4fdb1760d0953366b7050bdbce686"
+    },
+    {
+      "path": "public/new-geometry/local-support-z0-v1/web-source/src/lib/local-support-base.ts",
+      "bytes": 1693,
+      "sha256": "62df6754cee5dc8ae883a29ec7832a68437476bb2e05a3ca2046c4d17284354b"
+    },
+    {
+      "path": "public/new-geometry/local-support-z0-v1/web-source/src/lib/new-geometry-openness.ts",
+      "bytes": 5580,
+      "sha256": "ff510b468dcb3bf7827dacfb439e9d59676219b7d944b9ddf676b041ef30eb73"
+    },
+    {
+      "path": "public/new-geometry/local-support-z0-v1/web-source/src/components/NewGeometryLab.tsx",
+      "bytes": 21675,
+      "sha256": "35a8ed304baca9d8394f01efdd4d31d1ee2dcc82b88e9e71b6968933fc1a9168"
+    },
+    {
+      "path": "public/new-geometry/local-support-z0-v1/web-source/src/components/viewer/NewGeometryViewer.tsx",
+      "bytes": 11458,
+      "sha256": "3e514c48bf7906109dbce25f5d4eec67a4c3aece23a21c3bcff9c4c4183d65e4"
+    },
+    {
+      "path": "public/new-geometry/local-support-z0-v1/web-source/tests/new-geometry-local-support.test.ts",
+      "bytes": 2850,
+      "sha256": "23489664745fa38e13670e6a9bf0ac79ea0f42deb5b0a5d77707984090e793c7"
+    },
+    {
+      "path": "public/new-geometry/local-support-z0-v1/web-source/tests/new-geometry-local-native.test.ts",
+      "bytes": 2720,
+      "sha256": "5bdaa13697fb8c0268b1576097fdf90ece4a0f5e1e7db9a5dafa33d8c3d1373b"
+    },
+    {
+      "path": "public/new-geometry/local-support-z0-v1/native-web-comparison.json",
+      "bytes": 1102,
+      "sha256": "57658a86c731791d3228d19b870f2f88fdb23b62089d058b0307f376816c302c"
+    },
+    {
+      "path": "public/new-geometry/local-support-z0-v1/contract.json",
+      "bytes": 10102,
+      "sha256": "62dd6eca0ff69bc67a4241e1909ee770809cd714e0adb493596b24e770d94c98"
+    }
+  ]
+}
