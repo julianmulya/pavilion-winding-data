@@ -1,0 +1,10 @@
+{
+  "reason": "GH_DataTree sorts added-node paths by panel; allocate added master nodes in identical ascending panel order",
+  "target_panel_set_unchanged": true,
+  "physical_geometry_unchanged": true,
+  "NEW_ANCHOR_Analyze_executed": false,
+  "source_sha256": {
+    "NEW_ANCHOR": "8ba16f7810f831b56e8a558cb091a0d99d5cb863b94483afdc8bfbfc4f21687c",
+    "AB_SHIFT6": "d725d0101057edea44d216c0324966367fb0d9ea1842ad9b65f13d0464471cfb"
+  }
+}
