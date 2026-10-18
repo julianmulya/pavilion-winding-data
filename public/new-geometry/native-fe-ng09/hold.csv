@@ -1,0 +1,15 @@
+﻿configuration_id,status,failure_kind,reason,phase,exit_code,force_residual_kN,force_tolerance_kN,cases_exported_before_hold,native_analyze_completed,capacity_failure_proven
+N10_S05_H100_P061,HOLD,PROCESS_INCOMPLETE,Proses Rhino berakhir dengan kode 0xc0000005 sebelum hasil lengkap tersimpan. Penyebab crash lebih rinci belum terbukti.,NO_MATCHING_RUN_CHECKPOINT,3221225477,,1e-07,0,,False
+N12_S05_H100_P053,HOLD,PROCESS_INCOMPLETE,Proses Rhino berakhir dengan kode 0xc0000005 sebelum hasil lengkap tersimpan. Penyebab crash lebih rinci belum terbukti.,NO_MATCHING_RUN_CHECKPOINT,3221225477,,1e-07,0,,False
+N12_S05_H100_P095,HOLD,NATIVE_FORCE_BALANCE_HOLD,Keseimbangan gaya native belum lolos: residual 1.01698866e-07 kN melebihi batas 1e-7 kN.,POST_ANALYZE_RESULT_CHECK,4294967295,1.0169886617637634e-07,1e-07,3,True,False
+N13_S05_H100_P049,HOLD,PROCESS_INCOMPLETE,Proses Rhino berakhir dengan kode 0xc0000005 sebelum hasil lengkap tersimpan. Penyebab crash lebih rinci belum terbukti.,NATIVE_ANALYZE_AND_EXPORT,3221225477,,1e-07,0,,False
+N13_S05_H100_P052,HOLD,PROCESS_INCOMPLETE,Proses Rhino berakhir dengan kode 0xc0000005 sebelum hasil lengkap tersimpan. Penyebab crash lebih rinci belum terbukti.,ASSEMBLING,3221225477,,1e-07,0,,False
+N13_S05_H100_P059,HOLD,PROCESS_INCOMPLETE,Proses Rhino berakhir dengan kode 0xc0000005 sebelum hasil lengkap tersimpan. Penyebab crash lebih rinci belum terbukti.,NO_MATCHING_RUN_CHECKPOINT,3221225477,,1e-07,0,,False
+N13_S05_H100_P074,HOLD,PROCESS_INCOMPLETE,Proses Rhino berakhir dengan kode 0xc000001d sebelum hasil lengkap tersimpan. Penyebab crash lebih rinci belum terbukti.,ASSEMBLING,3221225501,,1e-07,0,,False
+N13_S06_H100_P047,HOLD,PROCESS_INCOMPLETE,Proses Rhino berakhir dengan kode 0xc0000005 sebelum hasil lengkap tersimpan. Penyebab crash lebih rinci belum terbukti.,ASSEMBLING,3221225477,,1e-07,0,,False
+N14_S06_H100_P036,HOLD,NATIVE_FORCE_BALANCE_HOLD,Keseimbangan gaya native belum lolos: residual 2.34428511e-07 kN melebihi batas 1e-7 kN.,POST_ANALYZE_RESULT_CHECK,,2.3442851103951066e-07,1e-07,3,True,False
+N14_S06_H100_P067,HOLD,NATIVE_FORCE_BALANCE_HOLD,Keseimbangan gaya native belum lolos: residual 4.03973167e-07 kN melebihi batas 1e-7 kN.,POST_ANALYZE_RESULT_CHECK,,4.0397316721785183e-07,1e-07,1,True,False
+N14_S06_H100_P070,HOLD,NATIVE_FORCE_BALANCE_HOLD,Keseimbangan gaya native belum lolos: residual 1.59755048e-07 kN melebihi batas 1e-7 kN.,POST_ANALYZE_RESULT_CHECK,,1.5975504815043314e-07,1e-07,3,True,False
+N14_S06_H100_P072,HOLD,NATIVE_FORCE_BALANCE_HOLD,Keseimbangan gaya native belum lolos: residual 1.35503665e-07 kN melebihi batas 1e-7 kN.,POST_ANALYZE_RESULT_CHECK,,1.3550366486949064e-07,1e-07,3,True,False
+N14_S06_H100_P073,HOLD,NATIVE_FORCE_BALANCE_HOLD,Keseimbangan gaya native belum lolos: residual 1.55697179e-07 kN melebihi batas 1e-7 kN.,POST_ANALYZE_RESULT_CHECK,,1.556971788830296e-07,1e-07,7,True,False
+N14_S06_H100_P074,HOLD,NATIVE_FORCE_BALANCE_HOLD,Keseimbangan gaya native belum lolos: residual 1.17104234e-07 kN melebihi batas 1e-7 kN.,POST_ANALYZE_RESULT_CHECK,,1.1710423396378753e-07,1e-07,4,True,False
