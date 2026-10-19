@@ -1,0 +1,111 @@
+{
+  "status": "DISCRETE_GAP_SELECTED_FROM_NATIVE_RESULTS",
+  "objective": "Minimum envelope maximum absolute native shell principal stress over nine cases",
+  "selected": {
+    "id": "H100",
+    "gap_m": 1.0,
+    "values": {
+      "shell": 6.190928491274523,
+      "boundary": 24.954684917831038,
+      "link": 5.401271170413058,
+      "displacement": 11.548859026034515
+    },
+    "governing": {
+      "shell": "G_Y_POS",
+      "boundary": "G_Y_NEG",
+      "link": "G_Y_POS",
+      "displacement": "G_X_POS"
+    },
+    "reduction_pct": {
+      "shell": 37.57918694813753,
+      "boundary": 22.158385672425563,
+      "link": 3.9700083222074856,
+      "displacement": -7.329444436925203
+    },
+    "length_m": 6042.38396552477,
+    "winding_mass_kg": 192.19992934882762,
+    "gravity_force_kN": 2.763678286242096,
+    "boundary_segments": 6396,
+    "aluminium_links": 3190,
+    "support_nodes": 137,
+    "native_nodes": 28824,
+    "gravity_only": {
+      "shell": 4.682195631691559,
+      "boundary": 15.772249137764566,
+      "link": 2.9558228125663035,
+      "displacement": 11.235296155576513
+    },
+    "lateral_only": {
+      "shell": 5.042373623325266,
+      "boundary": 16.889760119749553,
+      "link": 3.4250276029837052,
+      "displacement": 2.088686883001202
+    },
+    "pareto_shell_u_winding_mass": true
+  },
+  "tested_gaps_m": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "configuration": {
+    "anchors": 29,
+    "shift": 14,
+    "panels": 55
+  },
+  "valid_cases": 90,
+  "new_cases": 63,
+  "reused_reviewed_cases": 27,
+  "ranking_by_shell": [
+    {
+      "gap_m": 1.0,
+      "shell_MPa": 6.190928491274523
+    },
+    {
+      "gap_m": 0.9,
+      "shell_MPa": 6.302330016017833
+    },
+    {
+      "gap_m": 0.8,
+      "shell_MPa": 6.344449110008657
+    },
+    {
+      "gap_m": 0.5,
+      "shell_MPa": 7.236348676972569
+    },
+    {
+      "gap_m": 0.7,
+      "shell_MPa": 7.246409836091513
+    },
+    {
+      "gap_m": 0.6,
+      "shell_MPa": 7.875342813312346
+    },
+    {
+      "gap_m": 0.4,
+      "shell_MPa": 9.918051669930632
+    },
+    {
+      "gap_m": 0.2,
+      "shell_MPa": 11.304579710909028
+    },
+    {
+      "gap_m": 0.3,
+      "shell_MPa": 11.871935006884478
+    },
+    {
+      "gap_m": 0.1,
+      "shell_MPa": 13.021301735801497
+    }
+  ],
+  "scope": "Optimum among ten discrete gaps at N29/S14/P55 only. Not optimum across other N/S/P, not a capacity or safety PASS.",
+  "comparison_sha256": "15182f656af435cea30ea6d3e7c2a6b41b58b29f06ff65e67d8889a52b99ceaf",
+  "chosen_before_future_parameter_batch": true
+}

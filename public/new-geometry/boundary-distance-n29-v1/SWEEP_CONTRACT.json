@@ -1,0 +1,47 @@
+{
+  "status": "TEN_NATIVE_GAPS_REVIEWED_COMPLETE",
+  "configuration": {
+    "anchors": 29,
+    "shift": 14,
+    "panels": 55
+  },
+  "gaps_m": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "reuse_reviewed_NG07": [
+    0.2,
+    0.4,
+    0.6
+  ],
+  "new_gaps_m": [
+    0.1,
+    0.3,
+    0.5,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "new_native_case_results": 63,
+  "objective": "MINIMIZE_ENVELOPE_MAXIMUM_ABSOLUTE_NATIVE_SHELL_PRINCIPAL_STRESS_OVER_NINE_CASES",
+  "assumptions": "Same NG07 native model, fixed 91 original-A lateral stations and total 1kN per direction; actual mass and boundary B support coordinates vary; InitialStrain OFF; no reinforcement. No safety PASS.",
+  "secondary_report_only": [
+    "maximum_displacement_mm",
+    "winding_CFRP_mass_kg",
+    "boundary_and_link_normal_stress_MPa"
+  ],
+  "scope": "Choose a discrete gap for N29/S14/P55 only, then use as fixed input for future anchor/shift/panel batch; not a global optimum over that batch.",
+  "selected_gap_m": 1.0,
+  "selection_file": "C:\\Users\\Acer\\Documents\\Codex\\2026-10-04\\be\\outputs\\NG08_GAP_SWEEP10_N29_S14_P55_20261018\\SELECTED_BOUNDARY_GAP.json",
+  "fixed_gap_parameter_queue_count": 28665,
+  "new_solves_for_parameter_queue": 0
+}
