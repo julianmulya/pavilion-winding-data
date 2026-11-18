@@ -17,16 +17,28 @@
     "L_X_NEG",
     "G_X_NEG"
   ],
+  "shift_mapping": {
+    "published_field": "shift",
+    "meaning": "UI shift-list number",
+    "source_field": "source_shift_index",
+    "formula": "shift = source_shift_index + 1",
+    "ratio": "shift / anchors",
+    "configuration_ids": "Published IDs use the UI shift-list number; source_configuration preserves the original FE ID."
+  },
+  "website_path": "https://pavilion-p37-study.vercel.app/",
+  "github_path": "https://github.com/julianmulya/pavilion-winding-data/tree/main/public/ng14-p37-20261111",
+  "publication_base_commit": "f7aad35b47f127c8b3e803748332885d09110881",
+  "public_parts_directory": "public/ng14-p37-20261111/parts/",
   "reason_sanitization": "The HOLD traceback was replaced with a concise explanation; local absolute paths were excluded.",
   "archive_scope": "This web dataset is the full case-metrics table, not the 33.8 GB raw research archive.",
   "file": "P37_FE_RESULTS_CASES.csv",
   "encoding": "UTF-8 CSV; gzip-compressed and base64-encoded in ordered text parts for GitHub contents transport",
   "rows_including_header": 3788,
-  "csv_bytes": 1012062,
-  "csv_sha256": "4646802187cb4c1e2a72c105f75e521e8fc987cdd0f3ecbf9350db83af76ff0c",
-  "gzip_bytes": 249368,
-  "gzip_sha256": "a013cce860fd56a68d4bca6549b382278059ece62c411bcc13e856afaa7f0cb7",
-  "base64_chars": 332492,
+  "csv_bytes": 1090297,
+  "csv_sha256": "970c5a6cdacccd158e3554dfee49776eaece5c54fd9deba577be45e65fe2ef33",
+  "gzip_bytes": 253616,
+  "gzip_sha256": "1a09ce8b58a10b1479e103c5f847e8407d8516b580c4a9588cdd2c7055f827d9",
+  "base64_chars": 338156,
   "parts": [
     "part-01.txt",
     "part-02.txt",
@@ -40,8 +52,5 @@
     "part-10.txt",
     "part-11.txt",
     "part-12.txt"
-  ],
-  "publication_base_commit": "27ee3631e34be549ad5ff02c6ce3b7d942d07ee8",
-  "public_parts_directory": "public/ng14-p37-20261111/parts/",
-  "website_path": "https://pavilion-winding-lab.vercel.app/p37-study.html"
+  ]
 }
