@@ -1,0 +1,2655 @@
+{
+  "schema": "PANEL_COUNT_BASELINE_STUDY/1",
+  "run_id": "PANEL_SWEEP_N25_S06_H100_P036_100_20261107",
+  "fixed": {
+    "anchors": 25,
+    "source_shift_index": 6,
+    "shift": 7,
+    "gap_m": 1
+  },
+  "case_names": [
+    "G",
+    "L_X_NEG",
+    "G_X_NEG"
+  ],
+  "value_order": [
+    "shell",
+    "boundary",
+    "link",
+    "displacement"
+  ],
+  "panel_range": [
+    36,
+    100
+  ],
+  "models": 65,
+  "load_results": 195,
+  "methods": [
+    "BASELINE"
+  ],
+  "units": {
+    "shell": "MPa",
+    "boundary": "MPa",
+    "link": "MPa",
+    "displacement": "mm",
+    "pavilionMass": "kg",
+    "length": "m"
+  },
+  "mass_definition": "abs(native vertical G load in kN) * 1000 / 9.80665; entire modeled dead load; not an as-built bill of materials",
+  "selection_rule": "For each response independently: percentage reduction relative to P36 / percentage extra total model mass relative to P36. P36 is undefined. Envelope of G, L_X_NEG, G_X_NEG. Not a safety or global optimum criterion.",
+  "minima": {
+    "shell": 55,
+    "boundary": 47,
+    "link": 46,
+    "displacement": 99,
+    "pavilionMass": 36
+  },
+  "efficiency_winners": {
+    "shell": 37,
+    "boundary": 37,
+    "link": 37,
+    "displacement": 37
+  },
+  "points": [
+    {
+      "panels": 36,
+      "id": "N25_S06_H100_P036",
+      "status": "REUSED_REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          2.475716993702685,
+          11.760296692732993,
+          1.8682884856761253,
+          4.288405242850968
+        ],
+        "L_X_NEG": [
+          2.526287936588721,
+          9.005468528650505,
+          1.8490933118801027,
+          1.0216247178881805
+        ],
+        "G_X_NEG": [
+          3.8601422852646743,
+          16.72639904406467,
+          3.037522130224331,
+          4.825678249912391
+        ]
+      },
+      "pavilion_mass_kg": 174.51439333987818,
+      "gravity_force_kN": 1.7114015754465164,
+      "winding_length_m": 3306.7262408477613,
+      "support_nodes": 101,
+      "load_nodes": 60,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P036/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "1184e76ed519fce00bcf72ca343341b406f4679338736a126f596936c72a615d",
+      "mass_change_pct": 0.0,
+      "efficiency": {
+        "shell": null,
+        "boundary": null,
+        "link": null,
+        "displacement": null
+      }
+    },
+    {
+      "panels": 37,
+      "id": "N25_S06_H100_P037",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          2.619412732380682,
+          11.72536896348059,
+          2.6376019357837666,
+          3.740959465643213
+        ],
+        "L_X_NEG": [
+          2.985494201398378,
+          9.556750142138204,
+          2.0814035112311147,
+          1.2016610155000351
+        ],
+        "G_X_NEG": [
+          2.9570511196472715,
+          15.837933551486516,
+          2.2976106158404135,
+          3.6720818190218476
+        ]
+      },
+      "pavilion_mass_kg": 178.33595320495735,
+      "gravity_force_kN": 1.748878275497395,
+      "winding_length_m": 3379.7203352903293,
+      "support_nodes": 104,
+      "load_nodes": 59,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P037/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "809cd4b84b168f33650da0856db8036d7b44affa58630124511a4540bee11245",
+      "mass_change_pct": 2.1898250292951005,
+      "efficiency": {
+        "shell": 10.347147035755054,
+        "boundary": 2.4256531256282625,
+        "link": 6.012352967491191,
+        "displacement": 10.264773800185813
+      }
+    },
+    {
+      "panels": 38,
+      "id": "N25_S06_H100_P038",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          2.564720199911666,
+          8.969717306178998,
+          2.5810713338678233,
+          3.7279767850705587
+        ],
+        "L_X_NEG": [
+          2.88607104999305,
+          12.681515881553857,
+          2.009328026670112,
+          1.2954975610795556
+        ],
+        "G_X_NEG": [
+          3.2720287650610267,
+          21.200282667604235,
+          2.384733425714122,
+          3.654319993399379
+        ]
+      },
+      "pavilion_mass_kg": 181.34595044732876,
+      "gravity_force_kN": 1.7783962649542964,
+      "winding_length_m": 3441.649091026161,
+      "support_nodes": 104,
+      "load_nodes": 61,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P038/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "b5ae43720c6bc1e711b0992a6157127fb7a752bb7b60644753432069a155a9c1",
+      "mass_change_pct": 3.9146095497955224,
+      "efficiency": {
+        "shell": 3.8919692402309725,
+        "boundary": -6.832722423158505,
+        "link": 3.8387167450138393,
+        "displacement": 5.810820103591027
+      }
+    },
+    {
+      "panels": 39,
+      "id": "N25_S06_H100_P039",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          2.4666251197703133,
+          9.555956754702637,
+          2.5194388455983714,
+          3.67336834274654
+        ],
+        "L_X_NEG": [
+          2.814567270012167,
+          12.762204754119635,
+          1.9904020817689756,
+          1.2543139524375282
+        ],
+        "G_X_NEG": [
+          3.2534060487993512,
+          21.113002851224785,
+          2.605385014900528,
+          3.5540405089507607
+        ]
+      },
+      "pavilion_mass_kg": 184.32201543127834,
+      "gravity_force_kN": 1.8075814926291458,
+      "winding_length_m": 3502.2358296095654,
+      "support_nodes": 104,
+      "load_nodes": 63,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P039/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "91d9a922a699eef299c511fa95b855d7d74870d114596d4e46de0d782f4055e9",
+      "mass_change_pct": 5.619950253787476,
+      "efficiency": {
+        "shell": 2.7968176320758564,
+        "boundary": -4.666523812294279,
+        "link": 2.531451705788664,
+        "displacement": 4.248919102013306
+      }
+    },
+    {
+      "panels": 40,
+      "id": "N25_S06_H100_P040",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          2.395971340898161,
+          9.78831593324819,
+          2.283296450303525,
+          3.7122121584143253
+        ],
+        "L_X_NEG": [
+          2.9634143532653163,
+          12.416467751909996,
+          2.076323536992958,
+          1.2371049193922972
+        ],
+        "G_X_NEG": [
+          3.1650470025062303,
+          20.80613136500179,
+          2.6239489641257863,
+          3.6887835635008184
+        ]
+      },
+      "pavilion_mass_kg": 187.45030411164808,
+      "gravity_force_kN": 1.8382595248164935,
+      "winding_length_m": 3566.5117759618593,
+      "support_nodes": 104,
+      "load_nodes": 65,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P040/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "3bd75db68b878905b916de700d3f263d824a3b5991c96d24bd6665812f4620fd",
+      "mass_change_pct": 7.412517972988253,
+      "efficiency": {
+        "shell": 2.4292671011499865,
+        "boundary": -3.290511827170304,
+        "link": 1.8368222966139431,
+        "displacement": 3.1128118738687203
+      }
+    },
+    {
+      "panels": 41,
+      "id": "N25_S06_H100_P041",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          2.20463982934676,
+          11.963884314400364,
+          1.7901081300172834,
+          3.723295093223751
+        ],
+        "L_X_NEG": [
+          2.7449282821605565,
+          12.36871403402642,
+          2.188913623750785,
+          1.251471288144717
+        ],
+        "G_X_NEG": [
+          3.1571207702232034,
+          20.518712721021046,
+          2.5428701465003734,
+          3.6496756380450153
+        ]
+      },
+      "pavilion_mass_kg": 190.45317747922306,
+      "gravity_force_kN": 1.8677076529266226,
+      "winding_length_m": 3628.230048672035,
+      "support_nodes": 104,
+      "load_nodes": 67,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P041/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "65df6ac10c8b0d0030abd33064d41b10dd193c28e9bc0101c359b073466793e0",
+      "mass_change_pct": 9.133220380454832,
+      "efficiency": {
+        "shell": 1.994074436629109,
+        "boundary": -2.482434862059751,
+        "link": 1.7830206265555588,
+        "displacement": 2.501210653343743
+      }
+    },
+    {
+      "panels": 42,
+      "id": "N25_S06_H100_P042",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          2.847480857186795,
+          11.3059219423074,
+          2.4148557107494,
+          3.424789860943651
+        ],
+        "L_X_NEG": [
+          2.3279571045920666,
+          12.67660980597586,
+          1.7901279688228813,
+          1.2959774826359884
+        ],
+        "G_X_NEG": [
+          2.798735360914501,
+          17.82424285527014,
+          2.1682615387053192,
+          3.203811257108815
+        ]
+      },
+      "pavilion_mass_kg": 192.69311156980342,
+      "gravity_force_kN": 1.8896739025760125,
+      "winding_length_m": 3678.9302969549944,
+      "support_nodes": 104,
+      "load_nodes": 67,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P042/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "85e78c4764f51f3310c22fb7daf1344a18673a2a1090ba0c8ef3da87efeef902",
+      "mass_change_pct": 10.416744362467,
+      "efficiency": {
+        "shell": 2.518424576247905,
+        "boundary": -0.6300950939823957,
+        "link": 1.9679043593220455,
+        "displacement": 2.786847263439127
+      }
+    },
+    {
+      "panels": 43,
+      "id": "N25_S06_H100_P043",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          2.8387284265158486,
+          11.270922411472569,
+          2.407636008295226,
+          3.4211719664454137
+        ],
+        "L_X_NEG": [
+          1.91101918057239,
+          8.998777862374643,
+          1.645928991649908,
+          0.785899206619921
+        ],
+        "G_X_NEG": [
+          2.60420957157558,
+          15.436532205521809,
+          2.083139876632343,
+          3.225354108681374
+        ]
+      },
+      "pavilion_mass_kg": 195.8153294359519,
+      "gravity_force_kN": 1.9202924004130775,
+      "winding_length_m": 3738.692303147946,
+      "support_nodes": 111,
+      "load_nodes": 69,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P043/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "bc1f6d949d6e4cd81c10db537cd232d6e65701e3d28025a58e60306cb3fd3154",
+      "mass_change_pct": 12.205833391970566,
+      "efficiency": {
+        "shell": 2.1678588186361285,
+        "boundary": 0.6317932568222471,
+        "link": 1.6989286942340485,
+        "displacement": 2.38450307459177
+      }
+    },
+    {
+      "panels": 44,
+      "id": "N25_S06_H100_P044",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          2.8637615692707215,
+          11.205409078445712,
+          2.4221348997901484,
+          3.406936369017988
+        ],
+        "L_X_NEG": [
+          1.9887677292860877,
+          8.194176888548395,
+          1.62198807677801,
+          0.7489409002512766
+        ],
+        "G_X_NEG": [
+          2.655832074493421,
+          15.463274526007641,
+          2.0911836871843317,
+          3.218298461297844
+        ]
+      },
+      "pavilion_mass_kg": 198.53443422182016,
+      "gravity_force_kN": 1.9469577093614125,
+      "winding_length_m": 3796.5292854834634,
+      "support_nodes": 112,
+      "load_nodes": 69,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P044/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "ac042bee678d013108ff742639ee3b2d2267facb3bd143b0f92b117725c5be63",
+      "mass_change_pct": 13.763931113212745,
+      "efficiency": {
+        "shell": 1.8753378112456363,
+        "boundary": 0.5486573748412352,
+        "link": 1.4719279060982098,
+        "displacement": 2.136006336435019
+      }
+    },
+    {
+      "panels": 45,
+      "id": "N25_S06_H100_P045",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          2.841876371296131,
+          11.227438150730297,
+          2.40914983480958,
+          3.390471365152935
+        ],
+        "L_X_NEG": [
+          2.102532955434237,
+          8.549971333766432,
+          1.564794484000131,
+          0.7841915362896146
+        ],
+        "G_X_NEG": [
+          2.8843773721642316,
+          15.296061261064265,
+          2.06362288082174,
+          3.2131928828142526
+        ]
+      },
+      "pavilion_mass_kg": 201.2073999141847,
+      "gravity_force_kN": 1.9731705483684394,
+      "winding_length_m": 3853.282139732912,
+      "support_nodes": 112,
+      "load_nodes": 71,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P045/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "eea6070896f40fc1977bd9a3257c0fea5cb6ff16c3fda34da184b4a7a754424c",
+      "mass_change_pct": 15.29559027393239,
+      "efficiency": {
+        "shell": 1.6526300406825662,
+        "boundary": 0.5590747982148375,
+        "link": 1.3524815106401757,
+        "displacement": 1.9444192202465846
+      }
+    },
+    {
+      "panels": 46,
+      "id": "N25_S06_H100_P046",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          2.8132032649608814,
+          11.682871467166645,
+          2.3996948085529866,
+          3.415597930080615
+        ],
+        "L_X_NEG": [
+          2.135344159503733,
+          8.636447968578256,
+          1.6030146180546716,
+          0.768284456375315
+        ],
+        "G_X_NEG": [
+          2.891731323650897,
+          15.551635664663335,
+          2.054885787826509,
+          3.213778971280074
+        ]
+      },
+      "pavilion_mass_kg": 203.83254611308604,
+      "gravity_force_kN": 1.998914438339895,
+      "winding_length_m": 3909.0927289807296,
+      "support_nodes": 112,
+      "load_nodes": 73,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P046/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "10e2380d42877feffcffb4e9f23bda3e74677719f41bf6d8c53560e66f9f4516",
+      "mass_change_pct": 16.79984797363323,
+      "efficiency": {
+        "shell": 1.4933136395416542,
+        "boundary": 0.4180638296960298,
+        "link": 1.2499087723599882,
+        "displacement": 1.7393225896911573
+      }
+    },
+    {
+      "panels": 47,
+      "id": "N25_S06_H100_P047",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          3.2268697063044245,
+          10.597113364449955,
+          2.781995712937036,
+          3.2857544570772155
+        ],
+        "L_X_NEG": [
+          2.1224206352862667,
+          8.539573205545112,
+          1.677739140253393,
+          0.7608281905925753
+        ],
+        "G_X_NEG": [
+          2.836291157037019,
+          14.316168284242794,
+          2.2721010138965365,
+          3.1259721401704295
+        ]
+      },
+      "pavilion_mass_kg": 206.65770521227466,
+      "gravity_force_kN": 2.026619784819953,
+      "winding_length_m": 3968.540636383077,
+      "support_nodes": 112,
+      "load_nodes": 75,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P047/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "a92fd427d004050abbf0fe87d5347136e2a2f37706fcf5968c9d728fe719355b",
+      "mass_change_pct": 18.4187167930586,
+      "efficiency": {
+        "shell": 0.8906929194962767,
+        "boundary": 0.7823422791079437,
+        "link": 0.4567273140533889,
+        "displacement": 1.7325329255727546
+      }
+    },
+    {
+      "panels": 48,
+      "id": "N25_S06_H100_P048",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          2.359481811487534,
+          14.882391379915997,
+          2.3047677881784354,
+          3.3382015739123423
+        ],
+        "L_X_NEG": [
+          2.1152368570390463,
+          8.569680763726334,
+          1.8908767507854694,
+          0.7587158523397767
+        ],
+        "G_X_NEG": [
+          2.849170292861152,
+          19.695945154591634,
+          2.6583623969448174,
+          3.1693175957970867
+        ]
+      },
+      "pavilion_mass_kg": 209.43414054498928,
+      "gravity_force_kN": 2.053847314375519,
+      "winding_length_m": 4026.5034397570794,
+      "support_nodes": 111,
+      "load_nodes": 78,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P048/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "1283d748a1a08cfb7a671c3e736ab5c87acb155fefc9d5b30e514b5dd935bc2b",
+      "mass_change_pct": 20.00966598617606,
+      "efficiency": {
+        "shell": 1.3088683676540411,
+        "boundary": -0.887253621180271,
+        "link": 0.6238252067239743,
+        "displacement": 1.5404654535888178
+      }
+    },
+    {
+      "panels": 49,
+      "id": "N25_S06_H100_P049",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          3.1046551772099855,
+          10.915030992358494,
+          2.4376432892174043,
+          2.4682757953789376
+        ],
+        "L_X_NEG": [
+          2.3955767542351314,
+          6.67343507133796,
+          1.9879559010283552,
+          0.7529167319778639
+        ],
+        "G_X_NEG": [
+          3.6843709397047175,
+          15.517052121719285,
+          3.165204448624144,
+          2.863652709120189
+        ]
+      },
+      "pavilion_mass_kg": 212.5912099029764,
+      "gravity_force_kN": 2.0848075885950235,
+      "winding_length_m": 4089.4601971955212,
+      "support_nodes": 119,
+      "load_nodes": 78,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P049/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "93306b21a552be109966c0cb190f584b64157b74c296e2cf5df57b4d460feb2e",
+      "mass_change_pct": 21.818725570068676,
+      "efficiency": {
+        "shell": 0.20869660507800056,
+        "boundary": 0.3313744883847314,
+        "link": -0.19265572946548853,
+        "displacement": 1.8634464396909793
+      }
+    },
+    {
+      "panels": 50,
+      "id": "N25_S06_H100_P050",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          3.13546440221344,
+          9.592787984423966,
+          2.4604713797126174,
+          2.473101356072575
+        ],
+        "L_X_NEG": [
+          2.3079879882656456,
+          8.642641044430533,
+          1.92761021780309,
+          0.7336518817347477
+        ],
+        "G_X_NEG": [
+          3.5088401026844993,
+          15.170311946440055,
+          2.8751934744251777,
+          2.862420695957565
+        ]
+      },
+      "pavilion_mass_kg": 215.27713496182773,
+      "gravity_force_kN": 2.111147515573408,
+      "winding_length_m": 4147.309427165566,
+      "support_nodes": 119,
+      "load_nodes": 79,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P050/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "cea21b431f78506f6519e57c19bfd185dffb3c29f4c4deebddb988da7abc328e",
+      "mass_change_pct": 23.357810689323166,
+      "efficiency": {
+        "shell": 0.3896237308681687,
+        "boundary": 0.39828991869557123,
+        "link": 0.22879346069555373,
+        "displacement": 1.7417538563873665
+      }
+    },
+    {
+      "panels": 51,
+      "id": "N25_S06_H100_P051",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          3.1475515352434806,
+          9.464364419463086,
+          2.469498570225009,
+          2.469975608569475
+        ],
+        "L_X_NEG": [
+          2.258524435929457,
+          10.54115199418557,
+          1.8903060079494676,
+          0.8201978350752258
+        ],
+        "G_X_NEG": [
+          3.5254010318170748,
+          18.34985662220155,
+          2.8826673602782775,
+          2.842597596927238
+        ]
+      },
+      "pavilion_mass_kg": 218.03109017307267,
+      "gravity_force_kN": 2.138154590445763,
+      "winding_length_m": 4205.869308655789,
+      "support_nodes": 119,
+      "load_nodes": 81,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P051/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "25c99b0f21e3c604c0814976f7331562a58a9e4210b0cb957c632bfeaa022d3f",
+      "mass_change_pct": 24.935878353851805,
+      "efficiency": {
+        "shell": 0.3477613029003368,
+        "boundary": -0.38923673462101094,
+        "link": 0.20444686996568293,
+        "displacement": 1.648000521521358
+      }
+    },
+    {
+      "panels": 52,
+      "id": "N25_S06_H100_P052",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          3.132394524790496,
+          9.865034127199262,
+          2.4597338866974003,
+          2.4639644145194635
+        ],
+        "L_X_NEG": [
+          2.2263830317914572,
+          10.768776896309722,
+          1.8641727850541356,
+          0.8170681858265286
+        ],
+        "G_X_NEG": [
+          3.452062686775224,
+          18.5026971650708,
+          2.8165478342189534,
+          2.8339172483294415
+        ]
+      },
+      "pavilion_mass_kg": 220.7186284496549,
+      "gravity_force_kN": 2.1645103376858077,
+      "winding_length_m": 4263.051946216047,
+      "support_nodes": 119,
+      "load_nodes": 83,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P052/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "1a92d3abf565949a86e86046d60fefc5fc794ba79c66295a0a4d4bba28304d2c",
+      "mass_change_pct": 26.475887876933424,
+      "efficiency": {
+        "shell": 0.3992923934128112,
+        "boundary": -0.40110942751128864,
+        "link": 0.2747715572157691,
+        "displacement": 1.558936154889077
+      }
+    },
+    {
+      "panels": 53,
+      "id": "N25_S06_H100_P053",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          3.108045634163888,
+          9.853274889490928,
+          2.4379935528000662,
+          2.4768417300529744
+        ],
+        "L_X_NEG": [
+          2.2765745140885842,
+          10.674037857361224,
+          1.9166643886663974,
+          0.8131266749409372
+        ],
+        "G_X_NEG": [
+          3.471567014144665,
+          18.392080455321704,
+          2.8507331672797895,
+          2.87121061566616
+        ]
+      },
+      "pavilion_mass_kg": 223.4923727637418,
+      "gravity_force_kN": 2.1917114773635484,
+      "winding_length_m": 4321.155781146622,
+      "support_nodes": 119,
+      "load_nodes": 85,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P053/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "578a6ffb1056de810338daccebe7e852c28d7d85eb335999dcd5e86162dfb9b2",
+      "mass_change_pct": 28.06529506622173,
+      "efficiency": {
+        "shell": 0.35867592998266046,
+        "boundary": -0.3548296255673374,
+        "link": 0.21910997414855918,
+        "displacement": 1.443113562578066
+      }
+    },
+    {
+      "panels": 54,
+      "id": "N25_S06_H100_P054",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          2.828937959120899,
+          10.059789027515825,
+          2.275163204457216,
+          2.4293206110851653
+        ],
+        "L_X_NEG": [
+          2.232605687272026,
+          10.549615471581859,
+          1.8271027279412775,
+          0.8092785906849866
+        ],
+        "G_X_NEG": [
+          3.329166404767894,
+          18.044844119179317,
+          3.004461065288255,
+          2.8343451167390716
+        ]
+      },
+      "pavilion_mass_kg": 226.2895879743433,
+      "gravity_force_kN": 2.2191427879085937,
+      "winding_length_m": 4380.535984040893,
+      "support_nodes": 119,
+      "load_nodes": 87,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P054/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "e1dbfc7a2848d0de1614febfb2b4a02115e875064c69c453db7c034a1ca9b000",
+      "mass_change_pct": 29.668151516665752,
+      "efficiency": {
+        "shell": 0.4636401016227581,
+        "boundary": -0.2656862630615769,
+        "link": 0.03668655227324718,
+        "displacement": 1.3908973172212342
+      }
+    },
+    {
+      "panels": 55,
+      "id": "N25_S06_H100_P055",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          2.2100126123524353,
+          11.057158137773593,
+          1.8258289875462814,
+          2.6227791887909375
+        ],
+        "L_X_NEG": [
+          2.495702048697824,
+          10.537322991754438,
+          1.866160947491467,
+          0.8186818471953933
+        ],
+        "G_X_NEG": [
+          2.6825685889334845,
+          17.799227182022282,
+          2.6699992616388415,
+          3.1495492674450025
+        ]
+      },
+      "pavilion_mass_kg": 229.20000082414924,
+      "gravity_force_kN": 2.247684188082143,
+      "winding_length_m": 4441.2500409713175,
+      "support_nodes": 118,
+      "load_nodes": 88,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P055/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "490f47ed5709d74ff3f7f949a9db71b236e9d2ecd154a70d4f7d94e4e06be342",
+      "mass_change_pct": 31.33587232416255,
+      "efficiency": {
+        "shell": 0.9735157766878976,
+        "boundary": -0.20468495083301994,
+        "link": 0.38612073822975906,
+        "displacement": 1.1084274806909686
+      }
+    },
+    {
+      "panels": 56,
+      "id": "N25_S06_H100_P056",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          3.7205914182221616,
+          14.885152437357432,
+          2.9853519265992174,
+          2.0195953338625188
+        ],
+        "L_X_NEG": [
+          1.899289908682743,
+          10.474316687688114,
+          1.669365959559259,
+          0.8294660188772641
+        ],
+        "G_X_NEG": [
+          3.2763488730161545,
+          17.05101547711257,
+          2.581623301908371,
+          2.1556997097259196
+        ]
+      },
+      "pavilion_mass_kg": 231.23620062578703,
+      "gravity_force_kN": 2.2676524868668744,
+      "winding_length_m": 4489.730357051189,
+      "support_nodes": 118,
+      "load_nodes": 91,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P056/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "fc0356055c267e92da3ddcb9627d325a0a5530953d118e5ffd7716ff58aaab95",
+      "mass_change_pct": 32.502652761391104,
+      "efficiency": {
+        "shell": 0.1112270497503323,
+        "boundary": -0.059710298129408465,
+        "link": 0.0528426115613382,
+        "displacement": 1.7022784470985313
+      }
+    },
+    {
+      "panels": 57,
+      "id": "N25_S06_H100_P057",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          3.7101650713714003,
+          14.836366950151657,
+          2.9756631507420908,
+          2.017295451074418
+        ],
+        "L_X_NEG": [
+          1.862274957040944,
+          8.7355758766046,
+          1.6551116992392412,
+          0.5914305099469417
+        ],
+        "G_X_NEG": [
+          3.284342084915931,
+          17.098730372602304,
+          2.572284030304835,
+          2.1522897229639275
+        ]
+      },
+      "pavilion_mass_kg": 234.18122215405708,
+      "gravity_force_kN": 2.2965332822370836,
+      "winding_length_m": 4547.070054933606,
+      "support_nodes": 123,
+      "load_nodes": 90,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P057/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "6f5e2c41d0acf39da44c49045bcac1b1e8dcfd7d2efab967a56bde7079189d5b",
+      "mass_change_pct": 34.190204986687746,
+      "efficiency": {
+        "shell": 0.11363713184976565,
+        "boundary": -0.06510666080081937,
+        "link": 0.05956369013133821,
+        "displacement": 1.620324553726304
+      }
+    },
+    {
+      "panels": 58,
+      "id": "N25_S06_H100_P058",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          3.728664337624683,
+          14.799262797467746,
+          2.987868438558559,
+          2.0093284087855374
+        ],
+        "L_X_NEG": [
+          1.802533322982343,
+          8.732523757828348,
+          1.595913554680674,
+          0.5677758405226281
+        ],
+        "G_X_NEG": [
+          3.295966916367265,
+          17.083242748880597,
+          2.537530146452068,
+          2.1443936810765125
+        ]
+      },
+      "pavilion_mass_kg": 236.76666643291077,
+      "gravity_force_kN": 2.321887829374304,
+      "winding_length_m": 4603.065538724087,
+      "support_nodes": 125,
+      "load_nodes": 92,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P058/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "6dd32b2ee69667703132dd4f3eaf74f330ca7984ffe71e6dd695b8386b74852b",
+      "mass_change_pct": 35.67171274623304,
+      "efficiency": {
+        "shell": 0.09548290880424389,
+        "boundary": -0.05980694571131298,
+        "link": 0.04582559686616005,
+        "displacement": 1.5576166630358892
+      }
+    },
+    {
+      "panels": 59,
+      "id": "N25_S06_H100_P059",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          3.724575774630983,
+          14.78275522534882,
+          2.9856513872176556,
+          2.0122822633235873
+        ],
+        "L_X_NEG": [
+          1.8013204896835662,
+          8.924776489497528,
+          1.5670449344216049,
+          0.6022516065945028
+        ],
+        "G_X_NEG": [
+          3.29678843423713,
+          17.042832151391618,
+          2.5247928038849694,
+          2.1311480204336304
+        ]
+      },
+      "pavilion_mass_kg": 239.36070295593896,
+      "gravity_force_kN": 2.3473266376428588,
+      "winding_length_m": 4659.284127919834,
+      "support_nodes": 125,
+      "load_nodes": 94,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P059/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "a9a3d3aa236061a7f1dbaf5b29aa1f4c741a0cdaf5094c9c0fc68c9577d36f32",
+      "mass_change_pct": 37.158144021833394,
+      "efficiency": {
+        "shell": 0.09451377091883503,
+        "boundary": -0.050912620230517104,
+        "link": 0.04595671784938975,
+        "displacement": 1.5026944569625251
+      }
+    },
+    {
+      "panels": 60,
+      "id": "N25_S06_H100_P060",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          3.740538244077542,
+          15.124796385086885,
+          3.00093074914838,
+          2.0071159062060517
+        ],
+        "L_X_NEG": [
+          1.8308960000595842,
+          9.096660378201602,
+          1.5608935853352903,
+          0.6143189562366752
+        ],
+        "G_X_NEG": [
+          3.2914652909084907,
+          17.20016402527658,
+          2.5204167957571615,
+          2.132611685614867
+        ]
+      },
+      "pavilion_mass_kg": 241.84142283776137,
+      "gravity_force_kN": 2.3716541892719323,
+      "winding_length_m": 4712.782119927914,
+      "support_nodes": 125,
+      "load_nodes": 96,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P060/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "2eb5a9f7eaafa8c1e9ee49a03b8337770ffb6f7361506ea6ea8980ea851bd3aa",
+      "mass_change_pct": 38.57964275001626,
+      "efficiency": {
+        "shell": 0.0803127208045472,
+        "boundary": -0.07341795796753545,
+        "link": 0.031224906673517835,
+        "displacement": 1.4465402556515754
+      }
+    },
+    {
+      "panels": 61,
+      "id": "N25_S06_H100_P061",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          3.669879765228125,
+          14.953739108168323,
+          2.9531758775267902,
+          1.9816412832848804
+        ],
+        "L_X_NEG": [
+          1.836607072369403,
+          9.119457546484213,
+          1.580400753655637,
+          0.6062038274917477
+        ],
+        "G_X_NEG": [
+          3.3390726271508315,
+          17.014037720788735,
+          2.554655391790197,
+          2.129924084556803
+        ]
+      },
+      "pavilion_mass_kg": 244.37806285922616,
+      "gravity_force_kN": 2.39653013013843,
+      "winding_length_m": 4767.545280344909,
+      "support_nodes": 125,
+      "load_nodes": 98,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P061/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "613355d7f661958a716b2bfcefd077f718e436d481e83f9bb7b9e37013e2ddf3",
+      "mass_change_pct": 40.03318476045923,
+      "efficiency": {
+        "shell": 0.12312033561653912,
+        "boundary": -0.04295608445974903,
+        "link": 0.06936273369736032,
+        "displacement": 1.3954098423165497
+      }
+    },
+    {
+      "panels": 62,
+      "id": "N25_S06_H100_P062",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.166583861433218,
+          14.642056745709676,
+          3.4257055510261036,
+          2.0276551736842157
+        ],
+        "L_X_NEG": [
+          1.8302787144480286,
+          9.070561612892972,
+          1.6084785015359826,
+          0.6027884267710686
+        ],
+        "G_X_NEG": [
+          3.725149869433118,
+          16.656234077167323,
+          2.814700092718909,
+          2.0937165838198633
+        ]
+      },
+      "pavilion_mass_kg": 247.08321577765997,
+      "gravity_force_kN": 2.423058618005989,
+      "winding_length_m": 4825.498347807369,
+      "support_nodes": 125,
+      "load_nodes": 100,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P062/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "18bf4ef7adb714769d4f7244be824abddd00725cc926a744e523e445561dd5d7",
+      "mass_change_pct": 41.58328780162521,
+      "efficiency": {
+        "shell": -0.19090862526618768,
+        "boundary": 0.010087860013308988,
+        "link": -0.3073255787110099,
+        "displacement": 1.36143657895092
+      }
+    },
+    {
+      "panels": 63,
+      "id": "N25_S06_H100_P063",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.072336788455075,
+          11.19805901001461,
+          3.139803677328022,
+          1.710363938264846
+        ],
+        "L_X_NEG": [
+          2.375002633521005,
+          9.833040982358636,
+          1.9788412292436888,
+          0.7029461794315226
+        ],
+        "G_X_NEG": [
+          4.41784392377901,
+          18.28741977144819,
+          3.6081654125521774,
+          1.6114060183403724
+        ]
+      },
+      "pavilion_mass_kg": 250.140842884234,
+      "gravity_force_kN": 2.4530436968706733,
+      "winding_length_m": 4891.814655966111,
+      "support_nodes": 123,
+      "load_nodes": 99,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P063/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "cd796e987490579adc2e6a6910a9d842701d6486cae67a26d18c2bd1f19bc8a2",
+      "mass_change_pct": 43.33536512204375,
+      "efficiency": {
+        "shell": -0.3333927468494743,
+        "boundary": -0.2153593620456925,
+        "link": -0.4335136716357753,
+        "displacement": 1.4897076502061544
+      }
+    },
+    {
+      "panels": 64,
+      "id": "N25_S06_H100_P064",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.067345293579797,
+          11.141812779029632,
+          3.136182870198135,
+          1.7127900900434962
+        ],
+        "L_X_NEG": [
+          2.3317842916926326,
+          8.920735150621848,
+          1.9419680884753414,
+          0.5997030420907791
+        ],
+        "G_X_NEG": [
+          4.3738360641539895,
+          15.552612021037282,
+          3.566089904705819,
+          1.6172082979430633
+        ]
+      },
+      "pavilion_mass_kg": 252.9197507288817,
+      "gravity_force_kN": 2.4802954734853873,
+      "winding_length_m": 4947.0454122870615,
+      "support_nodes": 134,
+      "load_nodes": 98,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P064/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "6379882fc0b965753bd8da585169aac049bce42f74de196ce18b7f7d053a4367",
+      "mass_change_pct": 44.92773111058179,
+      "efficiency": {
+        "shell": -0.2962009903178244,
+        "boundary": 0.15619688309891416,
+        "link": -0.387317164771758,
+        "displacement": 1.4357891547398964
+      }
+    },
+    {
+      "panels": 65,
+      "id": "N25_S06_H100_P065",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.074402353994447,
+          11.080051003451928,
+          3.1419304569346087,
+          1.71207623989573
+        ],
+        "L_X_NEG": [
+          2.251237106582687,
+          7.7887071441762865,
+          1.8798405036625983,
+          0.5827438323757396
+        ],
+        "G_X_NEG": [
+          4.349751412840036,
+          14.446055562165913,
+          3.5378876824669643,
+          1.6188457311534463
+        ]
+      },
+      "pavilion_mass_kg": 255.45283670095583,
+      "gravity_force_kN": 2.5051365610334284,
+      "winding_length_m": 5003.087937106878,
+      "support_nodes": 131,
+      "load_nodes": 99,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P065/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "f38a4d3854e91d02396e5f1512df63fbedd5b308f0683926c10ff19125a7128c",
+      "mass_change_pct": 46.37923658448317,
+      "efficiency": {
+        "shell": -0.2734781269279479,
+        "boundary": 0.29395051077845985,
+        "link": -0.35517660895476394,
+        "displacement": 1.3911730026089042
+      }
+    },
+    {
+      "panels": 66,
+      "id": "N25_S06_H100_P066",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.083258839682764,
+          11.083631598979403,
+          3.147922921132243,
+          1.7117022730641296
+        ],
+        "L_X_NEG": [
+          2.202637693050355,
+          9.256659526298277,
+          1.8438747239942053,
+          0.5967551223967651
+        ],
+        "G_X_NEG": [
+          4.3393784026340985,
+          17.218172993746116,
+          3.5218152439868096,
+          1.6189528837234701
+        ]
+      },
+      "pavilion_mass_kg": 258.0361273090825,
+      "gravity_force_kN": 2.530469987875614,
+      "winding_length_m": 5059.398033407696,
+      "support_nodes": 131,
+      "load_nodes": 101,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P066/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "5f8438d48e66dda78a40c5247ac9bd440b97efc5627d642a0124890a11193416",
+      "mass_change_pct": 47.85951025056154,
+      "efficiency": {
+        "shell": -0.25940478194559113,
+        "boundary": -0.06143202280056544,
+        "link": -0.3331352529613956,
+        "displacement": 1.3483065538838563
+      }
+    },
+    {
+      "panels": 67,
+      "id": "N25_S06_H100_P067",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.095211834973819,
+          11.123143896757375,
+          3.156538846990442,
+          1.7109223823345958
+        ],
+        "L_X_NEG": [
+          2.20723101931654,
+          9.360635053932032,
+          1.841494400928009,
+          0.6058658451411789
+        ],
+        "G_X_NEG": [
+          4.360659968886675,
+          17.417130598368434,
+          3.5350842649534395,
+          1.6190241083329067
+        ]
+      },
+      "pavilion_mass_kg": 260.5509475910818,
+      "gravity_force_kN": 2.555131950194082,
+      "winding_length_m": 5114.521403021027,
+      "support_nodes": 131,
+      "load_nodes": 103,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P067/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "63c4a838b0b142f772b12cf521f1cfd5dfd535317dde253d6c78f67bc1581b6a",
+      "mass_change_pct": 49.30054914361237,
+      "efficiency": {
+        "shell": -0.2630052126554677,
+        "boundary": -0.08376355207040585,
+        "link": -0.33225851136048346,
+        "displacement": 1.3092238063136135
+      }
+    },
+    {
+      "panels": 68,
+      "id": "N25_S06_H100_P068",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.192937676763628,
+          11.90523734142171,
+          3.2295866451910404,
+          1.7009292077079206
+        ],
+        "L_X_NEG": [
+          2.2004990825067137,
+          9.498446532762069,
+          1.8400344854060493,
+          0.5979279871400778
+        ],
+        "G_X_NEG": [
+          4.483012850540048,
+          17.61152637380981,
+          3.625427000979446,
+          1.6091778583463514
+        ]
+      },
+      "pavilion_mass_kg": 263.07162592670795,
+      "gravity_force_kN": 2.5798513603941506,
+      "winding_length_m": 5169.130232288931,
+      "support_nodes": 131,
+      "load_nodes": 105,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P068/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "f9359a079126193d258aaab96a5a704313fe07861d5905d390a5e6cc22151f16",
+      "mass_change_pct": 50.744944810574324,
+      "efficiency": {
+        "shell": -0.31798139513890106,
+        "boundary": -0.10428227867825512,
+        "link": -0.38141241308409024,
+        "displacement": 1.2760391436560723
+      }
+    },
+    {
+      "panels": 69,
+      "id": "N25_S06_H100_P069",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.157422918996439,
+          11.292380481919906,
+          3.199323501105634,
+          1.7207495864413704
+        ],
+        "L_X_NEG": [
+          2.2171438778861488,
+          9.579459432104025,
+          1.8573866474082243,
+          0.6004819604969772
+        ],
+        "G_X_NEG": [
+          4.402264845692852,
+          17.78706170564658,
+          3.5652373391886867,
+          1.6212969544311728
+        ]
+      },
+      "pavilion_mass_kg": 265.7188532506303,
+      "gravity_force_kN": 2.605811792230293,
+      "winding_length_m": 5226.651889057163,
+      "support_nodes": 131,
+      "load_nodes": 107,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P069/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "3e8bdb24cbc7e9e381e0ca6f48243fa9cb7405e42732c41ff08c1dc59930f5c2",
+      "mass_change_pct": 52.26185540646235,
+      "efficiency": {
+        "shell": -0.2687257871379029,
+        "boundary": -0.12133609200068504,
+        "link": -0.3324262696413735,
+        "displacement": 1.2311428307507692
+      }
+    },
+    {
+      "panels": 70,
+      "id": "N25_S06_H100_P070",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          3.9516304014816757,
+          12.956549283501818,
+          3.0950878474596593,
+          1.6912657892041818
+        ],
+        "L_X_NEG": [
+          2.1594538299438097,
+          9.470272363387917,
+          1.8098429650178969,
+          0.5961366885987086
+        ],
+        "G_X_NEG": [
+          4.154753496594323,
+          17.510825061103844,
+          3.6341058908776507,
+          1.5921945217548177
+        ]
+      },
+      "pavilion_mass_kg": 268.33857103235414,
+      "gravity_force_kN": 2.631502447614436,
+      "winding_length_m": 5283.611772830541,
+      "support_nodes": 131,
+      "load_nodes": 109,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P070/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "1155c846fee153f74e2e314276b79cfb3d44a2fd30e0f9649667cf2ca8aa7a80",
+      "mass_change_pct": 53.763002521945126,
+      "efficiency": {
+        "shell": -0.1419588399388752,
+        "boundary": -0.0872300298211912,
+        "link": -0.36531580490939114,
+        "displacement": 1.2081316672935003
+      }
+    },
+    {
+      "panels": 71,
+      "id": "N25_S06_H100_P071",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          2.426250473471073,
+          11.945357446318184,
+          2.153370004925425,
+          1.7153088975270792
+        ],
+        "L_X_NEG": [
+          2.142834533730941,
+          9.381604530066166,
+          1.8191570178167409,
+          0.590285313661268
+        ],
+        "G_X_NEG": [
+          3.5535157091876384,
+          17.091673259279883,
+          3.276726033005878,
+          1.5790706665901317
+        ]
+      },
+      "pavilion_mass_kg": 271.0004631816842,
+      "gravity_force_kN": 2.6576066922606634,
+      "winding_length_m": 5340.622797646681,
+      "support_nodes": 131,
+      "load_nodes": 112,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P071/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "838f3d36ff859e987bcdf66f734105938d6f837f270a8c9377d79689d189e391",
+      "mass_change_pct": 55.28831633611624,
+      "efficiency": {
+        "shell": 0.1436723235890955,
+        "boundary": -0.03949873599640663,
+        "link": -0.1424345820856268,
+        "displacement": 1.1657897621094486
+      }
+    },
+    {
+      "panels": 72,
+      "id": "N25_S06_H100_P072",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.5069167840874975,
+          17.640124529576486,
+          3.5674796836677016,
+          2.124590444731203
+        ],
+        "L_X_NEG": [
+          1.9637982342795168,
+          9.358670579442038,
+          1.6678672747934578,
+          0.6085705594191442
+        ],
+        "G_X_NEG": [
+          4.139138719740605,
+          17.24775759044249,
+          3.0750774240531715,
+          1.8959437257501381
+        ]
+      },
+      "pavilion_mass_kg": 273.0131805406315,
+      "gravity_force_kN": 2.6773447069487837,
+      "winding_length_m": 5389.447145344599,
+      "support_nodes": 130,
+      "load_nodes": 112,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P072/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "6126dbeef039adac181f000bcb6a54070d7278bff34d05b10c1086ff734f2a95",
+      "mass_change_pct": 56.44164089601509,
+      "efficiency": {
+        "shell": -0.2968588110566449,
+        "boundary": -0.09678624780136283,
+        "link": -0.3091163698105946,
+        "displacement": 0.9917009032130014
+      }
+    },
+    {
+      "panels": 73,
+      "id": "N25_S06_H100_P073",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.499557613347983,
+          17.609361196414827,
+          3.56009229997124,
+          2.1233396399139615
+        ],
+        "L_X_NEG": [
+          1.810208757011208,
+          7.92753843123373,
+          1.5953867884585249,
+          0.4966232480036821
+        ],
+        "G_X_NEG": [
+          4.150848427474507,
+          17.30996773155009,
+          3.084779033951491,
+          1.9027917239151717
+        ]
+      },
+      "pavilion_mass_kg": 275.8130027792815,
+      "gravity_force_kN": 2.70480158370544,
+      "winding_length_m": 5444.653966641105,
+      "support_nodes": 138,
+      "load_nodes": 112,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P073/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "eb173ad34102f77cf0bc0d7b17ce7b159a1813320011e31e4e87bf076d3e9b83",
+      "mass_change_pct": 58.04599122212093,
+      "efficiency": {
+        "shell": -0.28536946303234295,
+        "boundary": -0.09094260764087413,
+        "link": -0.2963827561903917,
+        "displacement": 0.9647375270666744
+      }
+    },
+    {
+      "panels": 74,
+      "id": "N25_S06_H100_P074",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.5137182227953065,
+          17.626447507860824,
+          3.5700190220401606,
+          2.122258441230306
+        ],
+        "L_X_NEG": [
+          1.7955408191654976,
+          9.058643013663627,
+          1.5802460690599722,
+          0.490061901101296
+        ],
+        "G_X_NEG": [
+          4.17382442623644,
+          17.38949557829149,
+          3.1028626368273367,
+          1.9051963982220972
+        ]
+      },
+      "pavilion_mass_kg": 278.3125358118395,
+      "gravity_force_kN": 2.7293136293191758,
+      "winding_length_m": 5500.011272103437,
+      "support_nodes": 140,
+      "load_nodes": 112,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P074/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "5ba2a9f6d7cc7677193556f1e81c0069e5477ecbb822cbe6e858ddfe1d424dc9",
+      "mass_change_pct": 59.478270236316646,
+      "efficiency": {
+        "shell": -0.284665221830987,
+        "boundary": -0.09047010859726017,
+        "link": -0.2947401475934462,
+        "displacement": 0.9418826559442425
+      }
+    },
+    {
+      "panels": 75,
+      "id": "N25_S06_H100_P075",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.50293453692581,
+          17.5818331151158,
+          3.558636372788835,
+          2.1165422210157017
+        ],
+        "L_X_NEG": [
+          1.7642531341916978,
+          9.045122045816305,
+          1.5561999175107741,
+          0.48781116510054595
+        ],
+        "G_X_NEG": [
+          4.174395685245563,
+          17.310051544021345,
+          3.1038346463404776,
+          1.9029940101665332
+        ]
+      },
+      "pavilion_mass_kg": 280.83157127999834,
+      "gravity_force_kN": 2.754016928492996,
+      "winding_length_m": 5555.333040363517,
+      "support_nodes": 140,
+      "load_nodes": 114,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P075/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "b4accce8dfa4c474288357723361c12d716f6a3ff18924d71f138abde499a4ec",
+      "mass_change_pct": 60.92172450959992,
+      "efficiency": {
+        "shell": -0.2733349280959166,
+        "boundary": -0.0839482992092822,
+        "link": -0.2816056110104537,
+        "displacement": 0.9215104435607078
+      }
+    },
+    {
+      "panels": 76,
+      "id": "N25_S06_H100_P076",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.501425190379898,
+          17.400696969484677,
+          3.5572913036718186,
+          2.101213951845152
+        ],
+        "L_X_NEG": [
+          1.743045968078075,
+          9.200680186067903,
+          1.5369516425582899,
+          0.5083343524881255
+        ],
+        "G_X_NEG": [
+          4.178625121070019,
+          17.134340474106963,
+          3.107785986785912,
+          1.8916808238575396
+        ]
+      },
+      "pavilion_mass_kg": 283.2339232469392,
+      "gravity_force_kN": 2.777575953409596,
+      "winding_length_m": 5608.430693552814,
+      "support_nodes": 140,
+      "load_nodes": 116,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P076/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "432f359c44498653d88f47a57516058293441515dc9cb116e875a86127d1853f",
+      "mass_change_pct": 62.2983169619268,
+      "efficiency": {
+        "shell": -0.2666674670786763,
+        "boundary": -0.06471024675626437,
+        "link": -0.27467223033598676,
+        "displacement": 0.9062467144077274
+      }
+    },
+    {
+      "panels": 77,
+      "id": "N25_S06_H100_P077",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.537421347991903,
+          17.350330625869738,
+          3.584504054934348,
+          2.096635754848367
+        ],
+        "L_X_NEG": [
+          1.7480378384295334,
+          9.283807432044517,
+          1.5394819920857334,
+          0.5045010723726671
+        ],
+        "G_X_NEG": [
+          4.210727785014698,
+          17.073494150403437,
+          3.132393466644906,
+          1.8867482327357679
+        ]
+      },
+      "pavilion_mass_kg": 285.6340064649863,
+      "gravity_force_kN": 2.8011127294998577,
+      "winding_length_m": 5660.966735754021,
+      "support_nodes": 140,
+      "load_nodes": 118,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P077/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "29053dac0fb5c020e64c160c802d981062159e5a09cf6acd97816b78b0a9e124",
+      "mass_change_pct": 63.67360937885247,
+      "efficiency": {
+        "shell": -0.27555282523391317,
+        "boundary": -0.05858346386455625,
+        "link": -0.28280954009554454,
+        "displacement": 0.8881625713905186
+      }
+    },
+    {
+      "panels": 78,
+      "id": "N25_S06_H100_P078",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.509732795606027,
+          17.511536077976956,
+          3.566911577972242,
+          2.113687711568312
+        ],
+        "L_X_NEG": [
+          1.7726819576070676,
+          9.280867005472615,
+          1.550393566494386,
+          0.5009520610003234
+        ],
+        "G_X_NEG": [
+          4.203097220966807,
+          17.023039825887615,
+          3.126685454076156,
+          1.8976245430885894
+        ]
+      },
+      "pavilion_mass_kg": 288.16719919810635,
+      "gravity_force_kN": 2.825954864016109,
+      "winding_length_m": 5716.870455796483,
+      "support_nodes": 140,
+      "load_nodes": 120,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P078/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "6638c2a27a237ab041cb14a20441714056e3fc2effa9a0124df49f7aefa0c304",
+      "mass_change_pct": 65.12517602882298,
+      "efficiency": {
+        "shell": -0.2583969889038374,
+        "boundary": -0.07207656801673713,
+        "link": -0.2676128230396814,
+        "displacement": 0.8629405907932057
+      }
+    },
+    {
+      "panels": 79,
+      "id": "N25_S06_H100_P079",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          3.448183417705326,
+          16.277974855644487,
+          3.1657127215581284,
+          1.4114669318933355
+        ],
+        "L_X_NEG": [
+          1.904308270119468,
+          9.862935406546454,
+          1.772784517472118,
+          0.5950764081209702
+        ],
+        "G_X_NEG": [
+          2.8949223792734435,
+          16.601616424114017,
+          2.685840942151118,
+          1.47635666744856
+        ]
+      },
+      "pavilion_mass_kg": 292.05714943918576,
+      "gravity_force_kN": 2.864102244547791,
+      "winding_length_m": 5792.943335021698,
+      "support_nodes": 137,
+      "load_nodes": 126,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P079/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "f5f01b6a7069361bbc1bff03bfcab93ac0b49ae58fc1817d670e02291227152f",
+      "mass_change_pct": 67.35419001823271,
+      "efficiency": {
+        "shell": 0.15844769463505773,
+        "boundary": 0.011076104090521344,
+        "link": -0.06265735855439215,
+        "displacement": 1.0304664772603842
+      }
+    },
+    {
+      "panels": 80,
+      "id": "N25_S06_H100_P080",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.82899144709096,
+          13.358956664355926,
+          3.713625870111023,
+          1.442509119418423
+        ],
+        "L_X_NEG": [
+          2.2427833508967536,
+          10.005952817010357,
+          1.9088369528784261,
+          0.598533735719701
+        ],
+        "G_X_NEG": [
+          5.130097099499581,
+          20.736469384593747,
+          4.21305689360485,
+          1.6855995337087961
+        ]
+      },
+      "pavilion_mass_kg": 293.70415209994894,
+      "gravity_force_kN": 2.880253823190964,
+      "winding_length_m": 5837.546541719594,
+      "support_nodes": 137,
+      "load_nodes": 126,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P080/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "de7ec5cc2cfcf4d145ffcd825f1c48a435002315ef9e7cc16b383af97f8798aa",
+      "mass_change_pct": 68.29795323984591,
+      "efficiency": {
+        "shell": -0.48170068817741385,
+        "boundary": -0.35102807151943244,
+        "link": -0.5666414461375705,
+        "displacement": 0.9527401866426024
+      }
+    },
+    {
+      "panels": 81,
+      "id": "N25_S06_H100_P081",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.8236123522310566,
+          13.34704639794316,
+          3.7087032859903375,
+          1.440471796806188
+        ],
+        "L_X_NEG": [
+          2.214043243762903,
+          9.70063369659509,
+          1.8809095019904236,
+          0.5135287445194338
+        ],
+        "G_X_NEG": [
+          5.098605079930301,
+          19.197056377428755,
+          4.180112145401783,
+          1.6773687269258604
+        ]
+      },
+      "pavilion_mass_kg": 296.3798056978749,
+      "gravity_force_kN": 2.9064930215470643,
+      "winding_length_m": 5891.302401786298,
+      "support_nodes": 142,
+      "load_nodes": 126,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P081/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "89607964e04265d4cb61f887001b2d6e7268029003bf7e65f62c7f922749bbb0",
+      "mass_change_pct": 69.83115262054966,
+      "efficiency": {
+        "shell": -0.4594417321784999,
+        "boundary": -0.21152458478976754,
+        "link": -0.5386687276173118,
+        "displacement": 0.9342645074847334
+      }
+    },
+    {
+      "panels": 82,
+      "id": "N25_S06_H100_P082",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.833215718814732,
+          13.323462173684849,
+          3.7158965969394226,
+          1.4413890813392756
+        ],
+        "L_X_NEG": [
+          2.1521630644599616,
+          7.266123485149837,
+          1.8283129672721894,
+          0.4673733014255882
+        ],
+        "G_X_NEG": [
+          5.091907403334299,
+          14.663735409678841,
+          4.163430609594239,
+          1.6724239150892537
+        ]
+      },
+      "pavilion_mass_kg": 298.7986852061003,
+      "gravity_force_kN": 2.930214126276403,
+      "winding_length_m": 5946.065957976493,
+      "support_nodes": 145,
+      "load_nodes": 128,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P082/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "680be4fff17b4b49aab2cf5b5311f9ad42406a9ac6aba9809feb9bf8874365ff",
+      "mass_change_pct": 71.21721566207455,
+      "efficiency": {
+        "shell": -0.4480635318499089,
+        "boundary": 0.17315736483265207,
+        "link": -0.5204735318938952,
+        "displacement": 0.917520230824962
+      }
+    },
+    {
+      "panels": 83,
+      "id": "N25_S06_H100_P083",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.816777274478184,
+          13.311609797675139,
+          3.701196075532064,
+          1.4324203879923476
+        ],
+        "L_X_NEG": [
+          2.1089418843344236,
+          8.20180250227614,
+          1.7964594665851215,
+          0.4577449003894875
+        ],
+        "G_X_NEG": [
+          5.05711873668109,
+          17.034773069792518,
+          4.126755750662625,
+          1.6520466945759724
+        ]
+      },
+      "pavilion_mass_kg": 301.28056268064853,
+      "gravity_force_kN": 2.954553030012182,
+      "winding_length_m": 6001.367981435949,
+      "support_nodes": 145,
+      "load_nodes": 129,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P083/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "40ffcac089411d7dff6ccc731104cd1dbecdd3e0aefab17a84415f8c78e42e52",
+      "mass_change_pct": 72.63937771246465,
+      "efficiency": {
+        "shell": -0.4268842958327156,
+        "boundary": -0.025380678143978083,
+        "link": -0.4936617428459854,
+        "displacement": 0.9053698514472992
+      }
+    },
+    {
+      "panels": 84,
+      "id": "N25_S06_H100_P084",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.817009329587882,
+          13.291596295849587,
+          3.700147919385437,
+          1.4301881610160796
+        ],
+        "L_X_NEG": [
+          2.0968124350422994,
+          8.38787111619768,
+          1.7798000972761148,
+          0.4535014030275768
+        ],
+        "G_X_NEG": [
+          5.054498563102615,
+          17.24262867645617,
+          4.117969171143039,
+          1.64785046854651
+        ]
+      },
+      "pavilion_mass_kg": 303.6684163622604,
+      "gravity_force_kN": 2.9779698753189607,
+      "winding_length_m": 6054.967550795179,
+      "support_nodes": 145,
+      "load_nodes": 131,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P084/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "09dbf58f6f04bd463bda987d3137c98f72d7543053d1aad539979067f1ea332d",
+      "mass_change_pct": 74.0076623770776,
+      "efficiency": {
+        "shell": -0.4180747096755326,
+        "boundary": -0.041702663122952614,
+        "link": -0.48062609543617907,
+        "displacement": 0.8898059563741534
+      }
+    },
+    {
+      "panels": 85,
+      "id": "N25_S06_H100_P085",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.872032943810053,
+          13.491526395943682,
+          3.742357534243031,
+          1.4355102233775021
+        ],
+        "L_X_NEG": [
+          2.094327116535709,
+          8.621612502416887,
+          1.7737832731478884,
+          0.45360526396432477
+        ],
+        "G_X_NEG": [
+          5.113527658199187,
+          17.507320705851424,
+          4.164863910258035,
+          1.6516045099005414
+        ]
+      },
+      "pavilion_mass_kg": 306.06363266186776,
+      "gravity_force_kN": 3.001458923243505,
+      "winding_length_m": 6108.47525626904,
+      "support_nodes": 145,
+      "load_nodes": 133,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P085/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "2fa96761a024b3a422acfecced149e132bae8336e4f2c388ac76b6001b9475f8",
+      "mass_change_pct": 75.38016595902715,
+      "efficiency": {
+        "shell": -0.43074894236304917,
+        "boundary": -0.06193668068640122,
+        "link": -0.49235580479891905,
+        "displacement": 0.8725725783845708
+      }
+    },
+    {
+      "panels": 86,
+      "id": "N25_S06_H100_P086",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.8747194291986915,
+          13.549230158858183,
+          3.74403744675967,
+          1.433127175224756
+        ],
+        "L_X_NEG": [
+          2.108304582894211,
+          8.670227484713235,
+          1.788893205062034,
+          0.4517405093745994
+        ],
+        "G_X_NEG": [
+          5.126095079431896,
+          17.674836516056892,
+          4.174551997974167,
+          1.6525874253274544
+        ]
+      },
+      "pavilion_mass_kg": 308.5183543716768,
+      "gravity_force_kN": 3.0255315198990043,
+      "winding_length_m": 6162.984600158014,
+      "support_nodes": 145,
+      "load_nodes": 135,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P086/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "ce589ec7b3bb563f2234f4fd236149324dcf246cc753a89279468b12ea42e7c4",
+      "mass_change_pct": 76.78676725008991,
+      "efficiency": {
+        "shell": -0.42709827222175084,
+        "boundary": -0.07384479116702013,
+        "link": -0.4874903669378964,
+        "displacement": 0.8563232921992009
+      }
+    },
+    {
+      "panels": 87,
+      "id": "N25_S06_H100_P087",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.873301128135401,
+          13.662673594901058,
+          3.73643136412614,
+          1.4434019020683304
+        ],
+        "L_X_NEG": [
+          2.090626435696925,
+          8.73561627225506,
+          1.7797261419466743,
+          0.45155884874470603
+        ],
+        "G_X_NEG": [
+          5.090338029256979,
+          17.86452830281632,
+          4.149240050912795,
+          1.6725437655518258
+        ]
+      },
+      "pavilion_mass_kg": 311.0023371624472,
+      "gravity_force_kN": 3.0498910697341124,
+      "winding_length_m": 6218.143058054218,
+      "support_nodes": 145,
+      "load_nodes": 137,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P087/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "d19d00d6903983c7ba60ca1a1f99911ecd709ac321b51d6de02f5bed5b15f7be",
+      "mass_change_pct": 78.21013568591435,
+      "efficiency": {
+        "shell": -0.4074814733114452,
+        "boundary": -0.08700137076718703,
+        "link": -0.4679636464425097,
+        "displacement": 0.8354512107879394
+      }
+    },
+    {
+      "panels": 88,
+      "id": "N25_S06_H100_P088",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          4.858814174900649,
+          13.482613810332367,
+          3.807604738757725,
+          1.413321660252961
+        ],
+        "L_X_NEG": [
+          2.052396717523883,
+          8.64981758608816,
+          1.7620654685890789,
+          0.44891836623018133
+        ],
+        "G_X_NEG": [
+          4.938012042972825,
+          17.734937402920792,
+          4.283334058418701,
+          1.6338216593005241
+        ]
+      },
+      "pavilion_mass_kg": 313.4841522716062,
+      "gravity_force_kN": 3.074229361874347,
+      "winding_length_m": 6273.539060937184,
+      "support_nodes": 145,
+      "load_nodes": 139,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P088/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "74ff00008c2bc66f61bbb37e430275d4e34b784cdb4b03d7314428c7080e9a18",
+      "mass_change_pct": 79.63226199977404,
+      "efficiency": {
+        "shell": -0.3506500631923795,
+        "boundary": -0.07571831049697,
+        "link": -0.5150435843741861,
+        "displacement": 0.830607705939009
+      }
+    },
+    {
+      "panels": 89,
+      "id": "N25_S06_H100_P089",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          2.8634982932434685,
+          13.846955493468135,
+          2.5229862480164416,
+          1.3779702690955902
+        ],
+        "L_X_NEG": [
+          1.948019397286468,
+          8.689847315072504,
+          1.7826323539064606,
+          0.4711921978109271
+        ],
+        "G_X_NEG": [
+          3.984546862351676,
+          20.706572984395628,
+          3.614577467456762,
+          1.6390806239833684
+        ]
+      },
+      "pavilion_mass_kg": 316.06159226305454,
+      "gravity_force_kN": 3.099505413766484,
+      "winding_length_m": 6329.647840383239,
+      "support_nodes": 145,
+      "load_nodes": 140,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P089/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "4cf4bde6bbe9e9e629628191b4ee636a58fb70166078dc1b19f6ec4ae56359c4",
+      "mass_change_pct": 81.10918315345137,
+      "efficiency": {
+        "shell": -0.039734066877412634,
+        "boundary": -0.29337936931724434,
+        "link": -0.23422216112802471,
+        "displacement": 0.8141395230905267
+      }
+    },
+    {
+      "panels": 90,
+      "id": "N25_S06_H100_P090",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          5.412345723281675,
+          19.904123572257234,
+          4.266628512366612,
+          1.3955007582443046
+        ],
+        "L_X_NEG": [
+          1.9403263899071983,
+          8.528973478080166,
+          1.6806921184750354,
+          0.4591177888816181
+        ],
+        "G_X_NEG": [
+          5.182604164011711,
+          20.101109089454486,
+          3.8217271802477373,
+          1.2184642059586668
+        ]
+      },
+      "pavilion_mass_kg": 317.94680539089427,
+      "gravity_force_kN": 3.117993039086613,
+      "winding_length_m": 6377.403912619366,
+      "support_nodes": 144,
+      "load_nodes": 142,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P090/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "ff7867c6d146f052782a9c8ae9ee53c739e2dfa3ccec3c2ddb3ad3027f34e598",
+      "mass_change_pct": 82.18944541248933,
+      "efficiency": {
+        "shell": -0.4892482466711808,
+        "boundary": -0.24548104346670638,
+        "link": -0.4923273618804553,
+        "displacement": 0.864852769954071
+      }
+    },
+    {
+      "panels": 91,
+      "id": "N25_S06_H100_P091",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          5.403981539617164,
+          19.87308968027355,
+          4.25771310448364,
+          1.3930802744654152
+        ],
+        "L_X_NEG": [
+          1.7357604323008506,
+          8.469843623345554,
+          1.5113958769392823,
+          0.44401518600181134
+        ],
+        "G_X_NEG": [
+          5.1867626232062,
+          20.15683251310406,
+          3.8264220587488107,
+          1.2273161440445821
+        ]
+      },
+      "pavilion_mass_kg": 320.6617176374336,
+      "gravity_force_kN": 3.144617233269138,
+      "winding_length_m": 6431.83087565869,
+      "support_nodes": 150,
+      "load_nodes": 142,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P091/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "35644abde9d322c499ed48f98da5a9b0a05b458261befe5603cdc04ac4895d15",
+      "mass_change_pct": 83.74514073055505,
+      "efficiency": {
+        "shell": -0.4775723224684009,
+        "boundary": -0.24489895421533323,
+        "link": -0.47967682962494285,
+        "displacement": 0.8493857353586395
+      }
+    },
+    {
+      "panels": 92,
+      "id": "N25_S06_H100_P092",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          5.417092891523943,
+          19.887171383036584,
+          4.2671060380190085,
+          1.3912666147723955
+        ],
+        "L_X_NEG": [
+          1.714675275626309,
+          8.932902540145427,
+          1.492007939593878,
+          0.43615390509121743
+        ],
+        "G_X_NEG": [
+          5.2026529976474425,
+          20.245076090309695,
+          3.84054019029758,
+          1.244979243756166
+        ]
+      },
+      "pavilion_mass_kg": 323.07807545729526,
+      "gravity_force_kN": 3.168313608683284,
+      "winding_length_m": 6486.2326841567765,
+      "support_nodes": 152,
+      "load_nodes": 143,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P092/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "529f34578a097ed71bb73de430816a4ad11f83f16b2e74b54d8a36df2fc7c3a5",
+      "mass_change_pct": 85.12975879764807,
+      "efficiency": {
+        "shell": -0.47379461345402923,
+        "boundary": -0.24711297627082573,
+        "link": -0.47550744064908645,
+        "displacement": 0.8360121356636191
+      }
+    },
+    {
+      "panels": 93,
+      "id": "N25_S06_H100_P093",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          5.41052480937095,
+          19.864928887062607,
+          4.260523392638993,
+          1.388532308125407
+        ],
+        "L_X_NEG": [
+          1.6999860034649539,
+          8.722266968255774,
+          1.4813566558079425,
+          0.4355861392205588
+        ],
+        "G_X_NEG": [
+          5.196957190293513,
+          20.15708630388653,
+          3.8366276332576073,
+          1.2368429019987768
+        ]
+      },
+      "pavilion_mass_kg": 325.5362181366123,
+      "gravity_force_kN": 3.192419753589409,
+      "winding_length_m": 6541.076291350718,
+      "support_nodes": 152,
+      "load_nodes": 145,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P093/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "c61f03614b95668268f3f0663c6fb567b1735559a2523e0185acf11939290b89",
+      "mass_change_pct": 86.53832036799925,
+      "efficiency": {
+        "shell": -0.4641165866805361,
+        "boundary": -0.23701193419358116,
+        "link": -0.4652635102173099,
+        "displacement": 0.8230593425081627
+      }
+    },
+    {
+      "panels": 94,
+      "id": "N25_S06_H100_P094",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          5.426658132924782,
+          19.849235184460813,
+          4.2703795992163265,
+          1.3790119247630916
+        ],
+        "L_X_NEG": [
+          1.6781044873763586,
+          8.834194301582148,
+          1.4683398019734581,
+          0.4325228166780494
+        ],
+        "G_X_NEG": [
+          5.2099037749761425,
+          20.115384005248103,
+          3.8469879430625635,
+          1.2315880145349285
+        ]
+      },
+      "pavilion_mass_kg": 327.88636796572735,
+      "gravity_force_kN": 3.2154668504111,
+      "winding_length_m": 6593.898630250684,
+      "support_nodes": 152,
+      "load_nodes": 147,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P094/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "0d7e6d17eea6bf8b11bdc3949fcdf171523fc6a21fdbf5818945710ad7bfbfd8",
+      "mass_change_pct": 87.88500002240345,
+      "efficiency": {
+        "shell": -0.46176043920920706,
+        "boundary": -0.23054326045100307,
+        "link": -0.46182630136503877,
+        "displacement": 0.8126922564486206
+      }
+    },
+    {
+      "panels": 95,
+      "id": "N25_S06_H100_P095",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          5.421780295217273,
+          19.72364241230591,
+          4.2670757164180975,
+          1.3780250872677546
+        ],
+        "L_X_NEG": [
+          1.6810708228226001,
+          8.844301897455363,
+          1.464641901537728,
+          0.4287108679515876
+        ],
+        "G_X_NEG": [
+          5.210742105200992,
+          20.01871273498748,
+          3.848223666477868,
+          1.2211529379144572
+        ]
+      },
+      "pavilion_mass_kg": 330.23335866325556,
+      "gravity_force_kN": 3.238482966735015,
+      "winding_length_m": 6646.276687412041,
+      "support_nodes": 152,
+      "load_nodes": 149,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P095/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "e01e2310996a2ec85dc46e4ecad54dd423f8c032bd516e4be285a56f7b47a666",
+      "mass_change_pct": 89.22986943552817,
+      "efficiency": {
+        "shell": -0.45338463758394554,
+        "boundary": -0.2205913593165596,
+        "link": -0.45364669645133393,
+        "displacement": 0.8006725678756792
+      }
+    },
+    {
+      "panels": 96,
+      "id": "N25_S06_H100_P096",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          7.013985318132335,
+          14.891339925481715,
+          5.486536690925886,
+          1.7233798761846348
+        ],
+        "L_X_NEG": [
+          1.684568973135209,
+          9.378159686292793,
+          1.4541589009616307,
+          0.5313977619353019
+        ],
+        "G_X_NEG": [
+          6.605711137799402,
+          16.00546056801807,
+          5.112801165265313,
+          1.522592929133324
+        ]
+      },
+      "pavilion_mass_kg": 333.7010478732369,
+      "gravity_force_kN": 3.2724893811260785,
+      "winding_length_m": 6717.479788697478,
+      "support_nodes": 151,
+      "load_nodes": 152,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P096/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "98bb47e6c32261e37f074d383a342e290e7f8456a1a7ac427d332dc03a3e6247",
+      "mass_change_pct": 91.21691998397652,
+      "efficiency": {
+        "shell": -0.8956974910361882,
+        "boundary": 0.04725201647813193,
+        "link": -0.883886524254116,
+        "displacement": 0.7047738785912822
+      }
+    },
+    {
+      "panels": 97,
+      "id": "N25_S06_H100_P097",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          6.122188688910029,
+          16.302850968333498,
+          4.89306452520232,
+          1.732870838933641
+        ],
+        "L_X_NEG": [
+          2.004562543007041,
+          9.336593710733066,
+          1.4838896038063594,
+          0.5286996300728096
+        ],
+        "G_X_NEG": [
+          5.724950892692931,
+          17.295737801163334,
+          4.388975722812498,
+          1.5390929562436642
+        ]
+      },
+      "pavilion_mass_kg": 336.35759185154546,
+      "gravity_force_kN": 3.298541178130958,
+      "winding_length_m": 6774.993006925005,
+      "support_nodes": 151,
+      "load_nodes": 154,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P097/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "de8d5dfdb010e52f81e534c2c2948eeecdbfd2b0046b25174e3681b5d95cb5b6",
+      "mass_change_pct": 92.73916919647256,
+      "efficiency": {
+        "shell": -0.6318805620026142,
+        "boundary": -0.03670329838419976,
+        "link": -0.6587008589720428,
+        "displacement": 0.6910847574024885
+      }
+    },
+    {
+      "panels": 98,
+      "id": "N25_S06_H100_P098",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          3.797713812208814,
+          20.753708291859414,
+          2.7066863012426747,
+          1.687258079643433
+        ],
+        "L_X_NEG": [
+          1.8016819059405846,
+          9.339160942649793,
+          1.636640496107994,
+          0.5281866733173933
+        ],
+        "G_X_NEG": [
+          3.790608400864567,
+          16.352342894816793,
+          2.7456785993269515,
+          1.4935123197312965
+        ]
+      },
+      "pavilion_mass_kg": 338.8315079628661,
+      "gravity_force_kN": 3.3228020075640408,
+      "winding_length_m": 6829.605869513906,
+      "support_nodes": 149,
+      "load_nodes": 156,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P098/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "66ea817c6561ee4ee64a1e6f325c9d6342b7800215170717e5e3cd01f6165038",
+      "mass_change_pct": 94.1567692373486,
+      "efficiency": {
+        "shell": 0.017176230168034743,
+        "boundary": -0.25571781059839965,
+        "link": 0.10204202582124929,
+        "displacement": 0.6907186394146799
+      }
+    },
+    {
+      "panels": 99,
+      "id": "N25_S06_H100_P099",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          5.39461999178757,
+          14.586129771816083,
+          4.0890524389947425,
+          1.2007702745166926
+        ],
+        "L_X_NEG": [
+          2.0332260257628447,
+          9.40001466212922,
+          1.75137616067496,
+          0.5264721624195099
+        ],
+        "G_X_NEG": [
+          5.597544352969585,
+          20.800744831909,
+          4.564885323887044,
+          1.073875178332134
+        ]
+      },
+      "pavilion_mass_kg": 340.58194138215254,
+      "gravity_force_kN": 3.339967895455286,
+      "winding_length_m": 6876.471812030423,
+      "support_nodes": 150,
+      "load_nodes": 158,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P099/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "9168dc8e0e43adeeccc9282b30846d1631f2abad5f78457f2d43b38f1e0761aa",
+      "mass_change_pct": 95.15980021134816,
+      "efficiency": {
+        "shell": -0.47298078677109917,
+        "boundary": -0.255977568501415,
+        "link": -0.5284079566456304,
+        "displacement": 0.7893781519649371
+      }
+    },
+    {
+      "panels": 100,
+      "id": "N25_S06_H100_P100",
+      "status": "REVIEWED",
+      "source_shift_index": 6,
+      "cases": {
+        "G": [
+          5.39051485367104,
+          14.570669384401427,
+          4.085025584939141,
+          1.2027368299464805
+        ],
+        "L_X_NEG": [
+          2.018320402831139,
+          9.212483963998487,
+          1.7330991575703385,
+          0.46571190150430264
+        ],
+        "G_X_NEG": [
+          5.57761714377854,
+          19.929538250479588,
+          4.542160914431513,
+          1.0788986730175427
+        ]
+      },
+      "pavilion_mass_kg": 343.19504773346824,
+      "gravity_force_kN": 3.3655937148554163,
+      "winding_length_m": 6929.673288700194,
+      "support_nodes": 158,
+      "load_nodes": 158,
+      "source_review": "outputs/PANEL_SWEEP_N25_S06_H100_P036_100_20261107/runs/N25_S06_H100_P100/BASELINE/REVIEW_COMPLETE.json",
+      "review_sha256": "6d764f5385d02c70e7fad4bbc11e0a012c949214305b6a3f699e0ff7e93b88c9",
+      "mass_change_pct": 96.65715885398258,
+      "efficiency": {
+        "shell": -0.46031279821059884,
+        "boundary": -0.19812502498429954,
+        "link": -0.5124821887589402,
+        "displacement": 0.7767279343334096
+      }
+    }
+  ]
+}
